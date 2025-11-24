@@ -1,0 +1,5 @@
+name	invalid_frac	invalid_bigrams	total_bigrams
+voynich_subset	0.0	0	26841
+rugg_basic	0.066631362020411	16231	243594
+rugg_stats	0.06587951102934855	15327	232652
+rugg_markov	0.08427839502619308	7320	86855

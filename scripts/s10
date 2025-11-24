@@ -1,0 +1,130 @@
+#!/usr/bin/env python3
+import sys
+import math
+
+def main():
+    if len(sys.argv) != 4:
+        sys.stderr.write(
+            "Usage: s10b_build_semantic_bundles.py "
+            "<s9b_stem_semantic_families.tsv> "
+            "<out_family_summary.tsv> "
+            "<out_stem_roles.tsv>\n"
+        )
+        raise SystemExit(1)
+
+    in_path = sys.argv[1]
+    out_summary = sys.argv[2]
+    out_roles = sys.argv[3]
+
+    with open(in_path, "r", encoding="utf-8") as fin:
+        header = fin.readline().rstrip("\n").split("\t")
+        idx = {name: i for i, name in enumerate(header)}
+
+        required = [
+            "token", "total_count", "n_folios",
+            "semantic_family", "family_reason", "role_group",
+            "structural_class",
+        ]
+        for c in required:
+            if c not in idx:
+                raise SystemExit(f"[S10b] Missing required column in S9b file: {c}")
+
+        family_stats = {}   # family_id -> dict
+        stem_rows = []      # for stem_roles output
+
+        for line in fin:
+            if not line.strip():
+                continue
+            cols = line.rstrip("\n").split("\t")
+
+            token = cols[idx["token"]]
+            total_count = int(cols[idx["total_count"]])
+            n_folios = int(cols[idx["n_folios"]])
+            fam = cols[idx["semantic_family"]]
+            fam_reason = cols[idx["family_reason"]]
+            role_group = cols[idx["role_group"]]
+            struct_class = cols[idx["structural_class"]]
+
+            stem_rows.append((
+                token, total_count, n_folios,
+                fam, role_group, fam_reason,
+                struct_class,
+            ))
+
+            if fam not in family_stats:
+                family_stats[fam] = {
+                    "family_id": fam,
+                    "role_groups": {},
+                    "struct_classes": {},
+                    "n_stems": 0,
+                    "total_count": 0,
+                }
+            fs = family_stats[fam]
+            fs["n_stems"] += 1
+            fs["total_count"] += total_count
+            fs["role_groups"][role_group] = fs["role_groups"].get(role_group, 0) + 1
+            fs["struct_classes"][struct_class] = fs["struct_classes"].get(struct_class, 0) + 1
+
+    # Write summary
+    with open(out_summary, "w", encoding="utf-8") as fout:
+        fout.write("\t".join([
+            "family_id",
+            "role_group_dominant",
+            "n_stems",
+            "total_count",
+            "mean_count",
+            "top_struct_class",
+            "top_struct_count",
+        ]) + "\n")
+
+        for fam, fs in sorted(family_stats.items()):
+            n_stems = fs["n_stems"]
+            total_count = fs["total_count"]
+            mean_count = total_count / n_stems if n_stems > 0 else 0.0
+
+            # dominant role group
+            rg_dominant = "NA"
+            if fs["role_groups"]:
+                rg_dominant = sorted(
+                    fs["role_groups"].items(),
+                    key=lambda kv: (-kv[1], kv[0])
+                )[0][0]
+
+            # top structural class
+            top_struct = "NA"
+            top_struct_n = 0
+            if fs["struct_classes"]:
+                top_struct, top_struct_n = sorted(
+                    fs["struct_classes"].items(),
+                    key=lambda kv: (-kv[1], kv[0])
+                )[0]
+
+            fout.write("\t".join([
+                fam,
+                rg_dominant,
+                str(n_stems),
+                str(total_count),
+                f"{mean_count:.6f}",
+                top_struct,
+                str(top_struct_n),
+            ]) + "\n")
+
+    # Write stem roles
+    with open(out_roles, "w", encoding="utf-8") as fout:
+        fout.write("\t".join([
+            "token",
+            "total_count",
+            "n_folios",
+            "semantic_family",
+            "role_group",
+            "family_reason",
+            "structural_class",
+        ]) + "\n")
+        for row in stem_rows:
+            fout.write("\t".join(str(x) for x in row) + "\n")
+
+    sys.stderr.write(f"[S10b] Wrote {len(family_stats)} family rows → {out_summary}\n")
+    sys.stderr.write(f"[S10b] Wrote {len(stem_rows)} stem-role rows → {out_roles}\n")
+
+if __name__ == "__main__":
+    main()

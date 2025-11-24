@@ -1,0 +1,5 @@
+name	n_tokens	n_suffixes	coverage_tokens	coverage	acc_on_covered	stems_covered
+voynich_subset	7045	63	5534	0.7855216465578424	0.4819540051130472	270
+rugg_basic	10000	80	30	0.003	1.0	10
+rugg_stats	10000	78	0	0.0	0.0	0
+rugg_markov	10000	70	2065	0.2065	0.326095708554375	171

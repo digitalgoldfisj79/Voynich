@@ -1,0 +1,7 @@
+# order family_id              role_group    min_total  min_folios min_sections min_proc  min_bot  min_bio min_frac_herbal min_frac_bio min_frac_recipes min_right_frac max_axis_diff min_axis_diff
+1 F_BOTANICAL_CORE            BOTANICAL     50         10         0            0.0       0.50     0.0     0.60            0.0          0.0              0.0            +999          -999
+2 F_BIO_PROC                  PROCEDURAL    40         8          0            0.40      0.0      0.40    0.0             0.40         0.0              0.0            +999          -999
+3 F_RECIPES_PROC_LEFT         PROCEDURAL    40         0          0            0.50      0.0      0.0     0.0             0.0          0.50             0.0            +999          +5.0
+4 F_CONNECTIVE_RIGHT          CONNECTIVE    40         0          4            0.0       0.0      0.0     0.0             0.0          0.0              0.60           -3.0          -999
+5 F_BIO_CORE                  BIOLOGICAL    40         0          0            0.0       0.0      0.50    0.0             0.60         0.0              0.0            +999          -999
+6 F_LOW_COUNT                 OTHER         0          0          0            0.0       0.0      0.0     0.0             0.0          0.0              0.0            +999          -999   # handled by explicit low-count check

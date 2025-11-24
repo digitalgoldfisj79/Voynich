@@ -1,0 +1,6 @@
+language	suffix_overlap	suffix_jaccard	suffix_shared	prefix_overlap	prefix_jaccard	prefix_shared	combined_score
+Italian	1	0.042	or	4	0.071	al, ch, che, so	0.057
+Latin	2	0.071	am, or	2	0.034	al, ch	0.053
+French	1	0.036	or	2	0.034	da, so	0.035
+Catalan	1	0.038	or	1	0.017	sh	0.028
+Occitan	0	0.0		0	0.0		0.0

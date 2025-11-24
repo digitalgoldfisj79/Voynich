@@ -1,0 +1,21 @@
+token	count	base	in_t3	latin_base	gloss_base	domain
+daiin	621	aiin	True	coquo	cook/boil	PROC_COOKING
+dar	261	ar	True	coquo	cook/boil	PROC_COOKING
+dal	212	al	True	coquo	cook/boil	PROC_COOKING
+dy	196	y	False			
+dain	151	ain	True	coquo	cook/boil	PROC_COOKING
+dol	89	ol	True	aqua	water	BIO_FLUID
+dam	82	am	True	coquo	cook/boil	PROC_COOKING
+dair	73	air	True	coquo	cook/boil	PROC_COOKING
+dor	49	or	False			
+dshedy	29	shedy	False			
+daly	26	aly	False			
+dchol	21	chol	True	ruta	rue	BOT_HERB
+dchy	21	chy	False			
+dary	20	ary	False			
+daiir	17	aiir	False			
+dl	17	l	False			
+daldy	16	aldy	False			
+dan	15	an	False			
+dchor	15	chor	True	ruta	rue	BOT_HERB
+dchedy	15	chedy	True	coquo	cook/boil	PROC_COOKING

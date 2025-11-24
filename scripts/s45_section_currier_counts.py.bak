@@ -1,0 +1,84 @@
+#!/usr/bin/env python3
+import csv
+from collections import defaultdict
+import os
+
+BASE = os.path.expanduser("~/Voynich/Voynich_Reproducible_Core")
+OUTD = os.path.join(BASE, "PhaseS", "out")
+
+p6_path = os.path.join(OUTD, "p6_folio_tokens.tsv")
+currier_path = os.path.join(OUTD, "currier_map.tsv")
+out_path = os.path.join(OUTD, "s45_section_currier_counts.tsv")
+
+# 1. Load Currier map: folio -> A/B
+folio_to_currier = {}
+with open(currier_path, "r", encoding="utf-8") as f:
+    for line in f:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        parts = line.split("\t")
+        if len(parts) < 2:
+            continue
+        folio, cur = parts[0], parts[1]
+        if cur in ("A", "B"):
+            folio_to_currier[folio] = cur
+
+# 2. Infer section per folio from p6_folio_tokens.tsv
+folio_to_section = {}
+with open(p6_path, "r", encoding="utf-8") as f:
+    reader = csv.reader(f, delimiter="\t")
+    header = next(reader)
+
+    # Try to locate 'folio' and 'section' columns by name
+    header_idx = {name: idx for idx, name in enumerate(header)}
+    # Fall back if names are slightly different
+    folio_idx = header_idx.get("folio", 0)
+    section_idx = header_idx.get("section", header_idx.get("Section", 1))
+
+    for row in reader:
+        if not row:
+            continue
+        folio = row[folio_idx]
+        section = row[section_idx] if section_idx < len(row) else "Unknown"
+        # Assume one section per folio; first seen wins
+        if folio not in folio_to_section:
+            folio_to_section[folio] = section
+
+# 3. Count folios per (section, Currier)
+section_counts = defaultdict(lambda: {"A": 0, "B": 0, "Unknown": 0})
+
+for folio, cur in folio_to_currier.items():
+    section = folio_to_section.get(folio, "Unknown")
+    if cur in ("A", "B"):
+        section_counts[section][cur] += 1
+    else:
+        section_counts[section]["Unknown"] += 1
+
+# 4. Write output
+with open(out_path, "w", encoding="utf-8", newline="") as f:
+    writer = csv.writer(f, delimiter="\t")
+    writer.writerow([
+        "section",
+        "n_folios_A",
+        "n_folios_B",
+        "n_folios_total",
+        "prop_A",
+        "prop_B"
+    ])
+    for section in sorted(section_counts.keys()):
+        A = section_counts[section]["A"]
+        B = section_counts[section]["B"]
+        total = A + B
+        prop_A = A / total if total > 0 else 0.0
+        prop_B = B / total if total > 0 else 0.0
+        writer.writerow([
+            section,
+            A,
+            B,
+            total,
+            f"{prop_A:.4f}",
+            f"{prop_B:.4f}",
+        ])
+
+print(f"[S45] Wrote section × Currier counts to: {out_path}")

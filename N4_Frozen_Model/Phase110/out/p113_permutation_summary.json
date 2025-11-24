@@ -1,0 +1,7 @@
+{
+  "n_perm": 10000,
+  "delta_observed_mean": 0.0492753,
+  "delta_null_mean": 3.712838800000005e-05,
+  "delta_null_sd": 0.0040146858329375285,
+  "p_value": 9.999000099990002e-05
+}

@@ -1,0 +1,110 @@
+rule_id	kind	pattern	position	base_weight	allow_sections	deny_sections	weight_herbal	weight_biological	weight_recipes	weight_pharmaceutical	weight_astronomical	weight_unassigned
+chargram:he:left	chargram	he	left	6.0	Biological;Herbal;Pharmaceutical;Recipes	Astronomical;Unassigned	0.9	0.76	0.76	0.62	0.0	0.0
+suffix:h:right	suffix	h	right	5.0	Biological;Herbal;Pharmaceutical;Recipes;Unassigned	Astronomical	0.79	0.86	0.83	0.76	0.0	0.66
+suffix:ch:right	suffix	ch	right	5.0	Biological;Herbal;Pharmaceutical;Recipes;Unassigned	Astronomical	0.81	0.94	0.81	0.81	0.0	0.75
+prefix:o:right	prefix	o	right	5.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.89	0.8	0.74	0.74	0.6	0.71
+suffix:he:left	suffix	he	left	18.0	Biological;Herbal;Recipes	Astronomical;Pharmaceutical;Unassigned	0.93	0.73	0.73	0.55	0.0	0.0
+suffix:che:left	suffix	che	left	36.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned	Astronomical	0.9	0.64	0.64	0.45	0.0	0.45
+chargram:che:left	chargram	che	left	4.0	Biological;Herbal;Recipes	Astronomical;Pharmaceutical;Unassigned	0.86	0.64	0.64	0.0	0.0	0.0
+chargram:hct:right	chargram	hct	right	4.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:hc:right	chargram	hc	right	4.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:tc:right	chargram	tc	right	4.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+suffix:c:right	suffix	c	right	24.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:ct:right	chargram	ct	right	3.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:qok:left	prefix	qok	left	18.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+suffix:tch:right	suffix	tch	right	18.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:oke:left	chargram	oke	left	3.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:opc:right	chargram	opc	right	3.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:qok:left	chargram	qok	left	3.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:tch:right	chargram	tch	right	3.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+suffix:ee:left	suffix	ee	left	48.0	Biological;Herbal;Recipes	Astronomical;Pharmaceutical;Unassigned	0.58	0.58	0.67	0.0	0.0	0.0
+chargram:ee:left	chargram	ee	left	3.0	Biological;Herbal;Recipes	Astronomical;Pharmaceutical;Unassigned	0.58	0.58	0.67	0.0	0.0	0.0
+chargram:ke:left	chargram	ke	left	3.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:op:right	chargram	op	right	3.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:ok:left	chargram	ok	left	0.75	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned	Biological;Unassigned	0.0	0.0	0.0	0.0	0.0	0.0
+prefix:c:left	prefix	c	left	51.0	Herbal;Pharmaceutical;Recipes	Astronomical;Biological;Unassigned	0.73	0.0	0.64	0.64	0.0	0.0
+chargram:pc:right	chargram	pc	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:chc:right	prefix	chc	right	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:ckh:left	prefix	ckh	left	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:dch:left	prefix	dch	left	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:kch:left	prefix	kch	left	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:olc:right	prefix	olc	right	18.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:qoe:left	prefix	qoe	left	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:qop:right	prefix	qop	right	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:shc:right	prefix	shc	right	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:ych:left	prefix	ych	left	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:ykc:right	prefix	ykc	right	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:ytc:right	prefix	ytc	right	18.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+suffix:hct:right	suffix	hct	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+suffix:lsh:left	suffix	lsh	left	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+suffix:oke:left	suffix	oke	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+suffix:pch:right	suffix	pch	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:chc:right	chargram	chc	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:dch:left	chargram	dch	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:lsh:left	chargram	lsh	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:olc:right	chargram	olc	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:otc:right	chargram	otc	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:qoe:left	chargram	qoe	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:qop:right	chargram	qop	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:shc:right	chargram	shc	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:ych:left	chargram	ych	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:ykc:right	chargram	ykc	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:ytc:right	chargram	ytc	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:ck:left	prefix	ck	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:dc:left	prefix	dc	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:kc:left	prefix	kc	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:ok:right	prefix	ok	right	36.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:yc:left	prefix	yc	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:yk:right	prefix	yk	right	2.0		Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned	0.0	0.0	0.0	0.0	0.0	0.0
+prefix:yt:right	prefix	yt	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+suffix:ct:right	suffix	ct	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+suffix:ke:left	suffix	ke	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:dc:left	chargram	dc	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:lc:right	chargram	lc	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:ls:left	chargram	ls	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:oe:left	chargram	oe	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:yc:left	chargram	yc	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:yk:right	chargram	yk	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+chargram:yt:right	chargram	yt	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:d:left	prefix	d	left	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.88	0.95	0.88	0.95	0.88	0.95
+prefix:k:left	prefix	k	left	2.0	Biological;Herbal;Pharmaceutical;Recipes;Unassigned	Astronomical	0.71	0.71	0.86	0.57	0.0	0.57
+suffix:k:left	suffix	k	left	48.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+suffix:t:right	suffix	t	right	2.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:ok|:right	pair	ok|	right	36.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:|che:left	pair	|che	left	24.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:yk|:left	pair	yk|	left	24.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:|c:right	pair	|c	right	24.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:qok|:left	pair	qok|	left	18.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:olc|:right	pair	olc|	right	18.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:ytc|:right	pair	ytc|	right	18.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:|tch:right	pair	|tch	right	18.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:c|h:left	pair	c|h	left	18.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:c|k:left	pair	c|k	left	18.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:qop|:right	pair	qop|	right	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:ych|:left	pair	ych|	left	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:ykc|:right	pair	ykc|	right	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:ckh|:left	pair	ckh|	left	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:qoe|:left	pair	qoe|	left	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:dch|:left	pair	dch|	left	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:|h:right	pair	|h	right	12.0	Biological;Herbal;Pharmaceutical;Recipes;Unassigned	Astronomical	0.79	0.86	0.83	0.76	0.0	0.66
+pair:|lsh:left	pair	|lsh	left	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:kch|:left	pair	kch|	left	12.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:o|ee:left	pair	o|ee	left	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:c|he:left	pair	c|he	left	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:chc|h:right	pair	chc|h	right	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:shc|h:right	pair	shc|h	right	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:chc|:right	pair	chc|	right	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:shc|:right	pair	shc|	right	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:c|ee:left	pair	c|ee	left	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:o|k:left	pair	o|k	left	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:o|ke:left	pair	o|ke	left	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:c|oke:left	pair	c|oke	left	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:o|he:left	pair	o|he	left	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:y|h:left	pair	y|h	left	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:y|he:left	pair	y|he	left	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:o|h:right	pair	o|h	right	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:k|h:right	pair	k|h	right	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+pair:dc|:right	pair	dc|	right	6.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.0	0.0	0.0	0.0	0.0	0.0
+prefix:d:right	prefix	d	right	30.0	Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned		0.88	0.95	0.88	0.95	0.88	0.95
+prefix:yk:left	prefix	yk	left	24.0		Astronomical;Biological;Herbal;Pharmaceutical;Recipes;Unassigned	0.0	0.0	0.0	0.0	0.0	0.0
+prefix:k:right	prefix	k	right	24.0	Biological;Herbal;Pharmaceutical;Recipes;Unassigned	Astronomical	0.71	0.71	0.86	0.57	0.0	0.57

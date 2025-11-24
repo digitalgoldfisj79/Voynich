@@ -1,0 +1,155 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -euo pipefail
+
+# t04_line_translations.sh
+# Build line-level translations from t03_enriched_translations.tsv
+# Usage:
+#   ./scripts/t04_line_translations.sh           # all folios
+#   ./scripts/t04_line_translations.sh f103r     # single folio
+
+BASE="${BASE:-$PWD}"
+IN_ENRICHED="$BASE/PhaseT/out/t03_enriched_translations.tsv"
+OUT_LINES="$BASE/PhaseT/out/t04_line_translations.tsv"
+FOLIO_FILTER="${1:-}"
+
+mkdir -p "$BASE/PhaseT/out"
+
+echo "[t04] BASE:        $BASE"
+echo "[t04] IN_ENRICHED: $IN_ENRICHED"
+echo "[t04] OUT_LINES:   $OUT_LINES"
+if [ -n "$FOLIO_FILTER" ]; then
+  echo "[t04] Folio filter: $FOLIO_FILTER"
+fi
+
+python3 - "$IN_ENRICHED" "$OUT_LINES" "$FOLIO_FILTER" << 'PYEOF'
+import sys
+import os
+import pandas as pd
+
+in_path, out_path, folio_filter = sys.argv[1], sys.argv[2], sys.argv[3]
+
+print(f"[t04(py)] Loading enriched translations from {in_path}")
+
+if not os.path.exists(in_path):
+    raise SystemExit(f"[t04(py)] ERROR: missing {in_path} – run t03_apply_lexicons.sh first.")
+
+# Load t03_enriched_translations.tsv
+df = pd.read_csv(in_path, sep="\t", dtype=str).fillna("")
+
+required_cols = [
+    "folio_norm", "folio", "line", "section", "register",
+    "pos", "token", "stem", "suffix",
+    "semantic_family", "role_group"
+]
+missing = [c for c in required_cols if c not in df.columns]
+if missing:
+    raise SystemExit(f"[t04(py)] ERROR: t03 is missing required columns: {missing}")
+
+# Normalise position for sorting
+df["pos_order"] = pd.to_numeric(df["pos"], errors="coerce")
+
+# Optional folio filter (by folio_norm or folio)
+if folio_filter:
+    before = len(df)
+    df = df[(df["folio_norm"] == folio_filter) | (df["folio"] == folio_filter)]
+    after = len(df)
+    print(f"[t04(py)] Folio filter {folio_filter}: {before} -> {after} rows")
+    if after == 0:
+        print(f"[t04(py)] WARNING: no rows for folio {folio_filter}")
+
+if df.empty:
+    # Nothing to do, write empty file with header
+    out_cols = [
+        "folio_norm", "folio", "line", "section", "register",
+        "n_tokens", "eva_line", "english_T1_line", "english_T2_line",
+        "has_proc_family", "has_bot_family"
+    ]
+    pd.DataFrame(columns=out_cols).to_csv(out_path, sep="\t", index=False)
+    print(f"[t04(py)] No data – wrote empty {out_path}")
+    raise SystemExit(0)
+
+# Grouping keys (line-level)
+group_cols = ["folio_norm", "folio", "line", "section", "register"]
+
+rows = []
+
+def build_t1_piece(row):
+    """
+    Build a single T1 token for one EVA token:
+    - base: stem + suffix as 'stem[?]-suffix' (or similar fallback)
+    - tags: [semantic_family|role_group|register] compressed into ONE bracket block
+    """
+    stem = row.get("stem", "") or ""
+    suffix = row.get("suffix", "") or ""
+    token = row.get("token", "") or ""
+
+    # Base segment for this token
+    if stem and suffix:
+        base = f"{stem}[?]-{suffix}"
+    elif stem:
+        base = f"{stem}[?]"
+    elif suffix:
+        base = f"{token}[?]-{suffix}"
+    else:
+        base = f"{token}[?]"
+
+    tags = []
+
+    semfam = row.get("semantic_family", "")
+    if semfam:
+        tags.append(semfam)
+
+    roleg = row.get("role_group", "")
+    if roleg:
+        tags.append(roleg)
+
+    reg = row.get("register", "")
+    if reg:
+        tags.append(reg)
+
+    if tags:
+        return f"{base}[{'|'.join(tags)}]"
+    else:
+        return base
+
+# Build line-level table
+for (folio_norm, folio, line, section, register), g in df.groupby(group_cols, sort=False):
+    g_sorted = g.sort_values("pos_order", kind="mergesort")
+
+    eva_tokens = g_sorted["token"].tolist()
+    eva_line = " ".join(eva_tokens)
+    n_tokens = len(eva_tokens)
+
+    # --- T1: one T1 token per EVA token ---
+    t1_tokens = [build_t1_piece(r) for _, r in g_sorted.iterrows()]
+    english_T1_line = " ".join(t1_tokens)
+
+    # For now, T2 just mirrors T1 (placeholder until S60/T2 rules are wired in)
+    english_T2_line = english_T1_line
+
+    has_proc_family = g_sorted["semantic_family"].eq("F_PROC_CORE").any()
+    has_bot_family  = g_sorted["semantic_family"].eq("F_BOTANICAL_CORE").any()
+
+    rows.append({
+        "folio_norm": folio_norm,
+        "folio": folio,
+        "line": line,
+        "section": section,
+        "register": register,
+        "n_tokens": n_tokens,
+        "eva_line": eva_line,
+        "english_T1_line": english_T1_line,
+        "english_T2_line": english_T2_line,
+        "has_proc_family": bool(has_proc_family),
+        "has_bot_family": bool(has_bot_family),
+    })
+
+out_df = pd.DataFrame(rows, columns=[
+    "folio_norm", "folio", "line", "section", "register",
+    "n_tokens", "eva_line", "english_T1_line", "english_T2_line",
+    "has_proc_family", "has_bot_family"
+])
+
+out_df.to_csv(out_path, sep="\t", index=False)
+print(f"[t04(py)] Wrote {len(out_df)} line rows to {out_path}")
+PYEOF

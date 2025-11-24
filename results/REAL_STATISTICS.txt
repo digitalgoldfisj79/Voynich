@@ -1,0 +1,51 @@
+ACTUAL STATISTICAL RESULTS
+================================================================================
+
+CORPUS SIZES (ACTUAL)
+Voynich: 29,688 tokens
+Latin: 13,200 tokens
+Occitan: 7,004 tokens
+
+SUFFIX ENTROPY (ACTUAL)
+Voynich: 2.592 bits
+Latin: 3.767 bits
+
+BOOTSTRAP RESAMPLING (ACTUAL, n=1000)
+Voynich: 2.592 ± 0.007 bits
+Voynich 95% CI: [2.578, 2.605]
+Voynich CV: 0.28%
+
+Latin: 3.766 ± 0.009 bits
+Latin 95% CI: [3.748, 3.783]
+Latin CV: 0.24%
+
+CHI-SQUARED TEST (ACTUAL)
+Chi-squared: 14934.1
+df: 8
+p-value: <0.001 (chi2 >> critical value)
+Result: REJECTED at α=0.001
+
+EFFECT SIZE (ACTUAL)
+Mean Cohen's h: 0.226
+Interpretation: Small effect
+
+COMPRESSION MODEL PERFORMANCE (ACTUAL)
+Minimal        : y= 13.5%, entropy=2.968 bits
+Aggressive     : y= 67.1%, entropy=1.550 bits
+Tuned          : y= 38.6%, entropy=2.086 bits
+Hybrid         : y= 58.2%, entropy=1.738 bits
+Context        : y= 51.0%, entropy=1.526 bits
+Ultra          : y= 78.3%, entropy=0.903 bits
+
+DETAILED SUFFIX COMPARISON (Voynich vs Merged Latin)
+Suffix  Voynich   Merged     Diff
+------------------------------------
+y         38.4%    18.4%    20.0pp
+NULL      21.8%    17.1%     4.7pp
+aiin       9.8%     8.9%     0.9pp
+ol         9.1%     8.3%     0.8pp
+al         5.8%     9.0%     3.2pp
+or         5.4%     1.6%     3.8pp
+ain        4.5%    11.1%     6.6pp
+ody        3.0%    11.6%     8.7pp
+am         2.2%    13.9%    11.7pp

@@ -1,0 +1,4 @@
+-e corpus	N_tokens	N_chars	mean_len	p_len_ge5	p_len_le2
+voynich_eva	29688	151062	5.088319	0.651711	0.079392
+latin_expanded	13244	102834	7.764573	0.884098	0.027409
+latin_compressed	17226	44383	2.576512	0.123186	0.544352

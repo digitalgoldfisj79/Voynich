@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Collapse core context windows into BIO/BOT/PROC/OTHER frames.
+
+BASE="${BASE:-$HOME/Voynich/Voynich_Reproducible_Core}"
+OUTD="$BASE/PhaseS/out"
+SCRIPTD="$BASE/scripts"
+
+WINDOWS_PATH="$OUTD/s20_core_context_windows.tsv"
+OUT_FRAMES="$OUTD/s21_family_frames.tsv"
+
+echo "[S21] BASE         = $BASE"
+echo "[S21] WINDOWS_PATH = $WINDOWS_PATH"
+echo "[S21] OUT_FRAMES   = $OUT_FRAMES"
+
+if [ ! -f "$WINDOWS_PATH" ]; then
+  echo "[S21][ERR] Windows file not found: $WINDOWS_PATH" >&2
+  exit 1
+fi
+
+python3 "$SCRIPTD/s21_build_family_frames.py" \
+  "$WINDOWS_PATH" \
+
+
+echo "[S21] Wrote → $OUT_FRAMES"

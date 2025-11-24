@@ -1,0 +1,25 @@
+domain	lemma	gloss_en	frequency	source
+PROC_COOKING	coquo	cook/boil	17	De_Materia_Med
+PROC_COOKING	decoquo	boil_down/reduce	5	De_Materia_Med
+PROC_COOKING	uro	burn	3	Medieval_recipe
+PROC_MIXING	misceo	mix	8	De_Materia_Med
+PROC_MIXING	admisceo	mix_in	4	De_Materia_Med
+PROC_GRINDING	tero	grind	12	De_Materia_Med
+PROC_GRINDING	contero	grind_together	3	De_Materia_Med
+PROC_ADDING	infundo	pour_in	6	De_Materia_Med
+PROC_ADDING	pono	place/put	23	De_Materia_Med
+
+BOT_HERB	ruta	rue	52	De_Materia_Med
+BOT_HERB	anethum	dill	12	De_Materia_Med
+BOT_HERB	rosa	rose	31	De_Materia_Med
+BOT_HERB	mentha	mint	18	De_Materia_Med
+BOT_HERB	apium	celery_or_parsley	14	De_Materia_Med
+BOT_HERB	petroselinum	parsley	8	Tacuinum
+BOT_HERB	salvia	sage	6	Tacuinum
+
+BIO_FLUID	aqua	water	145	De_Materia_Med
+BIO_FLUID	oleum	oil	91	De_Materia_Med
+BIO_FLUID	succus	juice	22	De_Materia_Med
+BIO_FLUID	humor	fluid_or_humor	13	De_Materia_Med
+BIO_FLUID	acetum	vinegar	8	Tacuinum
+BIO_FLUID	mel	honey	12	Tacuinum

@@ -1,0 +1,24 @@
+# Binary/archive files
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.tgz
+*.zip
+*.tar.gz
+*.gz
+*.rar
+*.7z
+*.mht
+
+# Large data folders
+Phase4_Addons/
+Phase7_Sim/
+Phase15/
+ATTIC/
+corpora/phase24_inputs/
+
+# Build files
+__pycache__/
+*.pyc

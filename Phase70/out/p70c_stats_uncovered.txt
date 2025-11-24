@@ -1,0 +1,3 @@
+# Phase70/out/p70c_tokens_uncovered.txt
+H1_bits_per_char	3.867616
+MI1_bits	1.502921

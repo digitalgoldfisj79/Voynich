@@ -1,0 +1,36 @@
+=== SEARCHING FOR FOLIO-LEVEL TOKEN/SUFFIX DATA ===
+
+1. Looking for folio-level suffix distributions:
+./scripts/s41b_scan_folio_valency_suffix.sh
+
+2. Looking for per-folio token files:
+./scripts/p6_build_voynich_tokens_with_folios.py
+./scripts/s0_build_folio_tokens.sh
+./N4_Frozen_Model/scripts/s0_build_folio_tokens.sh
+/data/data/com.termux/files/home/Voynich/ATTIC/PhaseS_dir/out/p6_folio_tokens.tsv
+/data/data/com.termux/files/home/Voynich/ATTIC/PhaseS_dir/out/p6_folio_tokens.tsv.bak
+
+3. Check PhaseM for folio-level analysis:
+
+4. Check if EVA transcription has folio markers:
+
+5. Look for the actual EVA file with folio markers:
+./corpora/voynich_transliteration.txt
+./corpora/p6_voynich_tokens.txt
+./corpora/voynich_segmented_p69.txt
+./p6_voynich_tokens.txt
+
+6. Check metadata directory:
+total 163
+drwx------.  2 u0_a246 u0_a246   3452 Nov 22 08:01 .
+drwx------. 30 u0_a246 u0_a246   3452 Nov 22 14:37 ..
+-rw-------.  1 u0_a246 u0_a246     21 Nov  9 22:46 build_time.txt
+-rw-------.  1 u0_a246 u0_a246   2478 Nov 16 02:40 folio_sections.tsv
+-rw-------.  1 u0_a246 u0_a246    967 Nov 20 03:56 latin_lemmas_by_domain.tsv
+-rw-------.  1 u0_a246 u0_a246   5577 Nov  9 22:46 manifest.tsv
+-rw-------.  1 u0_a246 u0_a246   1352 Nov 16 15:52 semantic_family_rules.tsv
+-rw-------.  1 u0_a246 u0_a246 126103 Nov 19 17:10 stem_lexicon.tsv
+-rw-------.  1 u0_a246 u0_a246    450 Nov 19 17:10 suffix_lexicon.tsv
+-rw-------.  1 u0_a246 u0_a246     32 Nov  9 22:46 version_tag.txt
+
+SEARCH COMPLETE

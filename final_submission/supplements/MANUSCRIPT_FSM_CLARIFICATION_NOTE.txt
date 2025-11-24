@@ -1,0 +1,28 @@
+# TEXT TO ADD TO MAIN MANUSCRIPT
+
+## Location: Methods Section (FSM Construction)
+
+### Insert after FSM description, before validation:
+
+---
+
+**Note on FSM suffix rules:** The FSM employs 15 character-level suffix patterns optimized for positional prediction, operating at a finer granularity than the 9 productive morphological suffixes identified in morphological analysis. While some FSM rules correspond to morphological suffixes (e.g., "suffix:y" matches morphological "-y"), others capture sub-morphemic character sequences that improve positional discrimination (e.g., "suffix:h" matches word-final 'h' in multiple morphological contexts). This multi-level approach is standard in computational linguistics: morphological analysis proves productivity at the word level, while FSM analysis predicts grammatical behavior at the character-pattern level. Complete discussion in Supplement S6.
+
+---
+
+## Alternative (shorter version for space constraints):
+
+**Note:** FSM suffix rules (n=15) operate at character-sequence level for positional prediction and differ from the 9 productive morphological suffixes used in morphological analysis. Some overlap exists (e.g., FSM "suffix:y" ≈ morphological "-y"), but the FSM uses finer-grained patterns to optimize prediction accuracy. See Supplement S6 for complete discussion.
+
+---
+
+## Where to place in current manuscript:
+
+Find this section in MANUSCRIPT_PLOS_ONE_COMPLETE.md:
+
+```
+**FSM construction.** Using these distributional features, we constructed 
+a finite-state machine encoding 109 transition rules...
+```
+
+Add note immediately after that paragraph, before the "Validation dataset" paragraph.

@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Base directory for the project
+BASE="${BASE:-$HOME/Voynich/Voynich_Reproducible_Core}"
+
+CORE_PATH="$BASE/PhaseS/out/s13_semantic_core_report.tsv"
+
+# Default tokens path: your existing p6 file in corpora
+TOKENS_PATH="${TOKENS_PATH:-$BASE/corpora/p6_voynich_tokens.txt}"
+
+OUT_PATH="$BASE/PhaseS/out/s20_core_context_windows.tsv"
+
+echo "[S20] BASE        = $BASE"
+echo "[S20] CORE_PATH   = $CORE_PATH"
+echo "[S20] TOKENS_PATH = $TOKENS_PATH"
+echo "[S20] OUT_PATH    = $OUT_PATH"
+
+if [ ! -f "$CORE_PATH" ]; then
+  echo "[S20][ERR] Core report not found: $CORE_PATH" >&2
+  exit 1
+fi
+
+if [ ! -f "$TOKENS_PATH" ]; then
+  echo "[S20][ERR] Tokens file not found: $TOKENS_PATH" >&2
+  exit 1
+fi
+
+mkdir -p "$BASE/PhaseS/out"
+
+python3 "$BASE/scripts/s20_build_core_context_windows.py" \
+  "$CORE_PATH" \
+  "$TOKENS_PATH" \
+  "$OUT_PATH"
+
+echo "[S20] Done."

@@ -1,0 +1,42 @@
+================================================================================
+HELD-OUT DATA LOCKED
+================================================================================
+
+The following folios are HELD OUT for N6 validation:
+
+  f100r
+  f104r
+  f104v
+  f112r
+  f18v
+  f19r
+  f21r
+  f24r
+  f26r
+  f29v
+  f2v
+  f30r
+  f32r
+  f37v
+  f47v
+  f50v
+  f51r
+  f52v
+  f55v
+  f56r
+  f57v
+  f73r
+  f80r
+  f81r
+  f84v
+  f87r
+  f93v
+
+================================================================================
+DO NOT EXAMINE THESE FOLIOS UNTIL N6 EXECUTION
+================================================================================
+
+Examining held-out data before N6 invalidates the validation.
+This would introduce researcher degrees of freedom and p-hacking.
+
+Pre-registration hash: e0cd30e1ab55a840f25553803fad658bd2f3894e31eb3cd5bcd8d7ffa55bdd94

@@ -1,0 +1,24 @@
+suffix	register	role	pos_tag	english_affix	notes
+aiin	REGISTER_A				
+aiin	REGISTER_B				
+aiin	UNKNOWN				
+ain	REGISTER_A				
+ain	REGISTER_B				
+al	REGISTER_A				
+al	REGISTER_B				
+al	UNKNOWN				
+am	REGISTER_A				
+am	REGISTER_B				
+am	UNKNOWN				
+ody	REGISTER_A				
+ody	REGISTER_B				
+ody	UNKNOWN				
+ol	REGISTER_A				
+ol	REGISTER_B				
+ol	UNKNOWN				
+or	REGISTER_A				
+or	REGISTER_B				
+or	UNKNOWN				
+y	REGISTER_A				
+y	REGISTER_B				
+y	UNKNOWN				

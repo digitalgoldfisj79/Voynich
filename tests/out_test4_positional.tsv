@@ -1,0 +1,8 @@
+stem	total	dom_pos_label	dom_count	coverage	entropy_bits
+y	93	PATIENT_CAND	93	1	0
+l	164		164	1	0
+qotar	60	PROCESS_CAND	60	1	0
+o	77		77	1	0
+chear	47		47	1	0
+r	254	AGENT_CAND	254	1	0
+s	407	AMBIGUOUS	407	1	0

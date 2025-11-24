@@ -1,0 +1,128 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -euo pipefail
+
+# t04_line_translations.sh
+# Build per-line translations at T0/T1/T2 scaffold levels.
+#
+# Inputs:
+#   PhaseT/out/t03_enriched_translations.tsv
+#       columns (relevant):
+#         folio_norm, folio, line, pos, section, register,
+#         token, english_token,
+#         (optionally) semantic_family_stemlex
+#
+# Outputs:
+#   PhaseT/out/t04_line_translations.tsv
+#       columns:
+#         folio_norm, folio, line, section, register, n_tokens,
+#         eva_line, english_T1_line, english_T2_line,
+#         has_proc_family, has_bot_family
+
+BASE="$(cd "$(dirname "$0")/.." && pwd)"
+IN_ENRICHED="$BASE/PhaseT/out/t03_enriched_translations.tsv"
+OUT_LINES="$BASE/PhaseT/out/t04_line_translations.tsv"
+
+FOLIO_FILTER="${1:-}"
+
+echo "[t04] BASE:        $BASE"
+echo "[t04] IN_ENRICHED: $IN_ENRICHED"
+echo "[t04] OUT_LINES:   $OUT_LINES"
+if [ -n "$FOLIO_FILTER" ]; then
+  echo "[t04] Folio filter: $FOLIO_FILTER"
+fi
+
+if [ ! -s "$IN_ENRICHED" ]; then
+  echo "[t04][ERROR] Missing or empty $IN_ENRICHED – run t03_apply_lexicons.sh first." >&2
+  exit 1
+fi
+
+# Pass BASE and optional folio filter into Python
+python3 - "$BASE" "$FOLIO_FILTER" << 'PY'
+import os
+import sys
+import pandas as pd
+
+if len(sys.argv) < 2:
+    raise SystemExit("[t04(py)] ERROR: BASE argument missing")
+
+BASE = sys.argv[1]
+folio_filter = sys.argv[2] if len(sys.argv) > 2 else ""
+
+IN_ENRICHED = os.path.join(BASE, "PhaseT", "out", "t03_enriched_translations.tsv")
+OUT_LINES   = os.path.join(BASE, "PhaseT", "out", "t04_line_translations.tsv")
+
+print(f"[t04(py)] BASE = {BASE}")
+print(f"[t04(py)] Loading enriched translations from {IN_ENRICHED}")
+
+df = pd.read_csv(IN_ENRICHED, sep="\t")
+
+# Only require the truly essential columns; semantic_family_stemlex is optional
+required_cols = [
+    "folio_norm", "folio", "line", "pos",
+    "section", "register",
+    "token", "english_token",
+]
+missing = [c for c in required_cols if c not in df.columns]
+if missing:
+    raise SystemExit(f"[t04(py)] ERROR: Missing columns in t03: {missing}")
+
+if folio_filter:
+    before = len(df)
+    df = df[df["folio_norm"] == folio_filter]
+    after = len(df)
+    print(f"[t04(py)] Folio filter {folio_filter}: {before} -> {after} rows")
+
+# Ensure numeric ordering by position
+df["pos"] = pd.to_numeric(df["pos"], errors="coerce")
+df = df.sort_values(["folio_norm", "folio", "line", "pos"], kind="mergesort")
+
+def has_family(group, fam):
+    col = "semantic_family_stemlex"
+    if col in group.columns:
+        return group[col].fillna("").eq(fam).any()
+    return False
+
+group_keys = ["folio_norm", "folio", "line", "section", "register"]
+
+rows = []
+for key, g in df.groupby(group_keys, dropna=False):
+    folio_norm, folio, line, section, register = key
+
+    # T0: purely EVA
+    eva_tokens = g["token"].fillna("").tolist()
+    eva_tokens = [t for t in eva_tokens if t != ""]
+    eva_line = " ".join(eva_tokens)
+
+    # T1: structural / morphological reinterpretation from english_token
+    t1_tokens = g["english_token"].fillna("").tolist()
+    t1_tokens = [t for t in t1_tokens if t != ""]
+    english_T1_line = " ".join(t1_tokens)
+
+    # T2 scaffold: for now, identical to T1
+    english_T2_line = english_T1_line
+
+    has_proc = has_family(g, "F_PROC_CORE")
+    has_bot  = has_family(g, "F_BOTANICAL_CORE")
+
+    rows.append({
+        "folio_norm": folio_norm,
+        "folio": folio,
+        "line": line,
+        "section": section,
+        "register": register,
+        "n_tokens": len(eva_tokens),
+        "eva_line": eva_line,
+        "english_T1_line": english_T1_line,
+        "english_T2_line": english_T2_line,
+        "has_proc_family": bool(has_proc),
+        "has_bot_family": bool(has_bot),
+    })
+
+out_df = pd.DataFrame(rows)
+
+out_dir = os.path.dirname(OUT_LINES)
+os.makedirs(out_dir, exist_ok=True)
+
+out_df.to_csv(OUT_LINES, sep="\t", index=False)
+print(f"[t04(py)] Wrote {len(out_df)} line rows to {OUT_LINES}")
+PY

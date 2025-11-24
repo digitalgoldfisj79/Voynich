@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Summarise family frames and produce a human-readable text report.
+
+BASE="${BASE:-$HOME/Voynich/Voynich_Reproducible_Core}"
+OUTD="$BASE/PhaseS/out"
+SCRIPTD="$BASE/scripts"
+
+FRAMES_PATH="$OUTD/s21_family_frames.tsv"
+OUT_TSV="$OUTD/s22_frame_summary.tsv"
+OUT_TXT="$OUTD/s22_frame_summary.txt"
+
+echo "[S22] BASE        = $BASE"
+echo "[S22] FRAMES_PATH = $FRAMES_PATH"
+echo "[S22] OUT_TSV     = $OUT_TSV"
+echo "[S22] OUT_TXT     = $OUT_TXT"
+
+if [ ! -f "$FRAMES_PATH" ]; then
+  echo "[S22][ERR] Frames file not found: $FRAMES_PATH" >&2
+  exit 1
+fi
+
+python3 "$SCRIPTD/s22_build_frame_summary.py" \
+  "$FRAMES_PATH" \
+  "$OUT_TSV.tmp" \
+  "$OUT_TXT.tmp"
+
+mv "$OUT_TSV.tmp" "$OUT_TSV"
+mv "$OUT_TXT.tmp" "$OUT_TXT"
+
+echo "[S22] Wrote → $OUT_TSV"
+echo "[S22] Wrote → $OUT_TXT"

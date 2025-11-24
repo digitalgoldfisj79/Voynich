@@ -1,0 +1,110 @@
+kind	pattern	pred_side	base_weight	allow_sections	deny_sections	w_Herbal	w_Pharm	w_Recipes	w_Astron	w_Biolog	w_Unasg	meta	examples
+chargram	he	left	6.00	Biological,Herbal,Pharmaceutical,Recipes	Astronomical,Unassigned	0.90	0.62	0.76	0.00	0.76	0.00	"{""L_minus_R"": 6, ""total"": 6}"	kche,shee,dche,cheo,sheo,chek,yche,opche
+suffix	h	right	5.00	Biological,Herbal,Pharmaceutical,Recipes,Unassigned	Astronomical	0.79	0.76	0.83	0.00	0.86	0.66	"{""L_minus_R"": -5, ""total"": 19}"	otsh,ytch,sch,lsh,otch,ykch,ckh,och
+suffix	ch	right	5.00	Biological,Herbal,Pharmaceutical,Recipes,Unassigned	Astronomical	0.81	0.81	0.81	0.00	0.94	0.75	"{""L_minus_R"": -5, ""total"": 11}"	ytch,sch,otch,ykch,och,fch,opch,qopch
+prefix	o	right	5.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned		0.89	0.74	0.74	0.60	0.80	0.71	"{""L_minus_R"": -5, ""total"": 9}"	otsh,ots,op,os,otch,ol,oto,och
+suffix	he	left	18.00	Biological,Herbal,Recipes	Astronomical,Pharmaceutical,Unassigned	0.93	0.55	0.73	0.00	0.73	0.00	"{""mean_axis1"": -0.483675, ""stdev_axis1"": 0.408244, ""support"": 18}"	kche,dche,yche,opche,otche,ytche,olche,yshe
+suffix	che	left	36.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned	Astronomical	0.90	0.45	0.64	0.00	0.64	0.45	"{""mean_axis1"": -0.243818, ""stdev_axis1"": 0.388474, ""support"": 36}"	kche,dche,yche,opche,otche,ytche,olche,fche
+chargram	che	left	4.00	Biological,Herbal,Recipes	Astronomical,Pharmaceutical,Unassigned	0.86	0.00	0.64	0.00	0.64	0.00	"{""L_minus_R"": 4, ""total"": 4}"	kche,dche,cheo,chek,yche,opche,otche,ytche
+chargram	hct	right	4.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -4, ""total"": 4}"	chcth,chct,shcth,shct
+chargram	hc	right	4.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -4, ""total"": 4}"	chcth,chct,shcth,shct
+chargram	tc	right	4.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -4, ""total"": 4}"	ytch,otch,otche,tch,tc,ytche,ytc,qotch
+suffix	c	right	24.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.133797, ""stdev_axis1"": 0.098875, ""support"": 24}"	sc,ykc,olc,fc,dc,tc,ytc,lc
+chargram	ct	right	3.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -3, ""total"": 5}"	chcth,chct,cth,shcth,shct,cthe
+prefix	qok	left	18.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.602917, ""stdev_axis1"": 0.29777, ""support"": 18}"	qokee,qok,qoke
+suffix	tch	right	18.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.325769, ""stdev_axis1"": 0.341035, ""support"": 18}"	ytch,otch,tch,qotch
+chargram	oke	left	3.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 3, ""total"": 3}"	qokee,okee,qoke,choke
+chargram	opc	right	3.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -3, ""total"": 3}"	opch,qopch,opche,qopc
+chargram	qok	left	3.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 3, ""total"": 3}"	qokee,qok,qoke
+chargram	tch	right	3.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -3, ""total"": 3}"	ytch,otch,otche,tch,ytche,qotch
+suffix	ee	left	48.00	Biological,Herbal,Recipes	Astronomical,Pharmaceutical,Unassigned	0.58	0.00	0.67	0.00	0.58	0.00	"{""mean_axis1"": -0.187292, ""stdev_axis1"": 0.364239, ""support"": 48}"	shee,kee,oee,qotee,ykee,qokee,ee,qoee
+chargram	ee	left	3.00	Biological,Herbal,Recipes	Astronomical,Pharmaceutical,Unassigned	0.58	0.00	0.67	0.00	0.58	0.00	"{""L_minus_R"": 3, ""total"": 3}"	shee,kee,oee,qotee,ykee,qokee,ee,qoee
+chargram	ke	left	3.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 3, ""total"": 3}"	kee,yke,ykee,qokee,okee,qoke,olke,choke
+chargram	op	right	3.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -3, ""total"": 3}"	op,opch,qopch,opche,opa,qopc
+chargram	ok	left	0.75	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned	Biological,Unassigned							"{""L_minus_R"": 2, ""total"": 6}"	chok,okal,oks,oko,qokee,okee,qok,qoke
+prefix	c	left	51.00	Herbal,Pharmaceutical,Recipes	Astronomical,Biological,Unassigned	0.73	0.64	0.64	0.00	0.00	0.00	"{""mean_axis1"": -0.186492, ""stdev_axis1"": 0.329857, ""support"": 102}"	chol,chot,cheo,chek,ckh,chok,cht,cho
+chargram	pc	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 4}"	pcho,opch,qopch,opche,pch,pche,qopc
+prefix	chc	right	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.686842, ""stdev_axis1"": 0.316889, ""support"": 12}"	chcth,chct
+prefix	ckh	left	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.51938, ""stdev_axis1"": 0.348716, ""support"": 12}"	ckh,ckhe
+prefix	dch	left	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.443307, ""stdev_axis1"": 0.370776, ""support"": 12}"	dche,dch
+prefix	kch	left	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.271269, ""stdev_axis1"": 0.345436, ""support"": 12}"	kche,kch
+prefix	olc	right	18.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.46068, ""stdev_axis1"": 0.373574, ""support"": 18}"	olc,olch,olche
+prefix	qoe	left	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.444916, ""stdev_axis1"": 0.423314, ""support"": 12}"	qoe,qoee
+prefix	qop	right	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.87673, ""stdev_axis1"": 0.352468, ""support"": 12}"	qopch,qopc
+prefix	shc	right	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.634699, ""stdev_axis1"": 0.400016, ""support"": 12}"	shcth,shct
+prefix	ych	left	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.692217, ""stdev_axis1"": 0.354695, ""support"": 12}"	yche,ych
+prefix	ykc	right	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.674758, ""stdev_axis1"": 0.338973, ""support"": 12}"	ykch,ykc
+prefix	ytc	right	18.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.41412, ""stdev_axis1"": 0.433524, ""support"": 18}"	ytch,ytche,ytc
+suffix	hct	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	chct,shct
+suffix	lsh	left	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.28831, ""stdev_axis1"": 0.397926, ""support"": 12}"	lsh,olsh
+suffix	oke	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	qoke,choke
+suffix	pch	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	opch,qopch,pch
+chargram	chc	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	chcth,chct
+chargram	dch	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	dche,dch
+chargram	lsh	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	lsh,olshe,olsh
+chargram	olc	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	olc,olch,olche
+chargram	otc	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	otch,otche,qotch
+chargram	qoe	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	qoe,qoee
+chargram	qop	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	qopch,qopc
+chargram	shc	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	shcth,shct
+chargram	ych	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	yche,ych
+chargram	ykc	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	ykch,ykc
+chargram	ytc	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	ytch,ytche,ytc
+prefix	ck	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	ckh,ckhe
+prefix	dc	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	dche,dch,dc
+prefix	kc	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	kche,kch
+prefix	ok	right	36.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.128494, ""stdev_axis1"": 0.466784, ""support"": 36}"	okal,oks,oko,okee,okol,okch
+prefix	yc	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	yche,ych
+prefix	yk	right	2.00		Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned	0.00	0.00	0.00	0.00	0.00	0.00	"{""L_minus_R"": -2, ""total"": 2}"	yka,ykch,ykc,yke,ykee,yk
+prefix	yt	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	ytch,yta,ytche,ytc,yte,yt
+suffix	ct	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	chct,shct
+suffix	ke	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	yke,qoke,olke,choke
+chargram	dc	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	dche,dch,dc
+chargram	lc	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	olc,olch,olche,lche,lc
+chargram	ls	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	ls,lsh,olshe,olsh
+chargram	oe	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	oe,oee,qoe,qoee
+chargram	yc	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": 2, ""total"": 2}"	yche,ych
+chargram	yk	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	yka,ykch,ykc,yke,ykee,yk
+chargram	yt	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	ytch,yta,ytche,ytc,yte,yt
+prefix	d	left	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned		0.88	0.95	0.88	0.88	0.95	0.95	"{""L_minus_R"": 2, ""total"": 2}"	daii,dal,dche,dar,do,dch,dc,dai
+prefix	k	left	2.00	Biological,Herbal,Pharmaceutical,Recipes,Unassigned	Astronomical	0.71	0.57	0.86	0.00	0.71	0.57	"{""L_minus_R"": 2, ""total"": 2}"	kche,ko,kee,ksh,ks,kch,k
+suffix	k	left	48.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.092351, ""stdev_axis1"": 0.331889, ""support"": 48}"	chek,shk,chok,shek,olk,lk,qock,qok
+suffix	t	right	2.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""L_minus_R"": -2, ""total"": 2}"	chot,cht,qot,chct,t,shct,yt,ot
+pair	ok|	right	36.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.128494, ""stdev_axis1"": 0.466784, ""support"": 36}"	okal,oks,oko,okee,okol,okch
+pair	|che	left	24.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.334527, ""stdev_axis1"": 0.382713, ""support"": 24}"	kche,dche,yche,opche,otche,ytche,olche,fche
+pair	yk|	left	24.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.169131, ""stdev_axis1"": 0.3216, ""support"": 24}"	yka,ykch,ykc,yke,ykee,yk
+pair	|c	right	24.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.133797, ""stdev_axis1"": 0.098875, ""support"": 24}"	sc,ykc,olc,fc,dc,tc,ytc,lc
+pair	qok|	left	18.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.602917, ""stdev_axis1"": 0.29777, ""support"": 18}"	qokee,qok,qoke
+pair	olc|	right	18.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.46068, ""stdev_axis1"": 0.373574, ""support"": 18}"	olc,olch,olche
+pair	ytc|	right	18.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.41412, ""stdev_axis1"": 0.433524, ""support"": 18}"	ytch,ytche,ytc
+pair	|tch	right	18.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.325769, ""stdev_axis1"": 0.341035, ""support"": 18}"	ytch,otch,tch,qotch
+pair	c|h	left	18.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.324235, ""stdev_axis1"": 0.418586, ""support"": 18}"	ckh,cph,chcth,cth,chockh
+pair	c|k	left	18.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.125848, ""stdev_axis1"": 0.10857, ""support"": 18}"	chek,chok,chock
+pair	qop|	right	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.87673, ""stdev_axis1"": 0.352468, ""support"": 12}"	qopch,qopc
+pair	ych|	left	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.692217, ""stdev_axis1"": 0.354695, ""support"": 12}"	yche,ych
+pair	ykc|	right	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.674758, ""stdev_axis1"": 0.338973, ""support"": 12}"	ykch,ykc
+pair	ckh|	left	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.51938, ""stdev_axis1"": 0.348716, ""support"": 12}"	ckh,ckhe
+pair	qoe|	left	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.444916, ""stdev_axis1"": 0.423314, ""support"": 12}"	qoe,qoee
+pair	dch|	left	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.443307, ""stdev_axis1"": 0.370776, ""support"": 12}"	dche,dch
+pair	|h	right	12.00	Biological,Herbal,Pharmaceutical,Recipes,Unassigned	Astronomical	0.79	0.76	0.83	0.00	0.86	0.66	"{""mean_axis1"": 0.331904, ""stdev_axis1"": 0.212667, ""support"": 12}"	otsh,ytch,sch,lsh,otch,ykch,ckh,och
+pair	|lsh	left	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.28831, ""stdev_axis1"": 0.397926, ""support"": 12}"	lsh,olsh
+pair	kch|	left	12.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.271269, ""stdev_axis1"": 0.345436, ""support"": 12}"	kche,kch
+pair	o|ee	left	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.833605, ""stdev_axis1"": 0.052066, ""support"": 6}"	oee,okee,otee
+pair	c|he	left	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.811322, ""stdev_axis1"": 0.069854, ""support"": 6}"	che,cthe,ckhe
+pair	chc|h	right	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.767991, ""stdev_axis1"": 0.36217, ""support"": 6}"	chcth
+pair	shc|h	right	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.698561, ""stdev_axis1"": 0.444456, ""support"": 6}"	shcth
+pair	chc|	right	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.605693, ""stdev_axis1"": 0.237696, ""support"": 6}"	chcth,chct
+pair	shc|	right	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.570836, ""stdev_axis1"": 0.338122, ""support"": 6}"	shcth,shct
+pair	c|ee	left	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.527365, ""stdev_axis1"": 0.173956, ""support"": 6}"	chee
+pair	o|k	left	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.520066, ""stdev_axis1"": 0.362116, ""support"": 6}"	olk
+pair	o|ke	left	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.48206, ""stdev_axis1"": 0.409379, ""support"": 6}"	olke
+pair	c|oke	left	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.416449, ""stdev_axis1"": 0.444779, ""support"": 6}"	choke
+pair	o|he	left	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.351853, ""stdev_axis1"": 0.39815, ""support"": 6}"	opche,otche,olche,olshe
+pair	y|h	left	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.28785, ""stdev_axis1"": 0.416544, ""support"": 6}"	ytch,ykch,ysh,ych
+pair	y|he	left	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": -0.28785, ""stdev_axis1"": 0.416544, ""support"": 6}"	yche,ytche,yshe
+pair	o|h	right	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.242946, ""stdev_axis1"": 0.405445, ""support"": 6}"	otsh,otch,och,opch,olch,okch,olsh
+pair	k|h	right	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.125383, ""stdev_axis1"": 0.046279, ""support"": 6}"	ksh,kch
+pair	dc|	right	6.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned								"{""mean_axis1"": 0.097023, ""stdev_axis1"": 0.011471, ""support"": 6}"	dche,dch,dc
+prefix	d	right	30.00	Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned		0.88	0.95	0.88	0.88	0.95	0.95	"{""mean_axis1"": 0.147887, ""stdev_axis1"": 0.084879, ""support"": 30}"	daii,dal,dche,dar,do,dch,dc,dai
+prefix	yk	left	24.00		Astronomical,Biological,Herbal,Pharmaceutical,Recipes,Unassigned	0.00	0.00	0.00	0.00	0.00	0.00	"{""mean_axis1"": -0.169131, ""stdev_axis1"": 0.3216, ""support"": 24}"	yka,ykch,ykc,yke,ykee,yk
+prefix	k	right	24.00	Biological,Herbal,Pharmaceutical,Recipes,Unassigned	Astronomical	0.71	0.57	0.86	0.00	0.71	0.57	"{""mean_axis1"": 0.10084, ""stdev_axis1"": 0.027133, ""support"": 24}"	kche,ko,kee,ksh,ks,kch,k

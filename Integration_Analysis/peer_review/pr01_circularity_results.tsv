@@ -1,0 +1,2 @@
+test	verdict	provenance_check	latin_predictability	nomenclature_check	temporal_ordering	confidence
+circularity_check	PASS - No circularity detected	True	True	True	True	HIGH

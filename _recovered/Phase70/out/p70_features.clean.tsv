@@ -1,0 +1,901 @@
+stem	section	axis1	axis2	axis3	prefix	core	suffix	len_core	is_vowel_end	core_entropy	pref_bigram	suf_bigram
+otsh	Herbal	0.422122	-0.026784	0.000000	o	ts	h	2	false	0.000	o	h
+otsh	Pharmaceutical	-0.508515	-0.051898	0.000000	o	ts	h	2	false	0.000	o	h
+otsh	Recipes	0.230310	-0.167607	-0.000000	o	ts	h	2	false	0.000	o	h
+otsh	Astronomical	0.390888	-0.031832	-0.000000	o	ts	h	2	false	0.000	o	h
+otsh	Biological	0.830214	-0.042268	0.000000	o	ts	h	2	false	0.000	o	h
+otsh	Unassigned	0.092659	-0.003834	-0.000000	o	ts	h	2	false	0.000	o	h
+ots	Herbal	0.422122	-0.026784	0.000000	o	ts		2	false	0.000	o	
+ots	Pharmaceutical	0.092659	-0.003834	-0.000000	o	ts		2	false	0.000	o	
+ots	Recipes	0.092659	-0.003834	-0.000000	o	ts		2	false	0.000	o	
+ots	Astronomical	-0.508515	-0.051898	0.000000	o	ts		2	false	0.000	o	
+ots	Biological	0.830214	-0.042268	0.000000	o	ts		2	false	0.000	o	
+ots	Unassigned	0.092659	-0.003834	-0.000000	o	ts		2	false	0.000	o	
+daii	Herbal	0.259047	-0.002218	-0.000000	d	aii		3	true	-0.000	d	
+daii	Pharmaceutical	0.259047	-0.002218	-0.000000	d	aii		3	true	-0.000	d	
+daii	Recipes	0.259047	-0.002218	-0.000000	d	aii		3	true	-0.000	d	
+daii	Astronomical	0.092659	-0.003834	-0.000000	d	aii		3	true	-0.000	d	
+daii	Biological	0.259047	-0.002218	-0.000000	d	aii		3	true	-0.000	d	
+daii	Unassigned	0.092659	-0.003834	-0.000000	d	aii		3	true	-0.000	d	
+qe	Herbal	-0.016091	0.169537	-0.000000		q	e	1	false	0.000		e
+qe	Pharmaceutical	0.092659	-0.003834	-0.000000		q	e	1	false	0.000		e
+qe	Recipes	0.092659	-0.003834	-0.000000		q	e	1	false	0.000		e
+qe	Astronomical	0.092659	-0.003834	-0.000000		q	e	1	false	0.000		e
+qe	Biological	-0.506458	0.130904	0.000000		q	e	1	false	0.000		e
+qe	Unassigned	0.092659	-0.003834	-0.000000		q	e	1	false	0.000		e
+dal	Herbal	-0.014203	0.163317	-0.000000	d	al		2	false	0.000	d	
+dal	Pharmaceutical	0.224326	0.153379	-0.000000	d	al		2	false	0.000	d	
+dal	Recipes	0.092659	-0.003834	-0.000000	d	al		2	false	0.000	d	
+dal	Astronomical	0.092659	-0.003834	-0.000000	d	al		2	false	0.000	d	
+dal	Biological	0.092659	-0.003834	-0.000000	d	al		2	false	0.000	d	
+dal	Unassigned	0.092659	-0.003834	-0.000000	d	al		2	false	0.000	d	
+p	Herbal	0.092659	-0.003834	-0.000000		p		1	false	0.000		
+p	Pharmaceutical	0.092659	-0.003834	-0.000000		p		1	false	0.000		
+p	Recipes	0.092659	-0.003834	-0.000000		p		1	false	0.000		
+p	Astronomical	0.092659	-0.003834	-0.000000		p		1	false	0.000		
+p	Biological	0.092659	-0.003834	-0.000000		p		1	false	0.000		
+p	Unassigned	0.092659	-0.003834	-0.000000		p		1	false	0.000		
+ytch	Herbal	0.781840	-0.042067	-0.000000	ytc	h		1	false	0.000	tc	
+ytch	Pharmaceutical	0.781840	-0.042067	-0.000000	ytc	h		1	false	0.000	tc	
+ytch	Recipes	0.781840	-0.042067	-0.000000	ytc	h		1	false	0.000	tc	
+ytch	Astronomical	0.683845	-0.036955	-0.000000	ytc	h		1	false	0.000	tc	
+ytch	Biological	0.781840	-0.042067	-0.000000	ytc	h		1	false	0.000	tc	
+ytch	Unassigned	0.342515	-0.031632	0.000000	ytc	h		1	false	0.000	tc	
+kche	Herbal	-0.816365	-0.043578	-0.000000	kch	e		1	true	0.000	ch	
+kche	Pharmaceutical	0.092659	-0.003834	-0.000000	kch	e		1	true	0.000	ch	
+kche	Recipes	-0.816365	-0.043578	-0.000000	kch	e		1	true	0.000	ch	
+kche	Astronomical	0.092659	-0.003834	-0.000000	kch	e		1	true	0.000	ch	
+kche	Biological	-0.293994	0.016782	0.000000	kch	e		1	true	0.000	ch	
+kche	Unassigned	0.092659	-0.003834	-0.000000	kch	e		1	true	0.000	ch	
+shee	Herbal	-0.413703	0.030180	-0.000000		sh	ee	2	false	0.000		ee
+shee	Pharmaceutical	-0.413703	0.030180	-0.000000		sh	ee	2	false	0.000		ee
+shee	Recipes	-0.266731	0.027351	-0.000000		sh	ee	2	false	0.000		ee
+shee	Astronomical	-0.901321	-0.029166	0.000000		sh	ee	2	false	0.000		ee
+shee	Biological	-0.248554	0.020609	-0.000000		sh	ee	2	false	0.000		ee
+shee	Unassigned	0.092659	-0.003834	-0.000000		sh	ee	2	false	0.000		ee
+dche	Herbal	-0.747996	-0.040619	0.000000	dch	e		1	true	0.000	ch	
+dche	Pharmaceutical	-0.747996	-0.040619	0.000000	dch	e		1	true	0.000	ch	
+dche	Recipes	-0.747996	-0.040619	0.000000	dch	e		1	true	0.000	ch	
+dche	Astronomical	-0.009171	-0.156329	-0.000000	dch	e		1	true	0.000	ch	
+dche	Biological	-0.747996	-0.040619	0.000000	dch	e		1	true	0.000	ch	
+dche	Unassigned	-0.260376	0.018728	0.000000	dch	e		1	true	0.000	ch	
+sc	Herbal	0.092659	-0.003834	-0.000000		s	c	1	false	0.000		c
+sc	Pharmaceutical	0.092659	-0.003834	-0.000000		s	c	1	false	0.000		c
+sc	Recipes	0.253235	0.131940	0.000000		s	c	1	false	0.000		c
+sc	Astronomical	0.092659	-0.003834	-0.000000		s	c	1	false	0.000		c
+sc	Biological	0.092659	-0.003834	-0.000000		s	c	1	false	0.000		c
+sc	Unassigned	0.092659	-0.003834	-0.000000		s	c	1	false	0.000		c
+sho	Herbal	-0.106360	0.021041	-0.000000		sho		3	true	-0.000		
+sho	Pharmaceutical	-0.038199	0.020436	0.000000		sho		3	true	-0.000		
+sho	Recipes	-0.151392	0.025707	-0.000000		sho		3	true	-0.000		
+sho	Astronomical	-0.102274	0.020362	0.000000		sho		3	true	-0.000		
+sho	Biological	-0.102274	0.020362	0.000000		sho		3	true	-0.000		
+sho	Unassigned	-0.781468	-0.031955	0.000000		sho		3	true	-0.000		
+pcho	Herbal	-0.454253	0.043542	0.000000		pcho		4	true	1.000		
+pcho	Pharmaceutical	0.092659	-0.003834	-0.000000		pcho		4	true	1.000		
+pcho	Recipes	-0.344661	0.034623	0.000000		pcho		4	true	1.000		
+pcho	Astronomical	0.092659	-0.003834	-0.000000		pcho		4	true	1.000		
+pcho	Biological	0.092659	-0.003834	-0.000000		pcho		4	true	1.000		
+pcho	Unassigned	0.092659	-0.003834	-0.000000		pcho		4	true	1.000		
+sch	Herbal	0.092659	-0.003834	-0.000000		s	ch	1	false	0.000		ch
+sch	Pharmaceutical	0.092659	-0.003834	-0.000000		s	ch	1	false	0.000		ch
+sch	Recipes	-0.506458	0.130904	0.000000		s	ch	1	false	0.000		ch
+sch	Astronomical	0.092659	-0.003834	-0.000000		s	ch	1	false	0.000		ch
+sch	Biological	-0.506458	0.130904	0.000000		s	ch	1	false	0.000		ch
+sch	Unassigned	0.092659	-0.003834	-0.000000		s	ch	1	false	0.000		ch
+po	Herbal	0.092659	-0.003834	-0.000000		po		2	true	0.000		
+po	Pharmaceutical	0.092659	-0.003834	-0.000000		po		2	true	0.000		
+po	Recipes	0.092659	-0.003834	-0.000000		po		2	true	0.000		
+po	Astronomical	0.092659	-0.003834	-0.000000		po		2	true	0.000		
+po	Biological	0.092659	-0.003834	-0.000000		po		2	true	0.000		
+po	Unassigned	0.092659	-0.003834	-0.000000		po		2	true	0.000		
+chol	Herbal	-0.112439	0.037776	0.000000	c	hol		3	false	-0.000	c	
+chol	Pharmaceutical	-0.112439	0.037776	0.000000	c	hol		3	false	-0.000	c	
+chol	Recipes	-0.112439	0.037776	0.000000	c	hol		3	false	-0.000	c	
+chol	Astronomical	-0.112439	0.037776	0.000000	c	hol		3	false	-0.000	c	
+chol	Biological	-0.150415	0.031815	-0.000000	c	hol		3	false	-0.000	c	
+chol	Unassigned	0.092659	-0.003834	-0.000000	c	hol		3	false	-0.000	c	
+ls	Herbal	0.000093	-0.001001	-0.000000		ls		2	false	0.000		
+ls	Pharmaceutical	0.092659	-0.003834	-0.000000		ls		2	false	0.000		
+ls	Recipes	0.095229	0.157383	0.000000		ls		2	false	0.000		
+ls	Astronomical	0.092659	-0.003834	-0.000000		ls		2	false	0.000		
+ls	Biological	0.000093	-0.001001	-0.000000		ls		2	false	0.000		
+ls	Unassigned	0.092659	-0.003834	-0.000000		ls		2	false	0.000		
+chot	Herbal	-0.223744	0.036826	-0.000000	c	ho	t	2	true	0.000	c	t
+chot	Pharmaceutical	-0.024373	0.031368	0.000000	c	ho	t	2	true	0.000	c	t
+chot	Recipes	-0.116884	-0.130324	-0.000000	c	ho	t	2	true	0.000	c	t
+chot	Astronomical	-0.024373	0.031368	0.000000	c	ho	t	2	true	0.000	c	t
+chot	Biological	-0.024373	0.031368	0.000000	c	ho	t	2	true	0.000	c	t
+chot	Unassigned	0.092659	-0.003834	-0.000000	c	ho	t	2	true	0.000	c	t
+lsh	Herbal	0.000093	-0.001001	-0.000000			lsh	3	false	-0.000		ls
+lsh	Pharmaceutical	-0.697198	-0.022996	0.000000			lsh	3	false	-0.000		ls
+lsh	Recipes	-0.836905	-0.042025	0.000000			lsh	3	false	-0.000		ls
+lsh	Astronomical	0.092659	-0.003834	-0.000000			lsh	3	false	-0.000		ls
+lsh	Biological	0.000093	-0.001001	-0.000000			lsh	3	false	-0.000		ls
+lsh	Unassigned	0.092659	-0.003834	-0.000000			lsh	3	false	-0.000		ls
+l	Herbal	0.092659	-0.003834	-0.000000		l		1	false	0.000		
+l	Pharmaceutical	0.092659	-0.003834	-0.000000		l		1	false	0.000		
+l	Recipes	0.092659	-0.003834	-0.000000		l		1	false	0.000		
+l	Astronomical	0.092659	-0.003834	-0.000000		l		1	false	0.000		
+l	Biological	0.092659	-0.003834	-0.000000		l		1	false	0.000		
+l	Unassigned	0.092659	-0.003834	-0.000000		l		1	false	0.000		
+cheo	Herbal	0.092659	-0.003834	-0.000000	c	heo		3	true	-0.000	c	
+cheo	Pharmaceutical	0.092659	-0.003834	-0.000000	c	heo		3	true	-0.000	c	
+cheo	Recipes	0.092659	-0.003834	-0.000000	c	heo		3	true	-0.000	c	
+cheo	Astronomical	0.092659	-0.003834	-0.000000	c	heo		3	true	-0.000	c	
+cheo	Biological	0.092659	-0.003834	-0.000000	c	heo		3	true	-0.000	c	
+cheo	Unassigned	0.092659	-0.003834	-0.000000	c	heo		3	true	-0.000	c	
+op	Herbal	0.092659	-0.003834	-0.000000	o	p		1	false	0.000	o	
+op	Pharmaceutical	-0.014203	0.163317	-0.000000	o	p		1	false	0.000	o	
+op	Recipes	0.171778	0.157971	0.000000	o	p		1	false	0.000	o	
+op	Astronomical	0.114164	0.155461	-0.000000	o	p		1	false	0.000	o	
+op	Biological	-0.014203	0.163317	-0.000000	o	p		1	false	0.000	o	
+op	Unassigned	0.092659	-0.003834	-0.000000	o	p		1	false	0.000	o	
+yka	Herbal	0.092659	-0.003834	-0.000000	yk	a		1	true	0.000	yk	
+yka	Pharmaceutical	0.092659	-0.003834	-0.000000	yk	a		1	true	0.000	yk	
+yka	Recipes	0.092659	-0.003834	-0.000000	yk	a		1	true	0.000	yk	
+yka	Astronomical	0.092659	-0.003834	-0.000000	yk	a		1	true	0.000	yk	
+yka	Biological	0.114110	0.161496	-0.000000	yk	a		1	true	0.000	yk	
+yka	Unassigned	0.092659	-0.003834	-0.000000	yk	a		1	true	0.000	yk	
+os	Herbal	0.092659	-0.003834	-0.000000	o	s		1	false	0.000	o	
+os	Pharmaceutical	0.092659	-0.003834	-0.000000	o	s		1	false	0.000	o	
+os	Recipes	0.092659	-0.003834	-0.000000	o	s		1	false	0.000	o	
+os	Astronomical	0.092659	-0.003834	-0.000000	o	s		1	false	0.000	o	
+os	Biological	0.092659	-0.003834	-0.000000	o	s		1	false	0.000	o	
+os	Unassigned	0.092659	-0.003834	-0.000000	o	s		1	false	0.000	o	
+ko	Herbal	0.092659	-0.003834	-0.000000	k	o		1	true	0.000	k	
+ko	Pharmaceutical	0.092659	-0.003834	-0.000000	k	o		1	true	0.000	k	
+ko	Recipes	0.092659	-0.003834	-0.000000	k	o		1	true	0.000	k	
+ko	Astronomical	0.092659	-0.003834	-0.000000	k	o		1	true	0.000	k	
+ko	Biological	0.092659	-0.003834	-0.000000	k	o		1	true	0.000	k	
+ko	Unassigned	0.092659	-0.003834	-0.000000	k	o		1	true	0.000	k	
+sheo	Herbal	-0.162496	-0.144876	-0.000000		sheo		4	true	1.000		
+sheo	Pharmaceutical	-0.305652	0.021511	0.000000		sheo		4	true	1.000		
+sheo	Recipes	-0.305652	0.021511	0.000000		sheo		4	true	1.000		
+sheo	Astronomical	-0.305652	0.021511	0.000000		sheo		4	true	1.000		
+sheo	Biological	-0.305652	0.021511	0.000000		sheo		4	true	1.000		
+sheo	Unassigned	0.092659	-0.003834	-0.000000		sheo		4	true	1.000		
+chek	Herbal	-0.210953	0.026891	-0.000000	c	he	k	2	true	0.000	c	k
+chek	Pharmaceutical	-0.210953	0.026891	-0.000000	c	he	k	2	true	0.000	c	k
+chek	Recipes	-0.210953	0.026891	-0.000000	c	he	k	2	true	0.000	c	k
+chek	Astronomical	-0.161834	0.021546	-0.000000	c	he	k	2	true	0.000	c	k
+chek	Biological	-0.210953	0.026891	-0.000000	c	he	k	2	true	0.000	c	k
+chek	Unassigned	-0.178079	0.019093	-0.000000	c	he	k	2	true	0.000	c	k
+otch	Herbal	0.695782	-0.035143	0.000000		o	tch	1	true	0.000		tc
+otch	Pharmaceutical	0.294052	-0.004649	0.000000		o	tch	1	true	0.000		tc
+otch	Recipes	0.695782	-0.035143	0.000000		o	tch	1	true	0.000		tc
+otch	Astronomical	0.695782	-0.035143	0.000000		o	tch	1	true	0.000		tc
+otch	Biological	0.695782	-0.035143	0.000000		o	tch	1	true	0.000		tc
+otch	Unassigned	0.092659	-0.003834	-0.000000		o	tch	1	true	0.000		tc
+ykch	Herbal	0.985171	-0.053419	0.000000	ykc	h		1	false	0.000	kc	
+ykch	Pharmaceutical	0.985171	-0.053419	0.000000	ykc	h		1	false	0.000	kc	
+ykch	Recipes	0.985171	-0.053419	0.000000	ykc	h		1	false	0.000	kc	
+ykch	Astronomical	0.516937	-0.021545	-0.000000	ykc	h		1	false	0.000	kc	
+ykch	Biological	0.483441	-0.022026	-0.000000	ykc	h		1	false	0.000	kc	
+ykch	Unassigned	0.092659	-0.003834	-0.000000	ykc	h		1	false	0.000	kc	
+ykc	Herbal	0.985171	-0.053419	0.000000	ykc			3	false	-0.000	kc	
+ykc	Pharmaceutical	0.985171	-0.053419	0.000000	ykc			3	false	-0.000	kc	
+ykc	Recipes	0.985171	-0.053419	0.000000	ykc			3	false	-0.000	kc	
+ykc	Astronomical	0.516937	-0.021545	-0.000000	ykc			3	false	-0.000	kc	
+ykc	Biological	0.483441	-0.022026	-0.000000	ykc			3	false	-0.000	kc	
+ykc	Unassigned	0.092659	-0.003834	-0.000000	ykc			3	false	-0.000	kc	
+ol	Herbal	0.092659	-0.003834	-0.000000	o	l		1	false	0.000	o	
+ol	Pharmaceutical	0.092659	-0.003834	-0.000000	o	l		1	false	0.000	o	
+ol	Recipes	0.092659	-0.003834	-0.000000	o	l		1	false	0.000	o	
+ol	Astronomical	0.092659	-0.003834	-0.000000	o	l		1	false	0.000	o	
+ol	Biological	0.092659	-0.003834	-0.000000	o	l		1	false	0.000	o	
+ol	Unassigned	0.092659	-0.003834	-0.000000	o	l		1	false	0.000	o	
+oto	Herbal	0.330989	-0.003302	0.000000	o	to		2	true	0.000	o	
+oto	Pharmaceutical	0.284148	-0.001448	0.000000	o	to		2	true	0.000	o	
+oto	Recipes	0.105514	0.004264	0.000000	o	to		2	true	0.000	o	
+oto	Astronomical	0.105514	0.004264	0.000000	o	to		2	true	0.000	o	
+oto	Biological	0.284148	-0.001448	0.000000	o	to		2	true	0.000	o	
+oto	Unassigned	0.092659	-0.003834	-0.000000	o	to		2	true	0.000	o	
+yche	Herbal	-0.877134	-0.049997	0.000000	ych	e		1	true	0.000	ch	
+yche	Pharmaceutical	-0.877134	-0.049997	0.000000	ych	e		1	true	0.000	ch	
+yche	Recipes	-0.877134	-0.049997	0.000000	ych	e		1	true	0.000	ch	
+yche	Astronomical	0.092659	-0.003834	-0.000000	ych	e		1	true	0.000	ch	
+yche	Biological	-0.737426	-0.030969	-0.000000	ych	e		1	true	0.000	ch	
+yche	Unassigned	-0.877134	-0.049997	0.000000	ych	e		1	true	0.000	ch	
+so	Herbal	0.092659	-0.003834	-0.000000		so		2	true	0.000		
+so	Pharmaceutical	0.092659	-0.003834	-0.000000		so		2	true	0.000		
+so	Recipes	0.092659	-0.003834	-0.000000		so		2	true	0.000		
+so	Astronomical	0.092659	-0.003834	-0.000000		so		2	true	0.000		
+so	Biological	0.092659	-0.003834	-0.000000		so		2	true	0.000		
+so	Unassigned	0.092659	-0.003834	-0.000000		so		2	true	0.000		
+dar	Herbal	0.092659	-0.003834	-0.000000	d	ar		2	false	0.000	d	
+dar	Pharmaceutical	0.092659	-0.003834	-0.000000	d	ar		2	false	0.000	d	
+dar	Recipes	0.196618	0.152480	-0.000000	d	ar		2	false	0.000	d	
+dar	Astronomical	0.092659	-0.003834	-0.000000	d	ar		2	false	0.000	d	
+dar	Biological	0.092659	-0.003834	-0.000000	d	ar		2	false	0.000	d	
+dar	Unassigned	0.092659	-0.003834	-0.000000	d	ar		2	false	0.000	d	
+ckh	Herbal	-0.909268	-0.033874	-0.000000	ckh			3	false	-0.000	kh	
+ckh	Pharmaceutical	-0.421648	0.025473	-0.000000	ckh			3	false	-0.000	kh	
+ckh	Recipes	-0.421648	0.025473	-0.000000	ckh			3	false	-0.000	kh	
+ckh	Astronomical	0.042686	-0.000830	0.000000	ckh			3	false	-0.000	kh	
+ckh	Biological	-0.274677	0.022643	-0.000000	ckh			3	false	-0.000	kh	
+ckh	Unassigned	-0.909268	-0.033874	-0.000000	ckh			3	false	-0.000	kh	
+och	Herbal	-0.506458	0.130904	0.000000		o	ch	1	true	0.000		ch
+och	Pharmaceutical	0.092659	-0.003834	-0.000000		o	ch	1	true	0.000		ch
+och	Recipes	0.030600	0.164043	-0.000000		o	ch	1	true	0.000		ch
+och	Astronomical	0.092659	-0.003834	-0.000000		o	ch	1	true	0.000		ch
+och	Biological	-0.506458	0.130904	0.000000		o	ch	1	true	0.000		ch
+och	Unassigned	0.092659	-0.003834	-0.000000		o	ch	1	true	0.000		ch
+e	Herbal	0.092659	-0.003834	-0.000000			e	1	true	0.000		e
+e	Pharmaceutical	0.092659	-0.003834	-0.000000			e	1	true	0.000		e
+e	Recipes	0.092659	-0.003834	-0.000000			e	1	true	0.000		e
+e	Astronomical	0.092659	-0.003834	-0.000000			e	1	true	0.000		e
+e	Biological	0.092659	-0.003834	-0.000000			e	1	true	0.000		e
+e	Unassigned	0.092659	-0.003834	-0.000000			e	1	true	0.000		e
+kee	Herbal	0.092659	-0.003834	-0.000000		k	ee	1	false	0.000		ee
+kee	Pharmaceutical	0.076161	0.157815	-0.000000		k	ee	1	false	0.000		ee
+kee	Recipes	-0.006855	0.163685	0.000000		k	ee	1	false	0.000		ee
+kee	Astronomical	0.092659	-0.003834	-0.000000		k	ee	1	false	0.000		ee
+kee	Biological	0.092659	-0.003834	-0.000000		k	ee	1	false	0.000		ee
+kee	Unassigned	0.092659	-0.003834	-0.000000		k	ee	1	false	0.000		ee
+olc	Herbal	0.860787	-0.051700	0.000000	olc			3	false	-0.000	lc	
+olc	Pharmaceutical	0.860787	-0.051700	0.000000	olc			3	false	-0.000	lc	
+olc	Recipes	0.860787	-0.051700	0.000000	olc			3	false	-0.000	lc	
+olc	Astronomical	0.572009	-0.033399	-0.000000	olc			3	false	-0.000	lc	
+olc	Biological	0.860787	-0.051700	0.000000	olc			3	false	-0.000	lc	
+olc	Unassigned	0.092659	-0.003834	-0.000000	olc			3	false	-0.000	lc	
+lo	Herbal	0.092659	-0.003834	-0.000000		lo		2	true	0.000		
+lo	Pharmaceutical	0.092659	-0.003834	-0.000000		lo		2	true	0.000		
+lo	Recipes	0.092659	-0.003834	-0.000000		lo		2	true	0.000		
+lo	Astronomical	0.092659	-0.003834	-0.000000		lo		2	true	0.000		
+lo	Biological	0.092659	-0.003834	-0.000000		lo		2	true	0.000		
+lo	Unassigned	0.092659	-0.003834	-0.000000		lo		2	true	0.000		
+al	Herbal	0.092659	-0.003834	-0.000000		al		2	false	0.000		
+al	Pharmaceutical	0.092659	-0.003834	-0.000000		al		2	false	0.000		
+al	Recipes	-0.011576	0.168392	0.000000		al		2	false	0.000		
+al	Astronomical	-0.011576	0.168392	0.000000		al		2	false	0.000		
+al	Biological	0.092659	-0.003834	-0.000000		al		2	false	0.000		
+al	Unassigned	0.092659	-0.003834	-0.000000		al		2	false	0.000		
+oe	Herbal	0.092659	-0.003834	-0.000000	o	e		1	true	0.000	o	
+oe	Pharmaceutical	0.092659	-0.003834	-0.000000	o	e		1	true	0.000	o	
+oe	Recipes	0.092659	-0.003834	-0.000000	o	e		1	true	0.000	o	
+oe	Astronomical	0.092659	-0.003834	-0.000000	o	e		1	true	0.000	o	
+oe	Biological	0.092659	-0.003834	-0.000000	o	e		1	true	0.000	o	
+oe	Unassigned	0.092659	-0.003834	-0.000000	o	e		1	true	0.000	o	
+fch	Herbal	-0.710802	-0.021905	0.000000		f	ch	1	false	0.000		ch
+fch	Pharmaceutical	-0.850511	-0.040933	0.000000		f	ch	1	false	0.000		ch
+fch	Recipes	-0.710802	-0.021905	0.000000		f	ch	1	false	0.000		ch
+fch	Astronomical	0.092659	-0.003834	-0.000000		f	ch	1	false	0.000		ch
+fch	Biological	-0.710802	-0.021905	0.000000		f	ch	1	false	0.000		ch
+fch	Unassigned	0.092659	-0.003834	-0.000000		f	ch	1	false	0.000		ch
+shk	Herbal	0.092659	-0.003834	-0.000000		sh	k	2	false	0.000		k
+shk	Pharmaceutical	0.092659	-0.003834	-0.000000		sh	k	2	false	0.000		k
+shk	Recipes	0.092659	-0.003834	-0.000000		sh	k	2	false	0.000		k
+shk	Astronomical	0.092659	-0.003834	-0.000000		sh	k	2	false	0.000		k
+shk	Biological	0.092659	-0.003834	-0.000000		sh	k	2	false	0.000		k
+shk	Unassigned	0.092659	-0.003834	-0.000000		sh	k	2	false	0.000		k
+chok	Herbal	-0.180601	0.038381	-0.000000	c	ho	k	2	true	0.000	c	k
+chok	Pharmaceutical	-0.192758	0.035249	-0.000000	c	ho	k	2	true	0.000	c	k
+chok	Recipes	-0.225634	0.043047	-0.000000	c	ho	k	2	true	0.000	c	k
+chok	Astronomical	-0.180601	0.038381	-0.000000	c	ho	k	2	true	0.000	c	k
+chok	Biological	-0.225634	0.043047	-0.000000	c	ho	k	2	true	0.000	c	k
+chok	Unassigned	0.092659	-0.003834	-0.000000	c	ho	k	2	true	0.000	c	k
+okal	Herbal	0.097103	0.164266	-0.000000	ok	al		2	false	0.000	ok	
+okal	Pharmaceutical	0.092659	-0.003834	-0.000000	ok	al		2	false	0.000	ok	
+okal	Recipes	-0.014203	0.163317	-0.000000	ok	al		2	false	0.000	ok	
+okal	Astronomical	0.097103	0.164266	-0.000000	ok	al		2	false	0.000	ok	
+okal	Biological	0.097103	0.164266	-0.000000	ok	al		2	false	0.000	ok	
+okal	Unassigned	0.092659	-0.003834	-0.000000	ok	al		2	false	0.000	ok	
+opch	Herbal	0.383144	-0.014955	0.000000		o	pch	1	true	0.000		pc
+opch	Pharmaceutical	0.791235	-0.030439	0.000000		o	pch	1	true	0.000		pc
+opch	Recipes	0.791235	-0.030439	0.000000		o	pch	1	true	0.000		pc
+opch	Astronomical	0.693240	-0.025326	0.000000		o	pch	1	true	0.000		pc
+opch	Biological	0.791235	-0.030439	0.000000		o	pch	1	true	0.000		pc
+opch	Unassigned	0.092659	-0.003834	-0.000000		o	pch	1	true	0.000		pc
+oted	Herbal	0.092659	-0.003834	-0.000000	o	ted		3	false	-0.000	o	
+oted	Pharmaceutical	0.092659	-0.003834	-0.000000	o	ted		3	false	-0.000	o	
+oted	Recipes	-0.310718	0.019791	-0.000000	o	ted		3	false	-0.000	o	
+oted	Astronomical	-0.427658	0.028341	0.000000	o	ted		3	false	-0.000	o	
+oted	Biological	-0.427658	0.028341	0.000000	o	ted		3	false	-0.000	o	
+oted	Unassigned	0.092659	-0.003834	-0.000000	o	ted		3	false	-0.000	o	
+qopch	Herbal	1.053143	-0.061856	-0.000000	qop	ch		2	false	0.000	op	
+qopch	Pharmaceutical	1.053143	-0.061856	-0.000000	qop	ch		2	false	0.000	op	
+qopch	Recipes	1.053143	-0.061856	-0.000000	qop	ch		2	false	0.000	op	
+qopch	Astronomical	0.955147	-0.056744	-0.000000	qop	ch		2	false	0.000	op	
+qopch	Biological	1.053143	-0.061856	-0.000000	qop	ch		2	false	0.000	op	
+qopch	Unassigned	0.092659	-0.003834	-0.000000	qop	ch		2	false	0.000	op	
+otal	Herbal	0.097103	0.164266	-0.000000	o	tal		3	false	-0.000	o	
+otal	Pharmaceutical	0.097103	0.164266	-0.000000	o	tal		3	false	-0.000	o	
+otal	Recipes	0.092659	-0.003834	-0.000000	o	tal		3	false	-0.000	o	
+otal	Astronomical	0.092659	-0.003834	-0.000000	o	tal		3	false	-0.000	o	
+otal	Biological	0.097103	0.164266	-0.000000	o	tal		3	false	-0.000	o	
+otal	Unassigned	0.092659	-0.003834	-0.000000	o	tal		3	false	-0.000	o	
+ksh	Herbal	0.092659	-0.003834	-0.000000	k	s	h	1	false	0.000	k	h
+ksh	Pharmaceutical	0.190831	0.152898	-0.000000	k	s	h	1	false	0.000	k	h
+ksh	Recipes	0.190831	0.152898	-0.000000	k	s	h	1	false	0.000	k	h
+ksh	Astronomical	0.092659	-0.003834	-0.000000	k	s	h	1	false	0.000	k	h
+ksh	Biological	0.092659	-0.003834	-0.000000	k	s	h	1	false	0.000	k	h
+ksh	Unassigned	0.092659	-0.003834	-0.000000	k	s	h	1	false	0.000	k	h
+ks	Herbal	0.092659	-0.003834	-0.000000	k	s		1	false	0.000	k	
+ks	Pharmaceutical	0.092659	-0.003834	-0.000000	k	s		1	false	0.000	k	
+ks	Recipes	0.092659	-0.003834	-0.000000	k	s		1	false	0.000	k	
+ks	Astronomical	0.092659	-0.003834	-0.000000	k	s		1	false	0.000	k	
+ks	Biological	0.092659	-0.003834	-0.000000	k	s		1	false	0.000	k	
+ks	Unassigned	0.092659	-0.003834	-0.000000	k	s		1	false	0.000	k	
+do	Herbal	0.092659	-0.003834	-0.000000	d	o		1	true	0.000	d	
+do	Pharmaceutical	0.092659	-0.003834	-0.000000	d	o		1	true	0.000	d	
+do	Recipes	0.092659	-0.003834	-0.000000	d	o		1	true	0.000	d	
+do	Astronomical	0.092659	-0.003834	-0.000000	d	o		1	true	0.000	d	
+do	Biological	0.092659	-0.003834	-0.000000	d	o		1	true	0.000	d	
+do	Unassigned	0.092659	-0.003834	-0.000000	d	o		1	true	0.000	d	
+opche	Herbal	-0.407784	-0.021041	0.000000	o	p	che	1	false	0.000	o	ch
+opche	Pharmaceutical	0.129273	0.012099	0.000000	o	p	che	1	false	0.000	o	ch
+opche	Recipes	0.351910	-0.020004	-0.000000	o	p	che	1	false	0.000	o	ch
+opche	Astronomical	0.092659	-0.003834	-0.000000	o	p	che	1	false	0.000	o	ch
+opche	Biological	-0.547493	-0.040069	0.000000	o	p	che	1	false	0.000	o	ch
+opche	Unassigned	-0.547493	-0.040069	0.000000	o	p	che	1	false	0.000	o	ch
+dch	Herbal	-0.747996	-0.040619	0.000000	dch			3	false	-0.000	ch	
+dch	Pharmaceutical	-0.747996	-0.040619	0.000000	dch			3	false	-0.000	ch	
+dch	Recipes	0.089002	0.000404	-0.000000	dch			3	false	-0.000	ch	
+dch	Astronomical	0.122498	0.000884	-0.000000	dch			3	false	-0.000	ch	
+dch	Biological	-0.747996	-0.040619	0.000000	dch			3	false	-0.000	ch	
+dch	Unassigned	-0.025668	0.005321	-0.000000	dch			3	false	-0.000	ch	
+ar	Herbal	0.092659	-0.003834	-0.000000		ar		2	false	0.000		
+ar	Pharmaceutical	0.092659	-0.003834	-0.000000		ar		2	false	0.000		
+ar	Recipes	0.092659	-0.003834	-0.000000		ar		2	false	0.000		
+ar	Astronomical	0.092659	-0.003834	-0.000000		ar		2	false	0.000		
+ar	Biological	0.092659	-0.003834	-0.000000		ar		2	false	0.000		
+ar	Unassigned	0.092659	-0.003834	-0.000000		ar		2	false	0.000		
+r	Herbal	0.092659	-0.003834	-0.000000		r		1	false	0.000		
+r	Pharmaceutical	0.092659	-0.003834	-0.000000		r		1	false	0.000		
+r	Recipes	0.092659	-0.003834	-0.000000		r		1	false	0.000		
+r	Astronomical	0.092659	-0.003834	-0.000000		r		1	false	0.000		
+r	Biological	0.092659	-0.003834	-0.000000		r		1	false	0.000		
+r	Unassigned	0.092659	-0.003834	-0.000000		r		1	false	0.000		
+fc	Herbal	-0.097874	0.004573	-0.000000		f	c	1	false	0.000		c
+fc	Pharmaceutical	0.092659	-0.003834	-0.000000		f	c	1	false	0.000		c
+fc	Recipes	0.092659	-0.003834	-0.000000		f	c	1	false	0.000		c
+fc	Astronomical	0.092659	-0.003834	-0.000000		f	c	1	false	0.000		c
+fc	Biological	-0.007726	-0.000329	-0.000000		f	c	1	false	0.000		c
+fc	Unassigned	0.092659	-0.003834	-0.000000		f	c	1	false	0.000		c
+oee	Herbal	0.092659	-0.003834	-0.000000		o	ee	1	true	0.000		ee
+oee	Pharmaceutical	0.092659	-0.003834	-0.000000		o	ee	1	true	0.000		ee
+oee	Recipes	0.224326	0.153379	-0.000000		o	ee	1	true	0.000		ee
+oee	Astronomical	0.092659	-0.003834	-0.000000		o	ee	1	true	0.000		ee
+oee	Biological	0.092659	-0.003834	-0.000000		o	ee	1	true	0.000		ee
+oee	Unassigned	0.092659	-0.003834	-0.000000		o	ee	1	true	0.000		ee
+sha	Herbal	0.196618	0.152480	-0.000000		sha		3	true	-0.000		
+sha	Pharmaceutical	0.092659	-0.003834	-0.000000		sha		3	true	-0.000		
+sha	Recipes	0.092659	-0.003834	-0.000000		sha		3	true	-0.000		
+sha	Astronomical	0.092659	-0.003834	-0.000000		sha		3	true	-0.000		
+sha	Biological	0.092659	-0.003834	-0.000000		sha		3	true	-0.000		
+sha	Unassigned	0.092659	-0.003834	-0.000000		sha		3	true	-0.000		
+pch	Herbal	-0.380953	0.033860	-0.000000			pch	3	false	-0.000		pc
+pch	Pharmaceutical	-0.299858	0.035351	-0.000000			pch	3	false	-0.000		pc
+pch	Recipes	-0.299858	0.035351	-0.000000			pch	3	false	-0.000		pc
+pch	Astronomical	0.092659	-0.003834	-0.000000			pch	3	false	-0.000		pc
+pch	Biological	-0.045986	0.008297	-0.000000			pch	3	false	-0.000		pc
+pch	Unassigned	-0.976624	-0.016818	-0.000000			pch	3	false	-0.000		pc
+otche	Herbal	-0.544950	-0.049886	0.000000	o	t	che	1	false	0.000	o	ch
+otche	Pharmaceutical	0.092659	-0.003834	-0.000000	o	t	che	1	false	0.000	o	ch
+otche	Recipes	0.354451	-0.029820	0.000000	o	t	che	1	false	0.000	o	ch
+otche	Astronomical	0.092659	-0.003834	-0.000000	o	t	che	1	false	0.000	o	ch
+otche	Biological	0.092659	-0.003834	-0.000000	o	t	che	1	false	0.000	o	ch
+otche	Unassigned	0.092659	-0.003834	-0.000000	o	t	che	1	false	0.000	o	ch
+kch	Herbal	-0.220695	0.007100	-0.000000	kch			3	false	-0.000	ch	
+kch	Pharmaceutical	-0.220695	0.007100	-0.000000	kch			3	false	-0.000	ch	
+kch	Recipes	-0.816365	-0.043578	-0.000000	kch			3	false	-0.000	ch	
+kch	Astronomical	0.092659	-0.003834	-0.000000	kch			3	false	-0.000	ch	
+kch	Biological	-0.220695	0.007100	-0.000000	kch			3	false	-0.000	ch	
+kch	Unassigned	-0.220695	0.007100	-0.000000	kch			3	false	-0.000	ch	
+dc	Herbal	0.092659	-0.003834	-0.000000	dc			2	false	0.000	dc	
+dc	Pharmaceutical	0.092659	-0.003834	-0.000000	dc			2	false	0.000	dc	
+dc	Recipes	0.089002	0.000404	-0.000000	dc			2	false	0.000	dc	
+dc	Astronomical	0.122498	0.000884	-0.000000	dc			2	false	0.000	dc	
+dc	Biological	0.092659	-0.003834	-0.000000	dc			2	false	0.000	dc	
+dc	Unassigned	0.092659	-0.003834	-0.000000	dc			2	false	0.000	dc	
+shek	Herbal	-0.901321	-0.029166	0.000000		she	k	3	true	-0.000		k
+shek	Pharmaceutical	-0.266731	0.027351	-0.000000		she	k	3	true	-0.000		k
+shek	Recipes	-0.266731	0.027351	-0.000000		she	k	3	true	-0.000		k
+shek	Astronomical	-0.279515	0.021647	-0.000000		she	k	3	true	-0.000		k
+shek	Biological	-0.901321	-0.029166	0.000000		she	k	3	true	-0.000		k
+shek	Unassigned	0.092659	-0.003834	-0.000000		she	k	3	true	-0.000		k
+cht	Herbal	-0.014203	0.163317	-0.000000	c	h	t	1	false	0.000	c	t
+cht	Pharmaceutical	0.059127	0.158304	0.000000	c	h	t	1	false	0.000	c	t
+cht	Recipes	0.059127	0.158304	0.000000	c	h	t	1	false	0.000	c	t
+cht	Astronomical	0.076161	0.157815	-0.000000	c	h	t	1	false	0.000	c	t
+cht	Biological	0.059127	0.158304	0.000000	c	h	t	1	false	0.000	c	t
+cht	Unassigned	0.092659	-0.003834	-0.000000	c	h	t	1	false	0.000	c	t
+dai	Herbal	0.298917	-0.008710	0.000000	d	ai		2	true	0.000	d	
+dai	Pharmaceutical	0.214541	-0.172615	-0.000000	d	ai		2	true	0.000	d	
+dai	Recipes	0.298917	-0.008710	0.000000	d	ai		2	true	0.000	d	
+dai	Astronomical	0.298917	-0.008710	0.000000	d	ai		2	true	0.000	d	
+dai	Biological	0.214541	-0.172615	-0.000000	d	ai		2	true	0.000	d	
+dai	Unassigned	0.092659	-0.003834	-0.000000	d	ai		2	true	0.000	d	
+or	Herbal	0.092659	-0.003834	-0.000000	o	r		1	false	0.000	o	
+or	Pharmaceutical	0.092659	-0.003834	-0.000000	o	r		1	false	0.000	o	
+or	Recipes	0.092659	-0.003834	-0.000000	o	r		1	false	0.000	o	
+or	Astronomical	0.092659	-0.003834	-0.000000	o	r		1	false	0.000	o	
+or	Biological	0.092659	-0.003834	-0.000000	o	r		1	false	0.000	o	
+or	Unassigned	0.092659	-0.003834	-0.000000	o	r		1	false	0.000	o	
+qoe	Herbal	-0.876232	-0.042920	-0.000000	qoe			3	true	-0.000	oe	
+qoe	Pharmaceutical	-0.134837	0.002587	0.000000	qoe			3	true	-0.000	oe	
+qoe	Recipes	-0.736524	-0.023892	-0.000000	qoe			3	true	-0.000	oe	
+qoe	Astronomical	0.092659	-0.003834	-0.000000	qoe			3	true	-0.000	oe	
+qoe	Biological	-0.736524	-0.023892	-0.000000	qoe			3	true	-0.000	oe	
+qoe	Unassigned	0.092659	-0.003834	-0.000000	qoe			3	true	-0.000	oe	
+tch	Herbal	-0.614937	-0.040701	-0.000000			tch	3	false	-0.000		tc
+tch	Pharmaceutical	0.107389	0.005240	0.000000			tch	3	false	-0.000		tc
+tch	Recipes	0.284464	-0.020635	0.000000			tch	3	false	-0.000		tc
+tch	Astronomical	0.145393	0.002885	0.000000			tch	3	false	-0.000		tc
+tch	Biological	0.255555	0.000804	0.000000			tch	3	false	-0.000		tc
+tch	Unassigned	0.107389	0.005240	0.000000			tch	3	false	-0.000		tc
+olk	Herbal	-0.734493	-0.029061	-0.000000	o	l	k	1	false	0.000	o	k
+olk	Pharmaceutical	-0.874201	-0.048090	0.000000	o	l	k	1	false	0.000	o	k
+olk	Recipes	-0.734493	-0.029061	-0.000000	o	l	k	1	false	0.000	o	k
+olk	Astronomical	-0.135376	-0.163799	-0.000000	o	l	k	1	false	0.000	o	k
+olk	Biological	-0.734493	-0.029061	-0.000000	o	l	k	1	false	0.000	o	k
+olk	Unassigned	0.092659	-0.003834	-0.000000	o	l	k	1	false	0.000	o	k
+ys	Herbal	0.019371	-0.004376	0.000000	y	s		1	false	0.000	y	
+ys	Pharmaceutical	0.092659	-0.003834	-0.000000	y	s		1	false	0.000	y	
+ys	Recipes	0.092659	-0.003834	-0.000000	y	s		1	false	0.000	y	
+ys	Astronomical	0.092659	-0.003834	-0.000000	y	s		1	false	0.000	y	
+ys	Biological	0.092659	-0.003834	-0.000000	y	s		1	false	0.000	y	
+ys	Unassigned	0.092659	-0.003834	-0.000000	y	s		1	false	0.000	y	
+qote	Herbal	-0.313685	-0.019197	-0.000000		qot	e	3	false	-0.000		e
+qote	Pharmaceutical	0.446009	-0.018161	0.000000		qot	e	3	false	-0.000		e
+qote	Recipes	-0.313685	-0.019197	-0.000000		qot	e	3	false	-0.000		e
+qote	Astronomical	-0.313685	-0.019197	-0.000000		qot	e	3	false	-0.000		e
+qote	Biological	-0.313685	-0.019197	-0.000000		qot	e	3	false	-0.000		e
+qote	Unassigned	0.092659	-0.003834	-0.000000		qot	e	3	false	-0.000		e
+oks	Herbal	0.284471	0.136990	0.000000	ok	s		1	false	0.000	ok	
+oks	Pharmaceutical	0.092659	-0.003834	-0.000000	ok	s		1	false	0.000	ok	
+oks	Recipes	0.692562	0.121506	-0.000000	ok	s		1	false	0.000	ok	
+oks	Astronomical	-0.506458	0.130904	0.000000	ok	s		1	false	0.000	ok	
+oks	Biological	0.092659	-0.003834	-0.000000	ok	s		1	false	0.000	ok	
+oks	Unassigned	0.092659	-0.003834	-0.000000	ok	s		1	false	0.000	ok	
+ysh	Herbal	-0.702955	-0.050317	0.000000	y	s	h	1	false	0.000	y	h
+ysh	Pharmaceutical	0.196447	-0.030251	-0.000000	y	s	h	1	false	0.000	y	h
+ysh	Recipes	-0.702955	-0.050317	0.000000	y	s	h	1	false	0.000	y	h
+ysh	Astronomical	0.092659	-0.003834	-0.000000	y	s	h	1	false	0.000	y	h
+ysh	Biological	-0.702955	-0.050317	0.000000	y	s	h	1	false	0.000	y	h
+ysh	Unassigned	0.092659	-0.003834	-0.000000	y	s	h	1	false	0.000	y	h
+cho	Herbal	-0.333338	0.045744	0.000000	c	ho		2	true	0.000	c	
+cho	Pharmaceutical	-0.333338	0.045744	0.000000	c	ho		2	true	0.000	c	
+cho	Recipes	-0.333338	0.045744	0.000000	c	ho		2	true	0.000	c	
+cho	Astronomical	0.092659	-0.003834	-0.000000	c	ho		2	true	0.000	c	
+cho	Biological	0.092659	-0.003834	-0.000000	c	ho		2	true	0.000	c	
+cho	Unassigned	0.092659	-0.003834	-0.000000	c	ho		2	true	0.000	c	
+lk	Herbal	0.253235	0.131940	0.000000		l	k	1	false	0.000		k
+lk	Pharmaceutical	0.253235	0.131940	0.000000		l	k	1	false	0.000		k
+lk	Recipes	0.196618	0.152480	-0.000000		l	k	1	false	0.000		k
+lk	Astronomical	0.092659	-0.003834	-0.000000		l	k	1	false	0.000		k
+lk	Biological	0.092659	-0.003834	-0.000000		l	k	1	false	0.000		k
+lk	Unassigned	0.092659	-0.003834	-0.000000		l	k	1	false	0.000		k
+oko	Herbal	0.376797	-0.006245	-0.000000	ok	o		1	true	0.000	ok	
+oko	Pharmaceutical	0.376797	-0.006245	-0.000000	ok	o		1	true	0.000	ok	
+oko	Recipes	0.343347	-0.004504	0.000000	ok	o		1	true	0.000	ok	
+oko	Astronomical	0.376797	-0.006245	-0.000000	ok	o		1	true	0.000	ok	
+oko	Biological	0.329956	-0.004391	-0.000000	ok	o		1	true	0.000	ok	
+oko	Unassigned	0.092659	-0.003834	-0.000000	ok	o		1	true	0.000	ok	
+tc	Herbal	0.315699	-0.015586	-0.000000		t	c	1	false	0.000		c
+tc	Pharmaceutical	0.107389	0.005240	0.000000		t	c	1	false	0.000		c
+tc	Recipes	0.284464	-0.020635	0.000000		t	c	1	false	0.000		c
+tc	Astronomical	0.092659	-0.003834	-0.000000		t	c	1	false	0.000		c
+tc	Biological	0.255555	0.000804	0.000000		t	c	1	false	0.000		c
+tc	Unassigned	0.107389	0.005240	0.000000		t	c	1	false	0.000		c
+yta	Herbal	0.092659	-0.003834	-0.000000	yt	a		1	true	0.000	yt	
+yta	Pharmaceutical	0.092659	-0.003834	-0.000000	yt	a		1	true	0.000	yt	
+yta	Recipes	0.092659	-0.003834	-0.000000	yt	a		1	true	0.000	yt	
+yta	Astronomical	0.171778	0.157971	0.000000	yt	a		1	true	0.000	yt	
+yta	Biological	0.092659	-0.003834	-0.000000	yt	a		1	true	0.000	yt	
+yta	Unassigned	0.092659	-0.003834	-0.000000	yt	a		1	true	0.000	yt	
+qockh	Herbal	0.851773	-0.036071	0.000000		qock	h	4	false	1.000		h
+qockh	Pharmaceutical	0.450043	-0.005577	0.000000		qock	h	4	false	1.000		h
+qockh	Recipes	0.481534	-0.009310	-0.000000		qock	h	4	false	1.000		h
+qockh	Astronomical	0.092659	-0.003834	-0.000000		qock	h	4	false	1.000		h
+qockh	Biological	0.450043	-0.005577	0.000000		qock	h	4	false	1.000		h
+qockh	Unassigned	0.333367	-0.004874	-0.000000		qock	h	4	false	1.000		h
+olch	Herbal	0.860787	-0.051700	0.000000	olc	h		1	false	0.000	lc	
+olch	Pharmaceutical	0.860787	-0.051700	0.000000	olc	h		1	false	0.000	lc	
+olch	Recipes	0.860787	-0.051700	0.000000	olc	h		1	false	0.000	lc	
+olch	Astronomical	0.092659	-0.003834	-0.000000	olc	h		1	false	0.000	lc	
+olch	Biological	0.860787	-0.051700	0.000000	olc	h		1	false	0.000	lc	
+olch	Unassigned	0.092659	-0.003834	-0.000000	olc	h		1	false	0.000	lc	
+qot	Herbal	-0.313685	-0.019197	-0.000000		qo	t	2	true	0.000		t
+qot	Pharmaceutical	0.142278	0.012451	-0.000000		qo	t	2	true	0.000		t
+qot	Recipes	-0.313685	-0.019197	-0.000000		qo	t	2	true	0.000		t
+qot	Astronomical	0.389391	0.002378	0.000000		qo	t	2	true	0.000		t
+qot	Biological	-0.313685	-0.019197	-0.000000		qo	t	2	true	0.000		t
+qot	Unassigned	0.092659	-0.003834	-0.000000		qo	t	2	true	0.000		t
+ytche	Herbal	-0.556888	-0.051697	-0.000000	ytc	he		2	true	0.000	tc	
+ytche	Pharmaceutical	0.092659	-0.003834	-0.000000	ytc	he		2	true	0.000	tc	
+ytche	Recipes	-0.417180	-0.032669	0.000000	ytc	he		2	true	0.000	tc	
+ytche	Astronomical	0.092659	-0.003834	-0.000000	ytc	he		2	true	0.000	tc	
+ytche	Biological	0.092659	-0.003834	-0.000000	ytc	he		2	true	0.000	tc	
+ytche	Unassigned	0.092659	-0.003834	-0.000000	ytc	he		2	true	0.000	tc	
+cph	Herbal	-0.050495	0.162552	-0.000000	c	p	h	1	false	0.000	c	h
+cph	Pharmaceutical	-0.506458	0.130904	0.000000	c	p	h	1	false	0.000	c	h
+cph	Recipes	-0.506458	0.130904	0.000000	c	p	h	1	false	0.000	c	h
+cph	Astronomical	0.092659	-0.003834	-0.000000	c	p	h	1	false	0.000	c	h
+cph	Biological	-0.506458	0.130904	0.000000	c	p	h	1	false	0.000	c	h
+cph	Unassigned	0.092659	-0.003834	-0.000000	c	p	h	1	false	0.000	c	h
+chcth	Herbal	1.079601	-0.047103	-0.000000	chc	t	h	1	false	0.000	hc	h
+chcth	Pharmaceutical	0.583657	-0.016128	-0.000000	chc	t	h	1	false	0.000	hc	h
+chcth	Recipes	1.079601	-0.047103	-0.000000	chc	t	h	1	false	0.000	hc	h
+chcth	Astronomical	0.692827	-0.023689	-0.000000	chc	t	h	1	false	0.000	hc	h
+chcth	Biological	1.079601	-0.047103	-0.000000	chc	t	h	1	false	0.000	hc	h
+chcth	Unassigned	0.092659	-0.003834	-0.000000	chc	t	h	1	false	0.000	hc	h
+chct	Herbal	0.572207	-0.010750	-0.000000	chc	t		1	false	0.000	hc	
+chct	Pharmaceutical	0.742323	-0.012740	-0.000000	chc	t		1	false	0.000	hc	
+chct	Recipes	0.742323	-0.012740	-0.000000	chc	t		1	false	0.000	hc	
+chct	Astronomical	0.742323	-0.012740	-0.000000	chc	t		1	false	0.000	hc	
+chct	Biological	0.742323	-0.012740	-0.000000	chc	t		1	false	0.000	hc	
+chct	Unassigned	0.092659	-0.003834	-0.000000	chc	t		1	false	0.000	hc	
+yke	Herbal	-0.612194	-0.029414	-0.000000	yk	e		1	true	0.000	yk	
+yke	Pharmaceutical	-0.156233	0.002235	-0.000000	yk	e		1	true	0.000	yk	
+yke	Recipes	-0.612194	-0.029414	-0.000000	yk	e		1	true	0.000	yk	
+yke	Astronomical	-0.156233	0.002235	-0.000000	yk	e		1	true	0.000	yk	
+yke	Biological	-0.612194	-0.029414	-0.000000	yk	e		1	true	0.000	yk	
+yke	Unassigned	0.092659	-0.003834	-0.000000	yk	e		1	true	0.000	yk	
+olche	Herbal	0.092659	-0.003834	-0.000000	olc	he		2	true	0.000	lc	
+olche	Pharmaceutical	0.092659	-0.003834	-0.000000	olc	he		2	true	0.000	lc	
+olche	Recipes	0.092659	-0.003834	-0.000000	olc	he		2	true	0.000	lc	
+olche	Astronomical	0.092659	-0.003834	-0.000000	olc	he		2	true	0.000	lc	
+olche	Biological	0.092659	-0.003834	-0.000000	olc	he		2	true	0.000	lc	
+olche	Unassigned	0.092659	-0.003834	-0.000000	olc	he		2	true	0.000	lc	
+qotee	Herbal	-0.313685	-0.019197	-0.000000		qot	ee	3	false	-0.000		ee
+qotee	Pharmaceutical	0.299244	0.007280	0.000000		qot	ee	3	false	-0.000		ee
+qotee	Recipes	-0.313685	-0.019197	-0.000000		qot	ee	3	false	-0.000		ee
+qotee	Astronomical	-0.313685	-0.019197	-0.000000		qot	ee	3	false	-0.000		ee
+qotee	Biological	-0.313685	-0.019197	-0.000000		qot	ee	3	false	-0.000		ee
+qotee	Unassigned	0.092659	-0.003834	-0.000000		qot	ee	3	false	-0.000		ee
+yshe	Herbal	-0.702955	-0.050317	0.000000	y	s	he	1	false	0.000	y	he
+yshe	Pharmaceutical	0.196447	-0.030251	-0.000000	y	s	he	1	false	0.000	y	he
+yshe	Recipes	-0.702955	-0.050317	0.000000	y	s	he	1	false	0.000	y	he
+yshe	Astronomical	0.092659	-0.003834	-0.000000	y	s	he	1	false	0.000	y	he
+yshe	Biological	-0.702955	-0.050317	0.000000	y	s	he	1	false	0.000	y	he
+yshe	Unassigned	0.092659	-0.003834	-0.000000	y	s	he	1	false	0.000	y	he
+ykee	Herbal	-0.612194	-0.029414	-0.000000	yk	ee		2	true	0.000	yk	
+ykee	Pharmaceutical	-0.612194	-0.029414	-0.000000	yk	ee		2	true	0.000	yk	
+ykee	Recipes	-0.612194	-0.029414	-0.000000	yk	ee		2	true	0.000	yk	
+ykee	Astronomical	-0.612194	-0.029414	-0.000000	yk	ee		2	true	0.000	yk	
+ykee	Biological	-0.612194	-0.029414	-0.000000	yk	ee		2	true	0.000	yk	
+ykee	Unassigned	-0.075136	0.003726	-0.000000	yk	ee		2	true	0.000	yk	
+ra	Herbal	0.092659	-0.003834	-0.000000		ra		2	true	0.000		
+ra	Pharmaceutical	0.092659	-0.003834	-0.000000		ra		2	true	0.000		
+ra	Recipes	0.092659	-0.003834	-0.000000		ra		2	true	0.000		
+ra	Astronomical	0.092659	-0.003834	-0.000000		ra		2	true	0.000		
+ra	Biological	0.092659	-0.003834	-0.000000		ra		2	true	0.000		
+ra	Unassigned	0.092659	-0.003834	-0.000000		ra		2	true	0.000		
+fche	Herbal	-0.710802	-0.021905	0.000000		f	che	1	false	0.000		ch
+fche	Pharmaceutical	-0.850511	-0.040933	0.000000		f	che	1	false	0.000		ch
+fche	Recipes	-0.710802	-0.021905	0.000000		f	che	1	false	0.000		ch
+fche	Astronomical	0.092659	-0.003834	-0.000000		f	che	1	false	0.000		ch
+fche	Biological	-0.710802	-0.021905	0.000000		f	che	1	false	0.000		ch
+fche	Unassigned	0.092659	-0.003834	-0.000000		f	che	1	false	0.000		ch
+qokee	Herbal	-0.238630	-0.149559	0.000000	qok	ee		2	true	0.000	ok	
+qokee	Pharmaceutical	-0.489835	0.025498	0.000000	qok	ee		2	true	0.000	ok	
+qokee	Recipes	-0.837747	-0.014821	0.000000	qok	ee		2	true	0.000	ok	
+qokee	Astronomical	-0.489835	0.025498	0.000000	qok	ee		2	true	0.000	ok	
+qokee	Biological	-0.837747	-0.014821	0.000000	qok	ee		2	true	0.000	ok	
+qokee	Unassigned	0.092659	-0.003834	-0.000000	qok	ee		2	true	0.000	ok	
+t	Herbal	0.092659	-0.003834	-0.000000			t	1	false	0.000		t
+t	Pharmaceutical	0.092659	-0.003834	-0.000000			t	1	false	0.000		t
+t	Recipes	0.092659	-0.003834	-0.000000			t	1	false	0.000		t
+t	Astronomical	0.092659	-0.003834	-0.000000			t	1	false	0.000		t
+t	Biological	0.092659	-0.003834	-0.000000			t	1	false	0.000		t
+t	Unassigned	0.092659	-0.003834	-0.000000			t	1	false	0.000		t
+ee	Herbal	0.092659	-0.003834	-0.000000			ee	2	true	0.000		ee
+ee	Pharmaceutical	0.092659	-0.003834	-0.000000			ee	2	true	0.000		ee
+ee	Recipes	0.092659	-0.003834	-0.000000			ee	2	true	0.000		ee
+ee	Astronomical	0.092659	-0.003834	-0.000000			ee	2	true	0.000		ee
+ee	Biological	0.092659	-0.003834	-0.000000			ee	2	true	0.000		ee
+ee	Unassigned	0.092659	-0.003834	-0.000000			ee	2	true	0.000		ee
+qoee	Herbal	-0.876232	-0.042920	-0.000000	qoe	e		1	true	0.000	oe	
+qoee	Pharmaceutical	-0.876232	-0.042920	-0.000000	qoe	e		1	true	0.000	oe	
+qoee	Recipes	-0.736524	-0.023892	-0.000000	qoe	e		1	true	0.000	oe	
+qoee	Astronomical	0.092659	-0.003834	-0.000000	qoe	e		1	true	0.000	oe	
+qoee	Biological	-0.736524	-0.023892	-0.000000	qoe	e		1	true	0.000	oe	
+qoee	Unassigned	0.092659	-0.003834	-0.000000	qoe	e		1	true	0.000	oe	
+to	Herbal	0.092659	-0.003834	-0.000000		to		2	true	0.000		
+to	Pharmaceutical	0.092659	-0.003834	-0.000000		to		2	true	0.000		
+to	Recipes	0.092659	-0.003834	-0.000000		to		2	true	0.000		
+to	Astronomical	0.092659	-0.003834	-0.000000		to		2	true	0.000		
+to	Biological	0.092659	-0.003834	-0.000000		to		2	true	0.000		
+to	Unassigned	0.092659	-0.003834	-0.000000		to		2	true	0.000		
+lka	Herbal	0.092659	-0.003834	-0.000000		lka		3	true	-0.000		
+lka	Pharmaceutical	0.097103	0.164266	-0.000000		lka		3	true	-0.000		
+lka	Recipes	0.177033	0.160070	0.000000		lka		3	true	-0.000		
+lka	Astronomical	0.092659	-0.003834	-0.000000		lka		3	true	-0.000		
+lka	Biological	0.092659	-0.003834	-0.000000		lka		3	true	-0.000		
+lka	Unassigned	0.092659	-0.003834	-0.000000		lka		3	true	-0.000		
+okee	Herbal	-0.732010	-0.025008	0.000000	ok	ee		2	true	0.000	ok	
+okee	Pharmaceutical	-0.871719	-0.044036	0.000000	ok	ee		2	true	0.000	ok	
+okee	Recipes	-0.732010	-0.025008	0.000000	ok	ee		2	true	0.000	ok	
+okee	Astronomical	-0.871719	-0.044036	0.000000	ok	ee		2	true	0.000	ok	
+okee	Biological	-0.732010	-0.025008	0.000000	ok	ee		2	true	0.000	ok	
+okee	Unassigned	0.092659	-0.003834	-0.000000	ok	ee		2	true	0.000	ok	
+chee	Herbal	-0.701321	-0.011742	0.000000	c	h	ee	1	false	0.000	c	ee
+chee	Pharmaceutical	-0.353409	0.028576	0.000000	c	h	ee	1	false	0.000	c	ee
+chee	Recipes	-0.701321	-0.011742	0.000000	c	h	ee	1	false	0.000	c	ee
+chee	Astronomical	-0.701321	-0.011742	0.000000	c	h	ee	1	false	0.000	c	ee
+chee	Biological	-0.353409	0.028576	0.000000	c	h	ee	1	false	0.000	c	ee
+chee	Unassigned	-0.353409	0.028576	0.000000	c	h	ee	1	false	0.000	c	ee
+qock	Herbal	0.378179	0.006809	0.000000		qoc	k	3	false	-0.000		k
+qock	Pharmaceutical	0.378179	0.006809	0.000000		qoc	k	3	false	-0.000		k
+qock	Recipes	0.378179	0.006809	0.000000		qoc	k	3	false	-0.000		k
+qock	Astronomical	0.092659	-0.003834	-0.000000		qoc	k	3	false	-0.000		k
+qock	Biological	0.378179	0.006809	0.000000		qoc	k	3	false	-0.000		k
+qock	Unassigned	0.333367	-0.004874	-0.000000		qoc	k	3	false	-0.000		k
+cth	Herbal	-0.881176	-0.051351	-0.000000	c	t	h	1	false	0.000	c	h
+cth	Pharmaceutical	-0.881176	-0.051351	-0.000000	c	t	h	1	false	0.000	c	h
+cth	Recipes	-0.741467	-0.032322	-0.000000	c	t	h	1	false	0.000	c	h
+cth	Astronomical	-0.881176	-0.051351	-0.000000	c	t	h	1	false	0.000	c	h
+cth	Biological	-0.741467	-0.032322	-0.000000	c	t	h	1	false	0.000	c	h
+cth	Unassigned	-0.881176	-0.051351	-0.000000	c	t	h	1	false	0.000	c	h
+ytc	Herbal	0.781840	-0.042067	-0.000000	ytc			3	false	-0.000	tc	
+ytc	Pharmaceutical	0.781840	-0.042067	-0.000000	ytc			3	false	-0.000	tc	
+ytc	Recipes	0.781840	-0.042067	-0.000000	ytc			3	false	-0.000	tc	
+ytc	Astronomical	0.683845	-0.036955	-0.000000	ytc			3	false	-0.000	tc	
+ytc	Biological	0.781840	-0.042067	-0.000000	ytc			3	false	-0.000	tc	
+ytc	Unassigned	0.092659	-0.003834	-0.000000	ytc			3	false	-0.000	tc	
+qok	Herbal	-0.355649	0.016963	-0.000000	qok			3	false	-0.000	ok	
+qok	Pharmaceutical	-0.489835	0.025498	0.000000	qok			3	false	-0.000	ok	
+qok	Recipes	-0.837747	-0.014821	0.000000	qok			3	false	-0.000	ok	
+qok	Astronomical	-0.977455	-0.033849	-0.000000	qok			3	false	-0.000	ok	
+qok	Biological	-0.837747	-0.014821	0.000000	qok			3	false	-0.000	ok	
+qok	Unassigned	-0.286207	0.020659	-0.000000	qok			3	false	-0.000	ok	
+pche	Herbal	-0.976624	-0.016818	-0.000000		p	che	1	false	0.000		ch
+pche	Pharmaceutical	-0.299858	0.035351	-0.000000		p	che	1	false	0.000		ch
+pche	Recipes	-0.337312	0.034992	-0.000000		p	che	1	false	0.000		ch
+pche	Astronomical	0.092659	-0.003834	-0.000000		p	che	1	false	0.000		ch
+pche	Biological	-0.836915	0.002211	-0.000000		p	che	1	false	0.000		ch
+pche	Unassigned	-0.976624	-0.016818	-0.000000		p	che	1	false	0.000		ch
+chod	Herbal	-0.333338	0.045744	0.000000	c	hod		3	false	-0.000	c	
+chod	Pharmaceutical	-0.333338	0.045744	0.000000	c	hod		3	false	-0.000	c	
+chod	Recipes	-0.333338	0.045744	0.000000	c	hod		3	false	-0.000	c	
+chod	Astronomical	0.092659	-0.003834	-0.000000	c	hod		3	false	-0.000	c	
+chod	Biological	0.092659	-0.003834	-0.000000	c	hod		3	false	-0.000	c	
+chod	Unassigned	0.092659	-0.003834	-0.000000	c	hod		3	false	-0.000	c	
+lche	Herbal	-0.477665	-0.028173	-0.000000		l	che	1	false	0.000		ch
+lche	Pharmaceutical	-0.477665	-0.028173	-0.000000		l	che	1	false	0.000		ch
+lche	Recipes	-0.477665	-0.028173	-0.000000		l	che	1	false	0.000		ch
+lche	Astronomical	0.092659	-0.003834	-0.000000		l	che	1	false	0.000		ch
+lche	Biological	-0.477665	-0.028173	-0.000000		l	che	1	false	0.000		ch
+lche	Unassigned	0.092659	-0.003834	-0.000000		l	che	1	false	0.000		ch
+otol	Herbal	0.209472	0.004846	-0.000000	o	tol		3	false	-0.000	o	
+otol	Pharmaceutical	0.209472	0.004846	-0.000000	o	tol		3	false	-0.000	o	
+otol	Recipes	0.092659	-0.003834	-0.000000	o	tol		3	false	-0.000	o	
+otol	Astronomical	0.092659	-0.003834	-0.000000	o	tol		3	false	-0.000	o	
+otol	Biological	0.209472	0.004846	-0.000000	o	tol		3	false	-0.000	o	
+otol	Unassigned	0.092659	-0.003834	-0.000000	o	tol		3	false	-0.000	o	
+y	Herbal	0.092659	-0.003834	-0.000000	y			1	false	0.000	y	
+y	Pharmaceutical	0.092659	-0.003834	-0.000000	y			1	false	0.000	y	
+y	Recipes	0.092659	-0.003834	-0.000000	y			1	false	0.000	y	
+y	Astronomical	0.092659	-0.003834	-0.000000	y			1	false	0.000	y	
+y	Biological	0.092659	-0.003834	-0.000000	y			1	false	0.000	y	
+y	Unassigned	0.092659	-0.003834	-0.000000	y			1	false	0.000	y	
+che	Herbal	-0.188261	0.019005	0.000000			che	3	true	-0.000		ch
+che	Pharmaceutical	0.092659	-0.003834	-0.000000			che	3	true	-0.000		ch
+che	Recipes	0.092659	-0.003834	-0.000000			che	3	true	-0.000		ch
+che	Astronomical	0.092659	-0.003834	-0.000000			che	3	true	-0.000		ch
+che	Biological	0.092659	-0.003834	-0.000000			che	3	true	-0.000		ch
+che	Unassigned	-0.353409	0.028576	0.000000			che	3	true	-0.000		ch
+otee	Herbal	-0.810321	-0.012990	-0.000000	o	t	ee	1	false	0.000	o	ee
+otee	Pharmaceutical	-0.810321	-0.012990	-0.000000	o	t	ee	1	false	0.000	o	ee
+otee	Recipes	-0.950028	-0.032018	-0.000000	o	t	ee	1	false	0.000	o	ee
+otee	Astronomical	-0.810321	-0.012990	-0.000000	o	t	ee	1	false	0.000	o	ee
+otee	Biological	-0.810321	-0.012990	-0.000000	o	t	ee	1	false	0.000	o	ee
+otee	Unassigned	-0.810321	-0.012990	-0.000000	o	t	ee	1	false	0.000	o	ee
+k	Herbal	0.092659	-0.003834	-0.000000	k			1	false	0.000	k	
+k	Pharmaceutical	0.092659	-0.003834	-0.000000	k			1	false	0.000	k	
+k	Recipes	0.092659	-0.003834	-0.000000	k			1	false	0.000	k	
+k	Astronomical	0.092659	-0.003834	-0.000000	k			1	false	0.000	k	
+k	Biological	0.092659	-0.003834	-0.000000	k			1	false	0.000	k	
+k	Unassigned	0.092659	-0.003834	-0.000000	k			1	false	0.000	k	
+yte	Herbal	-0.558170	-0.027196	-0.000000	yt	e		1	true	0.000	yt	
+yte	Pharmaceutical	-0.102208	0.004453	-0.000000	yt	e		1	true	0.000	yt	
+yte	Recipes	-0.558170	-0.027196	-0.000000	yt	e		1	true	0.000	yt	
+yte	Astronomical	-0.558170	-0.027196	-0.000000	yt	e		1	true	0.000	yt	
+yte	Biological	-0.558170	-0.027196	-0.000000	yt	e		1	true	0.000	yt	
+yte	Unassigned	0.092659	-0.003834	-0.000000	yt	e		1	true	0.000	yt	
+lc	Herbal	0.313264	-0.022087	0.000000		l	c	1	false	0.000		c
+lc	Pharmaceutical	0.282029	-0.027135	-0.000000		l	c	1	false	0.000		c
+lc	Recipes	0.142902	0.002419	0.000000		l	c	1	false	0.000		c
+lc	Astronomical	0.092659	-0.003834	-0.000000		l	c	1	false	0.000		c
+lc	Biological	0.142902	0.002419	0.000000		l	c	1	false	0.000		c
+lc	Unassigned	0.092659	-0.003834	-0.000000		l	c	1	false	0.000		c
+q	Herbal	0.092659	-0.003834	-0.000000		q		1	false	0.000		
+q	Pharmaceutical	0.092659	-0.003834	-0.000000		q		1	false	0.000		
+q	Recipes	0.092659	-0.003834	-0.000000		q		1	false	0.000		
+q	Astronomical	0.092659	-0.003834	-0.000000		q		1	false	0.000		
+q	Biological	0.092659	-0.003834	-0.000000		q		1	false	0.000		
+q	Unassigned	0.092659	-0.003834	-0.000000		q		1	false	0.000		
+chockh	Herbal	0.092659	-0.003834	-0.000000	c	hock	h	4	false	1.000	c	h
+chockh	Pharmaceutical	0.092659	-0.003834	-0.000000	c	hock	h	4	false	1.000	c	h
+chockh	Recipes	0.092659	-0.003834	-0.000000	c	hock	h	4	false	1.000	c	h
+chockh	Astronomical	0.092659	-0.003834	-0.000000	c	hock	h	4	false	1.000	c	h
+chockh	Biological	0.092659	-0.003834	-0.000000	c	hock	h	4	false	1.000	c	h
+chockh	Unassigned	0.092659	-0.003834	-0.000000	c	hock	h	4	false	1.000	c	h
+chock	Herbal	-0.088571	0.043008	0.000000	c	hoc	k	3	false	-0.000	c	k
+chock	Pharmaceutical	-0.088571	0.043008	0.000000	c	hoc	k	3	false	-0.000	c	k
+chock	Recipes	-0.088571	0.043008	0.000000	c	hoc	k	3	false	-0.000	c	k
+chock	Astronomical	-0.088571	0.043008	0.000000	c	hoc	k	3	false	-0.000	c	k
+chock	Biological	0.092659	-0.003834	-0.000000	c	hoc	k	3	false	-0.000	c	k
+chock	Unassigned	0.092659	-0.003834	-0.000000	c	hoc	k	3	false	-0.000	c	k
+shcth	Herbal	1.049208	-0.048445	0.000000	shc	t	h	1	false	0.000	hc	h
+shcth	Pharmaceutical	0.760430	-0.030144	-0.000000	shc	t	h	1	false	0.000	hc	h
+shcth	Recipes	1.049208	-0.048445	0.000000	shc	t	h	1	false	0.000	hc	h
+shcth	Astronomical	0.092659	-0.003834	-0.000000	shc	t	h	1	false	0.000	hc	h
+shcth	Biological	1.147204	-0.053559	0.000000	shc	t	h	1	false	0.000	hc	h
+shcth	Unassigned	0.092659	-0.003834	-0.000000	shc	t	h	1	false	0.000	hc	h
+shct	Herbal	0.809925	-0.019197	0.000000	shc	t		1	false	0.000	hc	
+shct	Pharmaceutical	0.809925	-0.019197	0.000000	shc	t		1	false	0.000	hc	
+shct	Recipes	0.809925	-0.019197	0.000000	shc	t		1	false	0.000	hc	
+shct	Astronomical	0.092659	-0.003834	-0.000000	shc	t		1	false	0.000	hc	
+shct	Biological	0.809925	-0.019197	0.000000	shc	t		1	false	0.000	hc	
+shct	Unassigned	0.092659	-0.003834	-0.000000	shc	t		1	false	0.000	hc	
+te	Herbal	0.092659	-0.003834	-0.000000		t	e	1	false	0.000		e
+te	Pharmaceutical	0.092659	-0.003834	-0.000000		t	e	1	false	0.000		e
+te	Recipes	0.092659	-0.003834	-0.000000		t	e	1	false	0.000		e
+te	Astronomical	0.092659	-0.003834	-0.000000		t	e	1	false	0.000		e
+te	Biological	0.092659	-0.003834	-0.000000		t	e	1	false	0.000		e
+te	Unassigned	0.092659	-0.003834	-0.000000		t	e	1	false	0.000		e
+ai	Herbal	0.092659	-0.003834	-0.000000		ai		2	true	0.000		
+ai	Pharmaceutical	0.092659	-0.003834	-0.000000		ai		2	true	0.000		
+ai	Recipes	0.092659	-0.003834	-0.000000		ai		2	true	0.000		
+ai	Astronomical	0.092659	-0.003834	-0.000000		ai		2	true	0.000		
+ai	Biological	0.092659	-0.003834	-0.000000		ai		2	true	0.000		
+ai	Unassigned	0.092659	-0.003834	-0.000000		ai		2	true	0.000		
+tsh	Herbal	0.427630	-0.027203	-0.000000		ts	h	2	false	0.000		h
+tsh	Pharmaceutical	0.188242	0.002191	0.000000		ts	h	2	false	0.000		h
+tsh	Recipes	0.188242	0.002191	0.000000		ts	h	2	false	0.000		h
+tsh	Astronomical	0.092659	-0.003834	-0.000000		ts	h	2	false	0.000		h
+tsh	Biological	0.333991	-0.011294	0.000000		ts	h	2	false	0.000		h
+tsh	Unassigned	0.092659	-0.003834	-0.000000		ts	h	2	false	0.000		h
+ts	Herbal	0.092659	-0.003834	-0.000000		ts		2	false	0.000		
+ts	Pharmaceutical	0.188242	0.002191	0.000000		ts		2	false	0.000		
+ts	Recipes	0.188242	0.002191	0.000000		ts		2	false	0.000		
+ts	Astronomical	0.092659	-0.003834	-0.000000		ts		2	false	0.000		
+ts	Biological	0.092659	-0.003834	-0.000000		ts		2	false	0.000		
+ts	Unassigned	0.092659	-0.003834	-0.000000		ts		2	false	0.000		
+opa	Herbal	0.092659	-0.003834	-0.000000	o	pa		2	true	0.000	o	
+opa	Pharmaceutical	0.092659	-0.003834	-0.000000	o	pa		2	true	0.000	o	
+opa	Recipes	0.092659	-0.003834	-0.000000	o	pa		2	true	0.000	o	
+opa	Astronomical	0.092659	-0.003834	-0.000000	o	pa		2	true	0.000	o	
+opa	Biological	0.092659	-0.003834	-0.000000	o	pa		2	true	0.000	o	
+opa	Unassigned	0.092659	-0.003834	-0.000000	o	pa		2	true	0.000	o	
+sa	Herbal	0.092659	-0.003834	-0.000000		sa		2	true	0.000		
+sa	Pharmaceutical	0.092659	-0.003834	-0.000000		sa		2	true	0.000		
+sa	Recipes	0.092659	-0.003834	-0.000000		sa		2	true	0.000		
+sa	Astronomical	0.092659	-0.003834	-0.000000		sa		2	true	0.000		
+sa	Biological	0.092659	-0.003834	-0.000000		sa		2	true	0.000		
+sa	Unassigned	0.092659	-0.003834	-0.000000		sa		2	true	0.000		
+qoke	Herbal	-0.837747	-0.014821	0.000000	qok	e		1	true	0.000	ok	
+qoke	Pharmaceutical	-0.489835	0.025498	0.000000	qok	e		1	true	0.000	ok	
+qoke	Recipes	-0.837747	-0.014821	0.000000	qok	e		1	true	0.000	ok	
+qoke	Astronomical	-0.977455	-0.033849	-0.000000	qok	e		1	true	0.000	ok	
+qoke	Biological	-0.837747	-0.014821	0.000000	qok	e		1	true	0.000	ok	
+qoke	Unassigned	-0.286207	0.020659	-0.000000	qok	e		1	true	0.000	ok	
+qopc	Herbal	1.053143	-0.061856	-0.000000	qop	c		1	false	0.000	op	
+qopc	Pharmaceutical	1.053143	-0.061856	-0.000000	qop	c		1	false	0.000	op	
+qopc	Recipes	1.053143	-0.061856	-0.000000	qop	c		1	false	0.000	op	
+qopc	Astronomical	0.955147	-0.056744	-0.000000	qop	c		1	false	0.000	op	
+qopc	Biological	1.053143	-0.061856	-0.000000	qop	c		1	false	0.000	op	
+qopc	Unassigned	0.092659	-0.003834	-0.000000	qop	c		1	false	0.000	op	
+oi	Herbal	0.260965	-0.164899	0.000000	o	i		1	true	0.000	o	
+oi	Pharmaceutical	0.345340	-0.000995	0.000000	o	i		1	true	0.000	o	
+oi	Recipes	0.523590	-0.005197	-0.000000	o	i		1	true	0.000	o	
+oi	Astronomical	0.263535	-0.003682	0.000000	o	i		1	true	0.000	o	
+oi	Biological	0.523590	-0.005197	-0.000000	o	i		1	true	0.000	o	
+oi	Unassigned	0.092659	-0.003834	-0.000000	o	i		1	true	0.000	o	
+okol	Herbal	0.255282	0.001903	-0.000000	ok	ol		2	false	0.000	ok	
+okol	Pharmaceutical	0.255282	0.001903	-0.000000	ok	ol		2	false	0.000	ok	
+okol	Recipes	0.255282	0.001903	-0.000000	ok	ol		2	false	0.000	ok	
+okol	Astronomical	0.092659	-0.003834	-0.000000	ok	ol		2	false	0.000	ok	
+okol	Biological	0.255282	0.001903	-0.000000	ok	ol		2	false	0.000	ok	
+okol	Unassigned	0.092659	-0.003834	-0.000000	ok	ol		2	false	0.000	ok	
+olke	Herbal	-0.734493	-0.029061	-0.000000	o	l	ke	1	false	0.000	o	ke
+olke	Pharmaceutical	-0.874201	-0.048090	0.000000	o	l	ke	1	false	0.000	o	ke
+olke	Recipes	-0.734493	-0.029061	-0.000000	o	l	ke	1	false	0.000	o	ke
+olke	Astronomical	0.092659	-0.003834	-0.000000	o	l	ke	1	false	0.000	o	ke
+olke	Biological	-0.734493	-0.029061	-0.000000	o	l	ke	1	false	0.000	o	ke
+olke	Unassigned	0.092659	-0.003834	-0.000000	o	l	ke	1	false	0.000	o	ke
+okch	Herbal	0.669593	-0.036785	-0.000000	ok	ch		2	false	0.000	ok	
+okch	Pharmaceutical	0.979688	-0.047156	0.000000	ok	ch		2	false	0.000	ok	
+okch	Recipes	0.669593	-0.036785	-0.000000	ok	ch		2	false	0.000	ok	
+okch	Astronomical	0.669593	-0.036785	-0.000000	ok	ch		2	false	0.000	ok	
+okch	Biological	1.077684	-0.052269	0.000000	ok	ch		2	false	0.000	ok	
+okch	Unassigned	0.092659	-0.003834	-0.000000	ok	ch		2	false	0.000	ok	
+choke	Herbal	-0.855709	-0.014615	0.000000	c	h	oke	1	false	0.000	c	ok
+choke	Pharmaceutical	-0.855709	-0.014615	0.000000	c	h	oke	1	false	0.000	c	ok
+choke	Recipes	-0.855709	-0.014615	0.000000	c	h	oke	1	false	0.000	c	ok
+choke	Astronomical	-0.116884	-0.130324	-0.000000	c	h	oke	1	false	0.000	c	ok
+choke	Biological	0.092659	-0.003834	-0.000000	c	h	oke	1	false	0.000	c	ok
+choke	Unassigned	0.092659	-0.003834	-0.000000	c	h	oke	1	false	0.000	c	ok
+cthe	Herbal	-0.741467	-0.032322	-0.000000	c	t	he	1	false	0.000	c	he
+cthe	Pharmaceutical	-0.881176	-0.051351	-0.000000	c	t	he	1	false	0.000	c	he
+cthe	Recipes	-0.741467	-0.032322	-0.000000	c	t	he	1	false	0.000	c	he
+cthe	Astronomical	-0.881176	-0.051351	-0.000000	c	t	he	1	false	0.000	c	he
+cthe	Biological	-0.741467	-0.032322	-0.000000	c	t	he	1	false	0.000	c	he
+cthe	Unassigned	-0.881176	-0.051351	-0.000000	c	t	he	1	false	0.000	c	he
+yt	Herbal	0.092659	-0.003834	-0.000000	yt			2	false	0.000	yt	
+yt	Pharmaceutical	0.092659	-0.003834	-0.000000	yt			2	false	0.000	yt	
+yt	Recipes	0.092659	-0.003834	-0.000000	yt			2	false	0.000	yt	
+yt	Astronomical	0.201524	-0.026158	-0.000000	yt			2	false	0.000	yt	
+yt	Biological	0.092659	-0.003834	-0.000000	yt			2	false	0.000	yt	
+yt	Unassigned	0.092659	-0.003834	-0.000000	yt			2	false	0.000	yt	
+qod	Herbal	-0.014203	0.163317	-0.000000		qod		3	false	-0.000		
+qod	Pharmaceutical	-0.011576	0.168392	0.000000		qod		3	false	-0.000		
+qod	Recipes	0.076161	0.157815	-0.000000		qod		3	false	-0.000		
+qod	Astronomical	0.092659	-0.003834	-0.000000		qod		3	false	-0.000		
+qod	Biological	-0.011576	0.168392	0.000000		qod		3	false	-0.000		
+qod	Unassigned	0.092659	-0.003834	-0.000000		qod		3	false	-0.000		
+tee	Herbal	0.076161	0.157815	-0.000000		t	ee	1	false	0.000		ee
+tee	Pharmaceutical	0.076161	0.157815	-0.000000		t	ee	1	false	0.000		ee
+tee	Recipes	0.092659	-0.003834	-0.000000		t	ee	1	false	0.000		ee
+tee	Astronomical	0.092659	-0.003834	-0.000000		t	ee	1	false	0.000		ee
+tee	Biological	0.076161	0.157815	-0.000000		t	ee	1	false	0.000		ee
+tee	Unassigned	0.092659	-0.003834	-0.000000		t	ee	1	false	0.000		ee
+ckhe	Herbal	-0.909268	-0.033874	-0.000000	ckh	e		1	true	0.000	kh	
+ckhe	Pharmaceutical	-0.421648	0.025473	-0.000000	ckh	e		1	true	0.000	kh	
+ckhe	Recipes	-0.421648	0.025473	-0.000000	ckh	e		1	true	0.000	kh	
+ckhe	Astronomical	0.092659	-0.003834	-0.000000	ckh	e		1	true	0.000	kh	
+ckhe	Biological	-0.769560	-0.014846	-0.000000	ckh	e		1	true	0.000	kh	
+ckhe	Unassigned	-0.909268	-0.033874	-0.000000	ckh	e		1	true	0.000	kh	
+oc	Herbal	0.092659	-0.003834	-0.000000	o	c		1	false	0.000	o	
+oc	Pharmaceutical	0.092659	-0.003834	-0.000000	o	c		1	false	0.000	o	
+oc	Recipes	0.092659	-0.003834	-0.000000	o	c		1	false	0.000	o	
+oc	Astronomical	0.092659	-0.003834	-0.000000	o	c		1	false	0.000	o	
+oc	Biological	0.092659	-0.003834	-0.000000	o	c		1	false	0.000	o	
+oc	Unassigned	0.092659	-0.003834	-0.000000	o	c		1	false	0.000	o	
+qoteo	Herbal	0.411392	0.006016	0.000000		qoteo		5	true	1.585		
+qoteo	Pharmaceutical	0.142278	0.012451	-0.000000		qoteo		5	true	1.585		
+qoteo	Recipes	0.142278	0.012451	-0.000000		qoteo		5	true	1.585		
+qoteo	Astronomical	0.092659	-0.003834	-0.000000		qoteo		5	true	1.585		
+qoteo	Biological	0.142278	0.012451	-0.000000		qoteo		5	true	1.585		
+qoteo	Unassigned	0.092659	-0.003834	-0.000000		qoteo		5	true	1.585		
+olshe	Herbal	-0.746921	-0.051626	-0.000000	o	ls	he	2	false	0.000	o	he
+olshe	Pharmaceutical	-0.055673	0.002882	0.000000	o	ls	he	2	false	0.000	o	he
+olshe	Recipes	-0.746921	-0.051626	-0.000000	o	ls	he	2	false	0.000	o	he
+olshe	Astronomical	0.092659	-0.003834	-0.000000	o	ls	he	2	false	0.000	o	he
+olshe	Biological	-0.746921	-0.051626	-0.000000	o	ls	he	2	false	0.000	o	he
+olshe	Unassigned	0.092659	-0.003834	-0.000000	o	ls	he	2	false	0.000	o	he
+olsh	Herbal	-0.746921	-0.051626	-0.000000		o	lsh	1	true	0.000		ls
+olsh	Pharmaceutical	-0.055673	0.002882	0.000000		o	lsh	1	true	0.000		ls
+olsh	Recipes	-0.746921	-0.051626	-0.000000		o	lsh	1	true	0.000		ls
+olsh	Astronomical	0.092659	-0.003834	-0.000000		o	lsh	1	true	0.000		ls
+olsh	Biological	-0.746921	-0.051626	-0.000000		o	lsh	1	true	0.000		ls
+olsh	Unassigned	0.092659	-0.003834	-0.000000		o	lsh	1	true	0.000		ls
+ot	Herbal	0.092659	-0.003834	-0.000000	o	t		1	false	0.000	o	
+ot	Pharmaceutical	0.092659	-0.003834	-0.000000	o	t		1	false	0.000	o	
+ot	Recipes	0.092659	-0.003834	-0.000000	o	t		1	false	0.000	o	
+ot	Astronomical	-0.227702	0.013922	0.000000	o	t		1	false	0.000	o	
+ot	Biological	0.092659	-0.003834	-0.000000	o	t		1	false	0.000	o	
+ot	Unassigned	-0.227702	0.013922	0.000000	o	t		1	false	0.000	o	
+cp	Herbal	0.092659	-0.003834	-0.000000	c	p		1	false	0.000	c	
+cp	Pharmaceutical	0.092659	-0.003834	-0.000000	c	p		1	false	0.000	c	
+cp	Recipes	0.092659	-0.003834	-0.000000	c	p		1	false	0.000	c	
+cp	Astronomical	0.092659	-0.003834	-0.000000	c	p		1	false	0.000	c	
+cp	Biological	-0.024360	0.162688	-0.000000	c	p		1	false	0.000	c	
+cp	Unassigned	0.092659	-0.003834	-0.000000	c	p		1	false	0.000	c	
+cha	Herbal	0.092659	-0.003834	-0.000000	c	ha		2	true	0.000	c	
+cha	Pharmaceutical	0.092659	-0.003834	-0.000000	c	ha		2	true	0.000	c	
+cha	Recipes	0.092659	-0.003834	-0.000000	c	ha		2	true	0.000	c	
+cha	Astronomical	0.092659	-0.003834	-0.000000	c	ha		2	true	0.000	c	
+cha	Biological	0.092659	-0.003834	-0.000000	c	ha		2	true	0.000	c	
+cha	Unassigned	0.092659	-0.003834	-0.000000	c	ha		2	true	0.000	c	
+ych	Herbal	-0.877134	-0.049997	0.000000	ych			3	false	-0.000	ch	
+ych	Pharmaceutical	-0.877134	-0.049997	0.000000	ych			3	false	-0.000	ch	
+ych	Recipes	-0.877134	-0.049997	0.000000	ych			3	false	-0.000	ch	
+ych	Astronomical	0.092659	-0.003834	-0.000000	ych			3	false	-0.000	ch	
+ych	Biological	-0.737426	-0.030969	-0.000000	ych			3	false	-0.000	ch	
+ych	Unassigned	-0.877134	-0.049997	0.000000	ych			3	false	-0.000	ch	
+qotch	Herbal	0.477244	-0.013112	-0.000000		qo	tch	2	true	0.000		tc
+qotch	Pharmaceutical	0.477244	-0.013112	-0.000000		qo	tch	2	true	0.000		tc
+qotch	Recipes	0.383604	0.002797	0.000000		qo	tch	2	true	0.000		tc
+qotch	Astronomical	0.092659	-0.003834	-0.000000		qo	tch	2	true	0.000		tc
+qotch	Biological	0.885335	-0.028595	-0.000000		qo	tch	2	true	0.000		tc
+qotch	Unassigned	0.092659	-0.003834	-0.000000		qo	tch	2	true	0.000		tc
+yk	Herbal	0.092659	-0.003834	-0.000000	yk			2	false	0.000	yk	
+yk	Pharmaceutical	0.092659	-0.003834	-0.000000	yk			2	false	0.000	yk	
+yk	Recipes	0.092659	-0.003834	-0.000000	yk			2	false	0.000	yk	
+yk	Astronomical	0.092659	-0.003834	-0.000000	yk			2	false	0.000	yk	
+yk	Biological	0.092659	-0.003834	-0.000000	yk			2	false	0.000	yk	
+yk	Unassigned	0.092659	-0.003834	-0.000000	yk			2	false	0.000	yk	

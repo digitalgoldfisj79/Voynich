@@ -1,0 +1,24 @@
+================================================================================
+PHASE 69 MORPHOLOGICAL RULE SYSTEM
+Validation Report 01: Rule Inventory
+================================================================================
+
+Total Rules: 109
+
+Rule Types:
+  pair           :  35 rules
+  chargram       :  33 rules
+  prefix         :  26 rules
+  suffix         :  15 rules
+
+Prediction Directions:
+  left           :  56 rules
+  right          :  53 rules
+
+Section Coverage:
+  Astronomical        :  96 rules
+  Biological          : 106 rules
+  Herbal              : 107 rules
+  Pharmaceutical      : 103 rules
+  Recipes             : 107 rules
+  Unassigned          : 101 rules

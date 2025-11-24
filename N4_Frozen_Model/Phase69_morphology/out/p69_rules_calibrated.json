@@ -1,0 +1,1992 @@
+{
+  "rules": [
+    {
+      "rule_id": "chargram:he:left",
+      "kind": "chargram",
+      "pattern": "he",
+      "pred_side": "left",
+      "base_weight": 6.0,
+      "allow": [
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes"
+      ],
+      "deny": [
+        "Astronomical",
+        "Unassigned"
+      ],
+      "w_by_section": {
+        "Herbal": 0.9,
+        "Pharmaceutical": 0.62,
+        "Recipes": 0.76,
+        "Astronomical": 0.0,
+        "Biological": 0.76,
+        "Unassigned": 0.0
+      }
+    },
+    {
+      "rule_id": "suffix:h:right",
+      "kind": "suffix",
+      "pattern": "h",
+      "pred_side": "right",
+      "base_weight": 5.0,
+      "allow": [
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [
+        "Astronomical"
+      ],
+      "w_by_section": {
+        "Herbal": 0.79,
+        "Pharmaceutical": 0.76,
+        "Recipes": 0.83,
+        "Astronomical": 0.0,
+        "Biological": 0.86,
+        "Unassigned": 0.66
+      }
+    },
+    {
+      "rule_id": "suffix:ch:right",
+      "kind": "suffix",
+      "pattern": "ch",
+      "pred_side": "right",
+      "base_weight": 5.0,
+      "allow": [
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [
+        "Astronomical"
+      ],
+      "w_by_section": {
+        "Herbal": 0.81,
+        "Pharmaceutical": 0.81,
+        "Recipes": 0.81,
+        "Astronomical": 0.0,
+        "Biological": 0.94,
+        "Unassigned": 0.75
+      }
+    },
+    {
+      "rule_id": "prefix:o:right",
+      "kind": "prefix",
+      "pattern": "o",
+      "pred_side": "right",
+      "base_weight": 5.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {
+        "Herbal": 0.89,
+        "Pharmaceutical": 0.74,
+        "Recipes": 0.74,
+        "Astronomical": 0.6,
+        "Biological": 0.8,
+        "Unassigned": 0.71
+      }
+    },
+    {
+      "rule_id": "suffix:he:left",
+      "kind": "suffix",
+      "pattern": "he",
+      "pred_side": "left",
+      "base_weight": 18.0,
+      "allow": [
+        "Biological",
+        "Herbal",
+        "Recipes"
+      ],
+      "deny": [
+        "Astronomical",
+        "Pharmaceutical",
+        "Unassigned"
+      ],
+      "w_by_section": {
+        "Herbal": 0.93,
+        "Pharmaceutical": 0.55,
+        "Recipes": 0.73,
+        "Astronomical": 0.0,
+        "Biological": 0.73,
+        "Unassigned": 0.0
+      }
+    },
+    {
+      "rule_id": "suffix:che:left",
+      "kind": "suffix",
+      "pattern": "che",
+      "pred_side": "left",
+      "base_weight": 25.2,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [
+        "Astronomical"
+      ],
+      "w_by_section": {
+        "Herbal": 0.9,
+        "Pharmaceutical": 0.45,
+        "Recipes": 0.64,
+        "Astronomical": 0.0,
+        "Biological": 0.64,
+        "Unassigned": 0.45
+      }
+    },
+    {
+      "rule_id": "chargram:che:left",
+      "kind": "chargram",
+      "pattern": "che",
+      "pred_side": "left",
+      "base_weight": 3.4,
+      "allow": [
+        "Biological",
+        "Herbal",
+        "Recipes"
+      ],
+      "deny": [
+        "Astronomical",
+        "Pharmaceutical",
+        "Unassigned"
+      ],
+      "w_by_section": {
+        "Herbal": 0.86,
+        "Pharmaceutical": 0.0,
+        "Recipes": 0.64,
+        "Astronomical": 0.0,
+        "Biological": 0.64,
+        "Unassigned": 0.0
+      }
+    },
+    {
+      "rule_id": "chargram:hct:right",
+      "kind": "chargram",
+      "pattern": "hct",
+      "pred_side": "right",
+      "base_weight": 4.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:hc:right",
+      "kind": "chargram",
+      "pattern": "hc",
+      "pred_side": "right",
+      "base_weight": 4.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:tc:right",
+      "kind": "chargram",
+      "pattern": "tc",
+      "pred_side": "right",
+      "base_weight": 4.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "suffix:c:right",
+      "kind": "suffix",
+      "pattern": "c",
+      "pred_side": "right",
+      "base_weight": 24.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:ct:right",
+      "kind": "chargram",
+      "pattern": "ct",
+      "pred_side": "right",
+      "base_weight": 3.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:qok:left",
+      "kind": "prefix",
+      "pattern": "qok",
+      "pred_side": "left",
+      "base_weight": 18.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "suffix:tch:right",
+      "kind": "suffix",
+      "pattern": "tch",
+      "pred_side": "right",
+      "base_weight": 18.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:oke:left",
+      "kind": "chargram",
+      "pattern": "oke",
+      "pred_side": "left",
+      "base_weight": 3.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:opc:right",
+      "kind": "chargram",
+      "pattern": "opc",
+      "pred_side": "right",
+      "base_weight": 3.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:qok:left",
+      "kind": "chargram",
+      "pattern": "qok",
+      "pred_side": "left",
+      "base_weight": 3.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:tch:right",
+      "kind": "chargram",
+      "pattern": "tch",
+      "pred_side": "right",
+      "base_weight": 3.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "suffix:ee:left",
+      "kind": "suffix",
+      "pattern": "ee",
+      "pred_side": "left",
+      "base_weight": 33.6,
+      "allow": [
+        "Biological",
+        "Herbal",
+        "Recipes"
+      ],
+      "deny": [
+        "Astronomical",
+        "Pharmaceutical",
+        "Unassigned"
+      ],
+      "w_by_section": {
+        "Herbal": 0.58,
+        "Pharmaceutical": 0.0,
+        "Recipes": 0.67,
+        "Astronomical": 0.0,
+        "Biological": 0.58,
+        "Unassigned": 0.0
+      }
+    },
+    {
+      "rule_id": "chargram:ee:left",
+      "kind": "chargram",
+      "pattern": "ee",
+      "pred_side": "left",
+      "base_weight": 3.0,
+      "allow": [
+        "Biological",
+        "Herbal",
+        "Recipes"
+      ],
+      "deny": [
+        "Astronomical",
+        "Pharmaceutical",
+        "Unassigned"
+      ],
+      "w_by_section": {
+        "Herbal": 0.58,
+        "Pharmaceutical": 0.0,
+        "Recipes": 0.67,
+        "Astronomical": 0.0,
+        "Biological": 0.58,
+        "Unassigned": 0.0
+      }
+    },
+    {
+      "rule_id": "chargram:ke:left",
+      "kind": "chargram",
+      "pattern": "ke",
+      "pred_side": "left",
+      "base_weight": 3.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:op:right",
+      "kind": "chargram",
+      "pattern": "op",
+      "pred_side": "right",
+      "base_weight": 3.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:ok:left",
+      "kind": "chargram",
+      "pattern": "ok",
+      "pred_side": "left",
+      "base_weight": 0.75,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [
+        "Biological",
+        "Unassigned"
+      ],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:c:left",
+      "kind": "prefix",
+      "pattern": "c",
+      "pred_side": "left",
+      "base_weight": 51.0,
+      "allow": [
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes"
+      ],
+      "deny": [
+        "Astronomical",
+        "Biological",
+        "Unassigned"
+      ],
+      "w_by_section": {
+        "Herbal": 0.73,
+        "Pharmaceutical": 0.64,
+        "Recipes": 0.64,
+        "Astronomical": 0.0,
+        "Biological": 0.0,
+        "Unassigned": 0.0
+      }
+    },
+    {
+      "rule_id": "chargram:pc:right",
+      "kind": "chargram",
+      "pattern": "pc",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:chc:right",
+      "kind": "prefix",
+      "pattern": "chc",
+      "pred_side": "right",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:ckh:left",
+      "kind": "prefix",
+      "pattern": "ckh",
+      "pred_side": "left",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:dch:left",
+      "kind": "prefix",
+      "pattern": "dch",
+      "pred_side": "left",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:kch:left",
+      "kind": "prefix",
+      "pattern": "kch",
+      "pred_side": "left",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:olc:right",
+      "kind": "prefix",
+      "pattern": "olc",
+      "pred_side": "right",
+      "base_weight": 18.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:qoe:left",
+      "kind": "prefix",
+      "pattern": "qoe",
+      "pred_side": "left",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:qop:right",
+      "kind": "prefix",
+      "pattern": "qop",
+      "pred_side": "right",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:shc:right",
+      "kind": "prefix",
+      "pattern": "shc",
+      "pred_side": "right",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:ych:left",
+      "kind": "prefix",
+      "pattern": "ych",
+      "pred_side": "left",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:ykc:right",
+      "kind": "prefix",
+      "pattern": "ykc",
+      "pred_side": "right",
+      "base_weight": 9.6,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:ytc:right",
+      "kind": "prefix",
+      "pattern": "ytc",
+      "pred_side": "right",
+      "base_weight": 18.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "suffix:hct:right",
+      "kind": "suffix",
+      "pattern": "hct",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "suffix:lsh:left",
+      "kind": "suffix",
+      "pattern": "lsh",
+      "pred_side": "left",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "suffix:oke:left",
+      "kind": "suffix",
+      "pattern": "oke",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "suffix:pch:right",
+      "kind": "suffix",
+      "pattern": "pch",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:chc:right",
+      "kind": "chargram",
+      "pattern": "chc",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:dch:left",
+      "kind": "chargram",
+      "pattern": "dch",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:lsh:left",
+      "kind": "chargram",
+      "pattern": "lsh",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:olc:right",
+      "kind": "chargram",
+      "pattern": "olc",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:otc:right",
+      "kind": "chargram",
+      "pattern": "otc",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:qoe:left",
+      "kind": "chargram",
+      "pattern": "qoe",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:qop:right",
+      "kind": "chargram",
+      "pattern": "qop",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:shc:right",
+      "kind": "chargram",
+      "pattern": "shc",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:ych:left",
+      "kind": "chargram",
+      "pattern": "ych",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:ykc:right",
+      "kind": "chargram",
+      "pattern": "ykc",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:ytc:right",
+      "kind": "chargram",
+      "pattern": "ytc",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:ck:left",
+      "kind": "prefix",
+      "pattern": "ck",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:dc:left",
+      "kind": "prefix",
+      "pattern": "dc",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:kc:left",
+      "kind": "prefix",
+      "pattern": "kc",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:ok:right",
+      "kind": "prefix",
+      "pattern": "ok",
+      "pred_side": "right",
+      "base_weight": 36.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:yc:left",
+      "kind": "prefix",
+      "pattern": "yc",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:yk:right",
+      "kind": "prefix",
+      "pattern": "yk",
+      "pred_side": "right",
+      "base_weight": 1.6,
+      "allow": [],
+      "deny": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "w_by_section": {
+        "Herbal": 0.0,
+        "Pharmaceutical": 0.0,
+        "Recipes": 0.0,
+        "Astronomical": 0.0,
+        "Biological": 0.0,
+        "Unassigned": 0.0
+      }
+    },
+    {
+      "rule_id": "prefix:yt:right",
+      "kind": "prefix",
+      "pattern": "yt",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "suffix:ct:right",
+      "kind": "suffix",
+      "pattern": "ct",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "suffix:ke:left",
+      "kind": "suffix",
+      "pattern": "ke",
+      "pred_side": "left",
+      "base_weight": 1.2,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:dc:left",
+      "kind": "chargram",
+      "pattern": "dc",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:lc:right",
+      "kind": "chargram",
+      "pattern": "lc",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:ls:left",
+      "kind": "chargram",
+      "pattern": "ls",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:oe:left",
+      "kind": "chargram",
+      "pattern": "oe",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:yc:left",
+      "kind": "chargram",
+      "pattern": "yc",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:yk:right",
+      "kind": "chargram",
+      "pattern": "yk",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "chargram:yt:right",
+      "kind": "chargram",
+      "pattern": "yt",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:d:left",
+      "kind": "prefix",
+      "pattern": "d",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {
+        "Herbal": 0.88,
+        "Pharmaceutical": 0.95,
+        "Recipes": 0.88,
+        "Astronomical": 0.88,
+        "Biological": 0.95,
+        "Unassigned": 0.95
+      }
+    },
+    {
+      "rule_id": "prefix:k:left",
+      "kind": "prefix",
+      "pattern": "k",
+      "pred_side": "left",
+      "base_weight": 2.0,
+      "allow": [
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [
+        "Astronomical"
+      ],
+      "w_by_section": {
+        "Herbal": 0.71,
+        "Pharmaceutical": 0.57,
+        "Recipes": 0.86,
+        "Astronomical": 0.0,
+        "Biological": 0.71,
+        "Unassigned": 0.57
+      }
+    },
+    {
+      "rule_id": "suffix:k:left",
+      "kind": "suffix",
+      "pattern": "k",
+      "pred_side": "left",
+      "base_weight": 28.8,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "suffix:t:right",
+      "kind": "suffix",
+      "pattern": "t",
+      "pred_side": "right",
+      "base_weight": 2.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:ok|:right",
+      "kind": "pair",
+      "pattern": "ok|",
+      "pred_side": "right",
+      "base_weight": 36.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:|che:left",
+      "kind": "pair",
+      "pattern": "|che",
+      "pred_side": "left",
+      "base_weight": 18.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:yk|:left",
+      "kind": "pair",
+      "pattern": "yk|",
+      "pred_side": "left",
+      "base_weight": 24.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:|c:right",
+      "kind": "pair",
+      "pattern": "|c",
+      "pred_side": "right",
+      "base_weight": 24.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:qok|:left",
+      "kind": "pair",
+      "pattern": "qok|",
+      "pred_side": "left",
+      "base_weight": 18.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:olc|:right",
+      "kind": "pair",
+      "pattern": "olc|",
+      "pred_side": "right",
+      "base_weight": 18.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:ytc|:right",
+      "kind": "pair",
+      "pattern": "ytc|",
+      "pred_side": "right",
+      "base_weight": 18.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:|tch:right",
+      "kind": "pair",
+      "pattern": "|tch",
+      "pred_side": "right",
+      "base_weight": 18.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:c|h:left",
+      "kind": "pair",
+      "pattern": "c|h",
+      "pred_side": "left",
+      "base_weight": 18.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:c|k:left",
+      "kind": "pair",
+      "pattern": "c|k",
+      "pred_side": "left",
+      "base_weight": 18.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:qop|:right",
+      "kind": "pair",
+      "pattern": "qop|",
+      "pred_side": "right",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:ych|:left",
+      "kind": "pair",
+      "pattern": "ych|",
+      "pred_side": "left",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:ykc|:right",
+      "kind": "pair",
+      "pattern": "ykc|",
+      "pred_side": "right",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:ckh|:left",
+      "kind": "pair",
+      "pattern": "ckh|",
+      "pred_side": "left",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:qoe|:left",
+      "kind": "pair",
+      "pattern": "qoe|",
+      "pred_side": "left",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:dch|:left",
+      "kind": "pair",
+      "pattern": "dch|",
+      "pred_side": "left",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:|h:right",
+      "kind": "pair",
+      "pattern": "|h",
+      "pred_side": "right",
+      "base_weight": 12.0,
+      "allow": [
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [
+        "Astronomical"
+      ],
+      "w_by_section": {
+        "Herbal": 0.79,
+        "Pharmaceutical": 0.76,
+        "Recipes": 0.83,
+        "Astronomical": 0.0,
+        "Biological": 0.86,
+        "Unassigned": 0.66
+      }
+    },
+    {
+      "rule_id": "pair:|lsh:left",
+      "kind": "pair",
+      "pattern": "|lsh",
+      "pred_side": "left",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:kch|:left",
+      "kind": "pair",
+      "pattern": "kch|",
+      "pred_side": "left",
+      "base_weight": 12.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:o|ee:left",
+      "kind": "pair",
+      "pattern": "o|ee",
+      "pred_side": "left",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:c|he:left",
+      "kind": "pair",
+      "pattern": "c|he",
+      "pred_side": "left",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:chc|h:right",
+      "kind": "pair",
+      "pattern": "chc|h",
+      "pred_side": "right",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:shc|h:right",
+      "kind": "pair",
+      "pattern": "shc|h",
+      "pred_side": "right",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:chc|:right",
+      "kind": "pair",
+      "pattern": "chc|",
+      "pred_side": "right",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:shc|:right",
+      "kind": "pair",
+      "pattern": "shc|",
+      "pred_side": "right",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:c|ee:left",
+      "kind": "pair",
+      "pattern": "c|ee",
+      "pred_side": "left",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:o|k:left",
+      "kind": "pair",
+      "pattern": "o|k",
+      "pred_side": "left",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:o|ke:left",
+      "kind": "pair",
+      "pattern": "o|ke",
+      "pred_side": "left",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:c|oke:left",
+      "kind": "pair",
+      "pattern": "c|oke",
+      "pred_side": "left",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:o|he:left",
+      "kind": "pair",
+      "pattern": "o|he",
+      "pred_side": "left",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:y|h:left",
+      "kind": "pair",
+      "pattern": "y|h",
+      "pred_side": "left",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:y|he:left",
+      "kind": "pair",
+      "pattern": "y|he",
+      "pred_side": "left",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:o|h:right",
+      "kind": "pair",
+      "pattern": "o|h",
+      "pred_side": "right",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:k|h:right",
+      "kind": "pair",
+      "pattern": "k|h",
+      "pred_side": "right",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "pair:dc|:right",
+      "kind": "pair",
+      "pattern": "dc|",
+      "pred_side": "right",
+      "base_weight": 6.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {}
+    },
+    {
+      "rule_id": "prefix:d:right",
+      "kind": "prefix",
+      "pattern": "d",
+      "pred_side": "right",
+      "base_weight": 30.0,
+      "allow": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [],
+      "w_by_section": {
+        "Herbal": 0.88,
+        "Pharmaceutical": 0.95,
+        "Recipes": 0.88,
+        "Astronomical": 0.88,
+        "Biological": 0.95,
+        "Unassigned": 0.95
+      }
+    },
+    {
+      "rule_id": "prefix:yk:left",
+      "kind": "prefix",
+      "pattern": "yk",
+      "pred_side": "left",
+      "base_weight": 19.2,
+      "allow": [],
+      "deny": [
+        "Astronomical",
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "w_by_section": {
+        "Herbal": 0.0,
+        "Pharmaceutical": 0.0,
+        "Recipes": 0.0,
+        "Astronomical": 0.0,
+        "Biological": 0.0,
+        "Unassigned": 0.0
+      }
+    },
+    {
+      "rule_id": "prefix:k:right",
+      "kind": "prefix",
+      "pattern": "k",
+      "pred_side": "right",
+      "base_weight": 24.0,
+      "allow": [
+        "Biological",
+        "Herbal",
+        "Pharmaceutical",
+        "Recipes",
+        "Unassigned"
+      ],
+      "deny": [
+        "Astronomical"
+      ],
+      "w_by_section": {
+        "Herbal": 0.71,
+        "Pharmaceutical": 0.57,
+        "Recipes": 0.86,
+        "Astronomical": 0.0,
+        "Biological": 0.71,
+        "Unassigned": 0.57
+      }
+    }
+  ]
+}

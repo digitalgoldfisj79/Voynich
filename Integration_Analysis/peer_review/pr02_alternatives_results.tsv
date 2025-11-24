@@ -1,0 +1,2 @@
+test	verdict	chi2_observed	chi2_random_mean	chi2_z_score	p_value_vs_random
+alternative_hypotheses	Compressed Latin best explains data	516.4444444444445	14.915498345860978	92.63100192336329	0.0

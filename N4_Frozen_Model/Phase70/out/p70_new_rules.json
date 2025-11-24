@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {"rule_id":"p70_prefix_sh","kind":"prefix","pattern":"sh","pred_side":"left"},
+    {"rule_id":"p70_prefix_qo","kind":"prefix","pattern":"qo","pred_side":"left"},
+    {"rule_id":"p70_prefix_a","kind":"prefix","pattern":"a","pred_side":"left"},
+    {"rule_id":"p70_prefix_l","kind":"prefix","pattern":"l","pred_side":"left"},
+    {"rule_id":"p70_prefix_p","kind":"prefix","pattern":"p","pred_side":"left"},
+    {"rule_id":"p70_prefix_t","kind":"prefix","pattern":"t","pred_side":"left"},
+    {"rule_id":"p70_prefix_r","kind":"prefix","pattern":"r","pred_side":"left"},
+    {"rule_id":"p70_prefix_s","kind":"prefix","pattern":"s","pred_side":"left"}
+  ]
+}

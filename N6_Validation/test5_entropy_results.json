@@ -1,0 +1,28 @@
+{
+  "test_name": "Entropy_Reduction",
+  "timestamp": "2025-11-22T09:16:12.669858",
+  "voynich_h1": 3.877,
+  "voynich_h2": 14.508,
+  "n5_h1": 3.637,
+  "n5_h2": 4.841,
+  "h1_reduction": 0.24,
+  "h2_reduction": 9.667,
+  "baseline_h1_mean": 3.789,
+  "baseline_h2_mean": 5.444,
+  "p_value_h1": 0.0,
+  "p_value_h2": 0.0,
+  "ci_h1": [
+    3.627,
+    3.646
+  ],
+  "ci_h2": [
+    4.83,
+    4.919
+  ],
+  "result": "PASS",
+  "criteria_met": [
+    true,
+    true,
+    true
+  ]
+}

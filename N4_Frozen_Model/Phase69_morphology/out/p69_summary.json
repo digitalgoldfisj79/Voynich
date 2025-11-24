@@ -1,0 +1,28 @@
+{
+  "inputs": {
+    "rules_tsv": "/data/data/com.termux/files/home/Voynich/Phase67p/out/p67p_rules_compact.tsv",
+    "segments": "/data/data/com.termux/files/home/Voynich/Phase58/out/p58_segments.tsv"
+  },
+  "hashes": {
+    "rules_tsv_sha256": "ec3f491957ced64446026173bfcd3bc2efdce95b8f84b7a8fbd959817bb2e829",
+    "segments_sha256": "9aa399f275133102a7dd554a8ecc3d7310aecaa4f81199b489f2329815f361de"
+  },
+  "counts": {
+    "n_rules": 109,
+    "n_items": 900
+  },
+  "metrics": {
+    "n_items": 900,
+    "n_pred": 714,
+    "n_correct": 517,
+    "coverage": 0.7933333333333333,
+    "acc_on_covered": 0.7240896358543417,
+    "overall_accuracy": 0.5744444444444444
+  },
+  "frozen_outputs": {
+    "final_rules_tsv": "/data/data/com.termux/files/home/Voynich/Phase69/out/p69_rules_final.tsv",
+    "final_rules_json": "/data/data/com.termux/files/home/Voynich/Phase69/out/p69_rules_final.json",
+    "doc_md": "/data/data/com.termux/files/home/Voynich/Phase69/out/p69_doc.md"
+  },
+  "validated": true
+}
