@@ -64,7 +64,7 @@ def main():
     scripts = [
         (scripts_dir / 'generate_rugg_basic.py', 'Generate Rugg Basic Controls'),
         (scripts_dir / 'generate_rugg_markov.py', 'Generate Rugg Markov Controls'),
-        (scripts_dir / 'calculate_discriminants.py', 'Calculate Discriminants (Table 5)'),
+        (scripts_dir / 'calculate_discriminants_hybrid.py', 'Calculate Discriminants (Table 5)'),
     ]
     
     results = []
