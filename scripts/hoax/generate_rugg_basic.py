@@ -16,6 +16,9 @@ import random
 from pathlib import Path
 from collections import Counter
 
+# Set random seed for reproducibility
+random.seed(42)
+
 # Voynich-like morphemes (from actual Voynich patterns) - EXPANDED for more variety
 PREFIXES = ['o', 'd', 'q', 'ok', 'qo', 'or', 'ol', 'ot', 'op', 'yk', 'dy', 'y', 'sh', 'ch', 'ke', 'te', 'lk', 'k', 's', 't', 'f', 'p', 'r', 'l', 'da', 'de', 'do', 'ky', 'ty', 'ko', 'to', 'so']
 MIDDLES = ['che', 'she', 'qok', 'chol', 'shol', 'chor', 'shor', 'ar', 'or', 'al', 'ol', 'ain', 'aiin', 'iir', 'iin', 'dy', 'ty', 'ky', 'da', 'de', 'do', 'ko', 'to', 'so', 'ra', 're', 'ro', 'la', 'le', 'lo', 'ke', 'te', 'ka', 'ta', 'sa']
