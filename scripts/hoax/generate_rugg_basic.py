@@ -16,18 +16,18 @@ import random
 from pathlib import Path
 from collections import Counter
 
-# Voynich-like morphemes (from actual Voynich patterns)
-PREFIXES = ['o', 'd', 'q', 'ok', 'qo', 'or', 'ol', 'ot', 'op', 'yk', 'dy', 'y', 'sh', 'ch', 'ke', 'te', 'lk', 'k', 's', 't']
-MIDDLES = ['che', 'she', 'qok', 'chol', 'shol', 'chor', 'shor', 'ar', 'or', 'al', 'ol', 'ain', 'aiin', 'iir', 'iin', 'dy', 'ty', 'ky']
-ENDINGS = ['dy', 'y', 'edy', 'ol', 'al', 'or', 'ar', 'in', 'ain', 'aiin', 'eedy', 'edy', 'am', 'iin', 'iir', 'te', 'to', 'sh']
+# Voynich-like morphemes (from actual Voynich patterns) - EXPANDED for more variety
+PREFIXES = ['o', 'd', 'q', 'ok', 'qo', 'or', 'ol', 'ot', 'op', 'yk', 'dy', 'y', 'sh', 'ch', 'ke', 'te', 'lk', 'k', 's', 't', 'f', 'p', 'r', 'l', 'da', 'de', 'do', 'ky', 'ty', 'ko', 'to', 'so']
+MIDDLES = ['che', 'she', 'qok', 'chol', 'shol', 'chor', 'shor', 'ar', 'or', 'al', 'ol', 'ain', 'aiin', 'iir', 'iin', 'dy', 'ty', 'ky', 'da', 'de', 'do', 'ko', 'to', 'so', 'ra', 're', 'ro', 'la', 'le', 'lo', 'ke', 'te', 'ka', 'ta', 'sa']
+ENDINGS = ['dy', 'y', 'edy', 'ol', 'al', 'or', 'ar', 'in', 'ain', 'aiin', 'eedy', 'edy', 'am', 'iin', 'iir', 'te', 'to', 'sh', 'om', 'em', 'im', 'um', 'an', 'en', 'on', 'od', 'ad', 'ed', 'id']
 
 def generate_rugg_basic_token():
     """
     Generate a token using Rugg's grid method.
     Randomly concatenate morphemes to create long tokens.
     """
-    # Rugg method tends to create LONG tokens (20-30 chars)
-    # by stringing together multiple morphemes
+    # Rugg method tends to create VERY LONG tokens (20-30 chars)
+    # by stringing together MANY morphemes
     
     token_parts = []
     
@@ -35,19 +35,20 @@ def generate_rugg_basic_token():
     if random.random() < 0.7:
         token_parts.append(random.choice(PREFIXES))
     
-    # Add 3-5 middle morphemes (creates long tokens)
-    n_middles = random.randint(3, 5)
+    # Add 7-10 middle morphemes (creates very long tokens with variety)
+    n_middles = random.randint(7, 10)
     for _ in range(n_middles):
         token_parts.append(random.choice(MIDDLES))
     
     # Add ending
-    if random.random() < 0.8:
+    if random.random() < 0.9:
         token_parts.append(random.choice(ENDINGS))
     
     token = ''.join(token_parts)
     
-    # Ensure minimum length (Rugg tokens are LONG)
-    while len(token) < 15:
+    # Ensure minimum length (Rugg tokens are VERY LONG)
+    # Target: 20-30 chars to match real data
+    while len(token) < 20:
         token += random.choice(MIDDLES)
     
     return token
