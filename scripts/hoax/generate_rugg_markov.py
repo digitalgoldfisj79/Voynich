@@ -13,6 +13,9 @@ import random
 from pathlib import Path
 from collections import defaultdict, Counter
 
+# Set random seed for reproducibility
+random.seed(42)
+
 # Character frequencies from actual Voynich
 VOYNICH_CHARS = {
     'o': 0.21, 'd': 0.14, 'y': 0.13, 'e': 0.10, 'a': 0.09,
