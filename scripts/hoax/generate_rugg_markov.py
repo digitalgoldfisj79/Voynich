@@ -47,7 +47,7 @@ def weighted_choice(choices):
     weights = list(choices.values())
     return random.choices(items, weights=weights)[0]
 
-def generate_markov_token(min_len=3, max_len=15):
+def generate_markov_token(min_len=3, max_len=18):
     """
     Generate token using Markov bigram model.
     Stops at natural boundaries (double vowels, consonant clusters).
@@ -70,12 +70,12 @@ def generate_markov_token(min_len=3, max_len=15):
         if len(token) >= min_len:
             # Stop at double vowels (like 'ee', 'oo', 'aa')
             if len(token) >= 2 and token[-2:] in ['ee', 'oo', 'aa', 'ii']:
-                if random.random() < 0.4:
+                if random.random() < 0.3:  # Reduced from 0.4 to make longer
                     break
             
             # Stop at suffix-like endings
             if token.endswith(('dy', 'ain', 'aiin', 'ol', 'or', 'al', 'am', 'y')):
-                if random.random() < 0.5:
+                if random.random() < 0.4:  # Reduced from 0.5 to make longer
                     break
         
         # Stop if too long
