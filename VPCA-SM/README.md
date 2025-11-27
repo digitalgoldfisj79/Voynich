@@ -52,16 +52,35 @@ cat results/sm1_role_descriptions.txt
 
 ---
 
-### SM2: Root & Affix Role Classes 🚧 IN PROGRESS
+### SM2: Root & Affix Role Classes ✅ COMPLETE
 **File:** `vpca_sm2_role_classes.py`
 
 Classify stems and suffixes into semantic role families.
 
-**Goal:** Group morphemes by behavior (not meaning):
-- R1: ingredient-like roots (V-heavy, Herbal/Pharma)
-- R2: process-like roots (C-heavy, Recipes)
-- R3: state-like roots (A-heavy, descriptive)
-- S1: OT-family suffixes (transformation markers)
+**Input:**
+- `data/vpca2_all_tokens.tsv` - Complete VPCA classifications
+- Morpheme extraction algorithm
+
+**Output:**
+- `results/sm2_role_lexicon.json` - Complete role lexicon
+- `results/sm2_classification_report.txt` - Classification report
+- `results/sm2_root_classes.tsv` - Root classifications (2,734 roots)
+- `results/sm2_affix_classes.tsv` - Affix classifications (52 affixes)
+
+**Classifications:**
+- **R1:** 100 ingredient-like roots (V-heavy, e.g., 'e', 'k', 'ch')
+- **R2:** 4 process-like roots (C-heavy, e.g., 'ot', 'q')  
+- **R3:** 111 state-like roots (P-heavy, e.g., 'a', 'o', 'ok')
+- **S1:** 5 OT-family suffixes (100% C-state transformation markers!)
+- **P1:** 5 Valley-inducing prefixes (e.g., 'ch', 'qok', left-biased)
+
+**Key Finding:** OT-family suffixes show 100% C-state association (oty, otchy, otol, etc.)
+
+**Run:**
+```bash
+python3 vpca_sm2_role_classes.py
+cat results/sm2_classification_report.txt
+```
 
 ---
 
@@ -129,9 +148,11 @@ Compare role frames to medieval texts (structural patterns, not vocabulary).
 
 ## 📈 Current Status
 
-**Phase:** SM1 Complete, SM2 In Development  
+**Phase:** SM1-SM2 Complete, SM3 In Development  
 **Data:** 37,886 tokens with complete VPCA classifications  
 **Sections:** 7 (Zodiac, Herbal, Pharma, Recipes, Bio, Cosmo, Unknown)  
+**Morphemes Classified:** 2,734 roots + 52 affixes  
+**Key Discovery:** OT-family suffixes = 100% C-state (transformation markers)  
 **Confidence:** Tier 2-3 for Zodiac, Tier 1-2 for others  
 
 ---
