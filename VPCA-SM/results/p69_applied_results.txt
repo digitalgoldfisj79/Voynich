@@ -1,0 +1,117 @@
+================================================================================
+ZODIAC MORPHOLOGICAL ANALYSIS USING P69 RULES
+================================================================================
+
+📁 Loaded 109 rules from p69_rules_final.json
+
+Rule breakdown:
+  Prefix rules: 26
+  Suffix rules: 15
+  Chargram rules: 33
+
+================================================================================
+LOADING ZODIAC DATA
+================================================================================
+
+Loaded 2582 labels from zodiac folios
+
+================================================================================
+APPLYING P69 RULES TO ZODIAC LABELS
+================================================================================
+
+Applied 109 rules to 2582 labels
+Labels with ≥1 firing rule: 1380 (53.4%)
+
+================================================================================
+RULE FIRING FREQUENCY
+================================================================================
+
+Top 20 most frequently firing rules:
+Rule ID                        Pattern    Type       Fires    Weight
+--------------------------------------------------------------------------------
+prefix:o:right                 'o'    prefix     923      0.60
+prefix:d:left                  'd'    prefix     626      0.88
+prefix:d:right                 'd'    prefix     201      0.88
+
+================================================================================
+EXTRACTING MORPHEMES FROM TOP FIRING RULES
+================================================================================
+
+Top PREFIX patterns (from firing rules):
+  'o': fires 923× (weight 0.60)
+  'd': fires 626× (weight 0.88)
+  'd': fires 201× (weight 0.88)
+
+Top SUFFIX patterns (from firing rules):
+
+Top CHARGRAM patterns (from firing rules):
+
+================================================================================
+COSMOLOGICAL CORRELATIONS (using P69 rule scores)
+================================================================================
+
+--- SEASONAL PATTERNS ---
+Season          Avg Score    Labels     Top Firing Rule
+----------------------------------------------------------------------
+Winter          0.510        709        'd'
+Spring          0.530        1110       'o'
+Summer          0.452        1168       'o'
+
+--- ELEMENTAL PATTERNS ---
+Element         Avg Score    Labels     Top Firing Rule
+----------------------------------------------------------------------
+Fire            0.491        980        'o'
+Earth           0.541        839        'o'
+Air             0.483        405        'o'
+Water           0.502        851        'o'
+
+================================================================================
+TESTING FUNCTIONAL HYPOTHESES WITH P69 RULES
+================================================================================
+
+Rules related to key morphemes:
+  OT-related: 2 rules
+  OK-related: 10 rules
+  CH-related: 22 rules
+
+--- TEST 1: OT-family peaks in SUMMER? ---
+  Winter: 170/709 = 24.0%
+  Spring: 395/1110 = 35.6%
+  Summer: 502/1168 = 43.0%
+  ✓ OT-rules peak in SUMMER
+
+--- TEST 2: CH-family enriched in FIRE/SUMMER? ---
+  Fire: 0/980 = 0.0%
+  Other: 0/2095 = 0.0%
+  ✗ CH-rules not enriched in FIRE
+
+================================================================================
+GENERATING VISUAL SUMMARY
+================================================================================
+Visual saved!
+
+================================================================================
+FINAL SUMMARY: ZODIAC THROUGH P69 LENS
+================================================================================
+
+📊 Coverage:
+  • Labels analyzed: 2582
+  • Labels with firing rules: 1380 (53.4%)
+  • Unique firing rules: 3
+
+🔝 Top Morphological Patterns:
+  • 'o' (prefix): 923× firings
+  • 'd' (prefix): 626× firings
+  • 'd' (prefix): 201× firings
+
+✓ Cosmological Patterns:
+  • Seasonal variation detected
+  • Elemental correlations present
+  • Rule scores vary systematically
+
+🎯 Functional Hypothesis Status:
+  • OT-family transitions: Testing with P69 framework
+  • OK-family nominalizers: Testing with P69 framework
+  • CH-family intensifiers: Testing with P69 framework
+
+================================================================================
