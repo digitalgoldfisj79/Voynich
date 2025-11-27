@@ -1,0 +1,6255 @@
+{
+  "metadata": {
+    "version": "SM4-v1",
+    "dependencies": "SM1 (morphology), SM2 (semantic fields)",
+    "total_patterns": 138
+  },
+  "patterns": [
+    {
+      "pattern": "[ROOT]",
+      "count": 423,
+      "type": "ROOT_ONLY",
+      "prefix": "",
+      "suffix": "",
+      "top_roots": [
+        {
+          "root": "ar",
+          "count": 62
+        },
+        {
+          "root": "al",
+          "count": 38
+        },
+        {
+          "root": "ol",
+          "count": 36
+        },
+        {
+          "root": "dy",
+          "count": 28
+        },
+        {
+          "root": "air",
+          "count": 19
+        },
+        {
+          "root": "am",
+          "count": 15
+        },
+        {
+          "root": "or",
+          "count": 11
+        },
+        {
+          "root": "ain",
+          "count": 8
+        },
+        {
+          "root": "aiir",
+          "count": 7
+        },
+        {
+          "root": "sol",
+          "count": 6
+        }
+      ],
+      "examples": [
+        "keo",
+        "ycheo",
+        "iim",
+        "ar",
+        "am",
+        "am",
+        "ar",
+        "air",
+        "air",
+        "ol"
+      ],
+      "composition": "quality/state",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.3
+    },
+    {
+      "pattern": "[ROOT]-y",
+      "count": 170,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "y",
+      "top_roots": [
+        {
+          "root": "al",
+          "count": 10
+        },
+        {
+          "root": "ar",
+          "count": 7
+        },
+        {
+          "root": "te",
+          "count": 5
+        },
+        {
+          "root": "ke",
+          "count": 4
+        },
+        {
+          "root": "ockh",
+          "count": 3
+        },
+        {
+          "root": "dch",
+          "count": 3
+        },
+        {
+          "root": "yt",
+          "count": 3
+        },
+        {
+          "root": "cth",
+          "count": 3
+        },
+        {
+          "root": "aral",
+          "count": 3
+        },
+        {
+          "root": "od",
+          "count": 3
+        }
+      ],
+      "examples": [
+        "epchy",
+        "octhchy",
+        "ychsy",
+        "ary",
+        "aly",
+        "ainy",
+        "eeety",
+        "ary",
+        "sey",
+        "dchetay"
+      ],
+      "composition": "quality/state + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.4
+    },
+    {
+      "pattern": "ch-[ROOT]-y",
+      "count": 165,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "y",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 38
+        },
+        {
+          "root": "ek",
+          "count": 8
+        },
+        {
+          "root": "ckh",
+          "count": 8
+        },
+        {
+          "root": "d",
+          "count": 6
+        },
+        {
+          "root": "ot",
+          "count": 4
+        },
+        {
+          "root": "ok",
+          "count": 4
+        },
+        {
+          "root": "cth",
+          "count": 4
+        },
+        {
+          "root": "ockh",
+          "count": 3
+        },
+        {
+          "root": "ekch",
+          "count": 3
+        },
+        {
+          "root": "et",
+          "count": 3
+        }
+      ],
+      "examples": [
+        "chdy",
+        "choteoky",
+        "chockhy",
+        "cheeky",
+        "chekchy",
+        "chky",
+        "chocfhy",
+        "cheky",
+        "cheockhy",
+        "chedaly"
+      ],
+      "composition": "intensifier/modifier + modifier/relation + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ot-[ROOT]",
+      "count": 133,
+      "type": "PREFIX+ROOT",
+      "prefix": "ot",
+      "suffix": "",
+      "top_roots": [
+        {
+          "root": "ar",
+          "count": 23
+        },
+        {
+          "root": "y",
+          "count": 16
+        },
+        {
+          "root": "ol",
+          "count": 11
+        },
+        {
+          "root": "al",
+          "count": 10
+        },
+        {
+          "root": "o",
+          "count": 6
+        },
+        {
+          "root": "eo",
+          "count": 5
+        },
+        {
+          "root": "eeo",
+          "count": 4
+        },
+        {
+          "root": "am",
+          "count": 4
+        },
+        {
+          "root": "or",
+          "count": 3
+        },
+        {
+          "root": "olam",
+          "count": 3
+        }
+      ],
+      "examples": [
+        "otor",
+        "otar",
+        "oteo",
+        "oto",
+        "otoas",
+        "otch",
+        "oty",
+        "otr",
+        "otchl",
+        "otys"
+      ],
+      "composition": "transition/change + quality/state",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "ch-[ROOT]",
+      "count": 132,
+      "type": "PREFIX+ROOT",
+      "prefix": "ch",
+      "suffix": "",
+      "top_roots": [
+        {
+          "root": "ol",
+          "count": 17
+        },
+        {
+          "root": "y",
+          "count": 14
+        },
+        {
+          "root": "o",
+          "count": 9
+        },
+        {
+          "root": "ar",
+          "count": 6
+        },
+        {
+          "root": "eo",
+          "count": 6
+        },
+        {
+          "root": "es",
+          "count": 6
+        },
+        {
+          "root": "al",
+          "count": 5
+        },
+        {
+          "root": "or",
+          "count": 4
+        },
+        {
+          "root": "os",
+          "count": 3
+        },
+        {
+          "root": "ek",
+          "count": 3
+        }
+      ],
+      "examples": [
+        "char",
+        "chy",
+        "chol",
+        "cho",
+        "chparam",
+        "chychr",
+        "chy",
+        "chol",
+        "chos",
+        "chodalg"
+      ],
+      "composition": "intensifier/modifier + quality/state",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "ok-[ROOT]",
+      "count": 113,
+      "type": "PREFIX+ROOT",
+      "prefix": "ok",
+      "suffix": "",
+      "top_roots": [
+        {
+          "root": "ar",
+          "count": 17
+        },
+        {
+          "root": "al",
+          "count": 14
+        },
+        {
+          "root": "eo",
+          "count": 9
+        },
+        {
+          "root": "ol",
+          "count": 8
+        },
+        {
+          "root": "y",
+          "count": 8
+        },
+        {
+          "root": "o",
+          "count": 3
+        },
+        {
+          "root": "os",
+          "count": 3
+        },
+        {
+          "root": "eeo",
+          "count": 3
+        },
+        {
+          "root": "eod",
+          "count": 3
+        },
+        {
+          "root": "or",
+          "count": 2
+        }
+      ],
+      "examples": [
+        "okeokeds",
+        "okar",
+        "okar",
+        "okal",
+        "okol",
+        "okor",
+        "okaldam",
+        "okydshog",
+        "okolaig",
+        "okar"
+      ],
+      "composition": "constituent/unit + quality/state",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "[ROOT]-in",
+      "count": 106,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "in",
+      "top_roots": [
+        {
+          "root": "ai",
+          "count": 38
+        },
+        {
+          "root": "oi",
+          "count": 4
+        },
+        {
+          "root": "ka",
+          "count": 3
+        },
+        {
+          "root": "osai",
+          "count": 2
+        },
+        {
+          "root": "oekai",
+          "count": 2
+        },
+        {
+          "root": "odaii",
+          "count": 2
+        },
+        {
+          "root": "aldai",
+          "count": 2
+        },
+        {
+          "root": "ydai",
+          "count": 2
+        },
+        {
+          "root": "alai",
+          "count": 2
+        },
+        {
+          "root": "teeodai",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "teeodaiin",
+        "osaiin",
+        "epaiin",
+        "aiin",
+        "aiin",
+        "aiin",
+        "oekaiin",
+        "oiin",
+        "teodain",
+        "odaiiin"
+      ],
+      "composition": "quality/state + nominal/substantive",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "da-[ROOT]",
+      "count": 104,
+      "type": "PREFIX+ROOT",
+      "prefix": "da",
+      "suffix": "",
+      "top_roots": [
+        {
+          "root": "r",
+          "count": 31
+        },
+        {
+          "root": "l",
+          "count": 25
+        },
+        {
+          "root": "ir",
+          "count": 13
+        },
+        {
+          "root": "in",
+          "count": 11
+        },
+        {
+          "root": "iir",
+          "count": 6
+        },
+        {
+          "root": "m",
+          "count": 5
+        },
+        {
+          "root": "ram",
+          "count": 2
+        },
+        {
+          "root": "im",
+          "count": 2
+        },
+        {
+          "root": "lam",
+          "count": 2
+        },
+        {
+          "root": "mamm",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "daiir",
+        "daram",
+        "dar",
+        "dair",
+        "dal",
+        "dair",
+        "dain",
+        "dar",
+        "dair",
+        "dair"
+      ],
+      "composition": "unknown + unknown_root",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.15000000000000002
+    },
+    {
+      "pattern": "[ROOT]-dy",
+      "count": 95,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "dy",
+      "top_roots": [
+        {
+          "root": "yteo",
+          "count": 5
+        },
+        {
+          "root": "al",
+          "count": 3
+        },
+        {
+          "root": "pche",
+          "count": 3
+        },
+        {
+          "root": "kee",
+          "count": 3
+        },
+        {
+          "root": "dshe",
+          "count": 3
+        },
+        {
+          "root": "oeteo",
+          "count": 2
+        },
+        {
+          "root": "ee",
+          "count": 2
+        },
+        {
+          "root": "kol",
+          "count": 2
+        },
+        {
+          "root": "dche",
+          "count": 2
+        },
+        {
+          "root": "tche",
+          "count": 2
+        }
+      ],
+      "examples": [
+        "epairody",
+        "oeteody",
+        "eedy",
+        "eeschdy",
+        "aldy",
+        "soraiirdy",
+        "ytody",
+        "ofydy",
+        "kochardy",
+        "koldy"
+      ],
+      "composition": "unknown_root + process_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "[ROOT]-ey",
+      "count": 94,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "ey",
+      "top_roots": [
+        {
+          "root": "ke",
+          "count": 6
+        },
+        {
+          "root": "yte",
+          "count": 5
+        },
+        {
+          "root": "ych",
+          "count": 4
+        },
+        {
+          "root": "te",
+          "count": 4
+        },
+        {
+          "root": "och",
+          "count": 3
+        },
+        {
+          "root": "alsh",
+          "count": 3
+        },
+        {
+          "root": "lch",
+          "count": 3
+        },
+        {
+          "root": "kch",
+          "count": 2
+        },
+        {
+          "root": "ysh",
+          "count": 2
+        },
+        {
+          "root": "octh",
+          "count": 2
+        }
+      ],
+      "examples": [
+        "yteeoey",
+        "keey",
+        "cthey",
+        "oshey",
+        "sotey",
+        "yteey",
+        "kchey",
+        "soeey",
+        "ytoeopchey",
+        "cpheey"
+      ],
+      "composition": "unknown_root + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "ot-[ROOT]-y",
+      "count": 83,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "y",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 28
+        },
+        {
+          "root": "al",
+          "count": 9
+        },
+        {
+          "root": "o",
+          "count": 5
+        },
+        {
+          "root": "ol",
+          "count": 4
+        },
+        {
+          "root": "ch",
+          "count": 4
+        },
+        {
+          "root": "ey",
+          "count": 2
+        },
+        {
+          "root": "chosh",
+          "count": 2
+        },
+        {
+          "root": "ees",
+          "count": 1
+        },
+        {
+          "root": "ok",
+          "count": 1
+        },
+        {
+          "root": "ech",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "oteesy",
+        "otoky",
+        "otey",
+        "otoly",
+        "otechy",
+        "otcheoly",
+        "otchoky",
+        "otory",
+        "otoy",
+        "oteeoaly"
+      ],
+      "composition": "transition/change + modifier/relation + state_marker",
+      "interpretation": "transitional_state/process",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ch-[ROOT]-ey",
+      "count": 76,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "ey",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 17
+        },
+        {
+          "root": "ote",
+          "count": 6
+        },
+        {
+          "root": "ot",
+          "count": 5
+        },
+        {
+          "root": "et",
+          "count": 4
+        },
+        {
+          "root": "ete",
+          "count": 3
+        },
+        {
+          "root": "te",
+          "count": 2
+        },
+        {
+          "root": "k",
+          "count": 2
+        },
+        {
+          "root": "eok",
+          "count": 2
+        },
+        {
+          "root": "eke",
+          "count": 1
+        },
+        {
+          "root": "ch",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "chekeey",
+        "cheey",
+        "choteey",
+        "chetey",
+        "cheteey",
+        "chchey",
+        "cheockhey",
+        "cheey",
+        "chteey",
+        "choteey"
+      ],
+      "composition": "intensifier/modifier + modifier/relation + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.9999999999999999
+    },
+    {
+      "pattern": "sh-[ROOT]-y",
+      "count": 71,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sh",
+      "suffix": "y",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 26
+        },
+        {
+          "root": "ckh",
+          "count": 5
+        },
+        {
+          "root": "et",
+          "count": 3
+        },
+        {
+          "root": "eet",
+          "count": 3
+        },
+        {
+          "root": "ekch",
+          "count": 2
+        },
+        {
+          "root": "ch",
+          "count": 2
+        },
+        {
+          "root": "ek",
+          "count": 2
+        },
+        {
+          "root": "octh",
+          "count": 2
+        },
+        {
+          "root": "ecth",
+          "count": 2
+        },
+        {
+          "root": "eckh",
+          "count": 2
+        }
+      ],
+      "examples": [
+        "shey",
+        "shey",
+        "shekchy",
+        "shey",
+        "shokchy",
+        "shey",
+        "shchy",
+        "shoky",
+        "shoekechy",
+        "sheky"
+      ],
+      "composition": "unknown + modifier/relation + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "ok-[ROOT]-y",
+      "count": 69,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "y",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 15
+        },
+        {
+          "root": "ch",
+          "count": 8
+        },
+        {
+          "root": "al",
+          "count": 7
+        },
+        {
+          "root": "eol",
+          "count": 3
+        },
+        {
+          "root": "olch",
+          "count": 2
+        },
+        {
+          "root": "eeal",
+          "count": 2
+        },
+        {
+          "root": "ol",
+          "count": 2
+        },
+        {
+          "root": "eoal",
+          "count": 2
+        },
+        {
+          "root": "eal",
+          "count": 2
+        },
+        {
+          "root": "olal",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "okchy",
+        "okolaly",
+        "okoaly",
+        "okchy",
+        "okomy",
+        "okaesy",
+        "okey",
+        "okey",
+        "okeodly",
+        "okey"
+      ],
+      "composition": "constituent/unit + modifier/relation + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ot-[ROOT]-ey",
+      "count": 62,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "ey",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 37
+        },
+        {
+          "root": "eot",
+          "count": 4
+        },
+        {
+          "root": "ch",
+          "count": 3
+        },
+        {
+          "root": "sh",
+          "count": 2
+        },
+        {
+          "root": "ee",
+          "count": 2
+        },
+        {
+          "root": "och",
+          "count": 1
+        },
+        {
+          "root": "okee",
+          "count": 1
+        },
+        {
+          "root": "eodch",
+          "count": 1
+        },
+        {
+          "root": "eeocth",
+          "count": 1
+        },
+        {
+          "root": "eosh",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "oteey",
+        "oteey",
+        "otchey",
+        "otshey",
+        "otochey",
+        "oteey",
+        "oteey",
+        "otchey",
+        "oteey",
+        "oteey"
+      ],
+      "composition": "transition/change + modifier/relation + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.9999999999999999
+    },
+    {
+      "pattern": "sh-[ROOT]",
+      "count": 54,
+      "type": "PREFIX+ROOT",
+      "prefix": "sh",
+      "suffix": "",
+      "top_roots": [
+        {
+          "root": "ol",
+          "count": 9
+        },
+        {
+          "root": "o",
+          "count": 6
+        },
+        {
+          "root": "es",
+          "count": 6
+        },
+        {
+          "root": "eo",
+          "count": 5
+        },
+        {
+          "root": "e",
+          "count": 5
+        },
+        {
+          "root": "y",
+          "count": 4
+        },
+        {
+          "root": "s",
+          "count": 2
+        },
+        {
+          "root": "eosam",
+          "count": 1
+        },
+        {
+          "root": "ot",
+          "count": 1
+        },
+        {
+          "root": "okeolls",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "sheosam",
+        "shs",
+        "shol",
+        "shol",
+        "sho",
+        "shot",
+        "shy",
+        "shes",
+        "shes",
+        "shes"
+      ],
+      "composition": "unknown + quality/state",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.4
+    },
+    {
+      "pattern": "ot-[ROOT]-dy",
+      "count": 52,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "dy",
+      "top_roots": [
+        {
+          "root": "eo",
+          "count": 14
+        },
+        {
+          "root": "ee",
+          "count": 8
+        },
+        {
+          "root": "e",
+          "count": 5
+        },
+        {
+          "root": "eeo",
+          "count": 4
+        },
+        {
+          "root": "cheo",
+          "count": 3
+        },
+        {
+          "root": "ch",
+          "count": 2
+        },
+        {
+          "root": "aral",
+          "count": 2
+        },
+        {
+          "root": "eoche",
+          "count": 1
+        },
+        {
+          "root": "al",
+          "count": 1
+        },
+        {
+          "root": "ar",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "oteochedy",
+        "otaldy",
+        "otardy",
+        "otchdy",
+        "otcheody",
+        "otydy",
+        "oteedy",
+        "oteeody",
+        "oteeody",
+        "otcheody"
+      ],
+      "composition": "transition/change + quality/state + process_marker",
+      "interpretation": "transitional_state/process",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.9999999999999999
+    },
+    {
+      "pattern": "ch-[ROOT]-dy",
+      "count": 51,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "dy",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 15
+        },
+        {
+          "root": "eo",
+          "count": 7
+        },
+        {
+          "root": "ee",
+          "count": 4
+        },
+        {
+          "root": "o",
+          "count": 3
+        },
+        {
+          "root": "s",
+          "count": 2
+        },
+        {
+          "root": "eol",
+          "count": 2
+        },
+        {
+          "root": "okeo",
+          "count": 1
+        },
+        {
+          "root": "ockhe",
+          "count": 1
+        },
+        {
+          "root": "eko",
+          "count": 1
+        },
+        {
+          "root": "etshe",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "chokeody",
+        "chockhedy",
+        "chekody",
+        "cheody",
+        "cheody",
+        "chedy",
+        "cheody",
+        "chetshedy",
+        "chydy",
+        "chody"
+      ],
+      "composition": "intensifier/modifier + modifier/relation + process_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.9999999999999999
+    },
+    {
+      "pattern": "qo-[ROOT]-ey",
+      "count": 48,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "qo",
+      "suffix": "ey",
+      "top_roots": [
+        {
+          "root": "ke",
+          "count": 17
+        },
+        {
+          "root": "k",
+          "count": 13
+        },
+        {
+          "root": "te",
+          "count": 3
+        },
+        {
+          "root": "lch",
+          "count": 3
+        },
+        {
+          "root": "che",
+          "count": 2
+        },
+        {
+          "root": "ike",
+          "count": 1
+        },
+        {
+          "root": "kolch",
+          "count": 1
+        },
+        {
+          "root": "e",
+          "count": 1
+        },
+        {
+          "root": "eke",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qoikeey",
+        "qocheey",
+        "qokeey",
+        "qokolchey",
+        "qoteey",
+        "qokeey",
+        "qoeey",
+        "qoekeey",
+        "qokeey",
+        "qoeeey"
+      ],
+      "composition": "unknown + unknown_root + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "[ROOT]-ar",
+      "count": 47,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "ar",
+      "top_roots": [
+        {
+          "root": "al",
+          "count": 4
+        },
+        {
+          "root": "ar",
+          "count": 3
+        },
+        {
+          "root": "od",
+          "count": 2
+        },
+        {
+          "root": "yt",
+          "count": 2
+        },
+        {
+          "root": "pched",
+          "count": 2
+        },
+        {
+          "root": "so",
+          "count": 1
+        },
+        {
+          "root": "sod",
+          "count": 1
+        },
+        {
+          "root": "dr",
+          "count": 1
+        },
+        {
+          "root": "oe",
+          "count": 1
+        },
+        {
+          "root": "of",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "soar",
+        "sodar",
+        "drar",
+        "odar",
+        "oear",
+        "ofar",
+        "dchoar",
+        "ytokar",
+        "osar",
+        "skar"
+      ],
+      "composition": "quality/state + agent/doer",
+      "interpretation": "quality_agent/doer",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "qo-[ROOT]-dy",
+      "count": 45,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "qo",
+      "suffix": "dy",
+      "top_roots": [
+        {
+          "root": "ke",
+          "count": 13
+        },
+        {
+          "root": "kee",
+          "count": 10
+        },
+        {
+          "root": "kch",
+          "count": 4
+        },
+        {
+          "root": "tee",
+          "count": 3
+        },
+        {
+          "root": "te",
+          "count": 3
+        },
+        {
+          "root": "keeo",
+          "count": 1
+        },
+        {
+          "root": "keeeo",
+          "count": 1
+        },
+        {
+          "root": "keee",
+          "count": 1
+        },
+        {
+          "root": "keeysh",
+          "count": 1
+        },
+        {
+          "root": "teeo",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qokeeody",
+        "qokeeeody",
+        "qokeeedy",
+        "qokchdy",
+        "qokchdy",
+        "qokeeyshdy",
+        "qoteeody",
+        "qoteedy",
+        "qokeody",
+        "qolchhdy"
+      ],
+      "composition": "unknown + unknown_root + process_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "sa-[ROOT]",
+      "count": 43,
+      "type": "PREFIX+ROOT",
+      "prefix": "sa",
+      "suffix": "",
+      "top_roots": [
+        {
+          "root": "r",
+          "count": 11
+        },
+        {
+          "root": "l",
+          "count": 11
+        },
+        {
+          "root": "in",
+          "count": 5
+        },
+        {
+          "root": "ir",
+          "count": 5
+        },
+        {
+          "root": "m",
+          "count": 3
+        },
+        {
+          "root": "iir",
+          "count": 2
+        },
+        {
+          "root": "ino",
+          "count": 2
+        },
+        {
+          "root": "iram",
+          "count": 1
+        },
+        {
+          "root": "ra",
+          "count": 1
+        },
+        {
+          "root": "lols",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "sar",
+        "sar",
+        "sal",
+        "sar",
+        "sain",
+        "sal",
+        "sair",
+        "sain",
+        "sam",
+        "saiir"
+      ],
+      "composition": "unknown + unknown_root",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.15000000000000002
+    },
+    {
+      "pattern": "ok-[ROOT]-ey",
+      "count": 43,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "ey",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 29
+        },
+        {
+          "root": "ee",
+          "count": 3
+        },
+        {
+          "root": "ech",
+          "count": 2
+        },
+        {
+          "root": "olch",
+          "count": 1
+        },
+        {
+          "root": "eoee",
+          "count": 1
+        },
+        {
+          "root": "eyte",
+          "count": 1
+        },
+        {
+          "root": "ch",
+          "count": 1
+        },
+        {
+          "root": "och",
+          "count": 1
+        },
+        {
+          "root": "alch",
+          "count": 1
+        },
+        {
+          "root": "olsh",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "okeey",
+        "okeey",
+        "okeey",
+        "okeey",
+        "okechey",
+        "okeey",
+        "okeey",
+        "okolchey",
+        "okeey",
+        "okeoeeey"
+      ],
+      "composition": "constituent/unit + modifier/relation + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.9999999999999999
+    },
+    {
+      "pattern": "qo-[ROOT]-in",
+      "count": 42,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "qo",
+      "suffix": "in",
+      "top_roots": [
+        {
+          "root": "ka",
+          "count": 36
+        },
+        {
+          "root": "toai",
+          "count": 1
+        },
+        {
+          "root": "koai",
+          "count": 1
+        },
+        {
+          "root": "eeokai",
+          "count": 1
+        },
+        {
+          "root": "kalai",
+          "count": 1
+        },
+        {
+          "root": "kei",
+          "count": 1
+        },
+        {
+          "root": "ta",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qotoaiin",
+        "qokoaiin",
+        "qoeeokaiin",
+        "qokalaiin",
+        "qokain",
+        "qokain",
+        "qokain",
+        "qokain",
+        "qokain",
+        "qokain"
+      ],
+      "composition": "unknown + unknown_root + nominal/substantive",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "ok-[ROOT]-dy",
+      "count": 39,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "dy",
+      "top_roots": [
+        {
+          "root": "eo",
+          "count": 7
+        },
+        {
+          "root": "eeo",
+          "count": 6
+        },
+        {
+          "root": "o",
+          "count": 5
+        },
+        {
+          "root": "ee",
+          "count": 4
+        },
+        {
+          "root": "e",
+          "count": 3
+        },
+        {
+          "root": "cho",
+          "count": 3
+        },
+        {
+          "root": "ol",
+          "count": 2
+        },
+        {
+          "root": "sheeo",
+          "count": 1
+        },
+        {
+          "root": "ar",
+          "count": 1
+        },
+        {
+          "root": "eeeo",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "okeody",
+        "okeeody",
+        "oksheeody",
+        "okoldy",
+        "okardy",
+        "okeeeody",
+        "okedy",
+        "okchody",
+        "okalody",
+        "okeody"
+      ],
+      "composition": "constituent/unit + quality/state + process_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.9999999999999999
+    },
+    {
+      "pattern": "ot-[ROOT]-in",
+      "count": 37,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "in",
+      "top_roots": [
+        {
+          "root": "ai",
+          "count": 14
+        },
+        {
+          "root": "eodai",
+          "count": 4
+        },
+        {
+          "root": "alai",
+          "count": 3
+        },
+        {
+          "root": "oai",
+          "count": 2
+        },
+        {
+          "root": "eosai",
+          "count": 2
+        },
+        {
+          "root": "a",
+          "count": 2
+        },
+        {
+          "root": "odai",
+          "count": 1
+        },
+        {
+          "root": "arara",
+          "count": 1
+        },
+        {
+          "root": "eoda",
+          "count": 1
+        },
+        {
+          "root": "olai",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "oteodaiin",
+        "otodaiin",
+        "oteodaiin",
+        "otararain",
+        "oteodaiin",
+        "oteodain",
+        "otaiin",
+        "otoaiin",
+        "otaiin",
+        "otaiin"
+      ],
+      "composition": "transition/change + quality/state + nominal/substantive",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.9999999999999999
+    },
+    {
+      "pattern": "ot-[ROOT]-ar",
+      "count": 36,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "ar",
+      "top_roots": [
+        {
+          "root": "eod",
+          "count": 5
+        },
+        {
+          "root": "o",
+          "count": 3
+        },
+        {
+          "root": "eor",
+          "count": 2
+        },
+        {
+          "root": "ald",
+          "count": 2
+        },
+        {
+          "root": "e",
+          "count": 2
+        },
+        {
+          "root": "ed",
+          "count": 2
+        },
+        {
+          "root": "ar",
+          "count": 1
+        },
+        {
+          "root": "cheod",
+          "count": 1
+        },
+        {
+          "root": "eeod",
+          "count": 1
+        },
+        {
+          "root": "eeo",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "otarar",
+        "otcheodar",
+        "oteeodar",
+        "otoar",
+        "oteorar",
+        "oteodar",
+        "oteeoar",
+        "oteodar",
+        "otesar",
+        "otaldar"
+      ],
+      "composition": "transition/change + unknown_root + agent/doer",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.7499999999999999
+    },
+    {
+      "pattern": "da-[ROOT]-in",
+      "count": 32,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "da",
+      "suffix": "in",
+      "top_roots": [
+        {
+          "root": "i",
+          "count": 28
+        },
+        {
+          "root": "lai",
+          "count": 1
+        },
+        {
+          "root": "ai",
+          "count": 1
+        },
+        {
+          "root": "ii",
+          "count": 1
+        },
+        {
+          "root": "ldai",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "dalaiin",
+        "daiin",
+        "daiin",
+        "daiin",
+        "daaiin",
+        "daiiin",
+        "daiin",
+        "daiin",
+        "daiin",
+        "daiin"
+      ],
+      "composition": "unknown + process/active + nominal/substantive",
+      "interpretation": "unclear",
+      "root_semantic_field": "Process/Active",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ot-[ROOT]-os",
+      "count": 30,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "os",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 17
+        },
+        {
+          "root": "ee",
+          "count": 9
+        },
+        {
+          "root": "old",
+          "count": 1
+        },
+        {
+          "root": "ch",
+          "count": 1
+        },
+        {
+          "root": "ec",
+          "count": 1
+        },
+        {
+          "root": "eot",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "oteeos",
+        "oteos",
+        "otoldos",
+        "oteos",
+        "otchos",
+        "oteeos",
+        "oteeos",
+        "oteos",
+        "oteos",
+        "oteos"
+      ],
+      "composition": "transition/change + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "sh-[ROOT]-ey",
+      "count": 30,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sh",
+      "suffix": "ey",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 8
+        },
+        {
+          "root": "eoke",
+          "count": 2
+        },
+        {
+          "root": "eke",
+          "count": 2
+        },
+        {
+          "root": "ek",
+          "count": 2
+        },
+        {
+          "root": "ok",
+          "count": 2
+        },
+        {
+          "root": "oke",
+          "count": 2
+        },
+        {
+          "root": "cth",
+          "count": 1
+        },
+        {
+          "root": "eet",
+          "count": 1
+        },
+        {
+          "root": "ke",
+          "count": 1
+        },
+        {
+          "root": "yoke",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "sheokeey",
+        "sheey",
+        "sheey",
+        "shcthey",
+        "shekeey",
+        "sheetey",
+        "shekeey",
+        "shkeey",
+        "shekey",
+        "shyokeey"
+      ],
+      "composition": "unknown + modifier/relation + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "qo-[ROOT]",
+      "count": 30,
+      "type": "PREFIX+ROOT",
+      "prefix": "qo",
+      "suffix": "",
+      "top_roots": [
+        {
+          "root": "l",
+          "count": 14
+        },
+        {
+          "root": "tam",
+          "count": 2
+        },
+        {
+          "root": "r",
+          "count": 2
+        },
+        {
+          "root": "fch",
+          "count": 1
+        },
+        {
+          "root": "fair",
+          "count": 1
+        },
+        {
+          "root": "eeeecthim",
+          "count": 1
+        },
+        {
+          "root": "oto",
+          "count": 1
+        },
+        {
+          "root": "tair",
+          "count": 1
+        },
+        {
+          "root": "eeeo",
+          "count": 1
+        },
+        {
+          "root": "kan",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qofch",
+        "qofair",
+        "qoeeeecthim",
+        "qooto",
+        "qotam",
+        "qotair",
+        "qoeeeo",
+        "qokan",
+        "qokam",
+        "qol"
+      ],
+      "composition": "unknown + quality/state",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.4
+    },
+    {
+      "pattern": "[ROOT]-al",
+      "count": 29,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "al",
+      "top_roots": [
+        {
+          "root": "ar",
+          "count": 3
+        },
+        {
+          "root": "al",
+          "count": 3
+        },
+        {
+          "root": "od",
+          "count": 2
+        },
+        {
+          "root": "yt",
+          "count": 2
+        },
+        {
+          "root": "keeod",
+          "count": 1
+        },
+        {
+          "root": "ysald",
+          "count": 1
+        },
+        {
+          "root": "ytod",
+          "count": 1
+        },
+        {
+          "root": "to",
+          "count": 1
+        },
+        {
+          "root": "sol",
+          "count": 1
+        },
+        {
+          "root": "echkal",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "keeodal",
+        "odal",
+        "ysaldal",
+        "ytodal",
+        "toal",
+        "solal",
+        "echkalal",
+        "aral",
+        "rcheodal",
+        "dcheal"
+      ],
+      "composition": "quality/state + quality/attribute",
+      "interpretation": "quality_attribute",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "[ROOT]-ol",
+      "count": 29,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "ol",
+      "top_roots": [
+        {
+          "root": "or",
+          "count": 3
+        },
+        {
+          "root": "och",
+          "count": 2
+        },
+        {
+          "root": "dch",
+          "count": 2
+        },
+        {
+          "root": "ke",
+          "count": 2
+        },
+        {
+          "root": "ar",
+          "count": 2
+        },
+        {
+          "root": "soair",
+          "count": 1
+        },
+        {
+          "root": "deeeosk",
+          "count": 1
+        },
+        {
+          "root": "cph",
+          "count": 1
+        },
+        {
+          "root": "dsh",
+          "count": 1
+        },
+        {
+          "root": "oalche",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "soairol",
+        "ochol",
+        "deeeoskol",
+        "cphol",
+        "dchol",
+        "dshol",
+        "oalcheol",
+        "keol",
+        "kcheol",
+        "dchol"
+      ],
+      "composition": "unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.15000000000000002
+    },
+    {
+      "pattern": "sh-[ROOT]-dy",
+      "count": 29,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sh",
+      "suffix": "dy",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 17
+        },
+        {
+          "root": "eo",
+          "count": 4
+        },
+        {
+          "root": "ee",
+          "count": 3
+        },
+        {
+          "root": "teo",
+          "count": 1
+        },
+        {
+          "root": "oteeo",
+          "count": 1
+        },
+        {
+          "root": "l",
+          "count": 1
+        },
+        {
+          "root": "al",
+          "count": 1
+        },
+        {
+          "root": "okch",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "sheody",
+        "sheody",
+        "sheody",
+        "shteody",
+        "shedy",
+        "shoteeody",
+        "shldy",
+        "sheody",
+        "shedy",
+        "shedy"
+      ],
+      "composition": "unknown + modifier/relation + process_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ch-[ROOT]-al",
+      "count": 28,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "al",
+      "top_roots": [
+        {
+          "root": "ot",
+          "count": 4
+        },
+        {
+          "root": "ol",
+          "count": 3
+        },
+        {
+          "root": "k",
+          "count": 3
+        },
+        {
+          "root": "e",
+          "count": 2
+        },
+        {
+          "root": "ok",
+          "count": 2
+        },
+        {
+          "root": "ed",
+          "count": 2
+        },
+        {
+          "root": "eo",
+          "count": 1
+        },
+        {
+          "root": "od",
+          "count": 1
+        },
+        {
+          "root": "oekeeyd",
+          "count": 1
+        },
+        {
+          "root": "o",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "cheoal",
+        "cholal",
+        "chodal",
+        "cholal",
+        "cheal",
+        "chkal",
+        "chotal",
+        "cheal",
+        "chkal",
+        "choekeeydal"
+      ],
+      "composition": "intensifier/modifier + process/active + quality/attribute",
+      "interpretation": "quality_attribute",
+      "root_semantic_field": "Process/Active",
+      "confidence": 0.9999999999999999
+    },
+    {
+      "pattern": "ch-[ROOT]-ar",
+      "count": 26,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "ar",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 4
+        },
+        {
+          "root": "ed",
+          "count": 2
+        },
+        {
+          "root": "ot",
+          "count": 2
+        },
+        {
+          "root": "ek",
+          "count": 2
+        },
+        {
+          "root": "p",
+          "count": 1
+        },
+        {
+          "root": "kchd",
+          "count": 1
+        },
+        {
+          "root": "ol",
+          "count": 1
+        },
+        {
+          "root": "od",
+          "count": 1
+        },
+        {
+          "root": "ok",
+          "count": 1
+        },
+        {
+          "root": "et",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "chpar",
+        "chedar",
+        "chkchdar",
+        "cholar",
+        "chodar",
+        "chokar",
+        "chear",
+        "chetar",
+        "chykar",
+        "chear"
+      ],
+      "composition": "intensifier/modifier + modifier/relation + agent/doer",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.9999999999999999
+    },
+    {
+      "pattern": "yk-[ROOT]",
+      "count": 26,
+      "type": "PREFIX+ROOT",
+      "prefix": "yk",
+      "suffix": "",
+      "top_roots": [
+        {
+          "root": "ar",
+          "count": 4
+        },
+        {
+          "root": "y",
+          "count": 4
+        },
+        {
+          "root": "or",
+          "count": 3
+        },
+        {
+          "root": "eeo",
+          "count": 2
+        },
+        {
+          "root": "shys",
+          "count": 1
+        },
+        {
+          "root": "echo",
+          "count": 1
+        },
+        {
+          "root": "chys",
+          "count": 1
+        },
+        {
+          "root": "aralam",
+          "count": 1
+        },
+        {
+          "root": "os",
+          "count": 1
+        },
+        {
+          "root": "ac",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykshys",
+        "ykecho",
+        "ykchys",
+        "ykar",
+        "ykor",
+        "ykaralam",
+        "ykeeo",
+        "ykor",
+        "yky",
+        "yky"
+      ],
+      "composition": "unknown + quality/state",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.4
+    },
+    {
+      "pattern": "ok-[ROOT]-ar",
+      "count": 24,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "ar",
+      "top_roots": [
+        {
+          "root": "ol",
+          "count": 3
+        },
+        {
+          "root": "eos",
+          "count": 2
+        },
+        {
+          "root": "l",
+          "count": 2
+        },
+        {
+          "root": "eo",
+          "count": 2
+        },
+        {
+          "root": "e",
+          "count": 2
+        },
+        {
+          "root": "eal",
+          "count": 2
+        },
+        {
+          "root": "eod",
+          "count": 2
+        },
+        {
+          "root": "al",
+          "count": 2
+        },
+        {
+          "root": "ech",
+          "count": 1
+        },
+        {
+          "root": "o",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "okechar",
+        "okeosar",
+        "okoar",
+        "oklar",
+        "okeoar",
+        "okolar",
+        "okeear",
+        "okear",
+        "okodar",
+        "okealar"
+      ],
+      "composition": "constituent/unit + quality/state + agent/doer",
+      "interpretation": "quality_agent/doer",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.9999999999999999
+    },
+    {
+      "pattern": "ot-[ROOT]-al",
+      "count": 24,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "al",
+      "top_roots": [
+        {
+          "root": "eod",
+          "count": 2
+        },
+        {
+          "root": "ch",
+          "count": 2
+        },
+        {
+          "root": "ald",
+          "count": 2
+        },
+        {
+          "root": "eos",
+          "count": 2
+        },
+        {
+          "root": "al",
+          "count": 2
+        },
+        {
+          "root": "eo",
+          "count": 2
+        },
+        {
+          "root": "chod",
+          "count": 1
+        },
+        {
+          "root": "o",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        },
+        {
+          "root": "eeo",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "oteodal",
+        "otchodal",
+        "otchal",
+        "otoal",
+        "otaldal",
+        "oteeal",
+        "oteosal",
+        "otaldal",
+        "oteeoal",
+        "otalal"
+      ],
+      "composition": "transition/change + unknown_root + quality/attribute",
+      "interpretation": "quality_attribute",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.7499999999999999
+    },
+    {
+      "pattern": "ok-[ROOT]-in",
+      "count": 24,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "in",
+      "top_roots": [
+        {
+          "root": "ai",
+          "count": 11
+        },
+        {
+          "root": "a",
+          "count": 3
+        },
+        {
+          "root": "eolai",
+          "count": 2
+        },
+        {
+          "root": "eeodai",
+          "count": 1
+        },
+        {
+          "root": "aii",
+          "count": 1
+        },
+        {
+          "root": "oai",
+          "count": 1
+        },
+        {
+          "root": "eeai",
+          "count": 1
+        },
+        {
+          "root": "eodai",
+          "count": 1
+        },
+        {
+          "root": "arai",
+          "count": 1
+        },
+        {
+          "root": "alai",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "okain",
+        "okeeodaiin",
+        "okaiiin",
+        "okoaiin",
+        "okeeaiin",
+        "okeodaiin",
+        "okaiin",
+        "okaiin",
+        "okaraiin",
+        "okaiin"
+      ],
+      "composition": "constituent/unit + quality/state + nominal/substantive",
+      "interpretation": "constituent_nominal",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.9999999999999999
+    },
+    {
+      "pattern": "ch-[ROOT]-in",
+      "count": 23,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "in",
+      "top_roots": [
+        {
+          "root": "oai",
+          "count": 2
+        },
+        {
+          "root": "edai",
+          "count": 2
+        },
+        {
+          "root": "ekai",
+          "count": 2
+        },
+        {
+          "root": "eodai",
+          "count": 1
+        },
+        {
+          "root": "teokai",
+          "count": 1
+        },
+        {
+          "root": "ei",
+          "count": 1
+        },
+        {
+          "root": "eai",
+          "count": 1
+        },
+        {
+          "root": "olai",
+          "count": 1
+        },
+        {
+          "root": "oka",
+          "count": 1
+        },
+        {
+          "root": "eekai",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "cheodaiin",
+        "chteokaiin",
+        "cheiin",
+        "choaiin",
+        "cheaiin",
+        "cholaiin",
+        "chokain",
+        "chedaiin",
+        "cheekaiin",
+        "chalaiin"
+      ],
+      "composition": "intensifier/modifier + unknown_root + nominal/substantive",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.7499999999999999
+    },
+    {
+      "pattern": "ok-[ROOT]-ol",
+      "count": 23,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "ol",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 8
+        },
+        {
+          "root": "ee",
+          "count": 5
+        },
+        {
+          "root": "ch",
+          "count": 3
+        },
+        {
+          "root": "eol",
+          "count": 2
+        },
+        {
+          "root": "orke",
+          "count": 1
+        },
+        {
+          "root": "eoek",
+          "count": 1
+        },
+        {
+          "root": "alche",
+          "count": 1
+        },
+        {
+          "root": "eedyq",
+          "count": 1
+        },
+        {
+          "root": "al",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "okeol",
+        "okeol",
+        "okorkeol",
+        "okchol",
+        "okeeol",
+        "okeol",
+        "okeol",
+        "okchol",
+        "okeol",
+        "okchol"
+      ],
+      "composition": "constituent/unit + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "qo-[ROOT]-y",
+      "count": 22,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "qo",
+      "suffix": "y",
+      "top_roots": [
+        {
+          "root": "k",
+          "count": 10
+        },
+        {
+          "root": "t",
+          "count": 2
+        },
+        {
+          "root": "keoch",
+          "count": 1
+        },
+        {
+          "root": "ckh",
+          "count": 1
+        },
+        {
+          "root": "eeckh",
+          "count": 1
+        },
+        {
+          "root": "kch",
+          "count": 1
+        },
+        {
+          "root": "ckhh",
+          "count": 1
+        },
+        {
+          "root": "ta",
+          "count": 1
+        },
+        {
+          "root": "kchsh",
+          "count": 1
+        },
+        {
+          "root": "keech",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qokeochy",
+        "qockhy",
+        "qoeeckhy",
+        "qokchy",
+        "qockhhy",
+        "qotay",
+        "qokchshy",
+        "qokeechy",
+        "qokeoly",
+        "qoty"
+      ],
+      "composition": "unknown + modifier/relation + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "da-[ROOT]-y",
+      "count": 21,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "da",
+      "suffix": "y",
+      "top_roots": [
+        {
+          "root": "l",
+          "count": 8
+        },
+        {
+          "root": "r",
+          "count": 5
+        },
+        {
+          "root": "lar",
+          "count": 1
+        },
+        {
+          "root": "irapeeet",
+          "count": 1
+        },
+        {
+          "root": "s",
+          "count": 1
+        },
+        {
+          "root": "lal",
+          "count": 1
+        },
+        {
+          "root": "lch",
+          "count": 1
+        },
+        {
+          "root": "ral",
+          "count": 1
+        },
+        {
+          "root": "cth",
+          "count": 1
+        },
+        {
+          "root": "in",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "dalary",
+        "daly",
+        "dary",
+        "dary",
+        "daly",
+        "dary",
+        "dairapeeety",
+        "daly",
+        "dary",
+        "dasy"
+      ],
+      "composition": "unknown + quality/state + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "ol-[ROOT]",
+      "count": 21,
+      "type": "PREFIX+ROOT",
+      "prefix": "ol",
+      "suffix": "",
+      "top_roots": [
+        {
+          "root": "y",
+          "count": 6
+        },
+        {
+          "root": "ol",
+          "count": 4
+        },
+        {
+          "root": "ar",
+          "count": 4
+        },
+        {
+          "root": "kao",
+          "count": 1
+        },
+        {
+          "root": "cheeg",
+          "count": 1
+        },
+        {
+          "root": "or",
+          "count": 1
+        },
+        {
+          "root": "alkair",
+          "count": 1
+        },
+        {
+          "root": "kcho",
+          "count": 1
+        },
+        {
+          "root": "dair",
+          "count": 1
+        },
+        {
+          "root": "om",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "olol",
+        "oly",
+        "olar",
+        "olkao",
+        "olcheeg",
+        "olar",
+        "olor",
+        "oly",
+        "oly",
+        "olar"
+      ],
+      "composition": "unknown + unknown_root",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.15000000000000002
+    },
+    {
+      "pattern": "qo-[ROOT]-al",
+      "count": 21,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "qo",
+      "suffix": "al",
+      "top_roots": [
+        {
+          "root": "k",
+          "count": 16
+        },
+        {
+          "root": "t",
+          "count": 2
+        },
+        {
+          "root": "tee",
+          "count": 1
+        },
+        {
+          "root": "keo",
+          "count": 1
+        },
+        {
+          "root": "keod",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qokal",
+        "qokal",
+        "qokal",
+        "qotal",
+        "qokal",
+        "qokal",
+        "qokal",
+        "qokal",
+        "qotal",
+        "qoteeal"
+      ],
+      "composition": "unknown + modifier/relation + quality/attribute",
+      "interpretation": "quality_attribute",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "[ROOT]-es",
+      "count": 20,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "es",
+      "top_roots": [
+        {
+          "root": "oe",
+          "count": 3
+        },
+        {
+          "root": "oee",
+          "count": 2
+        },
+        {
+          "root": "sch",
+          "count": 1
+        },
+        {
+          "root": "ycheoy",
+          "count": 1
+        },
+        {
+          "root": "yeke",
+          "count": 1
+        },
+        {
+          "root": "oeolal",
+          "count": 1
+        },
+        {
+          "root": "toe",
+          "count": 1
+        },
+        {
+          "root": "aloe",
+          "count": 1
+        },
+        {
+          "root": "och",
+          "count": 1
+        },
+        {
+          "root": "aiirch",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "sches",
+        "ycheoyes",
+        "yekees",
+        "oeolales",
+        "oeees",
+        "toees",
+        "oees",
+        "aloees",
+        "oches",
+        "aiirches"
+      ],
+      "composition": "unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.15000000000000002
+    },
+    {
+      "pattern": "ch-[ROOT]-ol",
+      "count": 20,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "ol",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 8
+        },
+        {
+          "root": "ok",
+          "count": 2
+        },
+        {
+          "root": "ot",
+          "count": 2
+        },
+        {
+          "root": "eor",
+          "count": 1
+        },
+        {
+          "root": "dch",
+          "count": 1
+        },
+        {
+          "root": "ote",
+          "count": 1
+        },
+        {
+          "root": "eeetch",
+          "count": 1
+        },
+        {
+          "root": "l",
+          "count": 1
+        },
+        {
+          "root": "oke",
+          "count": 1
+        },
+        {
+          "root": "eke",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "cheol",
+        "cheorol",
+        "chokol",
+        "chdchol",
+        "choteol",
+        "cheeetchol",
+        "cheol",
+        "cheol",
+        "chotol",
+        "chotol"
+      ],
+      "composition": "intensifier/modifier + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ch-[ROOT]-or",
+      "count": 19,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "or",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 12
+        },
+        {
+          "root": "p",
+          "count": 1
+        },
+        {
+          "root": "oksh",
+          "count": 1
+        },
+        {
+          "root": "eol",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        },
+        {
+          "root": "eoke",
+          "count": 1
+        },
+        {
+          "root": "laiintee",
+          "count": 1
+        },
+        {
+          "root": "ar",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "cheor",
+        "cheor",
+        "chpor",
+        "cheor",
+        "cheor",
+        "cheor",
+        "cheor",
+        "cheor",
+        "cheor",
+        "cheor"
+      ],
+      "composition": "intensifier/modifier + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "[ROOT]-or",
+      "count": 19,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "or",
+      "top_roots": [
+        {
+          "root": "ke",
+          "count": 2
+        },
+        {
+          "root": "of",
+          "count": 1
+        },
+        {
+          "root": "yteo",
+          "count": 1
+        },
+        {
+          "root": "yt",
+          "count": 1
+        },
+        {
+          "root": "soe",
+          "count": 1
+        },
+        {
+          "root": "dchee",
+          "count": 1
+        },
+        {
+          "root": "ofche",
+          "count": 1
+        },
+        {
+          "root": "tshee",
+          "count": 1
+        },
+        {
+          "root": "ytcheodyt",
+          "count": 1
+        },
+        {
+          "root": "dch",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ofor",
+        "yteoor",
+        "ytor",
+        "soeor",
+        "dcheeor",
+        "ofcheor",
+        "tsheeor",
+        "ytcheodytor",
+        "dchor",
+        "iokeeor"
+      ],
+      "composition": "unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.15000000000000002
+    },
+    {
+      "pattern": "[ROOT]-os",
+      "count": 18,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "os",
+      "top_roots": [
+        {
+          "root": "yte",
+          "count": 3
+        },
+        {
+          "root": "tee",
+          "count": 2
+        },
+        {
+          "root": "syk",
+          "count": 1
+        },
+        {
+          "root": "ydch",
+          "count": 1
+        },
+        {
+          "root": "ytalch",
+          "count": 1
+        },
+        {
+          "root": "oee",
+          "count": 1
+        },
+        {
+          "root": "dchee",
+          "count": 1
+        },
+        {
+          "root": "dch",
+          "count": 1
+        },
+        {
+          "root": "tche",
+          "count": 1
+        },
+        {
+          "root": "sche",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "sykos",
+        "ydchos",
+        "yteos",
+        "ytalchos",
+        "oeeos",
+        "dcheeos",
+        "dchos",
+        "tcheos",
+        "scheos",
+        "teeos"
+      ],
+      "composition": "unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.15000000000000002
+    },
+    {
+      "pattern": "ol-[ROOT]-y",
+      "count": 16,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ol",
+      "suffix": "y",
+      "top_roots": [
+        {
+          "root": "d",
+          "count": 6
+        },
+        {
+          "root": "saiin",
+          "count": 1
+        },
+        {
+          "root": "keeol",
+          "count": 1
+        },
+        {
+          "root": "ch",
+          "count": 1
+        },
+        {
+          "root": "ckhh",
+          "count": 1
+        },
+        {
+          "root": "als",
+          "count": 1
+        },
+        {
+          "root": "aikh",
+          "count": 1
+        },
+        {
+          "root": "eeal",
+          "count": 1
+        },
+        {
+          "root": "sht",
+          "count": 1
+        },
+        {
+          "root": "kch",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "oldy",
+        "olsaiiny",
+        "olkeeoly",
+        "olchy",
+        "olckhhy",
+        "olalsy",
+        "olaikhy",
+        "oleealy",
+        "oldy",
+        "oldy"
+      ],
+      "composition": "unknown + unknown_root + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "qo-[ROOT]-ar",
+      "count": 16,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "qo",
+      "suffix": "ar",
+      "top_roots": [
+        {
+          "root": "k",
+          "count": 10
+        },
+        {
+          "root": "t",
+          "count": 3
+        },
+        {
+          "root": "toe",
+          "count": 1
+        },
+        {
+          "root": "kchd",
+          "count": 1
+        },
+        {
+          "root": "ke",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qotoear",
+        "qokchdar",
+        "qokar",
+        "qotar",
+        "qokar",
+        "qokar",
+        "qotar",
+        "qokar",
+        "qokar",
+        "qokar"
+      ],
+      "composition": "unknown + modifier/relation + agent/doer",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ol-[ROOT]-dy",
+      "count": 15,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ol",
+      "suffix": "dy",
+      "top_roots": [
+        {
+          "root": "che",
+          "count": 5
+        },
+        {
+          "root": "she",
+          "count": 3
+        },
+        {
+          "root": "ke",
+          "count": 2
+        },
+        {
+          "root": "seesy",
+          "count": 1
+        },
+        {
+          "root": "keeo",
+          "count": 1
+        },
+        {
+          "root": "eeo",
+          "count": 1
+        },
+        {
+          "root": "shee",
+          "count": 1
+        },
+        {
+          "root": "kee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "olseesydy",
+        "olkeeody",
+        "oleeody",
+        "olsheedy",
+        "olchedy",
+        "olshedy",
+        "olshedy",
+        "olkedy",
+        "olkeedy",
+        "olchedy"
+      ],
+      "composition": "unknown + unknown_root + process_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "yk-[ROOT]-y",
+      "count": 15,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "yk",
+      "suffix": "y",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 4
+        },
+        {
+          "root": "ch",
+          "count": 2
+        },
+        {
+          "root": "al",
+          "count": 2
+        },
+        {
+          "root": "eech",
+          "count": 2
+        },
+        {
+          "root": "es",
+          "count": 1
+        },
+        {
+          "root": "eel",
+          "count": 1
+        },
+        {
+          "root": "ol",
+          "count": 1
+        },
+        {
+          "root": "eeor",
+          "count": 1
+        },
+        {
+          "root": "eesal",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykchy",
+        "ykaly",
+        "ykaly",
+        "ykeechy",
+        "ykey",
+        "ykchy",
+        "ykesy",
+        "ykeely",
+        "ykoly",
+        "ykeeory"
+      ],
+      "composition": "unknown + modifier/relation + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "yk-[ROOT]-dy",
+      "count": 14,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "yk",
+      "suffix": "dy",
+      "top_roots": [
+        {
+          "root": "eo",
+          "count": 6
+        },
+        {
+          "root": "eeo",
+          "count": 3
+        },
+        {
+          "root": "ch",
+          "count": 1
+        },
+        {
+          "root": "echo",
+          "count": 1
+        },
+        {
+          "root": "a",
+          "count": 1
+        },
+        {
+          "root": "ey",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykeeody",
+        "ykchdy",
+        "ykeody",
+        "ykeody",
+        "ykeeody",
+        "ykechody",
+        "ykady",
+        "ykeydy",
+        "ykeody",
+        "ykeody"
+      ],
+      "composition": "unknown + quality/state + process_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "op-[ROOT]",
+      "count": 14,
+      "type": "PREFIX+ROOT",
+      "prefix": "op",
+      "suffix": "",
+      "top_roots": [
+        {
+          "root": "al",
+          "count": 3
+        },
+        {
+          "root": "ar",
+          "count": 2
+        },
+        {
+          "root": "orch",
+          "count": 1
+        },
+        {
+          "root": "choldg",
+          "count": 1
+        },
+        {
+          "root": "aram",
+          "count": 1
+        },
+        {
+          "root": "aiir",
+          "count": 1
+        },
+        {
+          "root": "cheolair",
+          "count": 1
+        },
+        {
+          "root": "ysam",
+          "count": 1
+        },
+        {
+          "root": "chdysd",
+          "count": 1
+        },
+        {
+          "root": "aiinam",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "oporch",
+        "opal",
+        "opcholdg",
+        "opar",
+        "oparam",
+        "opaiir",
+        "opcheolair",
+        "opysam",
+        "opal",
+        "opchdysd"
+      ],
+      "composition": "unknown + quality/state",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.4
+    },
+    {
+      "pattern": "ok-[ROOT]-al",
+      "count": 14,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "al",
+      "top_roots": [
+        {
+          "root": "eeod",
+          "count": 2
+        },
+        {
+          "root": "eo",
+          "count": 2
+        },
+        {
+          "root": "al",
+          "count": 2
+        },
+        {
+          "root": "ed",
+          "count": 2
+        },
+        {
+          "root": "or",
+          "count": 1
+        },
+        {
+          "root": "cho",
+          "count": 1
+        },
+        {
+          "root": "echdar",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        },
+        {
+          "root": "ald",
+          "count": 1
+        },
+        {
+          "root": "alch",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "okoral",
+        "okchoal",
+        "okeeodal",
+        "okechdaral",
+        "okeoal",
+        "okeeal",
+        "okaldal",
+        "okeeodal",
+        "okalal",
+        "okeoal"
+      ],
+      "composition": "constituent/unit + unknown_root + quality/attribute",
+      "interpretation": "quality_attribute",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.7499999999999999
+    },
+    {
+      "pattern": "ol-[ROOT]-ey",
+      "count": 14,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ol",
+      "suffix": "ey",
+      "top_roots": [
+        {
+          "root": "ch",
+          "count": 4
+        },
+        {
+          "root": "k",
+          "count": 4
+        },
+        {
+          "root": "chees",
+          "count": 1
+        },
+        {
+          "root": "s",
+          "count": 1
+        },
+        {
+          "root": "eke",
+          "count": 1
+        },
+        {
+          "root": "ke",
+          "count": 1
+        },
+        {
+          "root": "sh",
+          "count": 1
+        },
+        {
+          "root": "che",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "olcheesey",
+        "olsey",
+        "olekeey",
+        "olkeey",
+        "olchey",
+        "olkey",
+        "olchey",
+        "olkey",
+        "olchey",
+        "olshey"
+      ],
+      "composition": "unknown + entity/object + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Entity/Object",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ot-[ROOT]-ol",
+      "count": 14,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "ol",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 6
+        },
+        {
+          "root": "ee",
+          "count": 3
+        },
+        {
+          "root": "eo",
+          "count": 1
+        },
+        {
+          "root": "osh",
+          "count": 1
+        },
+        {
+          "root": "ch",
+          "count": 1
+        },
+        {
+          "root": "eeos",
+          "count": 1
+        },
+        {
+          "root": "ech",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "oteool",
+        "otoshol",
+        "otchol",
+        "oteol",
+        "oteeosol",
+        "oteol",
+        "oteeol",
+        "oteol",
+        "oteol",
+        "oteeol"
+      ],
+      "composition": "transition/change + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "yk-[ROOT]-ey",
+      "count": 13,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "yk",
+      "suffix": "ey",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 7
+        },
+        {
+          "root": "ch",
+          "count": 2
+        },
+        {
+          "root": "ee",
+          "count": 2
+        },
+        {
+          "root": "eeyke",
+          "count": 1
+        },
+        {
+          "root": "eel",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykchey",
+        "ykchey",
+        "ykeeey",
+        "ykeeey",
+        "ykeeykeey",
+        "ykeey",
+        "ykeey",
+        "ykeey",
+        "ykeey",
+        "ykeey"
+      ],
+      "composition": "unknown + modifier/relation + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ok-[ROOT]-os",
+      "count": 13,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "os",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 8
+        },
+        {
+          "root": "ee",
+          "count": 5
+        }
+      ],
+      "examples": [
+        "okeos",
+        "okeeos",
+        "okeos",
+        "okeeos",
+        "okeeos",
+        "okeos",
+        "okeeos",
+        "okeos",
+        "okeos",
+        "okeos"
+      ],
+      "composition": "constituent/unit + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ol-[ROOT]-in",
+      "count": 13,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ol",
+      "suffix": "in",
+      "top_roots": [
+        {
+          "root": "ai",
+          "count": 9
+        },
+        {
+          "root": "kalai",
+          "count": 1
+        },
+        {
+          "root": "alai",
+          "count": 1
+        },
+        {
+          "root": "a",
+          "count": 1
+        },
+        {
+          "root": "ka",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "olaiin",
+        "olaiin",
+        "olaiin",
+        "olaiin",
+        "olkalaiin",
+        "olaiin",
+        "olaiin",
+        "olaiin",
+        "olaiin",
+        "olalaiin"
+      ],
+      "composition": "unknown + quality/state + nominal/substantive",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "sh-[ROOT]-ol",
+      "count": 11,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sh",
+      "suffix": "ol",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 7
+        },
+        {
+          "root": "okee",
+          "count": 1
+        },
+        {
+          "root": "epch",
+          "count": 1
+        },
+        {
+          "root": "yckh",
+          "count": 1
+        },
+        {
+          "root": "t",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "sheol",
+        "sheol",
+        "shokeeol",
+        "shepchol",
+        "sheol",
+        "sheol",
+        "shyckhol",
+        "sheol",
+        "sheol",
+        "shtol"
+      ],
+      "composition": "unknown + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "qo-[ROOT]-ol",
+      "count": 10,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "qo",
+      "suffix": "ol",
+      "top_roots": [
+        {
+          "root": "k",
+          "count": 4
+        },
+        {
+          "root": "ckhe",
+          "count": 1
+        },
+        {
+          "root": "ke",
+          "count": 1
+        },
+        {
+          "root": "ko",
+          "count": 1
+        },
+        {
+          "root": "i",
+          "count": 1
+        },
+        {
+          "root": "kee",
+          "count": 1
+        },
+        {
+          "root": "lshe",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qockheol",
+        "qokeol",
+        "qokool",
+        "qoiol",
+        "qokol",
+        "qokol",
+        "qokol",
+        "qokeeol",
+        "qolsheol",
+        "qokol"
+      ],
+      "composition": "unknown + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "do-[ROOT]",
+      "count": 9,
+      "type": "PREFIX+ROOT",
+      "prefix": "do",
+      "suffix": "",
+      "top_roots": [
+        {
+          "root": "l",
+          "count": 3
+        },
+        {
+          "root": "kan",
+          "count": 1
+        },
+        {
+          "root": "leeg",
+          "count": 1
+        },
+        {
+          "root": "cheeo",
+          "count": 1
+        },
+        {
+          "root": "iir",
+          "count": 1
+        },
+        {
+          "root": "air",
+          "count": 1
+        },
+        {
+          "root": "laram",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "dol",
+        "dokan",
+        "dol",
+        "doleeg",
+        "docheeo",
+        "doiir",
+        "doair",
+        "dolaram",
+        "dol"
+      ],
+      "composition": "unknown + quality/state",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.4
+    },
+    {
+      "pattern": "ok-[ROOT]-or",
+      "count": 9,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "or",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 3
+        },
+        {
+          "root": "ch",
+          "count": 3
+        },
+        {
+          "root": "sh",
+          "count": 1
+        },
+        {
+          "root": "eeee",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "okeor",
+        "okeor",
+        "okshor",
+        "okchor",
+        "okeeeeor",
+        "okchor",
+        "okchor",
+        "okeor",
+        "okeeor"
+      ],
+      "composition": "constituent/unit + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ot-[ROOT]-es",
+      "count": 9,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "es",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 5
+        },
+        {
+          "root": "ee",
+          "count": 1
+        },
+        {
+          "root": "o",
+          "count": 1
+        },
+        {
+          "root": "oe",
+          "count": 1
+        },
+        {
+          "root": "oree",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "oteees",
+        "otoes",
+        "otees",
+        "otees",
+        "otees",
+        "otoees",
+        "otees",
+        "otees",
+        "otoreees"
+      ],
+      "composition": "transition/change + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ot-[ROOT]-or",
+      "count": 9,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "or",
+      "top_roots": [
+        {
+          "root": "ol",
+          "count": 1
+        },
+        {
+          "root": "echod",
+          "count": 1
+        },
+        {
+          "root": "air",
+          "count": 1
+        },
+        {
+          "root": "oeese",
+          "count": 1
+        },
+        {
+          "root": "eee",
+          "count": 1
+        },
+        {
+          "root": "ch",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        },
+        {
+          "root": "e",
+          "count": 1
+        },
+        {
+          "root": "ech",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "otolor",
+        "otechodor",
+        "otairor",
+        "otoeeseor",
+        "oteeeor",
+        "otchor",
+        "oteeor",
+        "oteor",
+        "otechor"
+      ],
+      "composition": "transition/change + quality/state + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "da-[ROOT]-dy",
+      "count": 9,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "da",
+      "suffix": "dy",
+      "top_roots": [
+        {
+          "root": "l",
+          "count": 4
+        },
+        {
+          "root": "rchee",
+          "count": 1
+        },
+        {
+          "root": "ii",
+          "count": 1
+        },
+        {
+          "root": "iiam",
+          "count": 1
+        },
+        {
+          "root": "lalo",
+          "count": 1
+        },
+        {
+          "root": "rdar",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "darcheedy",
+        "daiidy",
+        "daldy",
+        "daldy",
+        "daiiamdy",
+        "dalalody",
+        "dardardy",
+        "daldy",
+        "daldy"
+      ],
+      "composition": "unknown + quality/state + process_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "sh-[ROOT]-al",
+      "count": 9,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sh",
+      "suffix": "al",
+      "top_roots": [
+        {
+          "root": "ok",
+          "count": 2
+        },
+        {
+          "root": "e",
+          "count": 2
+        },
+        {
+          "root": "kchody",
+          "count": 1
+        },
+        {
+          "root": "ete",
+          "count": 1
+        },
+        {
+          "root": "k",
+          "count": 1
+        },
+        {
+          "root": "edyke",
+          "count": 1
+        },
+        {
+          "root": "ek",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "shkchodyal",
+        "sheteal",
+        "shokal",
+        "shkal",
+        "sheal",
+        "shokal",
+        "sheal",
+        "shedykeal",
+        "shekal"
+      ],
+      "composition": "unknown + unknown_root + quality/attribute",
+      "interpretation": "quality_attribute",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "ot-[ROOT]-oy",
+      "count": 9,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "oy",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 6
+        },
+        {
+          "root": "ch",
+          "count": 1
+        },
+        {
+          "root": "eotee",
+          "count": 1
+        },
+        {
+          "root": "ees",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "oteoy",
+        "oteoy",
+        "oteoy",
+        "oteoy",
+        "otchoy",
+        "oteoteeoy",
+        "oteesoy",
+        "oteoy",
+        "oteoy"
+      ],
+      "composition": "transition/change + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ch-[ROOT]-os",
+      "count": 8,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "os",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 4
+        },
+        {
+          "root": "yt",
+          "count": 1
+        },
+        {
+          "root": "oekee",
+          "count": 1
+        },
+        {
+          "root": "t",
+          "count": 1
+        },
+        {
+          "root": "te",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "cheos",
+        "cheos",
+        "cheos",
+        "chytos",
+        "cheos",
+        "choekeeos",
+        "chtos",
+        "chteos"
+      ],
+      "composition": "intensifier/modifier + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ok-[ROOT]-es",
+      "count": 8,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "es",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 5
+        },
+        {
+          "root": "chotee",
+          "count": 1
+        },
+        {
+          "root": "eee",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "okees",
+        "okees",
+        "okees",
+        "okchoteees",
+        "okeeees",
+        "okees",
+        "okeees",
+        "okees"
+      ],
+      "composition": "constituent/unit + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ch-[ROOT]-e",
+      "count": 8,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "e",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 3
+        },
+        {
+          "root": "oe",
+          "count": 1
+        },
+        {
+          "root": "ockh",
+          "count": 1
+        },
+        {
+          "root": "es",
+          "count": 1
+        },
+        {
+          "root": "ek",
+          "count": 1
+        },
+        {
+          "root": "ote",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "choee",
+        "chockhe",
+        "chese",
+        "chee",
+        "cheke",
+        "chotee",
+        "chee",
+        "chee"
+      ],
+      "composition": "intensifier/modifier + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "[ROOT]-oy",
+      "count": 8,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "oy",
+      "top_roots": [
+        {
+          "root": "al",
+          "count": 2
+        },
+        {
+          "root": "qk",
+          "count": 1
+        },
+        {
+          "root": "ke",
+          "count": 1
+        },
+        {
+          "root": "yte",
+          "count": 1
+        },
+        {
+          "root": "yt",
+          "count": 1
+        },
+        {
+          "root": "oee",
+          "count": 1
+        },
+        {
+          "root": "ytee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qkoy",
+        "keoy",
+        "yteoy",
+        "aloy",
+        "ytoy",
+        "aloy",
+        "oeeoy",
+        "yteeoy"
+      ],
+      "composition": "quality/state + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.4
+    },
+    {
+      "pattern": "op-[ROOT]-ey",
+      "count": 8,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "op",
+      "suffix": "ey",
+      "top_roots": [
+        {
+          "root": "ch",
+          "count": 3
+        },
+        {
+          "root": "che",
+          "count": 1
+        },
+        {
+          "root": "ot",
+          "count": 1
+        },
+        {
+          "root": "oe",
+          "count": 1
+        },
+        {
+          "root": "sheyt",
+          "count": 1
+        },
+        {
+          "root": "arch",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "opcheey",
+        "opchey",
+        "opchey",
+        "opotey",
+        "opoeey",
+        "opsheytey",
+        "oparchey",
+        "opchey"
+      ],
+      "composition": "unknown + entity/object + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Entity/Object",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "op-[ROOT]-in",
+      "count": 8,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "op",
+      "suffix": "in",
+      "top_roots": [
+        {
+          "root": "ai",
+          "count": 4
+        },
+        {
+          "root": "a",
+          "count": 1
+        },
+        {
+          "root": "olai",
+          "count": 1
+        },
+        {
+          "root": "oiiino",
+          "count": 1
+        },
+        {
+          "root": "cholalai",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "opain",
+        "opaiin",
+        "opolaiin",
+        "opoiiinoin",
+        "opcholalaiin",
+        "opaiin",
+        "opaiin",
+        "opaiin"
+      ],
+      "composition": "unknown + quality/state + nominal/substantive",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "sa-[ROOT]-in",
+      "count": 7,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sa",
+      "suffix": "in",
+      "top_roots": [
+        {
+          "root": "i",
+          "count": 5
+        },
+        {
+          "root": "lsa",
+          "count": 1
+        },
+        {
+          "root": "rai",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "saiin",
+        "salsain",
+        "saiin",
+        "saiin",
+        "saiin",
+        "saraiin",
+        "saiin"
+      ],
+      "composition": "unknown + process/active + nominal/substantive",
+      "interpretation": "unclear",
+      "root_semantic_field": "Process/Active",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ok-[ROOT]-oy",
+      "count": 7,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "oy",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 3
+        },
+        {
+          "root": "ech",
+          "count": 1
+        },
+        {
+          "root": "eokeoke",
+          "count": 1
+        },
+        {
+          "root": "al",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "okechoy",
+        "okeokeokeoy",
+        "okaloy",
+        "okeoy",
+        "okeoy",
+        "okeeoy",
+        "okeoy"
+      ],
+      "composition": "constituent/unit + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "da-[ROOT]-al",
+      "count": 6,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "da",
+      "suffix": "al",
+      "top_roots": [
+        {
+          "root": "l",
+          "count": 2
+        },
+        {
+          "root": "rar",
+          "count": 1
+        },
+        {
+          "root": "irk",
+          "count": 1
+        },
+        {
+          "root": "ir",
+          "count": 1
+        },
+        {
+          "root": "ii",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "dararal",
+        "dairkal",
+        "dairal",
+        "daiial",
+        "dalal",
+        "dalal"
+      ],
+      "composition": "unknown + quality/state + quality/attribute",
+      "interpretation": "quality_attribute",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "sa-[ROOT]-al",
+      "count": 6,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sa",
+      "suffix": "al",
+      "top_roots": [
+        {
+          "root": "r",
+          "count": 3
+        },
+        {
+          "root": "l",
+          "count": 2
+        },
+        {
+          "root": "lche",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "saral",
+        "salal",
+        "saral",
+        "salal",
+        "salcheal",
+        "saral"
+      ],
+      "composition": "unknown + unknown_root + quality/attribute",
+      "interpretation": "quality_attribute",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "[ROOT]-e",
+      "count": 6,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "e",
+      "top_roots": [
+        {
+          "root": "octhol",
+          "count": 1
+        },
+        {
+          "root": "ochodar",
+          "count": 1
+        },
+        {
+          "root": "orshe",
+          "count": 1
+        },
+        {
+          "root": "ye",
+          "count": 1
+        },
+        {
+          "root": "cth",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "octhole",
+        "ochodare",
+        "orshee",
+        "yee",
+        "cthe",
+        "eee"
+      ],
+      "composition": "unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.15000000000000002
+    },
+    {
+      "pattern": "qo-[ROOT]-ed",
+      "count": 6,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "qo",
+      "suffix": "ed",
+      "top_roots": [
+        {
+          "root": "ke",
+          "count": 4
+        },
+        {
+          "root": "k",
+          "count": 1
+        },
+        {
+          "root": "t",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qokeed",
+        "qoked",
+        "qokeed",
+        "qoted",
+        "qokeed",
+        "qokeed"
+      ],
+      "composition": "unknown + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "ok-[ROOT]-e",
+      "count": 5,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "e",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 2
+        },
+        {
+          "root": "eso",
+          "count": 1
+        },
+        {
+          "root": "yees",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "okesoe",
+        "okee",
+        "okyeese",
+        "okeee",
+        "okee"
+      ],
+      "composition": "constituent/unit + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ch-[ROOT]-es",
+      "count": 5,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "es",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 3
+        },
+        {
+          "root": "te",
+          "count": 1
+        },
+        {
+          "root": "oke",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "chtees",
+        "chees",
+        "chees",
+        "chokees",
+        "chees"
+      ],
+      "composition": "intensifier/modifier + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "yk-[ROOT]-es",
+      "count": 5,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "yk",
+      "suffix": "es",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 4
+        },
+        {
+          "root": "oe",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykees",
+        "ykees",
+        "ykoees",
+        "ykees",
+        "ykees"
+      ],
+      "composition": "unknown + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "op-[ROOT]-y",
+      "count": 5,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "op",
+      "suffix": "y",
+      "top_roots": [
+        {
+          "root": "chol",
+          "count": 1
+        },
+        {
+          "root": "chdam",
+          "count": 1
+        },
+        {
+          "root": "chey",
+          "count": 1
+        },
+        {
+          "root": "airal",
+          "count": 1
+        },
+        {
+          "root": "cheolf",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "opcholy",
+        "opchdamy",
+        "opcheyy",
+        "opairaly",
+        "opcheolfy"
+      ],
+      "composition": "unknown + unknown_root + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "sa-[ROOT]-y",
+      "count": 5,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sa",
+      "suffix": "y",
+      "top_roots": [
+        {
+          "root": "r",
+          "count": 3
+        },
+        {
+          "root": "ry",
+          "count": 1
+        },
+        {
+          "root": "l",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "sary",
+        "saryy",
+        "sary",
+        "sary",
+        "saly"
+      ],
+      "composition": "unknown + unknown_root + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "sh-[ROOT]-ar",
+      "count": 5,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sh",
+      "suffix": "ar",
+      "top_roots": [
+        {
+          "root": "eald",
+          "count": 1
+        },
+        {
+          "root": "d",
+          "count": 1
+        },
+        {
+          "root": "eal",
+          "count": 1
+        },
+        {
+          "root": "e",
+          "count": 1
+        },
+        {
+          "root": "eyk",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "shealdar",
+        "shdar",
+        "shealar",
+        "shear",
+        "sheykar"
+      ],
+      "composition": "unknown + unknown_root + agent/doer",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "sh-[ROOT]-in",
+      "count": 5,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sh",
+      "suffix": "in",
+      "top_roots": [
+        {
+          "root": "odai",
+          "count": 1
+        },
+        {
+          "root": "eosai",
+          "count": 1
+        },
+        {
+          "root": "oai",
+          "count": 1
+        },
+        {
+          "root": "eoai",
+          "count": 1
+        },
+        {
+          "root": "eolai",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "shodaiin",
+        "sheosaiin",
+        "shoaiin",
+        "sheoaiin",
+        "sheolaiin"
+      ],
+      "composition": "unknown + unknown_root + nominal/substantive",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "qo-[ROOT]-e",
+      "count": 4,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "qo",
+      "suffix": "e",
+      "top_roots": [
+        {
+          "root": "ke",
+          "count": 2
+        },
+        {
+          "root": "ekee",
+          "count": 1
+        },
+        {
+          "root": "k",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qoekeee",
+        "qokee",
+        "qoke",
+        "qokee"
+      ],
+      "composition": "unknown + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "sh-[ROOT]-es",
+      "count": 4,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sh",
+      "suffix": "es",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 3
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "shees",
+        "sheees",
+        "shees",
+        "shees"
+      ],
+      "composition": "unknown + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "yk-[ROOT]-al",
+      "count": 4,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "yk",
+      "suffix": "al",
+      "top_roots": [
+        {
+          "root": "eed",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        },
+        {
+          "root": "e",
+          "count": 1
+        },
+        {
+          "root": "eol",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykeedal",
+        "ykeeal",
+        "ykeal",
+        "ykeolal"
+      ],
+      "composition": "unknown + unknown_root + quality/attribute",
+      "interpretation": "quality_attribute",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "yk-[ROOT]-os",
+      "count": 4,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "yk",
+      "suffix": "os",
+      "top_roots": [
+        {
+          "root": "ar",
+          "count": 1
+        },
+        {
+          "root": "e",
+          "count": 1
+        },
+        {
+          "root": "ch",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykaros",
+        "ykeos",
+        "ykchos",
+        "ykeeos"
+      ],
+      "composition": "unknown + quality/state + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "yk-[ROOT]-in",
+      "count": 4,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "yk",
+      "suffix": "in",
+      "top_roots": [
+        {
+          "root": "oai",
+          "count": 1
+        },
+        {
+          "root": "olai",
+          "count": 1
+        },
+        {
+          "root": "arai",
+          "count": 1
+        },
+        {
+          "root": "a",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykoaiin",
+        "ykolaiin",
+        "ykaraiin",
+        "ykain"
+      ],
+      "composition": "unknown + unknown_root + nominal/substantive",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "do-[ROOT]-y",
+      "count": 4,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "do",
+      "suffix": "y",
+      "top_roots": [
+        {
+          "root": "kech",
+          "count": 1
+        },
+        {
+          "root": "ar",
+          "count": 1
+        },
+        {
+          "root": "rch",
+          "count": 1
+        },
+        {
+          "root": "l",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "dokechy",
+        "doary",
+        "dorchy",
+        "doly"
+      ],
+      "composition": "unknown + unknown_root + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "op-[ROOT]-dy",
+      "count": 4,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "op",
+      "suffix": "dy",
+      "top_roots": [
+        {
+          "root": "cheo",
+          "count": 2
+        },
+        {
+          "root": "che",
+          "count": 2
+        }
+      ],
+      "examples": [
+        "opcheody",
+        "opcheody",
+        "opchedy",
+        "opchedy"
+      ],
+      "composition": "unknown + unknown_root + process_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "yk-[ROOT]-ol",
+      "count": 4,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "yk",
+      "suffix": "ol",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 2
+        },
+        {
+          "root": "ee",
+          "count": 1
+        },
+        {
+          "root": "alair",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykeeol",
+        "ykeol",
+        "ykeol",
+        "ykalairol"
+      ],
+      "composition": "unknown + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "ch-[ROOT]-oy",
+      "count": 4,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "oy",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 2
+        },
+        {
+          "root": "eeal",
+          "count": 1
+        },
+        {
+          "root": "ek",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "cheoy",
+        "cheealoy",
+        "chekoy",
+        "cheoy"
+      ],
+      "composition": "intensifier/modifier + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "[ROOT]-ed",
+      "count": 3,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "ed",
+      "top_roots": [
+        {
+          "root": "soete",
+          "count": 1
+        },
+        {
+          "root": "ore",
+          "count": 1
+        },
+        {
+          "root": "oe",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "soeteed",
+        "oreed",
+        "oeed"
+      ],
+      "composition": "unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.15000000000000002
+    },
+    {
+      "pattern": "yk-[ROOT]-oy",
+      "count": 3,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "yk",
+      "suffix": "oy",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 2
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykeoy",
+        "ykeeoy",
+        "ykeoy"
+      ],
+      "composition": "unknown + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "yk-[ROOT]-ar",
+      "count": 3,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "yk",
+      "suffix": "ar",
+      "top_roots": [
+        {
+          "root": "eod",
+          "count": 1
+        },
+        {
+          "root": "eeodar",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykeodar",
+        "ykeeodarar",
+        "ykeear"
+      ],
+      "composition": "unknown + unknown_root + agent/doer",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "qo-[ROOT]-or",
+      "count": 3,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "qo",
+      "suffix": "or",
+      "top_roots": [
+        {
+          "root": "kche",
+          "count": 1
+        },
+        {
+          "root": "te",
+          "count": 1
+        },
+        {
+          "root": "ke",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qokcheor",
+        "qoteor",
+        "qokeor"
+      ],
+      "composition": "unknown + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "do-[ROOT]-ey",
+      "count": 3,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "do",
+      "suffix": "ey",
+      "top_roots": [
+        {
+          "root": "lch",
+          "count": 1
+        },
+        {
+          "root": "ke",
+          "count": 1
+        },
+        {
+          "root": "te",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "dolchey",
+        "dokeey",
+        "doteey"
+      ],
+      "composition": "unknown + unknown_root + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "sh-[ROOT]-or",
+      "count": 3,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sh",
+      "suffix": "or",
+      "top_roots": [
+        {
+          "root": "ee",
+          "count": 3
+        }
+      ],
+      "examples": [
+        "sheeor",
+        "sheeor",
+        "sheeor"
+      ],
+      "composition": "unknown + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "sa-[ROOT]-dy",
+      "count": 3,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sa",
+      "suffix": "dy",
+      "top_roots": [
+        {
+          "root": "iro",
+          "count": 1
+        },
+        {
+          "root": "r",
+          "count": 1
+        },
+        {
+          "root": "l",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "sairody",
+        "sardy",
+        "saldy"
+      ],
+      "composition": "unknown + unknown_root + process_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "ol-[ROOT]-ar",
+      "count": 3,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ol",
+      "suffix": "ar",
+      "top_roots": [
+        {
+          "root": "k",
+          "count": 2
+        },
+        {
+          "root": "che",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "olchear",
+        "olkar",
+        "olkar"
+      ],
+      "composition": "unknown + modifier/relation + agent/doer",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "ch-[ROOT]-ed",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ch",
+      "suffix": "ed",
+      "top_roots": [
+        {
+          "root": "oke",
+          "count": 1
+        },
+        {
+          "root": "e",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "chokeed",
+        "cheed"
+      ],
+      "composition": "intensifier/modifier + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.5499999999999999
+    },
+    {
+      "pattern": "op-[ROOT]-ol",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "op",
+      "suffix": "ol",
+      "top_roots": [
+        {
+          "root": "odee",
+          "count": 1
+        },
+        {
+          "root": "chee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "opodeeol",
+        "opcheeol"
+      ],
+      "composition": "unknown + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "do-[ROOT]-in",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "do",
+      "suffix": "in",
+      "top_roots": [
+        {
+          "root": "i",
+          "count": 1
+        },
+        {
+          "root": "lai",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "doiin",
+        "dolaiin"
+      ],
+      "composition": "unknown + process/active + nominal/substantive",
+      "interpretation": "unclear",
+      "root_semantic_field": "Process/Active",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "op-[ROOT]-or",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "op",
+      "suffix": "or",
+      "top_roots": [
+        {
+          "root": "ocph",
+          "count": 1
+        },
+        {
+          "root": "al",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "opocphor",
+        "opalor"
+      ],
+      "composition": "unknown + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "ot-[ROOT]-ed",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "ed",
+      "top_roots": [
+        {
+          "root": "eodch",
+          "count": 1
+        },
+        {
+          "root": "ees",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "oteodched",
+        "oteesed"
+      ],
+      "composition": "transition/change + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.5499999999999999
+    },
+    {
+      "pattern": "yk-[ROOT]-e",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "yk",
+      "suffix": "e",
+      "top_roots": [
+        {
+          "root": "eosh",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykeoshe",
+        "ykeee"
+      ],
+      "composition": "unknown + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "ol-[ROOT]-es",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ol",
+      "suffix": "es",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 1
+        },
+        {
+          "root": "she",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "olees",
+        "olshees"
+      ],
+      "composition": "unknown + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "ok-[ROOT]-om",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ok",
+      "suffix": "om",
+      "top_roots": [
+        {
+          "root": "ol",
+          "count": 1
+        },
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "okolom",
+        "okeeom"
+      ],
+      "composition": "constituent/unit + quality/state + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "qo-[ROOT]-oy",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "qo",
+      "suffix": "oy",
+      "top_roots": [
+        {
+          "root": "ke",
+          "count": 1
+        },
+        {
+          "root": "tee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qokeoy",
+        "qoteeoy"
+      ],
+      "composition": "unknown + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "da-[ROOT]-ey",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "da",
+      "suffix": "ey",
+      "top_roots": [
+        {
+          "root": "iik",
+          "count": 1
+        },
+        {
+          "root": "te",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "daiikey",
+        "dateey"
+      ],
+      "composition": "unknown + unknown_root + state_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "da-[ROOT]-ol",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "da",
+      "suffix": "ol",
+      "top_roots": [
+        {
+          "root": "l",
+          "count": 1
+        },
+        {
+          "root": "r",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "dalol",
+        "darol"
+      ],
+      "composition": "unknown + quality/state + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "[ROOT]-om",
+      "count": 2,
+      "type": "ROOT+SUFFIX",
+      "prefix": "",
+      "suffix": "om",
+      "top_roots": [
+        {
+          "root": "or",
+          "count": 1
+        },
+        {
+          "root": "ofaif",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "orom",
+        "ofaifom"
+      ],
+      "composition": "unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.15000000000000002
+    },
+    {
+      "pattern": "ol-[ROOT]-al",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ol",
+      "suffix": "al",
+      "top_roots": [
+        {
+          "root": "fsheor",
+          "count": 1
+        },
+        {
+          "root": "et",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "olfsheoral",
+        "oletal"
+      ],
+      "composition": "unknown + unknown_root + quality/attribute",
+      "interpretation": "quality_attribute",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "op-[ROOT]-al",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "op",
+      "suffix": "al",
+      "top_roots": [
+        {
+          "root": "al",
+          "count": 1
+        },
+        {
+          "root": "as",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "opalal",
+        "opasal"
+      ],
+      "composition": "unknown + quality/state + quality/attribute",
+      "interpretation": "quality_attribute",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "sh-[ROOT]-os",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sh",
+      "suffix": "os",
+      "top_roots": [
+        {
+          "root": "ee",
+          "count": 1
+        },
+        {
+          "root": "e",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "sheeos",
+        "sheos"
+      ],
+      "composition": "unknown + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "ol-[ROOT]-ed",
+      "count": 2,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ol",
+      "suffix": "ed",
+      "top_roots": [
+        {
+          "root": "ch",
+          "count": 1
+        },
+        {
+          "root": "k",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "olched",
+        "olked"
+      ],
+      "composition": "unknown + entity/object + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Entity/Object",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "do-[ROOT]-dy",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "do",
+      "suffix": "dy",
+      "top_roots": [
+        {
+          "root": "lchso",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "dolchsody"
+      ],
+      "composition": "unknown + unknown_root + process_marker",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "ol-[ROOT]-e",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ol",
+      "suffix": "e",
+      "top_roots": [
+        {
+          "root": "alad",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "olalade"
+      ],
+      "composition": "unknown + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "sh-[ROOT]-oy",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sh",
+      "suffix": "oy",
+      "top_roots": [
+        {
+          "root": "e",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "sheoy"
+      ],
+      "composition": "unknown + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "sa-[ROOT]-ar",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sa",
+      "suffix": "ar",
+      "top_roots": [
+        {
+          "root": "l",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "salar"
+      ],
+      "composition": "unknown + quality/state + agent/doer",
+      "interpretation": "quality_agent/doer",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "da-[ROOT]-es",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "da",
+      "suffix": "es",
+      "top_roots": [
+        {
+          "root": "lch",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "dalches"
+      ],
+      "composition": "unknown + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "ot-[ROOT]-e",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ot",
+      "suffix": "e",
+      "top_roots": [
+        {
+          "root": "aik",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "otaike"
+      ],
+      "composition": "transition/change + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.5499999999999999
+    },
+    {
+      "pattern": "op-[ROOT]-ar",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "op",
+      "suffix": "ar",
+      "top_roots": [
+        {
+          "root": "al",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "opalar"
+      ],
+      "composition": "unknown + quality/state + agent/doer",
+      "interpretation": "quality_agent/doer",
+      "root_semantic_field": "Quality/State",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "yk-[ROOT]-or",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "yk",
+      "suffix": "or",
+      "top_roots": [
+        {
+          "root": "ee",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "ykeeor"
+      ],
+      "composition": "unknown + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    },
+    {
+      "pattern": "sh-[ROOT]-e",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "sh",
+      "suffix": "e",
+      "top_roots": [
+        {
+          "root": "ete",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "shetee"
+      ],
+      "composition": "unknown + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "da-[ROOT]-om",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "da",
+      "suffix": "om",
+      "top_roots": [
+        {
+          "root": "r",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "darom"
+      ],
+      "composition": "unknown + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "qo-[ROOT]-om",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "qo",
+      "suffix": "om",
+      "top_roots": [
+        {
+          "root": "kal",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "qokalom"
+      ],
+      "composition": "unknown + unknown_root + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.35
+    },
+    {
+      "pattern": "do-[ROOT]-al",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "do",
+      "suffix": "al",
+      "top_roots": [
+        {
+          "root": "k",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "dokal"
+      ],
+      "composition": "unknown + modifier/relation + quality/attribute",
+      "interpretation": "quality_attribute",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "pattern": "da-[ROOT]-ar",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "da",
+      "suffix": "ar",
+      "top_roots": [
+        {
+          "root": "lk",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "dalkar"
+      ],
+      "composition": "unknown + unknown_root + agent/doer",
+      "interpretation": "unclear",
+      "root_semantic_field": "Unknown",
+      "confidence": 0.55
+    },
+    {
+      "pattern": "ol-[ROOT]-ol",
+      "count": 1,
+      "type": "PREFIX+ROOT+SUFFIX",
+      "prefix": "ol",
+      "suffix": "ol",
+      "top_roots": [
+        {
+          "root": "k",
+          "count": 1
+        }
+      ],
+      "examples": [
+        "olkol"
+      ],
+      "composition": "unknown + modifier/relation + unknown",
+      "interpretation": "unclear",
+      "root_semantic_field": "Modifier/Relation",
+      "confidence": 0.6
+    }
+  ]
+}
