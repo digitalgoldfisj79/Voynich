@@ -1,0 +1,258 @@
+SM4: CROSS-SECTION GENERALIZATION TEST
+======================================================================
+
+SECTION STATISTICS
+----------------------------------------------------------------------
+
+Herbal:
+  Total tokens:       9,718
+  Unique patterns:      146
+  Unique roots:        1685
+  Unique prefixes:       11
+  Unique suffixes:       14
+
+  Structure distribution:
+    PREFIX+ROOT+SUFFIX       3928 ( 40.4%)
+    PREFIX+ROOT              2276 ( 23.4%)
+    ROOT+SUFFIX              2402 ( 24.7%)
+    ROOT                     1112 ( 11.4%)
+
+Zodiac:
+  Total tokens:       2,848
+  Unique patterns:      131
+  Unique roots:         871
+  Unique prefixes:       11
+  Unique suffixes:       14
+
+  Structure distribution:
+    PREFIX+ROOT+SUFFIX       1386 ( 48.7%)
+    PREFIX+ROOT               569 ( 20.0%)
+    ROOT+SUFFIX               548 ( 19.2%)
+    ROOT                      345 ( 12.1%)
+
+Biological:
+  Total tokens:       6,572
+  Unique patterns:      131
+  Unique roots:         779
+  Unique prefixes:       11
+  Unique suffixes:       14
+
+  Structure distribution:
+    PREFIX+ROOT+SUFFIX       3818 ( 58.1%)
+    PREFIX+ROOT               882 ( 13.4%)
+    ROOT+SUFFIX              1129 ( 17.2%)
+    ROOT                      743 ( 11.3%)
+
+Recipes:
+  Total tokens:      10,431
+  Unique patterns:      149
+  Unique roots:        1672
+  Unique prefixes:       11
+  Unique suffixes:       14
+
+  Structure distribution:
+    PREFIX+ROOT+SUFFIX       5299 ( 50.8%)
+    PREFIX+ROOT              1473 ( 14.1%)
+    ROOT+SUFFIX              2416 ( 23.2%)
+    ROOT                     1243 ( 11.9%)
+
+
+
+CROSS-SECTION COMPARISON
+----------------------------------------------------------------------
+
+Total unique patterns (all sections): 167
+Universal patterns (in all 4 sections): 105
+Universality: 62.9%
+
+Section-specific patterns:
+  Biological       26 unique patterns
+  Herbal           41 unique patterns
+  Zodiac           26 unique patterns
+  Recipes          44 unique patterns
+
+
+TOP 20 UNIVERSAL PATTERNS (present in all sections)
+----------------------------------------------------------------------
+
+1. [ROOT]                      3443 total
+     Herbal         1112
+     Zodiac          345
+     Biological      743
+     Recipes        1243
+
+2. [ROOT]-in                   1539 total
+     Herbal          502
+     Zodiac           95
+     Biological      195
+     Recipes         747
+
+3. ch-[ROOT]-y                 1454 total
+     Herbal          533
+     Zodiac          129
+     Biological      357
+     Recipes         435
+
+4. ch-[ROOT]                   1349 total
+     Herbal          741
+     Zodiac          123
+     Biological      105
+     Recipes         380
+
+5. [ROOT]-y                    1145 total
+     Herbal          582
+     Zodiac          147
+     Biological      176
+     Recipes         240
+
+6. [ROOT]-dy                   1059 total
+     Herbal          251
+     Zodiac           61
+     Biological      310
+     Recipes         437
+
+7. [ROOT]-ey                    981 total
+     Herbal          272
+     Zodiac           78
+     Biological      237
+     Recipes         394
+
+8. qo-[ROOT]-ey                 836 total
+     Herbal          111
+     Zodiac           14
+     Biological      289
+     Recipes         422
+
+9. qo-[ROOT]-in                 816 total
+     Herbal          108
+     Zodiac            4
+     Biological      302
+     Recipes         402
+
+10. qo-[ROOT]-dy                 813 total
+     Herbal           84
+     Zodiac            9
+     Biological      395
+     Recipes         325
+
+11. da-[ROOT]                    691 total
+     Herbal          306
+     Zodiac           75
+     Biological      161
+     Recipes         149
+
+12. sh-[ROOT]                    688 total
+     Herbal          411
+     Zodiac           48
+     Biological       77
+     Recipes         152
+
+13. sh-[ROOT]-y                  668 total
+     Herbal          184
+     Zodiac           46
+     Biological      230
+     Recipes         208
+
+14. ch-[ROOT]-dy                 661 total
+     Herbal          134
+     Zodiac           34
+     Biological      235
+     Recipes         258
+
+15. ot-[ROOT]                    633 total
+     Herbal          174
+     Zodiac          119
+     Biological       95
+     Recipes         245
+
+16. da-[ROOT]-in                 587 total
+     Herbal          374
+     Zodiac           29
+     Biological       70
+     Recipes         114
+
+17. ok-[ROOT]                    580 total
+     Herbal          226
+     Zodiac          104
+     Biological       88
+     Recipes         162
+
+18. qo-[ROOT]                    522 total
+     Herbal          141
+     Zodiac            7
+     Biological      170
+     Recipes         204
+
+19. qo-[ROOT]-y                  498 total
+     Herbal          224
+     Zodiac           10
+     Biological      130
+     Recipes         134
+
+20. ch-[ROOT]-ey                 437 total
+     Herbal          104
+     Zodiac           73
+     Biological       86
+     Recipes         174
+
+
+
+TOP PREFIXES BY SECTION
+----------------------------------------------------------------------
+
+Herbal:
+  ch             1960 (20.17%)
+  qo              968 ( 9.96%)
+  sh              885 ( 9.11%)
+  da              758 ( 7.80%)
+  ok              543 ( 5.59%)
+  ot              444 ( 4.57%)
+  yk              201 ( 2.07%)
+  ol              163 ( 1.68%)
+  do              131 ( 1.35%)
+  sa               81 ( 0.83%)
+
+Zodiac:
+  ch              493 (17.31%)
+  ot              469 (16.47%)
+  ok              364 (12.78%)
+  sh              170 ( 5.97%)
+  da              136 ( 4.78%)
+  yk               94 ( 3.30%)
+  qo               72 ( 2.53%)
+  sa               53 ( 1.86%)
+  ol               43 ( 1.51%)
+  op               43 ( 1.51%)
+
+Biological:
+  qo             1596 (24.28%)
+  ch              926 (14.09%)
+  sh              625 ( 9.51%)
+  ol              374 ( 5.69%)
+  ok              337 ( 5.13%)
+  ot              298 ( 4.53%)
+  da              292 ( 4.44%)
+  sa              116 ( 1.77%)
+  do               49 ( 0.75%)
+  yk               45 ( 0.68%)
+
+Recipes:
+  qo             1817 (17.42%)
+  ch             1807 (17.32%)
+  ot              798 ( 7.65%)
+  sh              728 ( 6.98%)
+  ok              702 ( 6.73%)
+  da              302 ( 2.90%)
+  ol              255 ( 2.44%)
+  op              130 ( 1.25%)
+  sa              126 ( 1.21%)
+  yk               87 ( 0.83%)
+
+
+
+GENERALIZATION ASSESSMENT
+----------------------------------------------------------------------
+
+⚠️ MODERATE GENERALIZATION (50-70%)
+Many patterns are universal, but significant section variation.
+Zodiac findings partially generalize.
