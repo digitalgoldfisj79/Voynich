@@ -52,35 +52,30 @@ cat results/sm1_role_descriptions.txt
 
 ---
 
-### SM2: Root & Affix Role Classes ✅ COMPLETE
+### SM2: Root & Affix Role Classes ❌ INVALID - SEE CORRECTION
 **File:** `vpca_sm2_role_classes.py`
+**Status:** **METHODOLOGY FLAW DISCOVERED** - See CRITICAL_METHODOLOGY_ERROR.md
 
-Classify stems and suffixes into semantic role families.
+**CRITICAL ISSUE:**
+- Morpheme extraction does NOT conform to p69 validated rules
+- Ad-hoc extraction created invalid "root" and "suffix" classifications
+- Claims about R1/R2/R3 and S1/S2/S3 are NOT validated
 
-**Input:**
-- `data/vpca2_all_tokens.tsv` - Complete VPCA classifications
-- Morpheme extraction algorithm
+**What IS Valid:**
+- OT-containing tokens show 85-100% C-state (lexical pattern)
+- VPCA distributions by section (based on p69)
+- Statistical tests remain significant
 
-**Output:**
-- `results/sm2_role_lexicon.json` - Complete role lexicon
-- `results/sm2_classification_report.txt` - Classification report
-- `results/sm2_root_classes.tsv` - Root classifications (2,734 roots)
-- `results/sm2_affix_classes.tsv` - Affix classifications (52 affixes)
+**What is INVALID:**
+- Morpheme-level classifications (roots, suffixes, prefixes)
+- Claims about "OT-family suffixes" (not validated by p69)
+- All SM2 classification schemes (R1/R2/R3, S1/S2/S3, P1/P2/P3)
 
-**Classifications:**
-- **R1:** 100 ingredient-like roots (V-heavy, e.g., 'e', 'k', 'ch')
-- **R2:** 4 process-like roots (C-heavy, e.g., 'ot', 'q')  
-- **R3:** 111 state-like roots (P-heavy, e.g., 'a', 'o', 'ok')
-- **S1:** 5 OT-family suffixes (100% C-state transformation markers!)
-- **P1:** 5 Valley-inducing prefixes (e.g., 'ch', 'qok', left-biased)
+**Needs:**
+- Complete rebuild using p69 patterns directly (SM2b)
+- Or: Abandon morpheme claims, use lexical grouping only
 
-**Key Finding:** OT-family suffixes show 100% C-state association (oty, otchy, otol, etc.)
-
-**Run:**
-```bash
-python3 vpca_sm2_role_classes.py
-cat results/sm2_classification_report.txt
-```
+**See:** `CRITICAL_METHODOLOGY_ERROR.md` for full analysis
 
 ---
 
@@ -173,14 +168,14 @@ Compare role frames to medieval texts (structural patterns, not vocabulary).
 
 ## 📈 Current Status
 
-**Phase:** SM1-SM3 Complete (3/8), SM4 Ready  
+**Phase:** SM1 ✅ SM2 ❌ SM3 ✅ (1.5/3 valid modules)  
+**CRITICAL:** SM2 methodology flaw discovered - see CRITICAL_METHODOLOGY_ERROR.md  
 **Data:** 37,886 tokens with complete VPCA classifications  
 **Sections:** 7 (Zodiac, Herbal, Pharma, Recipes, Bio, Cosmo, Unknown)  
-**Morphemes Classified:** 2,734 roots + 52 affixes  
 **Transitions Analyzed:** 32,679 VPCA state transitions  
-**Key Discovery:** OT-family suffixes = 100% C-state (transformation markers)  
-**Pattern Discovery:** V→C progression in Recipes/Pharma (ingredient→process)  
-**Confidence:** Tier 2-3 for Zodiac, Tier 1-2 for others  
+**Verified Finding:** OT-containing tokens = 85-100% C-state (lexical pattern, not morphological claim)  
+**Invalidated:** SM2 morpheme classifications (not p69-conformant)  
+**Confidence:** Tier 2-3 for Zodiac (SM1), Tier 1-2 for others, SM2 RETRACTED  
 
 ---
 
