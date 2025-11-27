@@ -1,0 +1,112 @@
+================================================================================
+TESTING FUNCTIONAL HYPOTHESIS: ot/ok/ch STEM SEMANTICS
+================================================================================
+
+Total labels: 2188
+
+'ot-' labels: 395
+'ok-' labels: 284
+'ch-' labels: 426
+
+================================================================================
+TEST 1: SEQUENTIAL POSITIONING
+================================================================================
+
+--- Prediction 1: 'ot-' should appear early (beginning markers) ---
+
+Position in sequence (percentile):
+  'ot-': Mean 43.6% (median 48.3%)
+  'ok-': Mean 48.6% (median 53.3%)
+  'ch-': Mean 38.3% (median 40.5%)
+
+Are 'ot-' labels significantly earlier?
+  ○ WEAK: 'ot-' slightly early (mean 43.6%)
+
+================================================================================
+TEST 2: DISTRIBUTION PATTERN
+================================================================================
+
+--- Prediction 2: 'ok-' should be evenly distributed (constituent units) ---
+
+Distribution uniformity (lower = more even):
+  'ot-': χ² = 192.11
+  'ok-': χ² = 83.82
+  'ch-': χ² = 178.98
+
+✓ YES: 'ok-' is most evenly distributed
+
+================================================================================
+TEST 3: MODIFICATION PATTERNS
+================================================================================
+
+--- Prediction 3: 'ch-' should modify/intensify (qualitative marker) ---
+
+Test A: Compound forms (does 'ch-' modify other stems?)
+Compound forms found:
+  ch+ot: 93 occurrences
+  ch+ok: 88 occurrences
+  ch+sh: 18 occurrences
+
+✓ YES: 'ch-' appears in compound forms (modification)
+
+Test B: Label length (are 'ch-' labels longer/modified?)
+  'ot-': Mean length 5.75
+  'ok-': Mean length 5.57
+  'ch-': Mean length 5.79
+
+✓ YES: 'ch-' labels are longer (potential modification)
+
+Test C: Suffix diversity (modifiers = more variable?)
+  'ot-': 42 unique suffixes / 395 = 0.106
+  'ok-': 43 unique suffixes / 284 = 0.151
+  'ch-': 46 unique suffixes / 426 = 0.108
+
+✗ NO: 'ch-' not particularly diverse
+
+================================================================================
+TEST 4: CO-OCCURRENCE PATTERNS
+================================================================================
+
+--- What comes AFTER 'ot-' (beginning)? ---
+
+Prefixes following 'ot-' (top 5):
+  'ot': 79 (20.1%)
+  'ch': 76 (19.3%)
+  'ok': 46 (11.7%)
+  'sh': 27 (6.9%)
+  'da': 24 (6.1%)
+
+Prefixes following 'ok-' (top 5):
+  'ch': 58 (20.5%)
+  'ok': 55 (19.4%)
+  'ot': 47 (16.6%)
+  'sh': 17 (6.0%)
+  'da': 11 (3.9%)
+
+================================================================================
+CREATING VISUAL SUMMARY
+================================================================================
+/home/claude/functional_hypothesis_test.py:310: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  ax3.boxplot([ot_lengths, ok_lengths, ch_lengths], labels=["'ot-'", "'ok-'", "'ch-'"])
+Visual saved!
+
+================================================================================
+FINAL VERDICT: EDWARD'S FUNCTIONAL HYPOTHESIS
+================================================================================
+
+Testing Edward's predictions:
+------------------------------------------------------------
+○ 'ot-' slightly early
+✓ 'ok-' is most evenly distributed (constituent marker)
+✓ 'ch-' appears in compound forms (modification)
+✓ 'ch-' labels are longer (modification/intensification)
+✗ 'ch-' not particularly diverse
+
+================================================================================
+EVIDENCE SCORE: 3.5 / 5
+================================================================================
+
+○○ MODERATE SUPPORT for functional hypothesis
+Some patterns consistent with predictions
+
+================================================================================
