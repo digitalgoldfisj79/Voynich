@@ -1,0 +1,39 @@
+CROSS-SECTION VALIDATION REPORT
+================================================================================
+
+
+ZODIAC SECTION:
+  Tokens: 3503
+  Unique roots: 954
+  Patterns: 138
+  P+R+S: 50.1%
+  P+R:   19.4%
+  R+S:   18.4%
+  R:     12.1%
+
+HERBAL SECTION:
+  Tokens: 9718
+  Unique roots: 1685
+  Patterns: 146
+  P+R+S: 40.4%
+  P+R:   23.4%
+  R+S:   24.7%
+  R:     11.4%
+
+BIOLOGICAL SECTION:
+  Tokens: 3146
+  Unique roots: 476
+  Patterns: 116
+  P+R+S: 58.1%
+  P+R:   13.7%
+  R+S:   16.9%
+  R:     11.3%
+
+RECIPES SECTION:
+  Tokens: 10431
+  Unique roots: 1672
+  Patterns: 149
+  P+R+S: 50.8%
+  P+R:   14.1%
+  R+S:   23.2%
+  R:     11.9%
