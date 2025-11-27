@@ -1,0 +1,8942 @@
+{
+  "metadata": {
+    "version": "SemanticTriangulation-v1",
+    "total_roots_analyzed": 3611,
+    "top_n": 100
+  },
+  "roots": [
+    {
+      "root": "e",
+      "total_occurrences": 3159,
+      "sections": {
+        "Herbal": 613,
+        "Zodiac": 307,
+        "Biological": 1012,
+        "Recipes": 1227
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 1350
+        },
+        {
+          "prefix": "sh",
+          "count": 841
+        },
+        {
+          "prefix": "ok",
+          "count": 428
+        },
+        {
+          "prefix": "ot",
+          "count": 420
+        },
+        {
+          "prefix": "yk",
+          "count": 88
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 978
+        },
+        {
+          "suffix": "dy",
+          "count": 722
+        },
+        {
+          "suffix": "ey",
+          "count": 642
+        },
+        {
+          "suffix": "ol",
+          "count": 246
+        },
+        {
+          "suffix": "or",
+          "count": 113
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[e]-y",
+          "count": 475
+        },
+        {
+          "pattern": "ch-[e]-dy",
+          "count": 339
+        },
+        {
+          "pattern": "sh-[e]-y",
+          "count": 290
+        },
+        {
+          "pattern": "sh-[e]-dy",
+          "count": 235
+        },
+        {
+          "pattern": "ch-[e]-ey",
+          "count": 171
+        },
+        {
+          "pattern": "ok-[e]-ey",
+          "count": 168
+        },
+        {
+          "pattern": "ot-[e]-ey",
+          "count": 134
+        },
+        {
+          "pattern": "ch-[e]-ol",
+          "count": 115
+        },
+        {
+          "pattern": "sh-[e]-ey",
+          "count": 112
+        },
+        {
+          "pattern": "ot-[e]-y",
+          "count": 108
+        }
+      ],
+      "hypothesis": "Likely relational/connective element, often intensified, typically as state. Similar to 'of', 'with', 'and', 'to'",
+      "evidence": [
+        "VPCA: Modifier/Relation",
+        "Universal across all sections",
+        "Often with ch- (intensifier, 42.7%)",
+        "Often with -y (unknown, 31.0%)",
+        "Medieval: Latin: et (and) / Romance: e/y (and)"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "root": "ol",
+      "total_occurrences": 1044,
+      "sections": {
+        "Herbal": 473,
+        "Zodiac": 80,
+        "Biological": 287,
+        "Recipes": 204
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 319
+        },
+        {
+          "prefix": "sh",
+          "count": 155
+        },
+        {
+          "prefix": "ot",
+          "count": 78
+        },
+        {
+          "prefix": "ok",
+          "count": 55
+        },
+        {
+          "prefix": "ol",
+          "count": 22
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 30
+        },
+        {
+          "suffix": "dy",
+          "count": 24
+        },
+        {
+          "suffix": "or",
+          "count": 8
+        },
+        {
+          "suffix": "al",
+          "count": 8
+        },
+        {
+          "suffix": "ar",
+          "count": 6
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[ol]",
+          "count": 398
+        },
+        {
+          "pattern": "ch-[ol]",
+          "count": 287
+        },
+        {
+          "pattern": "sh-[ol]",
+          "count": 144
+        },
+        {
+          "pattern": "ot-[ol]",
+          "count": 61
+        },
+        {
+          "pattern": "ok-[ol]",
+          "count": 41
+        },
+        {
+          "pattern": "ol-[ol]",
+          "count": 18
+        },
+        {
+          "pattern": "ch-[ol]-y",
+          "count": 14
+        },
+        {
+          "pattern": "yk-[ol]",
+          "count": 7
+        },
+        {
+          "pattern": "ot-[ol]-y",
+          "count": 7
+        },
+        {
+          "pattern": "sh-[ol]-dy",
+          "count": 6
+        }
+      ],
+      "hypothesis": "Likely quality or state descriptor, often intensified, typically as state; common in plant descriptions. Similar to adjectives or state markers",
+      "evidence": [
+        "VPCA: Quality/State",
+        "Universal across all sections",
+        "Often with ch- (intensifier, 30.6%)",
+        "Medieval: Latin: -ol- (oil, liquid) / Romance: calor (heat)"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "root": "ai",
+      "total_occurrences": 887,
+      "sections": {
+        "Herbal": 291,
+        "Zodiac": 74,
+        "Biological": 104,
+        "Recipes": 418
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ok",
+          "count": 183
+        },
+        {
+          "prefix": "ot",
+          "count": 131
+        },
+        {
+          "prefix": "ch",
+          "count": 42
+        },
+        {
+          "prefix": "ol",
+          "count": 38
+        },
+        {
+          "prefix": "yk",
+          "count": 21
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 882
+        },
+        {
+          "suffix": "y",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[ai]-in",
+          "count": 420
+        },
+        {
+          "pattern": "ok-[ai]-in",
+          "count": 181
+        },
+        {
+          "pattern": "ot-[ai]-in",
+          "count": 130
+        },
+        {
+          "pattern": "ch-[ai]-in",
+          "count": 42
+        },
+        {
+          "pattern": "ol-[ai]-in",
+          "count": 38
+        },
+        {
+          "pattern": "yk-[ai]-in",
+          "count": 21
+        },
+        {
+          "pattern": "sh-[ai]-in",
+          "count": 20
+        },
+        {
+          "pattern": "qo-[ai]-in",
+          "count": 19
+        },
+        {
+          "pattern": "op-[ai]-in",
+          "count": 9
+        },
+        {
+          "pattern": "ok-[ai]",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Likely quality or state descriptor, often in constituent/unit contexts, typically as nominal; common in recipe instructions. Similar to adjectives or state markers",
+      "evidence": [
+        "VPCA: Quality/State",
+        "Universal across all sections",
+        "Often with -in (nominal, 99.4%)"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "root": "ke",
+      "total_occurrences": 835,
+      "sections": {
+        "Herbal": 138,
+        "Zodiac": 23,
+        "Biological": 321,
+        "Recipes": 353
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 596
+        },
+        {
+          "prefix": "ol",
+          "count": 73
+        },
+        {
+          "prefix": "ch",
+          "count": 10
+        },
+        {
+          "prefix": "sh",
+          "count": 4
+        },
+        {
+          "prefix": "do",
+          "count": 2
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 451
+        },
+        {
+          "suffix": "dy",
+          "count": 203
+        },
+        {
+          "suffix": "ol",
+          "count": 42
+        },
+        {
+          "suffix": "y",
+          "count": 32
+        },
+        {
+          "suffix": "ed",
+          "count": 29
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[ke]-ey",
+          "count": 335
+        },
+        {
+          "pattern": "qo-[ke]-dy",
+          "count": 166
+        },
+        {
+          "pattern": "[ke]-ey",
+          "count": 59
+        },
+        {
+          "pattern": "ol-[ke]-ey",
+          "count": 45
+        },
+        {
+          "pattern": "[ke]-y",
+          "count": 32
+        },
+        {
+          "pattern": "qo-[ke]-ed",
+          "count": 25
+        },
+        {
+          "pattern": "[ke]-dy",
+          "count": 21
+        },
+        {
+          "pattern": "qo-[ke]-ol",
+          "count": 20
+        },
+        {
+          "pattern": "[ke]-ol",
+          "count": 16
+        },
+        {
+          "pattern": "ol-[ke]-dy",
+          "count": 15
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with qo- (unknown, 71.4%)",
+        "Often with -ey (state_marker, 54.0%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "k",
+      "total_occurrences": 823,
+      "sections": {
+        "Herbal": 189,
+        "Zodiac": 19,
+        "Biological": 381,
+        "Recipes": 234
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 694
+        },
+        {
+          "prefix": "ol",
+          "count": 58
+        },
+        {
+          "prefix": "ch",
+          "count": 51
+        },
+        {
+          "prefix": "sh",
+          "count": 15
+        },
+        {
+          "prefix": "do",
+          "count": 3
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 197
+        },
+        {
+          "suffix": "al",
+          "count": 190
+        },
+        {
+          "suffix": "y",
+          "count": 163
+        },
+        {
+          "suffix": "ar",
+          "count": 135
+        },
+        {
+          "suffix": "ol",
+          "count": 74
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[k]-ey",
+          "count": 168
+        },
+        {
+          "pattern": "qo-[k]-al",
+          "count": 165
+        },
+        {
+          "pattern": "qo-[k]-y",
+          "count": 117
+        },
+        {
+          "pattern": "qo-[k]-ar",
+          "count": 117
+        },
+        {
+          "pattern": "qo-[k]-ol",
+          "count": 67
+        },
+        {
+          "pattern": "qo-[k]-or",
+          "count": 22
+        },
+        {
+          "pattern": "ol-[k]-ey",
+          "count": 20
+        },
+        {
+          "pattern": "ch-[k]-y",
+          "count": 18
+        },
+        {
+          "pattern": "qo-[k]",
+          "count": 14
+        },
+        {
+          "pattern": "ol-[k]-y",
+          "count": 14
+        }
+      ],
+      "hypothesis": "Likely relational/connective element, typically as state; common in biological/anatomical contexts. Similar to 'of', 'with', 'and', 'to'",
+      "evidence": [
+        "VPCA: Modifier/Relation",
+        "Universal across all sections",
+        "Often with qo- (unknown, 84.3%)"
+      ],
+      "confidence": 0.5
+    },
+    {
+      "root": "ar",
+      "total_occurrences": 799,
+      "sections": {
+        "Herbal": 237,
+        "Zodiac": 128,
+        "Biological": 100,
+        "Recipes": 334
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ot",
+          "count": 125
+        },
+        {
+          "prefix": "ok",
+          "count": 112
+        },
+        {
+          "prefix": "ch",
+          "count": 82
+        },
+        {
+          "prefix": "sh",
+          "count": 28
+        },
+        {
+          "prefix": "yk",
+          "count": 26
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 45
+        },
+        {
+          "suffix": "al",
+          "count": 26
+        },
+        {
+          "suffix": "ar",
+          "count": 12
+        },
+        {
+          "suffix": "or",
+          "count": 9
+        },
+        {
+          "suffix": "ol",
+          "count": 9
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[ar]",
+          "count": 328
+        },
+        {
+          "pattern": "ot-[ar]",
+          "count": 111
+        },
+        {
+          "pattern": "ok-[ar]",
+          "count": 98
+        },
+        {
+          "pattern": "ch-[ar]",
+          "count": 74
+        },
+        {
+          "pattern": "sh-[ar]",
+          "count": 27
+        },
+        {
+          "pattern": "yk-[ar]",
+          "count": 25
+        },
+        {
+          "pattern": "[ar]-y",
+          "count": 25
+        },
+        {
+          "pattern": "[ar]-al",
+          "count": 17
+        },
+        {
+          "pattern": "ol-[ar]",
+          "count": 15
+        },
+        {
+          "pattern": "ch-[ar]-y",
+          "count": 7
+        }
+      ],
+      "hypothesis": "Likely quality or state descriptor, often in transition contexts, typically as state; common in recipe instructions. Similar to adjectives or state markers",
+      "evidence": [
+        "VPCA: Quality/State",
+        "Universal across all sections",
+        "Medieval: Latin: -ar- (agent) / Romance: -ar suffix"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "root": "al",
+      "total_occurrences": 735,
+      "sections": {
+        "Herbal": 194,
+        "Zodiac": 121,
+        "Biological": 114,
+        "Recipes": 306
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ok",
+          "count": 165
+        },
+        {
+          "prefix": "ot",
+          "count": 134
+        },
+        {
+          "prefix": "ch",
+          "count": 62
+        },
+        {
+          "prefix": "op",
+          "count": 16
+        },
+        {
+          "prefix": "sh",
+          "count": 16
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 93
+        },
+        {
+          "suffix": "or",
+          "count": 18
+        },
+        {
+          "suffix": "al",
+          "count": 17
+        },
+        {
+          "suffix": "dy",
+          "count": 16
+        },
+        {
+          "suffix": "ar",
+          "count": 16
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[al]",
+          "count": 233
+        },
+        {
+          "pattern": "ok-[al]",
+          "count": 125
+        },
+        {
+          "pattern": "ot-[al]",
+          "count": 100
+        },
+        {
+          "pattern": "ch-[al]",
+          "count": 53
+        },
+        {
+          "pattern": "[al]-y",
+          "count": 35
+        },
+        {
+          "pattern": "ok-[al]-y",
+          "count": 21
+        },
+        {
+          "pattern": "ot-[al]-y",
+          "count": 21
+        },
+        {
+          "pattern": "sh-[al]",
+          "count": 14
+        },
+        {
+          "pattern": "[al]-ar",
+          "count": 10
+        },
+        {
+          "pattern": "yk-[al]",
+          "count": 9
+        }
+      ],
+      "hypothesis": "Likely quality or state descriptor, often in constituent/unit contexts, typically as state; common in recipe instructions. Similar to adjectives or state markers",
+      "evidence": [
+        "VPCA: Quality/State",
+        "Universal across all sections",
+        "Medieval: Latin: -al- (quality) / Romance: -al suffix"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "root": "i",
+      "total_occurrences": 684,
+      "sections": {
+        "Herbal": 401,
+        "Zodiac": 32,
+        "Biological": 101,
+        "Recipes": 150
+      },
+      "top_prefixes": [
+        {
+          "prefix": "da",
+          "count": 555
+        },
+        {
+          "prefix": "sa",
+          "count": 103
+        },
+        {
+          "prefix": "do",
+          "count": 12
+        },
+        {
+          "prefix": "qo",
+          "count": 4
+        },
+        {
+          "prefix": "ch",
+          "count": 3
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 681
+        },
+        {
+          "suffix": "dy",
+          "count": 1
+        },
+        {
+          "suffix": "ol",
+          "count": 1
+        },
+        {
+          "suffix": "y",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "da-[i]-in",
+          "count": 554
+        },
+        {
+          "pattern": "sa-[i]-in",
+          "count": 103
+        },
+        {
+          "pattern": "do-[i]-in",
+          "count": 12
+        },
+        {
+          "pattern": "ok-[i]-in",
+          "count": 3
+        },
+        {
+          "pattern": "qo-[i]-in",
+          "count": 3
+        },
+        {
+          "pattern": "ch-[i]-in",
+          "count": 2
+        },
+        {
+          "pattern": "sh-[i]-in",
+          "count": 1
+        },
+        {
+          "pattern": "da-[i]-dy",
+          "count": 1
+        },
+        {
+          "pattern": "ot-[i]-in",
+          "count": 1
+        },
+        {
+          "pattern": "ol-[i]-in",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Likely process or action marker, typically as nominal; common in plant descriptions. Similar to verbs or process terms",
+      "evidence": [
+        "VPCA: Process/Active",
+        "Universal across all sections",
+        "Enriched in Herbal (58.6%)",
+        "Often with da- (unknown, 81.1%)",
+        "Often with -in (nominal, 99.6%)"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "root": "or",
+      "total_occurrences": 606,
+      "sections": {
+        "Herbal": 362,
+        "Zodiac": 26,
+        "Biological": 101,
+        "Recipes": 117
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 179
+        },
+        {
+          "prefix": "sh",
+          "count": 72
+        },
+        {
+          "prefix": "ot",
+          "count": 27
+        },
+        {
+          "prefix": "ok",
+          "count": 21
+        },
+        {
+          "prefix": "ol",
+          "count": 21
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 30
+        },
+        {
+          "suffix": "ol",
+          "count": 15
+        },
+        {
+          "suffix": "al",
+          "count": 8
+        },
+        {
+          "suffix": "ar",
+          "count": 7
+        },
+        {
+          "suffix": "dy",
+          "count": 4
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[or]",
+          "count": 227
+        },
+        {
+          "pattern": "ch-[or]",
+          "count": 163
+        },
+        {
+          "pattern": "sh-[or]",
+          "count": 67
+        },
+        {
+          "pattern": "ot-[or]",
+          "count": 25
+        },
+        {
+          "pattern": "ol-[or]",
+          "count": 20
+        },
+        {
+          "pattern": "ok-[or]",
+          "count": 17
+        },
+        {
+          "pattern": "[or]-y",
+          "count": 14
+        },
+        {
+          "pattern": "[or]-ol",
+          "count": 12
+        },
+        {
+          "pattern": "ch-[or]-y",
+          "count": 8
+        },
+        {
+          "pattern": "yk-[or]",
+          "count": 8
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (59.7%)",
+        "Medieval: Latin: -or (agent) / Romance: or/oro (gold/border)"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "root": "l",
+      "total_occurrences": 532,
+      "sections": {
+        "Herbal": 140,
+        "Zodiac": 53,
+        "Biological": 242,
+        "Recipes": 97
+      },
+      "top_prefixes": [
+        {
+          "prefix": "da",
+          "count": 200
+        },
+        {
+          "prefix": "qo",
+          "count": 143
+        },
+        {
+          "prefix": "do",
+          "count": 77
+        },
+        {
+          "prefix": "sa",
+          "count": 50
+        },
+        {
+          "prefix": "ch",
+          "count": 38
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 46
+        },
+        {
+          "suffix": "dy",
+          "count": 16
+        },
+        {
+          "suffix": "ar",
+          "count": 13
+        },
+        {
+          "suffix": "ol",
+          "count": 11
+        },
+        {
+          "suffix": "al",
+          "count": 11
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "da-[l]",
+          "count": 143
+        },
+        {
+          "pattern": "qo-[l]",
+          "count": 131
+        },
+        {
+          "pattern": "do-[l]",
+          "count": 68
+        },
+        {
+          "pattern": "sa-[l]",
+          "count": 37
+        },
+        {
+          "pattern": "ch-[l]",
+          "count": 29
+        },
+        {
+          "pattern": "da-[l]-y",
+          "count": 28
+        },
+        {
+          "pattern": "da-[l]-dy",
+          "count": 9
+        },
+        {
+          "pattern": "sa-[l]-y",
+          "count": 6
+        },
+        {
+          "pattern": "ot-[l]",
+          "count": 6
+        },
+        {
+          "pattern": "da-[l]-ol",
+          "count": 6
+        }
+      ],
+      "hypothesis": "Likely quality or state descriptor, typically as state; common in biological/anatomical contexts. Similar to adjectives or state markers",
+      "evidence": [
+        "VPCA: Quality/State",
+        "Universal across all sections",
+        "Often with da- (unknown, 37.6%)"
+      ],
+      "confidence": 0.5
+    },
+    {
+      "root": "ee",
+      "total_occurrences": 483,
+      "sections": {
+        "Herbal": 55,
+        "Zodiac": 70,
+        "Biological": 119,
+        "Recipes": 239
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ot",
+          "count": 118
+        },
+        {
+          "prefix": "ok",
+          "count": 117
+        },
+        {
+          "prefix": "ch",
+          "count": 87
+        },
+        {
+          "prefix": "sh",
+          "count": 63
+        },
+        {
+          "prefix": "yk",
+          "count": 41
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 266
+        },
+        {
+          "suffix": "ey",
+          "count": 68
+        },
+        {
+          "suffix": "ol",
+          "count": 37
+        },
+        {
+          "suffix": "os",
+          "count": 28
+        },
+        {
+          "suffix": "or",
+          "count": 21
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ot-[ee]-dy",
+          "count": 77
+        },
+        {
+          "pattern": "ok-[ee]-dy",
+          "count": 58
+        },
+        {
+          "pattern": "ch-[ee]-dy",
+          "count": 53
+        },
+        {
+          "pattern": "sh-[ee]-dy",
+          "count": 41
+        },
+        {
+          "pattern": "ok-[ee]-ey",
+          "count": 26
+        },
+        {
+          "pattern": "yk-[ee]-dy",
+          "count": 19
+        },
+        {
+          "pattern": "ot-[ee]-os",
+          "count": 12
+        },
+        {
+          "pattern": "ot-[ee]-ey",
+          "count": 10
+        },
+        {
+          "pattern": "qo-[ee]-dy",
+          "count": 10
+        },
+        {
+          "pattern": "ch-[ee]-ey",
+          "count": 8
+        }
+      ],
+      "hypothesis": "Likely relational/connective element, often in transition contexts, typically as process; common in recipe instructions. Similar to 'of', 'with', 'and', 'to'",
+      "evidence": [
+        "VPCA: Modifier/Relation",
+        "Universal across all sections",
+        "Often with -dy (process_marker, 55.1%)"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "root": "y",
+      "total_occurrences": 470,
+      "sections": {
+        "Herbal": 263,
+        "Zodiac": 48,
+        "Biological": 89,
+        "Recipes": 70
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 151
+        },
+        {
+          "prefix": "ot",
+          "count": 99
+        },
+        {
+          "prefix": "sh",
+          "count": 72
+        },
+        {
+          "prefix": "ok",
+          "count": 70
+        },
+        {
+          "prefix": "ol",
+          "count": 47
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 11
+        },
+        {
+          "suffix": "y",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[y]",
+          "count": 148
+        },
+        {
+          "pattern": "ot-[y]",
+          "count": 93
+        },
+        {
+          "pattern": "sh-[y]",
+          "count": 72
+        },
+        {
+          "pattern": "ok-[y]",
+          "count": 68
+        },
+        {
+          "pattern": "ol-[y]",
+          "count": 47
+        },
+        {
+          "pattern": "yk-[y]",
+          "count": 16
+        },
+        {
+          "pattern": "qo-[y]",
+          "count": 8
+        },
+        {
+          "pattern": "ot-[y]-dy",
+          "count": 5
+        },
+        {
+          "pattern": "op-[y]",
+          "count": 4
+        },
+        {
+          "pattern": "ch-[y]-dy",
+          "count": 3
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as process; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (56.0%)",
+        "Often with ch- (intensifier, 32.1%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "ch",
+      "total_occurrences": 446,
+      "sections": {
+        "Herbal": 203,
+        "Zodiac": 45,
+        "Biological": 74,
+        "Recipes": 124
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ot",
+          "count": 138
+        },
+        {
+          "prefix": "ok",
+          "count": 106
+        },
+        {
+          "prefix": "op",
+          "count": 75
+        },
+        {
+          "prefix": "ol",
+          "count": 66
+        },
+        {
+          "prefix": "yk",
+          "count": 33
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 148
+        },
+        {
+          "suffix": "y",
+          "count": 122
+        },
+        {
+          "suffix": "dy",
+          "count": 43
+        },
+        {
+          "suffix": "ol",
+          "count": 39
+        },
+        {
+          "suffix": "or",
+          "count": 36
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ot-[ch]-y",
+          "count": 42
+        },
+        {
+          "pattern": "ol-[ch]-ey",
+          "count": 36
+        },
+        {
+          "pattern": "op-[ch]-ey",
+          "count": 34
+        },
+        {
+          "pattern": "ot-[ch]-ey",
+          "count": 34
+        },
+        {
+          "pattern": "ok-[ch]-ey",
+          "count": 32
+        },
+        {
+          "pattern": "ok-[ch]-y",
+          "count": 29
+        },
+        {
+          "pattern": "ot-[ch]-ol",
+          "count": 20
+        },
+        {
+          "pattern": "ot-[ch]-or",
+          "count": 15
+        },
+        {
+          "pattern": "op-[ch]-y",
+          "count": 15
+        },
+        {
+          "pattern": "ol-[ch]-y",
+          "count": 15
+        }
+      ],
+      "hypothesis": "Likely entity or object reference, often in transition contexts, typically as state; common in plant descriptions. Similar to nouns or object terms",
+      "evidence": [
+        "VPCA: Entity/Object",
+        "Universal across all sections",
+        "Often with ot- (transition, 30.9%)",
+        "Often with -ey (state_marker, 33.2%)",
+        "Medieval: Latin: cum (with) / Romance: ch- digraph"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "root": "r",
+      "total_occurrences": 407,
+      "sections": {
+        "Herbal": 169,
+        "Zodiac": 47,
+        "Biological": 102,
+        "Recipes": 89
+      },
+      "top_prefixes": [
+        {
+          "prefix": "da",
+          "count": 231
+        },
+        {
+          "prefix": "sa",
+          "count": 73
+        },
+        {
+          "prefix": "do",
+          "count": 49
+        },
+        {
+          "prefix": "qo",
+          "count": 21
+        },
+        {
+          "prefix": "ch",
+          "count": 12
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 23
+        },
+        {
+          "suffix": "al",
+          "count": 6
+        },
+        {
+          "suffix": "ol",
+          "count": 4
+        },
+        {
+          "suffix": "ar",
+          "count": 4
+        },
+        {
+          "suffix": "dy",
+          "count": 3
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "da-[r]",
+          "count": 204
+        },
+        {
+          "pattern": "sa-[r]",
+          "count": 61
+        },
+        {
+          "pattern": "do-[r]",
+          "count": 47
+        },
+        {
+          "pattern": "qo-[r]",
+          "count": 20
+        },
+        {
+          "pattern": "da-[r]-y",
+          "count": 15
+        },
+        {
+          "pattern": "ch-[r]",
+          "count": 10
+        },
+        {
+          "pattern": "ok-[r]",
+          "count": 7
+        },
+        {
+          "pattern": "ot-[r]",
+          "count": 5
+        },
+        {
+          "pattern": "sa-[r]-y",
+          "count": 4
+        },
+        {
+          "pattern": "ol-[r]",
+          "count": 4
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with da- (unknown, 56.8%)"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "root": "cth",
+      "total_occurrences": 374,
+      "sections": {
+        "Herbal": 257,
+        "Zodiac": 9,
+        "Biological": 54,
+        "Recipes": 54
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 91
+        },
+        {
+          "prefix": "sh",
+          "count": 35
+        },
+        {
+          "prefix": "qo",
+          "count": 12
+        },
+        {
+          "prefix": "da",
+          "count": 1
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 198
+        },
+        {
+          "suffix": "ol",
+          "count": 46
+        },
+        {
+          "suffix": "or",
+          "count": 41
+        },
+        {
+          "suffix": "ey",
+          "count": 37
+        },
+        {
+          "suffix": "ar",
+          "count": 17
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[cth]-y",
+          "count": 89
+        },
+        {
+          "pattern": "ch-[cth]-y",
+          "count": 75
+        },
+        {
+          "pattern": "[cth]-ol",
+          "count": 44
+        },
+        {
+          "pattern": "[cth]-or",
+          "count": 40
+        },
+        {
+          "pattern": "sh-[cth]-y",
+          "count": 28
+        },
+        {
+          "pattern": "[cth]-ey",
+          "count": 23
+        },
+        {
+          "pattern": "[cth]-ar",
+          "count": 16
+        },
+        {
+          "pattern": "[cth]-al",
+          "count": 6
+        },
+        {
+          "pattern": "[cth]-om",
+          "count": 6
+        },
+        {
+          "pattern": "ch-[cth]-ey",
+          "count": 6
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (68.7%)",
+        "Often with -y (unknown, 52.9%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "kee",
+      "total_occurrences": 362,
+      "sections": {
+        "Herbal": 28,
+        "Zodiac": 3,
+        "Biological": 153,
+        "Recipes": 178
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 265
+        },
+        {
+          "prefix": "ol",
+          "count": 41
+        },
+        {
+          "prefix": "ch",
+          "count": 5
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 270
+        },
+        {
+          "suffix": "ey",
+          "count": 41
+        },
+        {
+          "suffix": "ol",
+          "count": 14
+        },
+        {
+          "suffix": "ar",
+          "count": 9
+        },
+        {
+          "suffix": "or",
+          "count": 8
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[kee]-dy",
+          "count": 215
+        },
+        {
+          "pattern": "[kee]-dy",
+          "count": 29
+        },
+        {
+          "pattern": "ol-[kee]-dy",
+          "count": 24
+        },
+        {
+          "pattern": "qo-[kee]-ey",
+          "count": 22
+        },
+        {
+          "pattern": "[kee]-ey",
+          "count": 9
+        },
+        {
+          "pattern": "ol-[kee]-ey",
+          "count": 9
+        },
+        {
+          "pattern": "[kee]-ol",
+          "count": 6
+        },
+        {
+          "pattern": "qo-[kee]-ol",
+          "count": 6
+        },
+        {
+          "pattern": "qo-[kee]-or",
+          "count": 5
+        },
+        {
+          "pattern": "qo-[kee]-e",
+          "count": 4
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with qo- (unknown, 73.2%)",
+        "Often with -dy (process_marker, 74.6%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "ka",
+      "total_occurrences": 350,
+      "sections": {
+        "Herbal": 12,
+        "Biological": 205,
+        "Recipes": 133
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 264
+        },
+        {
+          "prefix": "ol",
+          "count": 29
+        },
+        {
+          "prefix": "ch",
+          "count": 12
+        },
+        {
+          "prefix": "sh",
+          "count": 2
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 347
+        },
+        {
+          "suffix": "y",
+          "count": 1
+        },
+        {
+          "suffix": "dy",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[ka]-in",
+          "count": 262
+        },
+        {
+          "pattern": "[ka]-in",
+          "count": 42
+        },
+        {
+          "pattern": "ol-[ka]-in",
+          "count": 29
+        },
+        {
+          "pattern": "ch-[ka]-in",
+          "count": 12
+        },
+        {
+          "pattern": "sh-[ka]-in",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[ka]-y",
+          "count": 1
+        },
+        {
+          "pattern": "[ka]",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[ka]-dy",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as nominal; common in biological/anatomical contexts. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Biological (58.6%)",
+        "Often with qo- (unknown, 75.4%)",
+        "Often with -in (nominal, 99.1%)"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "root": "ckh",
+      "total_occurrences": 346,
+      "sections": {
+        "Herbal": 142,
+        "Zodiac": 5,
+        "Biological": 105,
+        "Recipes": 94
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 177
+        },
+        {
+          "prefix": "sh",
+          "count": 65
+        },
+        {
+          "prefix": "qo",
+          "count": 28
+        },
+        {
+          "prefix": "do",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 213
+        },
+        {
+          "suffix": "ey",
+          "count": 64
+        },
+        {
+          "suffix": "ol",
+          "count": 19
+        },
+        {
+          "suffix": "dy",
+          "count": 11
+        },
+        {
+          "suffix": "al",
+          "count": 10
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[ckh]-y",
+          "count": 125
+        },
+        {
+          "pattern": "sh-[ckh]-y",
+          "count": 49
+        },
+        {
+          "pattern": "ch-[ckh]-ey",
+          "count": 29
+        },
+        {
+          "pattern": "[ckh]-y",
+          "count": 28
+        },
+        {
+          "pattern": "[ckh]-ol",
+          "count": 14
+        },
+        {
+          "pattern": "[ckh]-ey",
+          "count": 13
+        },
+        {
+          "pattern": "qo-[ckh]-ey",
+          "count": 12
+        },
+        {
+          "pattern": "sh-[ckh]-ey",
+          "count": 10
+        },
+        {
+          "pattern": "qo-[ckh]-y",
+          "count": 10
+        },
+        {
+          "pattern": "ch-[ckh]-dy",
+          "count": 6
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with ch- (intensifier, 51.2%)",
+        "Often with -y (unknown, 61.6%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "t",
+      "total_occurrences": 340,
+      "sections": {
+        "Herbal": 111,
+        "Zodiac": 4,
+        "Biological": 107,
+        "Recipes": 118
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 299
+        },
+        {
+          "prefix": "ch",
+          "count": 26
+        },
+        {
+          "prefix": "sh",
+          "count": 7
+        },
+        {
+          "prefix": "ol",
+          "count": 6
+        },
+        {
+          "prefix": "sa",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 84
+        },
+        {
+          "suffix": "al",
+          "count": 62
+        },
+        {
+          "suffix": "ar",
+          "count": 56
+        },
+        {
+          "suffix": "ey",
+          "count": 49
+        },
+        {
+          "suffix": "ol",
+          "count": 39
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[t]-y",
+          "count": 69
+        },
+        {
+          "pattern": "qo-[t]-al",
+          "count": 54
+        },
+        {
+          "pattern": "qo-[t]-ar",
+          "count": 49
+        },
+        {
+          "pattern": "qo-[t]-ey",
+          "count": 45
+        },
+        {
+          "pattern": "qo-[t]-ol",
+          "count": 35
+        },
+        {
+          "pattern": "qo-[t]-or",
+          "count": 23
+        },
+        {
+          "pattern": "qo-[t]",
+          "count": 11
+        },
+        {
+          "pattern": "ch-[t]-y",
+          "count": 10
+        },
+        {
+          "pattern": "qo-[t]-ed",
+          "count": 7
+        },
+        {
+          "pattern": "ch-[t]-al",
+          "count": 5
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with qo- (unknown, 87.9%)"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "root": "kai",
+      "total_occurrences": 335,
+      "sections": {
+        "Herbal": 63,
+        "Zodiac": 1,
+        "Biological": 98,
+        "Recipes": 173
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 232
+        },
+        {
+          "prefix": "ol",
+          "count": 21
+        },
+        {
+          "prefix": "ch",
+          "count": 15
+        },
+        {
+          "prefix": "sh",
+          "count": 5
+        },
+        {
+          "prefix": "sa",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 334
+        },
+        {
+          "suffix": "y",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[kai]-in",
+          "count": 231
+        },
+        {
+          "pattern": "[kai]-in",
+          "count": 61
+        },
+        {
+          "pattern": "ol-[kai]-in",
+          "count": 21
+        },
+        {
+          "pattern": "ch-[kai]-in",
+          "count": 15
+        },
+        {
+          "pattern": "sh-[kai]-in",
+          "count": 5
+        },
+        {
+          "pattern": "sa-[kai]-in",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[kai]-y",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (51.6%)",
+        "Often with qo- (unknown, 69.3%)",
+        "Often with -in (nominal, 99.7%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "o",
+      "total_occurrences": 314,
+      "sections": {
+        "Herbal": 199,
+        "Zodiac": 48,
+        "Biological": 4,
+        "Recipes": 63
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 132
+        },
+        {
+          "prefix": "sh",
+          "count": 128
+        },
+        {
+          "prefix": "ot",
+          "count": 26
+        },
+        {
+          "prefix": "ok",
+          "count": 20
+        },
+        {
+          "prefix": "yk",
+          "count": 4
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 98
+        },
+        {
+          "suffix": "y",
+          "count": 30
+        },
+        {
+          "suffix": "ar",
+          "count": 10
+        },
+        {
+          "suffix": "al",
+          "count": 4
+        },
+        {
+          "suffix": "ol",
+          "count": 3
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "sh-[o]",
+          "count": 93
+        },
+        {
+          "pattern": "ch-[o]-dy",
+          "count": 54
+        },
+        {
+          "pattern": "ch-[o]",
+          "count": 53
+        },
+        {
+          "pattern": "sh-[o]-dy",
+          "count": 30
+        },
+        {
+          "pattern": "ch-[o]-y",
+          "count": 16
+        },
+        {
+          "pattern": "ok-[o]-dy",
+          "count": 8
+        },
+        {
+          "pattern": "ot-[o]-y",
+          "count": 8
+        },
+        {
+          "pattern": "ot-[o]",
+          "count": 8
+        },
+        {
+          "pattern": "ok-[o]",
+          "count": 7
+        },
+        {
+          "pattern": "ot-[o]-dy",
+          "count": 4
+        }
+      ],
+      "hypothesis": "Likely quality or state descriptor, often intensified, typically as process; common in plant descriptions. Similar to adjectives or state markers",
+      "evidence": [
+        "VPCA: Quality/State",
+        "Universal across all sections",
+        "Enriched in Herbal (63.4%)",
+        "Often with ch- (intensifier, 42.0%)",
+        "Often with -dy (process_marker, 31.2%)",
+        "Medieval: Latin: -o (noun ending) / Romance: o/ou"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "root": "kch",
+      "total_occurrences": 297,
+      "sections": {
+        "Herbal": 184,
+        "Zodiac": 4,
+        "Biological": 35,
+        "Recipes": 74
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 163
+        },
+        {
+          "prefix": "ol",
+          "count": 8
+        },
+        {
+          "prefix": "ch",
+          "count": 7
+        },
+        {
+          "prefix": "sh",
+          "count": 3
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 116
+        },
+        {
+          "suffix": "ey",
+          "count": 62
+        },
+        {
+          "suffix": "dy",
+          "count": 40
+        },
+        {
+          "suffix": "ol",
+          "count": 35
+        },
+        {
+          "suffix": "or",
+          "count": 26
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[kch]-y",
+          "count": 74
+        },
+        {
+          "pattern": "qo-[kch]-ey",
+          "count": 34
+        },
+        {
+          "pattern": "[kch]-y",
+          "count": 31
+        },
+        {
+          "pattern": "qo-[kch]-dy",
+          "count": 26
+        },
+        {
+          "pattern": "[kch]-ey",
+          "count": 25
+        },
+        {
+          "pattern": "[kch]-ol",
+          "count": 19
+        },
+        {
+          "pattern": "[kch]-or",
+          "count": 18
+        },
+        {
+          "pattern": "qo-[kch]-ol",
+          "count": 15
+        },
+        {
+          "pattern": "[kch]-dy",
+          "count": 12
+        },
+        {
+          "pattern": "qo-[kch]-or",
+          "count": 7
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (62.0%)",
+        "Often with qo- (unknown, 54.9%)",
+        "Often with -y (unknown, 39.1%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "a",
+      "total_occurrences": 273,
+      "sections": {
+        "Herbal": 53,
+        "Zodiac": 5,
+        "Biological": 83,
+        "Recipes": 132
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ok",
+          "count": 121
+        },
+        {
+          "prefix": "ot",
+          "count": 87
+        },
+        {
+          "prefix": "ch",
+          "count": 23
+        },
+        {
+          "prefix": "ol",
+          "count": 14
+        },
+        {
+          "prefix": "yk",
+          "count": 11
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 260
+        },
+        {
+          "suffix": "os",
+          "count": 2
+        },
+        {
+          "suffix": "dy",
+          "count": 2
+        },
+        {
+          "suffix": "ar",
+          "count": 1
+        },
+        {
+          "suffix": "y",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ok-[a]-in",
+          "count": 117
+        },
+        {
+          "pattern": "ot-[a]-in",
+          "count": 83
+        },
+        {
+          "pattern": "ch-[a]-in",
+          "count": 22
+        },
+        {
+          "pattern": "ol-[a]-in",
+          "count": 14
+        },
+        {
+          "pattern": "yk-[a]-in",
+          "count": 9
+        },
+        {
+          "pattern": "sh-[a]-in",
+          "count": 8
+        },
+        {
+          "pattern": "qo-[a]-in",
+          "count": 5
+        },
+        {
+          "pattern": "sh-[a]",
+          "count": 2
+        },
+        {
+          "pattern": "ok-[a]-os",
+          "count": 2
+        },
+        {
+          "pattern": "yk-[a]-dy",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often in constituent/unit contexts, typically as nominal; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with ok- (constituent, 44.3%)",
+        "Often with -in (nominal, 95.2%)"
+      ],
+      "confidence": 0.5
+    },
+    {
+      "root": "te",
+      "total_occurrences": 254,
+      "sections": {
+        "Herbal": 38,
+        "Zodiac": 16,
+        "Biological": 96,
+        "Recipes": 104
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 144
+        },
+        {
+          "prefix": "ch",
+          "count": 7
+        },
+        {
+          "prefix": "ol",
+          "count": 4
+        },
+        {
+          "prefix": "do",
+          "count": 2
+        },
+        {
+          "prefix": "da",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 91
+        },
+        {
+          "suffix": "dy",
+          "count": 87
+        },
+        {
+          "suffix": "y",
+          "count": 23
+        },
+        {
+          "suffix": "ol",
+          "count": 18
+        },
+        {
+          "suffix": "or",
+          "count": 9
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[te]-dy",
+          "count": 61
+        },
+        {
+          "pattern": "qo-[te]-ey",
+          "count": 59
+        },
+        {
+          "pattern": "[te]-ey",
+          "count": 27
+        },
+        {
+          "pattern": "[te]-y",
+          "count": 23
+        },
+        {
+          "pattern": "[te]-dy",
+          "count": 20
+        },
+        {
+          "pattern": "[te]-ol",
+          "count": 12
+        },
+        {
+          "pattern": "qo-[te]-ol",
+          "count": 6
+        },
+        {
+          "pattern": "[te]-or",
+          "count": 4
+        },
+        {
+          "pattern": "ol-[te]-dy",
+          "count": 4
+        },
+        {
+          "pattern": "qo-[te]-or",
+          "count": 4
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with qo- (unknown, 56.7%)",
+        "Often with -ey (state_marker, 35.8%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "eo",
+      "total_occurrences": 250,
+      "sections": {
+        "Herbal": 67,
+        "Zodiac": 73,
+        "Biological": 1,
+        "Recipes": 109
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 109
+        },
+        {
+          "prefix": "sh",
+          "count": 60
+        },
+        {
+          "prefix": "ot",
+          "count": 39
+        },
+        {
+          "prefix": "ok",
+          "count": 33
+        },
+        {
+          "prefix": "yk",
+          "count": 9
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 129
+        },
+        {
+          "suffix": "ar",
+          "count": 8
+        },
+        {
+          "suffix": "al",
+          "count": 8
+        },
+        {
+          "suffix": "ey",
+          "count": 1
+        },
+        {
+          "suffix": "ol",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[eo]-dy",
+          "count": 52
+        },
+        {
+          "pattern": "ch-[eo]",
+          "count": 48
+        },
+        {
+          "pattern": "sh-[eo]",
+          "count": 30
+        },
+        {
+          "pattern": "sh-[eo]-dy",
+          "count": 27
+        },
+        {
+          "pattern": "ot-[eo]-dy",
+          "count": 24
+        },
+        {
+          "pattern": "ok-[eo]-dy",
+          "count": 18
+        },
+        {
+          "pattern": "ok-[eo]",
+          "count": 11
+        },
+        {
+          "pattern": "ot-[eo]",
+          "count": 11
+        },
+        {
+          "pattern": "yk-[eo]-dy",
+          "count": 8
+        },
+        {
+          "pattern": "ch-[eo]-ar",
+          "count": 5
+        }
+      ],
+      "hypothesis": "Likely quality or state descriptor, often intensified, typically as process; common in recipe instructions. Similar to adjectives or state markers",
+      "evidence": [
+        "VPCA: Quality/State",
+        "Universal across all sections",
+        "Often with ch- (intensifier, 43.6%)",
+        "Often with -dy (process_marker, 51.6%)",
+        "Medieval: Latin: -eo (verb) / Greek: -eo"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "root": "tch",
+      "total_occurrences": 233,
+      "sections": {
+        "Herbal": 154,
+        "Zodiac": 3,
+        "Biological": 22,
+        "Recipes": 54
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 127
+        },
+        {
+          "prefix": "ch",
+          "count": 5
+        },
+        {
+          "prefix": "sh",
+          "count": 4
+        },
+        {
+          "prefix": "ol",
+          "count": 4
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 86
+        },
+        {
+          "suffix": "ey",
+          "count": 51
+        },
+        {
+          "suffix": "or",
+          "count": 27
+        },
+        {
+          "suffix": "ol",
+          "count": 26
+        },
+        {
+          "suffix": "dy",
+          "count": 22
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[tch]-y",
+          "count": 58
+        },
+        {
+          "pattern": "[tch]-ey",
+          "count": 27
+        },
+        {
+          "pattern": "[tch]-y",
+          "count": 21
+        },
+        {
+          "pattern": "qo-[tch]-ey",
+          "count": 21
+        },
+        {
+          "pattern": "[tch]-or",
+          "count": 15
+        },
+        {
+          "pattern": "[tch]-ol",
+          "count": 13
+        },
+        {
+          "pattern": "qo-[tch]-dy",
+          "count": 13
+        },
+        {
+          "pattern": "qo-[tch]-ol",
+          "count": 12
+        },
+        {
+          "pattern": "qo-[tch]-or",
+          "count": 11
+        },
+        {
+          "pattern": "[tch]-dy",
+          "count": 8
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (66.1%)",
+        "Often with qo- (unknown, 54.5%)",
+        "Often with -y (unknown, 36.9%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "d",
+      "total_occurrences": 217,
+      "sections": {
+        "Herbal": 79,
+        "Zodiac": 11,
+        "Biological": 37,
+        "Recipes": 90
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 124
+        },
+        {
+          "prefix": "sh",
+          "count": 34
+        },
+        {
+          "prefix": "qo",
+          "count": 31
+        },
+        {
+          "prefix": "ol",
+          "count": 20
+        },
+        {
+          "prefix": "do",
+          "count": 6
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 135
+        },
+        {
+          "suffix": "ar",
+          "count": 24
+        },
+        {
+          "suffix": "al",
+          "count": 21
+        },
+        {
+          "suffix": "or",
+          "count": 9
+        },
+        {
+          "suffix": "ol",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[d]-y",
+          "count": 83
+        },
+        {
+          "pattern": "sh-[d]-y",
+          "count": 22
+        },
+        {
+          "pattern": "ol-[d]-y",
+          "count": 15
+        },
+        {
+          "pattern": "ch-[d]-ar",
+          "count": 13
+        },
+        {
+          "pattern": "qo-[d]-y",
+          "count": 11
+        },
+        {
+          "pattern": "ch-[d]-al",
+          "count": 11
+        },
+        {
+          "pattern": "qo-[d]",
+          "count": 8
+        },
+        {
+          "pattern": "ch-[d]-or",
+          "count": 7
+        },
+        {
+          "pattern": "ch-[d]",
+          "count": 6
+        },
+        {
+          "pattern": "sh-[d]",
+          "count": 5
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with ch- (intensifier, 57.1%)",
+        "Often with -y (unknown, 62.2%)",
+        "Medieval: Latin: de (from/of) / Romance: d-"
+      ],
+      "confidence": 0.44999999999999996
+    },
+    {
+      "root": "in",
+      "total_occurrences": 205,
+      "sections": {
+        "Herbal": 60,
+        "Zodiac": 4,
+        "Biological": 73,
+        "Recipes": 68
+      },
+      "top_prefixes": [
+        {
+          "prefix": "da",
+          "count": 138
+        },
+        {
+          "prefix": "sa",
+          "count": 61
+        },
+        {
+          "prefix": "qo",
+          "count": 2
+        },
+        {
+          "prefix": "ot",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 1
+        },
+        {
+          "suffix": "y",
+          "count": 1
+        },
+        {
+          "suffix": "ol",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "da-[in]",
+          "count": 136
+        },
+        {
+          "pattern": "sa-[in]",
+          "count": 61
+        },
+        {
+          "pattern": "[in]",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[in]",
+          "count": 2
+        },
+        {
+          "pattern": "[in]-ey",
+          "count": 1
+        },
+        {
+          "pattern": "da-[in]-y",
+          "count": 1
+        },
+        {
+          "pattern": "da-[in]-ol",
+          "count": 1
+        },
+        {
+          "pattern": "ot-[in]",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with da- (unknown, 67.3%)",
+        "Medieval: Latin: in (in/into) / Romance: -in suffix"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "am",
+      "total_occurrences": 173,
+      "sections": {
+        "Herbal": 72,
+        "Zodiac": 24,
+        "Biological": 13,
+        "Recipes": 64
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ot",
+          "count": 34
+        },
+        {
+          "prefix": "ch",
+          "count": 23
+        },
+        {
+          "prefix": "ok",
+          "count": 20
+        },
+        {
+          "prefix": "sh",
+          "count": 6
+        },
+        {
+          "prefix": "ol",
+          "count": 6
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[am]",
+          "count": 75
+        },
+        {
+          "pattern": "ot-[am]",
+          "count": 33
+        },
+        {
+          "pattern": "ch-[am]",
+          "count": 23
+        },
+        {
+          "pattern": "ok-[am]",
+          "count": 20
+        },
+        {
+          "pattern": "sh-[am]",
+          "count": 6
+        },
+        {
+          "pattern": "ol-[am]",
+          "count": 6
+        },
+        {
+          "pattern": "yk-[am]",
+          "count": 5
+        },
+        {
+          "pattern": "op-[am]",
+          "count": 2
+        },
+        {
+          "pattern": "[am]-y",
+          "count": 1
+        },
+        {
+          "pattern": "ot-[am]-y",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often in transition contexts, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "root": "lch",
+      "total_occurrences": 156,
+      "sections": {
+        "Herbal": 12,
+        "Zodiac": 3,
+        "Biological": 87,
+        "Recipes": 54
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 19
+        },
+        {
+          "prefix": "da",
+          "count": 10
+        },
+        {
+          "prefix": "ol",
+          "count": 2
+        },
+        {
+          "prefix": "sa",
+          "count": 2
+        },
+        {
+          "prefix": "do",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 90
+        },
+        {
+          "suffix": "y",
+          "count": 18
+        },
+        {
+          "suffix": "dy",
+          "count": 13
+        },
+        {
+          "suffix": "ed",
+          "count": 10
+        },
+        {
+          "suffix": "al",
+          "count": 8
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[lch]-ey",
+          "count": 71
+        },
+        {
+          "pattern": "qo-[lch]-ey",
+          "count": 16
+        },
+        {
+          "pattern": "[lch]-y",
+          "count": 11
+        },
+        {
+          "pattern": "[lch]-dy",
+          "count": 10
+        },
+        {
+          "pattern": "[lch]-ed",
+          "count": 8
+        },
+        {
+          "pattern": "[lch]-al",
+          "count": 7
+        },
+        {
+          "pattern": "[lch]-or",
+          "count": 4
+        },
+        {
+          "pattern": "da-[lch]-y",
+          "count": 3
+        },
+        {
+          "pattern": "[lch]-ol",
+          "count": 3
+        },
+        {
+          "pattern": "[lch]-ar",
+          "count": 3
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Biological (55.8%)",
+        "Often with -ey (state_marker, 57.7%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "che",
+      "total_occurrences": 154,
+      "sections": {
+        "Herbal": 20,
+        "Zodiac": 4,
+        "Biological": 48,
+        "Recipes": 82
+      },
+      "top_prefixes": [
+        {
+          "prefix": "op",
+          "count": 48
+        },
+        {
+          "prefix": "ol",
+          "count": 45
+        },
+        {
+          "prefix": "ot",
+          "count": 27
+        },
+        {
+          "prefix": "ok",
+          "count": 20
+        },
+        {
+          "prefix": "qo",
+          "count": 7
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 101
+        },
+        {
+          "suffix": "ey",
+          "count": 24
+        },
+        {
+          "suffix": "ol",
+          "count": 12
+        },
+        {
+          "suffix": "or",
+          "count": 5
+        },
+        {
+          "suffix": "ar",
+          "count": 5
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "op-[che]-dy",
+          "count": 36
+        },
+        {
+          "pattern": "ol-[che]-dy",
+          "count": 26
+        },
+        {
+          "pattern": "ot-[che]-dy",
+          "count": 19
+        },
+        {
+          "pattern": "ok-[che]-dy",
+          "count": 13
+        },
+        {
+          "pattern": "ol-[che]-ey",
+          "count": 10
+        },
+        {
+          "pattern": "ok-[che]-ey",
+          "count": 6
+        },
+        {
+          "pattern": "ol-[che]-ol",
+          "count": 5
+        },
+        {
+          "pattern": "yk-[che]-dy",
+          "count": 5
+        },
+        {
+          "pattern": "op-[che]-ol",
+          "count": 4
+        },
+        {
+          "pattern": "op-[che]-ey",
+          "count": 3
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (53.2%)",
+        "Often with op- (unknown, 31.2%)",
+        "Often with -dy (process_marker, 65.6%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "air",
+      "total_occurrences": 152,
+      "sections": {
+        "Herbal": 37,
+        "Zodiac": 28,
+        "Biological": 7,
+        "Recipes": 80
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ot",
+          "count": 26
+        },
+        {
+          "prefix": "ok",
+          "count": 20
+        },
+        {
+          "prefix": "yk",
+          "count": 7
+        },
+        {
+          "prefix": "qo",
+          "count": 4
+        },
+        {
+          "prefix": "op",
+          "count": 4
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "al",
+          "count": 4
+        },
+        {
+          "suffix": "y",
+          "count": 4
+        },
+        {
+          "suffix": "or",
+          "count": 2
+        },
+        {
+          "suffix": "ol",
+          "count": 2
+        },
+        {
+          "suffix": "oy",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[air]",
+          "count": 75
+        },
+        {
+          "pattern": "ot-[air]",
+          "count": 21
+        },
+        {
+          "pattern": "ok-[air]",
+          "count": 18
+        },
+        {
+          "pattern": "yk-[air]",
+          "count": 7
+        },
+        {
+          "pattern": "qo-[air]",
+          "count": 4
+        },
+        {
+          "pattern": "op-[air]",
+          "count": 4
+        },
+        {
+          "pattern": "[air]-al",
+          "count": 3
+        },
+        {
+          "pattern": "sh-[air]",
+          "count": 2
+        },
+        {
+          "pattern": "ol-[air]",
+          "count": 2
+        },
+        {
+          "pattern": "ot-[air]-or",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often in transition contexts; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (52.6%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "ek",
+      "total_occurrences": 145,
+      "sections": {
+        "Herbal": 63,
+        "Zodiac": 18,
+        "Biological": 33,
+        "Recipes": 31
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 92
+        },
+        {
+          "prefix": "sh",
+          "count": 48
+        },
+        {
+          "prefix": "qo",
+          "count": 4
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 87
+        },
+        {
+          "suffix": "al",
+          "count": 15
+        },
+        {
+          "suffix": "ey",
+          "count": 12
+        },
+        {
+          "suffix": "ar",
+          "count": 10
+        },
+        {
+          "suffix": "oy",
+          "count": 3
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[ek]-y",
+          "count": 59
+        },
+        {
+          "pattern": "sh-[ek]-y",
+          "count": 27
+        },
+        {
+          "pattern": "ch-[ek]-al",
+          "count": 10
+        },
+        {
+          "pattern": "ch-[ek]-ey",
+          "count": 7
+        },
+        {
+          "pattern": "sh-[ek]",
+          "count": 7
+        },
+        {
+          "pattern": "ch-[ek]-ar",
+          "count": 6
+        },
+        {
+          "pattern": "ch-[ek]",
+          "count": 6
+        },
+        {
+          "pattern": "sh-[ek]-al",
+          "count": 5
+        },
+        {
+          "pattern": "sh-[ek]-ey",
+          "count": 5
+        },
+        {
+          "pattern": "ch-[ek]-oy",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with ch- (intensifier, 63.4%)",
+        "Often with -y (unknown, 60.0%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "ed",
+      "total_occurrences": 144,
+      "sections": {
+        "Herbal": 15,
+        "Zodiac": 11,
+        "Biological": 44,
+        "Recipes": 74
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 69
+        },
+        {
+          "prefix": "sh",
+          "count": 38
+        },
+        {
+          "prefix": "ot",
+          "count": 17
+        },
+        {
+          "prefix": "ok",
+          "count": 16
+        },
+        {
+          "prefix": "yk",
+          "count": 2
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ar",
+          "count": 37
+        },
+        {
+          "suffix": "al",
+          "count": 33
+        },
+        {
+          "suffix": "or",
+          "count": 8
+        },
+        {
+          "suffix": "ol",
+          "count": 6
+        },
+        {
+          "suffix": "ey",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[ed]",
+          "count": 23
+        },
+        {
+          "pattern": "sh-[ed]",
+          "count": 22
+        },
+        {
+          "pattern": "ch-[ed]-ar",
+          "count": 20
+        },
+        {
+          "pattern": "ch-[ed]-al",
+          "count": 19
+        },
+        {
+          "pattern": "sh-[ed]-ar",
+          "count": 7
+        },
+        {
+          "pattern": "sh-[ed]-al",
+          "count": 7
+        },
+        {
+          "pattern": "ok-[ed]",
+          "count": 6
+        },
+        {
+          "pattern": "ot-[ed]-ar",
+          "count": 6
+        },
+        {
+          "pattern": "ot-[ed]",
+          "count": 6
+        },
+        {
+          "pattern": "ok-[ed]-al",
+          "count": 4
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as agent; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (51.4%)",
+        "Often with ch- (intensifier, 47.9%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "dy",
+      "total_occurrences": 130,
+      "sections": {
+        "Herbal": 67,
+        "Zodiac": 18,
+        "Biological": 37,
+        "Recipes": 8
+      },
+      "top_prefixes": [
+        {
+          "prefix": "sh",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 2
+        },
+        {
+          "suffix": "y",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[dy]",
+          "count": 127
+        },
+        {
+          "pattern": "[dy]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "sh-[dy]-y",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (51.5%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "lche",
+      "total_occurrences": 129,
+      "sections": {
+        "Herbal": 5,
+        "Zodiac": 1,
+        "Biological": 61,
+        "Recipes": 62
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 12
+        },
+        {
+          "prefix": "da",
+          "count": 5
+        },
+        {
+          "prefix": "do",
+          "count": 2
+        },
+        {
+          "prefix": "sa",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 94
+        },
+        {
+          "suffix": "ey",
+          "count": 16
+        },
+        {
+          "suffix": "ol",
+          "count": 8
+        },
+        {
+          "suffix": "al",
+          "count": 3
+        },
+        {
+          "suffix": "or",
+          "count": 3
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[lche]-dy",
+          "count": 81
+        },
+        {
+          "pattern": "[lche]-ey",
+          "count": 12
+        },
+        {
+          "pattern": "qo-[lche]-dy",
+          "count": 7
+        },
+        {
+          "pattern": "[lche]-ol",
+          "count": 7
+        },
+        {
+          "pattern": "da-[lche]-dy",
+          "count": 5
+        },
+        {
+          "pattern": "qo-[lche]-ey",
+          "count": 3
+        },
+        {
+          "pattern": "[lche]-ar",
+          "count": 2
+        },
+        {
+          "pattern": "[lche]-or",
+          "count": 2
+        },
+        {
+          "pattern": "[lche]-al",
+          "count": 2
+        },
+        {
+          "pattern": "do-[lche]-ey",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with -dy (process_marker, 72.9%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "ain",
+      "total_occurrences": 114,
+      "sections": {
+        "Herbal": 18,
+        "Zodiac": 7,
+        "Biological": 28,
+        "Recipes": 61
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ot",
+          "count": 2
+        },
+        {
+          "prefix": "ok",
+          "count": 1
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 4
+        },
+        {
+          "suffix": "os",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[ain]",
+          "count": 109
+        },
+        {
+          "pattern": "[ain]-y",
+          "count": 1
+        },
+        {
+          "pattern": "ot-[ain]-y",
+          "count": 1
+        },
+        {
+          "pattern": "ok-[ain]-y",
+          "count": 1
+        },
+        {
+          "pattern": "ol-[ain]-y",
+          "count": 1
+        },
+        {
+          "pattern": "ot-[ain]-os",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often in transition contexts, typically as state; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (53.5%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "tai",
+      "total_occurrences": 112,
+      "sections": {
+        "Herbal": 30,
+        "Biological": 18,
+        "Recipes": 64
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 66
+        },
+        {
+          "prefix": "ch",
+          "count": 4
+        },
+        {
+          "prefix": "ol",
+          "count": 2
+        },
+        {
+          "prefix": "sh",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 111
+        },
+        {
+          "suffix": "dy",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[tai]-in",
+          "count": 66
+        },
+        {
+          "pattern": "[tai]-in",
+          "count": 38
+        },
+        {
+          "pattern": "ch-[tai]-in",
+          "count": 4
+        },
+        {
+          "pattern": "ol-[tai]-in",
+          "count": 2
+        },
+        {
+          "pattern": "sh-[tai]-in",
+          "count": 1
+        },
+        {
+          "pattern": "[tai]-dy",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Recipes (57.1%)",
+        "Often with qo- (unknown, 58.9%)",
+        "Often with -in (nominal, 99.1%)"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "root": "ir",
+      "total_occurrences": 112,
+      "sections": {
+        "Herbal": 44,
+        "Zodiac": 18,
+        "Biological": 7,
+        "Recipes": 43
+      },
+      "top_prefixes": [
+        {
+          "prefix": "da",
+          "count": 79
+        },
+        {
+          "prefix": "sa",
+          "count": 32
+        },
+        {
+          "prefix": "do",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 7
+        },
+        {
+          "suffix": "al",
+          "count": 4
+        },
+        {
+          "suffix": "ol",
+          "count": 3
+        },
+        {
+          "suffix": "in",
+          "count": 2
+        },
+        {
+          "suffix": "ar",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "da-[ir]",
+          "count": 68
+        },
+        {
+          "pattern": "sa-[ir]",
+          "count": 23
+        },
+        {
+          "pattern": "sa-[ir]-y",
+          "count": 5
+        },
+        {
+          "pattern": "da-[ir]-al",
+          "count": 3
+        },
+        {
+          "pattern": "da-[ir]-in",
+          "count": 2
+        },
+        {
+          "pattern": "da-[ir]-y",
+          "count": 2
+        },
+        {
+          "pattern": "da-[ir]-ol",
+          "count": 2
+        },
+        {
+          "pattern": "do-[ir]",
+          "count": 1
+        },
+        {
+          "pattern": "da-[ir]-ar",
+          "count": 1
+        },
+        {
+          "pattern": "sa-[ir]-om",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Likely process or action marker, typically as state. Similar to verbs or process terms",
+      "evidence": [
+        "VPCA: Process/Active",
+        "Universal across all sections",
+        "Often with da- (unknown, 70.5%)"
+      ],
+      "confidence": 0.5
+    },
+    {
+      "root": "od",
+      "total_occurrences": 105,
+      "sections": {
+        "Herbal": 51,
+        "Zodiac": 11,
+        "Biological": 5,
+        "Recipes": 38
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 24
+        },
+        {
+          "prefix": "sh",
+          "count": 13
+        },
+        {
+          "prefix": "ot",
+          "count": 5
+        },
+        {
+          "prefix": "ok",
+          "count": 3
+        },
+        {
+          "prefix": "op",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ar",
+          "count": 27
+        },
+        {
+          "suffix": "y",
+          "count": 23
+        },
+        {
+          "suffix": "al",
+          "count": 21
+        },
+        {
+          "suffix": "ol",
+          "count": 3
+        },
+        {
+          "suffix": "ey",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[od]-y",
+          "count": 23
+        },
+        {
+          "pattern": "[od]-ar",
+          "count": 16
+        },
+        {
+          "pattern": "[od]-al",
+          "count": 12
+        },
+        {
+          "pattern": "sh-[od]",
+          "count": 9
+        },
+        {
+          "pattern": "ch-[od]-ar",
+          "count": 8
+        },
+        {
+          "pattern": "ch-[od]",
+          "count": 7
+        },
+        {
+          "pattern": "[od]",
+          "count": 5
+        },
+        {
+          "pattern": "ch-[od]-al",
+          "count": 5
+        },
+        {
+          "pattern": "ot-[od]",
+          "count": 3
+        },
+        {
+          "pattern": "ok-[od]-ar",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as agent; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "root": "eckh",
+      "total_occurrences": 101,
+      "sections": {
+        "Herbal": 11,
+        "Zodiac": 1,
+        "Biological": 50,
+        "Recipes": 39
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 66
+        },
+        {
+          "prefix": "sh",
+          "count": 34
+        },
+        {
+          "prefix": "yk",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 75
+        },
+        {
+          "suffix": "ey",
+          "count": 13
+        },
+        {
+          "suffix": "dy",
+          "count": 3
+        },
+        {
+          "suffix": "al",
+          "count": 2
+        },
+        {
+          "suffix": "ed",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[eckh]-y",
+          "count": 49
+        },
+        {
+          "pattern": "sh-[eckh]-y",
+          "count": 25
+        },
+        {
+          "pattern": "ch-[eckh]-ey",
+          "count": 8
+        },
+        {
+          "pattern": "sh-[eckh]-ey",
+          "count": 5
+        },
+        {
+          "pattern": "ch-[eckh]-dy",
+          "count": 3
+        },
+        {
+          "pattern": "ch-[eckh]",
+          "count": 2
+        },
+        {
+          "pattern": "sh-[eckh]",
+          "count": 2
+        },
+        {
+          "pattern": "sh-[eckh]-al",
+          "count": 2
+        },
+        {
+          "pattern": "ch-[eckh]-ed",
+          "count": 2
+        },
+        {
+          "pattern": "ch-[eckh]-ol",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with ch- (intensifier, 65.3%)",
+        "Often with -y (unknown, 74.3%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "dch",
+      "total_occurrences": 98,
+      "sections": {
+        "Herbal": 68,
+        "Zodiac": 9,
+        "Biological": 13,
+        "Recipes": 8
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 3
+        },
+        {
+          "prefix": "ch",
+          "count": 2
+        },
+        {
+          "prefix": "sh",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 26
+        },
+        {
+          "suffix": "or",
+          "count": 24
+        },
+        {
+          "suffix": "ey",
+          "count": 18
+        },
+        {
+          "suffix": "ol",
+          "count": 15
+        },
+        {
+          "suffix": "ed",
+          "count": 7
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[dch]-or",
+          "count": 24
+        },
+        {
+          "pattern": "[dch]-y",
+          "count": 23
+        },
+        {
+          "pattern": "[dch]-ey",
+          "count": 18
+        },
+        {
+          "pattern": "[dch]-ol",
+          "count": 14
+        },
+        {
+          "pattern": "[dch]-ed",
+          "count": 6
+        },
+        {
+          "pattern": "qo-[dch]-y",
+          "count": 2
+        },
+        {
+          "pattern": "[dch]-al",
+          "count": 2
+        },
+        {
+          "pattern": "[dch]-os",
+          "count": 2
+        },
+        {
+          "pattern": "[dch]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "[dch]-ar",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (69.4%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "pch",
+      "total_occurrences": 98,
+      "sections": {
+        "Herbal": 35,
+        "Zodiac": 2,
+        "Biological": 17,
+        "Recipes": 44
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 47
+        },
+        {
+          "prefix": "ch",
+          "count": 7
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 26
+        },
+        {
+          "suffix": "y",
+          "count": 19
+        },
+        {
+          "suffix": "dy",
+          "count": 18
+        },
+        {
+          "suffix": "or",
+          "count": 11
+        },
+        {
+          "suffix": "ol",
+          "count": 10
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[pch]-ey",
+          "count": 13
+        },
+        {
+          "pattern": "qo-[pch]-y",
+          "count": 11
+        },
+        {
+          "pattern": "qo-[pch]-ey",
+          "count": 11
+        },
+        {
+          "pattern": "qo-[pch]-dy",
+          "count": 11
+        },
+        {
+          "pattern": "[pch]-or",
+          "count": 9
+        },
+        {
+          "pattern": "[pch]-dy",
+          "count": 7
+        },
+        {
+          "pattern": "[pch]-y",
+          "count": 5
+        },
+        {
+          "pattern": "[pch]-ol",
+          "count": 5
+        },
+        {
+          "pattern": "qo-[pch]-ol",
+          "count": 4
+        },
+        {
+          "pattern": "ch-[pch]-y",
+          "count": 3
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with qo- (unknown, 48.0%)"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "root": "eeo",
+      "total_occurrences": 98,
+      "sections": {
+        "Herbal": 15,
+        "Zodiac": 26,
+        "Biological": 1,
+        "Recipes": 56
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ok",
+          "count": 25
+        },
+        {
+          "prefix": "ch",
+          "count": 23
+        },
+        {
+          "prefix": "ot",
+          "count": 21
+        },
+        {
+          "prefix": "yk",
+          "count": 16
+        },
+        {
+          "prefix": "sh",
+          "count": 7
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 40
+        },
+        {
+          "suffix": "ar",
+          "count": 2
+        },
+        {
+          "suffix": "al",
+          "count": 1
+        },
+        {
+          "suffix": "ol",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[eeo]",
+          "count": 15
+        },
+        {
+          "pattern": "ok-[eeo]",
+          "count": 13
+        },
+        {
+          "pattern": "ok-[eeo]-dy",
+          "count": 12
+        },
+        {
+          "pattern": "ot-[eeo]",
+          "count": 11
+        },
+        {
+          "pattern": "yk-[eeo]-dy",
+          "count": 10
+        },
+        {
+          "pattern": "ot-[eeo]-dy",
+          "count": 8
+        },
+        {
+          "pattern": "ch-[eeo]-dy",
+          "count": 7
+        },
+        {
+          "pattern": "sh-[eeo]",
+          "count": 6
+        },
+        {
+          "pattern": "yk-[eeo]",
+          "count": 6
+        },
+        {
+          "pattern": "qo-[eeo]-dy",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often in constituent/unit contexts, typically as process; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (57.1%)",
+        "Often with -dy (process_marker, 40.8%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "ot",
+      "total_occurrences": 97,
+      "sections": {
+        "Herbal": 49,
+        "Zodiac": 23,
+        "Biological": 3,
+        "Recipes": 22
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 73
+        },
+        {
+          "prefix": "sh",
+          "count": 9
+        },
+        {
+          "prefix": "op",
+          "count": 1
+        },
+        {
+          "prefix": "ot",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 41
+        },
+        {
+          "suffix": "ar",
+          "count": 11
+        },
+        {
+          "suffix": "ey",
+          "count": 8
+        },
+        {
+          "suffix": "ol",
+          "count": 8
+        },
+        {
+          "suffix": "al",
+          "count": 7
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[ot]-y",
+          "count": 36
+        },
+        {
+          "pattern": "[ot]",
+          "count": 13
+        },
+        {
+          "pattern": "ch-[ot]-ar",
+          "count": 10
+        },
+        {
+          "pattern": "ch-[ot]-ey",
+          "count": 7
+        },
+        {
+          "pattern": "ch-[ot]-al",
+          "count": 7
+        },
+        {
+          "pattern": "ch-[ot]-ol",
+          "count": 6
+        },
+        {
+          "pattern": "sh-[ot]-y",
+          "count": 5
+        },
+        {
+          "pattern": "ch-[ot]",
+          "count": 3
+        },
+        {
+          "pattern": "ch-[ot]-or",
+          "count": 3
+        },
+        {
+          "pattern": "sh-[ot]-ol",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Likely process or action marker, often intensified, typically as state; common in plant descriptions. Similar to verbs or process terms",
+      "evidence": [
+        "VPCA: Process/Active",
+        "Universal across all sections",
+        "Enriched in Herbal (50.5%)",
+        "Often with ch- (intensifier, 75.3%)",
+        "Often with -y (unknown, 42.3%)"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "root": "tee",
+      "total_occurrences": 95,
+      "sections": {
+        "Herbal": 14,
+        "Zodiac": 6,
+        "Biological": 39,
+        "Recipes": 36
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 70
+        },
+        {
+          "prefix": "ol",
+          "count": 3
+        },
+        {
+          "prefix": "ch",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 66
+        },
+        {
+          "suffix": "ey",
+          "count": 7
+        },
+        {
+          "suffix": "ol",
+          "count": 7
+        },
+        {
+          "suffix": "or",
+          "count": 4
+        },
+        {
+          "suffix": "ar",
+          "count": 3
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[tee]-dy",
+          "count": 55
+        },
+        {
+          "pattern": "[tee]-dy",
+          "count": 9
+        },
+        {
+          "pattern": "qo-[tee]-ol",
+          "count": 4
+        },
+        {
+          "pattern": "qo-[tee]-ey",
+          "count": 3
+        },
+        {
+          "pattern": "[tee]-or",
+          "count": 3
+        },
+        {
+          "pattern": "[tee]-ey",
+          "count": 3
+        },
+        {
+          "pattern": "[tee]-ol",
+          "count": 3
+        },
+        {
+          "pattern": "qo-[tee]-ar",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[tee]-es",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[tee]-oy",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in biological/anatomical contexts. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with qo- (unknown, 73.7%)",
+        "Often with -dy (process_marker, 69.5%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "yt",
+      "total_occurrences": 93,
+      "sections": {
+        "Herbal": 64,
+        "Zodiac": 13,
+        "Biological": 9,
+        "Recipes": 7
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 6
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        },
+        {
+          "prefix": "da",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 23
+        },
+        {
+          "suffix": "ar",
+          "count": 17
+        },
+        {
+          "suffix": "ey",
+          "count": 14
+        },
+        {
+          "suffix": "al",
+          "count": 14
+        },
+        {
+          "suffix": "or",
+          "count": 10
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[yt]-y",
+          "count": 17
+        },
+        {
+          "pattern": "[yt]-ar",
+          "count": 17
+        },
+        {
+          "pattern": "[yt]-ey",
+          "count": 14
+        },
+        {
+          "pattern": "[yt]-al",
+          "count": 14
+        },
+        {
+          "pattern": "[yt]-or",
+          "count": 10
+        },
+        {
+          "pattern": "[yt]-ol",
+          "count": 7
+        },
+        {
+          "pattern": "ch-[yt]-y",
+          "count": 5
+        },
+        {
+          "pattern": "[yt]-oy",
+          "count": 2
+        },
+        {
+          "pattern": "[yt]",
+          "count": 2
+        },
+        {
+          "pattern": "ol-[yt]-ol",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (68.8%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "lke",
+      "total_occurrences": 89,
+      "sections": {
+        "Herbal": 6,
+        "Biological": 20,
+        "Recipes": 63
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 9
+        },
+        {
+          "prefix": "da",
+          "count": 2
+        },
+        {
+          "prefix": "do",
+          "count": 1
+        },
+        {
+          "prefix": "sa",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 58
+        },
+        {
+          "suffix": "dy",
+          "count": 20
+        },
+        {
+          "suffix": "ol",
+          "count": 4
+        },
+        {
+          "suffix": "ed",
+          "count": 4
+        },
+        {
+          "suffix": "ar",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[lke]-ey",
+          "count": 50
+        },
+        {
+          "pattern": "[lke]-dy",
+          "count": 15
+        },
+        {
+          "pattern": "qo-[lke]-ey",
+          "count": 8
+        },
+        {
+          "pattern": "[lke]-ol",
+          "count": 4
+        },
+        {
+          "pattern": "[lke]-ed",
+          "count": 4
+        },
+        {
+          "pattern": "da-[lke]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[lke]-dy",
+          "count": 1
+        },
+        {
+          "pattern": "do-[lke]-dy",
+          "count": 1
+        },
+        {
+          "pattern": "[lke]-ar",
+          "count": 1
+        },
+        {
+          "pattern": "[lke]-es",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Recipes (70.8%)",
+        "Often with -ey (state_marker, 65.2%)"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "root": "odai",
+      "total_occurrences": 88,
+      "sections": {
+        "Herbal": 54,
+        "Zodiac": 3,
+        "Biological": 2,
+        "Recipes": 29
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 31
+        },
+        {
+          "prefix": "sh",
+          "count": 13
+        },
+        {
+          "prefix": "ot",
+          "count": 2
+        },
+        {
+          "prefix": "ok",
+          "count": 1
+        },
+        {
+          "prefix": "qo",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 88
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[odai]-in",
+          "count": 40
+        },
+        {
+          "pattern": "ch-[odai]-in",
+          "count": 31
+        },
+        {
+          "pattern": "sh-[odai]-in",
+          "count": 13
+        },
+        {
+          "pattern": "ot-[odai]-in",
+          "count": 2
+        },
+        {
+          "pattern": "ok-[odai]-in",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[odai]-in",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as nominal; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (61.4%)",
+        "Often with ch- (intensifier, 35.2%)",
+        "Often with -in (nominal, 100.0%)"
+      ],
+      "confidence": 0.6000000000000001
+    },
+    {
+      "root": "ok",
+      "total_occurrences": 88,
+      "sections": {
+        "Herbal": 46,
+        "Zodiac": 17,
+        "Biological": 7,
+        "Recipes": 18
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 61
+        },
+        {
+          "prefix": "sh",
+          "count": 19
+        },
+        {
+          "prefix": "ol",
+          "count": 3
+        },
+        {
+          "prefix": "ot",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 39
+        },
+        {
+          "suffix": "al",
+          "count": 11
+        },
+        {
+          "suffix": "ey",
+          "count": 10
+        },
+        {
+          "suffix": "ar",
+          "count": 9
+        },
+        {
+          "suffix": "or",
+          "count": 5
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[ok]-y",
+          "count": 30
+        },
+        {
+          "pattern": "ch-[ok]-ey",
+          "count": 7
+        },
+        {
+          "pattern": "sh-[ok]-y",
+          "count": 6
+        },
+        {
+          "pattern": "ch-[ok]-ar",
+          "count": 6
+        },
+        {
+          "pattern": "ch-[ok]-al",
+          "count": 6
+        },
+        {
+          "pattern": "ch-[ok]-or",
+          "count": 5
+        },
+        {
+          "pattern": "sh-[ok]-al",
+          "count": 5
+        },
+        {
+          "pattern": "ch-[ok]",
+          "count": 4
+        },
+        {
+          "pattern": "[ok]",
+          "count": 4
+        },
+        {
+          "pattern": "sh-[ok]",
+          "count": 3
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (52.3%)",
+        "Often with ch- (intensifier, 69.3%)",
+        "Often with -y (unknown, 44.3%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "pche",
+      "total_occurrences": 88,
+      "sections": {
+        "Herbal": 9,
+        "Biological": 27,
+        "Recipes": 52
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 28
+        },
+        {
+          "prefix": "ol",
+          "count": 4
+        },
+        {
+          "prefix": "ch",
+          "count": 3
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 53
+        },
+        {
+          "suffix": "ol",
+          "count": 10
+        },
+        {
+          "suffix": "ey",
+          "count": 7
+        },
+        {
+          "suffix": "ar",
+          "count": 6
+        },
+        {
+          "suffix": "or",
+          "count": 5
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[pche]-dy",
+          "count": 26
+        },
+        {
+          "pattern": "qo-[pche]-dy",
+          "count": 24
+        },
+        {
+          "pattern": "[pche]-ol",
+          "count": 10
+        },
+        {
+          "pattern": "[pche]-ar",
+          "count": 5
+        },
+        {
+          "pattern": "[pche]-or",
+          "count": 4
+        },
+        {
+          "pattern": "[pche]-ey",
+          "count": 3
+        },
+        {
+          "pattern": "ol-[pche]-dy",
+          "count": 3
+        },
+        {
+          "pattern": "qo-[pche]-ey",
+          "count": 2
+        },
+        {
+          "pattern": "[pche]-os",
+          "count": 2
+        },
+        {
+          "pattern": "ch-[pche]-os",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Recipes (59.1%)",
+        "Often with qo- (unknown, 31.8%)",
+        "Often with -dy (process_marker, 60.2%)"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "root": "sh",
+      "total_occurrences": 87,
+      "sections": {
+        "Herbal": 38,
+        "Zodiac": 6,
+        "Biological": 26,
+        "Recipes": 17
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ol",
+          "count": 22
+        },
+        {
+          "prefix": "ok",
+          "count": 21
+        },
+        {
+          "prefix": "ot",
+          "count": 17
+        },
+        {
+          "prefix": "op",
+          "count": 3
+        },
+        {
+          "prefix": "yk",
+          "count": 2
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 27
+        },
+        {
+          "suffix": "y",
+          "count": 17
+        },
+        {
+          "suffix": "dy",
+          "count": 7
+        },
+        {
+          "suffix": "ed",
+          "count": 5
+        },
+        {
+          "suffix": "ol",
+          "count": 4
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[sh]",
+          "count": 19
+        },
+        {
+          "pattern": "ol-[sh]-ey",
+          "count": 14
+        },
+        {
+          "pattern": "ok-[sh]-y",
+          "count": 7
+        },
+        {
+          "pattern": "ot-[sh]-ey",
+          "count": 6
+        },
+        {
+          "pattern": "ok-[sh]-ey",
+          "count": 5
+        },
+        {
+          "pattern": "ot-[sh]-y",
+          "count": 4
+        },
+        {
+          "pattern": "ol-[sh]-y",
+          "count": 3
+        },
+        {
+          "pattern": "ol-[sh]-dy",
+          "count": 3
+        },
+        {
+          "pattern": "ot-[sh]-ol",
+          "count": 2
+        },
+        {
+          "pattern": "yk-[sh]-y",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with -ey (state_marker, 31.0%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "lk",
+      "total_occurrences": 85,
+      "sections": {
+        "Herbal": 6,
+        "Biological": 21,
+        "Recipes": 58
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 6
+        },
+        {
+          "prefix": "da",
+          "count": 5
+        },
+        {
+          "prefix": "do",
+          "count": 3
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ar",
+          "count": 30
+        },
+        {
+          "suffix": "y",
+          "count": 28
+        },
+        {
+          "suffix": "ey",
+          "count": 18
+        },
+        {
+          "suffix": "al",
+          "count": 5
+        },
+        {
+          "suffix": "ol",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[lk]-ar",
+          "count": 27
+        },
+        {
+          "pattern": "[lk]-y",
+          "count": 20
+        },
+        {
+          "pattern": "[lk]-ey",
+          "count": 16
+        },
+        {
+          "pattern": "qo-[lk]-y",
+          "count": 4
+        },
+        {
+          "pattern": "[lk]-al",
+          "count": 4
+        },
+        {
+          "pattern": "da-[lk]-ar",
+          "count": 3
+        },
+        {
+          "pattern": "do-[lk]-y",
+          "count": 2
+        },
+        {
+          "pattern": "da-[lk]-y",
+          "count": 2
+        },
+        {
+          "pattern": "[lk]-ol",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[lk]-al",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as agent; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Recipes (68.2%)",
+        "Often with -ar (agent, 35.3%)"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "root": "ta",
+      "total_occurrences": 79,
+      "sections": {
+        "Herbal": 4,
+        "Zodiac": 1,
+        "Biological": 29,
+        "Recipes": 45
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 61
+        },
+        {
+          "prefix": "ch",
+          "count": 4
+        },
+        {
+          "prefix": "ol",
+          "count": 2
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 76
+        },
+        {
+          "suffix": "y",
+          "count": 2
+        },
+        {
+          "suffix": "dy",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[ta]-in",
+          "count": 59
+        },
+        {
+          "pattern": "[ta]-in",
+          "count": 11
+        },
+        {
+          "pattern": "ch-[ta]-in",
+          "count": 4
+        },
+        {
+          "pattern": "ol-[ta]-in",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[ta]-y",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[ta]-dy",
+          "count": 1
+        },
+        {
+          "pattern": "[ta]-y",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (57.0%)",
+        "Often with qo- (unknown, 77.2%)",
+        "Often with -in (nominal, 96.2%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "os",
+      "total_occurrences": 69,
+      "sections": {
+        "Herbal": 34,
+        "Zodiac": 14,
+        "Biological": 2,
+        "Recipes": 19
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 25
+        },
+        {
+          "prefix": "sh",
+          "count": 7
+        },
+        {
+          "prefix": "ok",
+          "count": 7
+        },
+        {
+          "prefix": "ot",
+          "count": 4
+        },
+        {
+          "prefix": "qo",
+          "count": 2
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 3
+        },
+        {
+          "suffix": "ar",
+          "count": 2
+        },
+        {
+          "suffix": "al",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[os]",
+          "count": 23
+        },
+        {
+          "pattern": "[os]",
+          "count": 18
+        },
+        {
+          "pattern": "sh-[os]",
+          "count": 7
+        },
+        {
+          "pattern": "ok-[os]",
+          "count": 6
+        },
+        {
+          "pattern": "ot-[os]",
+          "count": 3
+        },
+        {
+          "pattern": "qo-[os]",
+          "count": 2
+        },
+        {
+          "pattern": "ol-[os]",
+          "count": 2
+        },
+        {
+          "pattern": "[os]-al",
+          "count": 2
+        },
+        {
+          "pattern": "ch-[os]-y",
+          "count": 1
+        },
+        {
+          "pattern": "ot-[os]-y",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with ch- (intensifier, 36.2%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "cph",
+      "total_occurrences": 66,
+      "sections": {
+        "Herbal": 45,
+        "Zodiac": 1,
+        "Biological": 9,
+        "Recipes": 11
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 16
+        },
+        {
+          "prefix": "qo",
+          "count": 3
+        },
+        {
+          "prefix": "sh",
+          "count": 1
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 24
+        },
+        {
+          "suffix": "ol",
+          "count": 12
+        },
+        {
+          "suffix": "ey",
+          "count": 10
+        },
+        {
+          "suffix": "ar",
+          "count": 5
+        },
+        {
+          "suffix": "or",
+          "count": 5
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[cph]-ol",
+          "count": 11
+        },
+        {
+          "pattern": "[cph]-y",
+          "count": 10
+        },
+        {
+          "pattern": "ch-[cph]-y",
+          "count": 10
+        },
+        {
+          "pattern": "[cph]-ey",
+          "count": 6
+        },
+        {
+          "pattern": "[cph]-ar",
+          "count": 5
+        },
+        {
+          "pattern": "[cph]-or",
+          "count": 5
+        },
+        {
+          "pattern": "ch-[cph]-ey",
+          "count": 4
+        },
+        {
+          "pattern": "[cph]-oy",
+          "count": 3
+        },
+        {
+          "pattern": "qo-[cph]-y",
+          "count": 2
+        },
+        {
+          "pattern": "[cph]-al",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (68.2%)",
+        "Often with -y (unknown, 36.4%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "kal",
+      "total_occurrences": 66,
+      "sections": {
+        "Herbal": 33,
+        "Zodiac": 3,
+        "Biological": 13,
+        "Recipes": 17
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 31
+        },
+        {
+          "prefix": "ch",
+          "count": 2
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 26
+        },
+        {
+          "suffix": "dy",
+          "count": 8
+        },
+        {
+          "suffix": "or",
+          "count": 3
+        },
+        {
+          "suffix": "ar",
+          "count": 2
+        },
+        {
+          "suffix": "os",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[kal]",
+          "count": 22
+        },
+        {
+          "pattern": "qo-[kal]-y",
+          "count": 18
+        },
+        {
+          "pattern": "qo-[kal]-dy",
+          "count": 5
+        },
+        {
+          "pattern": "[kal]-y",
+          "count": 5
+        },
+        {
+          "pattern": "[kal]-dy",
+          "count": 3
+        },
+        {
+          "pattern": "qo-[kal]-or",
+          "count": 3
+        },
+        {
+          "pattern": "ch-[kal]-y",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[kal]-ar",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[kal]-os",
+          "count": 1
+        },
+        {
+          "pattern": "ol-[kal]-y",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with qo- (unknown, 47.0%)",
+        "Often with -y (unknown, 39.4%)"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "root": "rai",
+      "total_occurrences": 65,
+      "sections": {
+        "Herbal": 8,
+        "Zodiac": 1,
+        "Biological": 14,
+        "Recipes": 42
+      },
+      "top_prefixes": [
+        {
+          "prefix": "sa",
+          "count": 4
+        },
+        {
+          "prefix": "da",
+          "count": 1
+        },
+        {
+          "prefix": "qo",
+          "count": 1
+        },
+        {
+          "prefix": "do",
+          "count": 1
+        },
+        {
+          "prefix": "op",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 64
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[rai]-in",
+          "count": 56
+        },
+        {
+          "pattern": "sa-[rai]-in",
+          "count": 4
+        },
+        {
+          "pattern": "da-[rai]-in",
+          "count": 1
+        },
+        {
+          "pattern": "[rai]",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[rai]-in",
+          "count": 1
+        },
+        {
+          "pattern": "do-[rai]-in",
+          "count": 1
+        },
+        {
+          "pattern": "op-[rai]-in",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (64.6%)",
+        "Often with -in (nominal, 98.5%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "es",
+      "total_occurrences": 64,
+      "sections": {
+        "Herbal": 15,
+        "Zodiac": 18,
+        "Biological": 18,
+        "Recipes": 13
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 41
+        },
+        {
+          "prefix": "sh",
+          "count": 13
+        },
+        {
+          "prefix": "ot",
+          "count": 3
+        },
+        {
+          "prefix": "ok",
+          "count": 2
+        },
+        {
+          "prefix": "yk",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "e",
+          "count": 4
+        },
+        {
+          "suffix": "y",
+          "count": 3
+        },
+        {
+          "suffix": "ed",
+          "count": 1
+        },
+        {
+          "suffix": "ey",
+          "count": 1
+        },
+        {
+          "suffix": "ar",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[es]",
+          "count": 37
+        },
+        {
+          "pattern": "sh-[es]",
+          "count": 11
+        },
+        {
+          "pattern": "ch-[es]-y",
+          "count": 2
+        },
+        {
+          "pattern": "ok-[es]",
+          "count": 2
+        },
+        {
+          "pattern": "ot-[es]",
+          "count": 2
+        },
+        {
+          "pattern": "[es]",
+          "count": 1
+        },
+        {
+          "pattern": "sh-[es]-ed",
+          "count": 1
+        },
+        {
+          "pattern": "sh-[es]-e",
+          "count": 1
+        },
+        {
+          "pattern": "ch-[es]-ey",
+          "count": 1
+        },
+        {
+          "pattern": "[es]-e",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with ch- (intensifier, 64.1%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "kche",
+      "total_occurrences": 64,
+      "sections": {
+        "Herbal": 15,
+        "Zodiac": 2,
+        "Biological": 7,
+        "Recipes": 40
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 35
+        },
+        {
+          "prefix": "ol",
+          "count": 3
+        },
+        {
+          "prefix": "sh",
+          "count": 2
+        },
+        {
+          "prefix": "ot",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 43
+        },
+        {
+          "suffix": "or",
+          "count": 6
+        },
+        {
+          "suffix": "ey",
+          "count": 6
+        },
+        {
+          "suffix": "ol",
+          "count": 5
+        },
+        {
+          "suffix": "oy",
+          "count": 3
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[kche]-dy",
+          "count": 29
+        },
+        {
+          "pattern": "[kche]-dy",
+          "count": 8
+        },
+        {
+          "pattern": "[kche]-ol",
+          "count": 5
+        },
+        {
+          "pattern": "[kche]-or",
+          "count": 4
+        },
+        {
+          "pattern": "qo-[kche]-ey",
+          "count": 3
+        },
+        {
+          "pattern": "[kche]-ey",
+          "count": 3
+        },
+        {
+          "pattern": "ol-[kche]-dy",
+          "count": 3
+        },
+        {
+          "pattern": "qo-[kche]-or",
+          "count": 2
+        },
+        {
+          "pattern": "[kche]-oy",
+          "count": 2
+        },
+        {
+          "pattern": "sh-[kche]-dy",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (62.5%)",
+        "Often with qo- (unknown, 54.7%)",
+        "Often with -dy (process_marker, 67.2%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "tche",
+      "total_occurrences": 61,
+      "sections": {
+        "Herbal": 16,
+        "Zodiac": 2,
+        "Biological": 14,
+        "Recipes": 29
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 23
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 40
+        },
+        {
+          "suffix": "ol",
+          "count": 8
+        },
+        {
+          "suffix": "ey",
+          "count": 7
+        },
+        {
+          "suffix": "or",
+          "count": 4
+        },
+        {
+          "suffix": "os",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[tche]-dy",
+          "count": 21
+        },
+        {
+          "pattern": "qo-[tche]-dy",
+          "count": 19
+        },
+        {
+          "pattern": "[tche]-ey",
+          "count": 5
+        },
+        {
+          "pattern": "[tche]-ol",
+          "count": 5
+        },
+        {
+          "pattern": "[tche]-or",
+          "count": 4
+        },
+        {
+          "pattern": "qo-[tche]-ol",
+          "count": 3
+        },
+        {
+          "pattern": "[tche]-os",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[tche]-ey",
+          "count": 1
+        },
+        {
+          "pattern": "ol-[tche]-ey",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with qo- (unknown, 37.7%)",
+        "Often with -dy (process_marker, 65.6%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "ecth",
+      "total_occurrences": 59,
+      "sections": {
+        "Herbal": 7,
+        "Zodiac": 1,
+        "Biological": 34,
+        "Recipes": 17
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 37
+        },
+        {
+          "prefix": "sh",
+          "count": 22
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 51
+        },
+        {
+          "suffix": "ey",
+          "count": 5
+        },
+        {
+          "suffix": "al",
+          "count": 1
+        },
+        {
+          "suffix": "dy",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[ecth]-y",
+          "count": 31
+        },
+        {
+          "pattern": "sh-[ecth]-y",
+          "count": 20
+        },
+        {
+          "pattern": "ch-[ecth]-ey",
+          "count": 4
+        },
+        {
+          "pattern": "sh-[ecth]",
+          "count": 1
+        },
+        {
+          "pattern": "ch-[ecth]-al",
+          "count": 1
+        },
+        {
+          "pattern": "sh-[ecth]-ey",
+          "count": 1
+        },
+        {
+          "pattern": "ch-[ecth]-dy",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Biological (57.6%)",
+        "Often with ch- (intensifier, 62.7%)",
+        "Often with -y (unknown, 86.4%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "et",
+      "total_occurrences": 57,
+      "sections": {
+        "Herbal": 21,
+        "Zodiac": 11,
+        "Biological": 13,
+        "Recipes": 12
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 37
+        },
+        {
+          "prefix": "sh",
+          "count": 12
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        },
+        {
+          "prefix": "qo",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 33
+        },
+        {
+          "suffix": "ey",
+          "count": 10
+        },
+        {
+          "suffix": "ar",
+          "count": 10
+        },
+        {
+          "suffix": "al",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[et]-y",
+          "count": 20
+        },
+        {
+          "pattern": "ch-[et]-ey",
+          "count": 8
+        },
+        {
+          "pattern": "sh-[et]-y",
+          "count": 8
+        },
+        {
+          "pattern": "ch-[et]-ar",
+          "count": 7
+        },
+        {
+          "pattern": "[et]-y",
+          "count": 5
+        },
+        {
+          "pattern": "ch-[et]",
+          "count": 2
+        },
+        {
+          "pattern": "sh-[et]-ey",
+          "count": 2
+        },
+        {
+          "pattern": "ol-[et]-al",
+          "count": 1
+        },
+        {
+          "pattern": "sh-[et]-ar",
+          "count": 1
+        },
+        {
+          "pattern": "[et]-ar",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with ch- (intensifier, 64.9%)",
+        "Often with -y (unknown, 57.9%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "lkee",
+      "total_occurrences": 57,
+      "sections": {
+        "Herbal": 2,
+        "Biological": 10,
+        "Recipes": 45
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 8
+        },
+        {
+          "prefix": "sa",
+          "count": 1
+        },
+        {
+          "prefix": "do",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 37
+        },
+        {
+          "suffix": "ey",
+          "count": 11
+        },
+        {
+          "suffix": "ol",
+          "count": 4
+        },
+        {
+          "suffix": "or",
+          "count": 1
+        },
+        {
+          "suffix": "ed",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[lkee]-dy",
+          "count": 28
+        },
+        {
+          "pattern": "[lkee]-ey",
+          "count": 10
+        },
+        {
+          "pattern": "qo-[lkee]-dy",
+          "count": 7
+        },
+        {
+          "pattern": "[lkee]-ol",
+          "count": 4
+        },
+        {
+          "pattern": "qo-[lkee]-ey",
+          "count": 1
+        },
+        {
+          "pattern": "[lkee]-or",
+          "count": 1
+        },
+        {
+          "pattern": "sa-[lkee]-dy",
+          "count": 1
+        },
+        {
+          "pattern": "[lkee]-ed",
+          "count": 1
+        },
+        {
+          "pattern": "[lkee]-os",
+          "count": 1
+        },
+        {
+          "pattern": "[lkee]-es",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Recipes (78.9%)",
+        "Often with -dy (process_marker, 64.9%)"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "root": "m",
+      "total_occurrences": 56,
+      "sections": {
+        "Herbal": 31,
+        "Zodiac": 8,
+        "Biological": 6,
+        "Recipes": 11
+      },
+      "top_prefixes": [
+        {
+          "prefix": "da",
+          "count": 40
+        },
+        {
+          "prefix": "sa",
+          "count": 8
+        },
+        {
+          "prefix": "do",
+          "count": 6
+        },
+        {
+          "prefix": "ch",
+          "count": 1
+        },
+        {
+          "prefix": "op",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "da-[m]",
+          "count": 40
+        },
+        {
+          "pattern": "sa-[m]",
+          "count": 8
+        },
+        {
+          "pattern": "do-[m]",
+          "count": 6
+        },
+        {
+          "pattern": "ch-[m]",
+          "count": 1
+        },
+        {
+          "pattern": "op-[m]-dy",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (55.4%)",
+        "Often with da- (unknown, 71.4%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "eek",
+      "total_occurrences": 55,
+      "sections": {
+        "Herbal": 18,
+        "Zodiac": 2,
+        "Biological": 20,
+        "Recipes": 15
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 36
+        },
+        {
+          "prefix": "sh",
+          "count": 19
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 39
+        },
+        {
+          "suffix": "ey",
+          "count": 6
+        },
+        {
+          "suffix": "ar",
+          "count": 3
+        },
+        {
+          "suffix": "ol",
+          "count": 1
+        },
+        {
+          "suffix": "al",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[eek]-y",
+          "count": 29
+        },
+        {
+          "pattern": "sh-[eek]-y",
+          "count": 10
+        },
+        {
+          "pattern": "ch-[eek]-ey",
+          "count": 5
+        },
+        {
+          "pattern": "sh-[eek]",
+          "count": 4
+        },
+        {
+          "pattern": "sh-[eek]-ar",
+          "count": 2
+        },
+        {
+          "pattern": "ch-[eek]-ar",
+          "count": 1
+        },
+        {
+          "pattern": "sh-[eek]-ol",
+          "count": 1
+        },
+        {
+          "pattern": "sh-[eek]-al",
+          "count": 1
+        },
+        {
+          "pattern": "sh-[eek]-ey",
+          "count": 1
+        },
+        {
+          "pattern": "ch-[eek]",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with ch- (intensifier, 65.5%)",
+        "Often with -y (unknown, 70.9%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "yche",
+      "total_occurrences": 54,
+      "sections": {
+        "Herbal": 16,
+        "Zodiac": 1,
+        "Biological": 8,
+        "Recipes": 29
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ot",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 23
+        },
+        {
+          "suffix": "ol",
+          "count": 10
+        },
+        {
+          "suffix": "dy",
+          "count": 7
+        },
+        {
+          "suffix": "or",
+          "count": 6
+        },
+        {
+          "suffix": "ar",
+          "count": 3
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[yche]-ey",
+          "count": 22
+        },
+        {
+          "pattern": "[yche]-ol",
+          "count": 10
+        },
+        {
+          "pattern": "[yche]-dy",
+          "count": 7
+        },
+        {
+          "pattern": "[yche]-or",
+          "count": 6
+        },
+        {
+          "pattern": "[yche]-ar",
+          "count": 3
+        },
+        {
+          "pattern": "[yche]-es",
+          "count": 3
+        },
+        {
+          "pattern": "ot-[yche]-ey",
+          "count": 1
+        },
+        {
+          "pattern": "[yche]-e",
+          "count": 1
+        },
+        {
+          "pattern": "[yche]-al",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often in transition contexts, typically as state; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (53.7%)",
+        "Often with -ey (state_marker, 42.6%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "sol",
+      "total_occurrences": 54,
+      "sections": {
+        "Herbal": 4,
+        "Zodiac": 6,
+        "Biological": 38,
+        "Recipes": 6
+      },
+      "top_prefixes": [],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 3
+        },
+        {
+          "suffix": "al",
+          "count": 1
+        },
+        {
+          "suffix": "ar",
+          "count": 1
+        },
+        {
+          "suffix": "or",
+          "count": 1
+        },
+        {
+          "suffix": "dy",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[sol]",
+          "count": 46
+        },
+        {
+          "pattern": "[sol]-y",
+          "count": 3
+        },
+        {
+          "pattern": "[sol]-al",
+          "count": 1
+        },
+        {
+          "pattern": "[sol]-ar",
+          "count": 1
+        },
+        {
+          "pattern": "[sol]-or",
+          "count": 1
+        },
+        {
+          "pattern": "[sol]-dy",
+          "count": 1
+        },
+        {
+          "pattern": "[sol]-ol",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Biological (70.4%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "lshe",
+      "total_occurrences": 52,
+      "sections": {
+        "Herbal": 3,
+        "Biological": 34,
+        "Recipes": 15
+      },
+      "top_prefixes": [
+        {
+          "prefix": "da",
+          "count": 4
+        },
+        {
+          "prefix": "qo",
+          "count": 4
+        },
+        {
+          "prefix": "do",
+          "count": 4
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 36
+        },
+        {
+          "suffix": "ey",
+          "count": 10
+        },
+        {
+          "suffix": "ol",
+          "count": 4
+        },
+        {
+          "suffix": "ed",
+          "count": 1
+        },
+        {
+          "suffix": "es",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[lshe]-dy",
+          "count": 28
+        },
+        {
+          "pattern": "[lshe]-ey",
+          "count": 8
+        },
+        {
+          "pattern": "da-[lshe]-dy",
+          "count": 4
+        },
+        {
+          "pattern": "qo-[lshe]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "[lshe]-ol",
+          "count": 2
+        },
+        {
+          "pattern": "do-[lshe]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[lshe]-ol",
+          "count": 1
+        },
+        {
+          "pattern": "[lshe]-ed",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[lshe]-ey",
+          "count": 1
+        },
+        {
+          "pattern": "do-[lshe]-ey",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in biological/anatomical contexts. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Biological (65.4%)",
+        "Often with -dy (process_marker, 69.2%)"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "root": "kar",
+      "total_occurrences": 51,
+      "sections": {
+        "Herbal": 30,
+        "Biological": 5,
+        "Recipes": 16
+      },
+      "top_prefixes": [],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 3
+        },
+        {
+          "suffix": "ar",
+          "count": 1
+        },
+        {
+          "suffix": "al",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[kar]",
+          "count": 46
+        },
+        {
+          "pattern": "[kar]-y",
+          "count": 3
+        },
+        {
+          "pattern": "[kar]-ar",
+          "count": 1
+        },
+        {
+          "pattern": "[kar]-al",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Herbal (58.8%)"
+      ],
+      "confidence": 0.25
+    },
+    {
+      "root": "och",
+      "total_occurrences": 50,
+      "sections": {
+        "Herbal": 31,
+        "Zodiac": 12,
+        "Recipes": 7
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 9
+        },
+        {
+          "prefix": "sh",
+          "count": 3
+        },
+        {
+          "prefix": "ot",
+          "count": 2
+        },
+        {
+          "prefix": "ok",
+          "count": 2
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 13
+        },
+        {
+          "suffix": "y",
+          "count": 13
+        },
+        {
+          "suffix": "or",
+          "count": 9
+        },
+        {
+          "suffix": "ol",
+          "count": 6
+        },
+        {
+          "suffix": "os",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[och]-ey",
+          "count": 10
+        },
+        {
+          "pattern": "[och]-or",
+          "count": 6
+        },
+        {
+          "pattern": "ch-[och]-y",
+          "count": 6
+        },
+        {
+          "pattern": "[och]-ol",
+          "count": 5
+        },
+        {
+          "pattern": "[och]-y",
+          "count": 5
+        },
+        {
+          "pattern": "[och]-os",
+          "count": 2
+        },
+        {
+          "pattern": "sh-[och]-y",
+          "count": 2
+        },
+        {
+          "pattern": "[och]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "ch-[och]-or",
+          "count": 2
+        },
+        {
+          "pattern": "ok-[och]-ey",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Herbal (62.0%)"
+      ],
+      "confidence": 0.25
+    },
+    {
+      "root": "ytch",
+      "total_occurrences": 49,
+      "sections": {
+        "Herbal": 41,
+        "Zodiac": 2,
+        "Biological": 1,
+        "Recipes": 5
+      },
+      "top_prefixes": [
+        {
+          "prefix": "sh",
+          "count": 3
+        },
+        {
+          "prefix": "ot",
+          "count": 2
+        },
+        {
+          "prefix": "ch",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 20
+        },
+        {
+          "suffix": "or",
+          "count": 10
+        },
+        {
+          "suffix": "ey",
+          "count": 6
+        },
+        {
+          "suffix": "oy",
+          "count": 3
+        },
+        {
+          "suffix": "ol",
+          "count": 3
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[ytch]-y",
+          "count": 16
+        },
+        {
+          "pattern": "[ytch]-or",
+          "count": 9
+        },
+        {
+          "pattern": "[ytch]-ey",
+          "count": 6
+        },
+        {
+          "pattern": "[ytch]-oy",
+          "count": 3
+        },
+        {
+          "pattern": "sh-[ytch]-y",
+          "count": 2
+        },
+        {
+          "pattern": "[ytch]-os",
+          "count": 2
+        },
+        {
+          "pattern": "[ytch]-ol",
+          "count": 2
+        },
+        {
+          "pattern": "[ytch]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "ch-[ytch]-y",
+          "count": 1
+        },
+        {
+          "pattern": "ot-[ytch]-ol",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (83.7%)",
+        "Often with -y (unknown, 40.8%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "s",
+      "total_occurrences": 48,
+      "sections": {
+        "Herbal": 16,
+        "Zodiac": 9,
+        "Biological": 10,
+        "Recipes": 13
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 17
+        },
+        {
+          "prefix": "ol",
+          "count": 16
+        },
+        {
+          "prefix": "sh",
+          "count": 7
+        },
+        {
+          "prefix": "qo",
+          "count": 4
+        },
+        {
+          "prefix": "da",
+          "count": 4
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 6
+        },
+        {
+          "suffix": "dy",
+          "count": 3
+        },
+        {
+          "suffix": "ar",
+          "count": 2
+        },
+        {
+          "suffix": "ey",
+          "count": 2
+        },
+        {
+          "suffix": "ed",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ol-[s]",
+          "count": 13
+        },
+        {
+          "pattern": "ch-[s]",
+          "count": 10
+        },
+        {
+          "pattern": "sh-[s]",
+          "count": 5
+        },
+        {
+          "pattern": "qo-[s]",
+          "count": 4
+        },
+        {
+          "pattern": "ch-[s]-dy",
+          "count": 3
+        },
+        {
+          "pattern": "da-[s]",
+          "count": 2
+        },
+        {
+          "pattern": "sh-[s]-y",
+          "count": 2
+        },
+        {
+          "pattern": "da-[s]-y",
+          "count": 2
+        },
+        {
+          "pattern": "ol-[s]-y",
+          "count": 1
+        },
+        {
+          "pattern": "ol-[s]-ar",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with ch- (intensifier, 35.4%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "octh",
+      "total_occurrences": 48,
+      "sections": {
+        "Herbal": 28,
+        "Zodiac": 6,
+        "Biological": 2,
+        "Recipes": 12
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 20
+        },
+        {
+          "prefix": "sh",
+          "count": 12
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 34
+        },
+        {
+          "suffix": "ey",
+          "count": 6
+        },
+        {
+          "suffix": "ol",
+          "count": 2
+        },
+        {
+          "suffix": "or",
+          "count": 2
+        },
+        {
+          "suffix": "dy",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[octh]-y",
+          "count": 15
+        },
+        {
+          "pattern": "sh-[octh]-y",
+          "count": 11
+        },
+        {
+          "pattern": "[octh]-y",
+          "count": 8
+        },
+        {
+          "pattern": "ch-[octh]-ey",
+          "count": 3
+        },
+        {
+          "pattern": "[octh]-ey",
+          "count": 3
+        },
+        {
+          "pattern": "[octh]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "sh-[octh]-ol",
+          "count": 1
+        },
+        {
+          "pattern": "[octh]-os",
+          "count": 1
+        },
+        {
+          "pattern": "ch-[octh]-or",
+          "count": 1
+        },
+        {
+          "pattern": "[octh]-ol",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (58.3%)",
+        "Often with ch- (intensifier, 41.7%)",
+        "Often with -y (unknown, 70.8%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "oai",
+      "total_occurrences": 48,
+      "sections": {
+        "Herbal": 22,
+        "Zodiac": 8,
+        "Biological": 1,
+        "Recipes": 17
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 8
+        },
+        {
+          "prefix": "sh",
+          "count": 5
+        },
+        {
+          "prefix": "ot",
+          "count": 3
+        },
+        {
+          "prefix": "yk",
+          "count": 2
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 48
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[oai]-in",
+          "count": 28
+        },
+        {
+          "pattern": "ch-[oai]-in",
+          "count": 8
+        },
+        {
+          "pattern": "sh-[oai]-in",
+          "count": 5
+        },
+        {
+          "pattern": "ot-[oai]-in",
+          "count": 3
+        },
+        {
+          "pattern": "yk-[oai]-in",
+          "count": 2
+        },
+        {
+          "pattern": "ol-[oai]-in",
+          "count": 1
+        },
+        {
+          "pattern": "ok-[oai]-in",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as nominal; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with -in (nominal, 100.0%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "oi",
+      "total_occurrences": 47,
+      "sections": {
+        "Herbal": 30,
+        "Zodiac": 3,
+        "Biological": 6,
+        "Recipes": 8
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 10
+        },
+        {
+          "prefix": "ok",
+          "count": 5
+        },
+        {
+          "prefix": "sh",
+          "count": 5
+        },
+        {
+          "prefix": "yk",
+          "count": 3
+        },
+        {
+          "prefix": "ol",
+          "count": 3
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 47
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[oi]-in",
+          "count": 20
+        },
+        {
+          "pattern": "ch-[oi]-in",
+          "count": 10
+        },
+        {
+          "pattern": "ok-[oi]-in",
+          "count": 5
+        },
+        {
+          "pattern": "sh-[oi]-in",
+          "count": 5
+        },
+        {
+          "pattern": "yk-[oi]-in",
+          "count": 3
+        },
+        {
+          "pattern": "ol-[oi]-in",
+          "count": 3
+        },
+        {
+          "pattern": "ot-[oi]-in",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as nominal; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (63.8%)",
+        "Often with -in (nominal, 100.0%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "yte",
+      "total_occurrences": 46,
+      "sections": {
+        "Herbal": 16,
+        "Zodiac": 10,
+        "Biological": 9,
+        "Recipes": 11
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 25
+        },
+        {
+          "suffix": "dy",
+          "count": 10
+        },
+        {
+          "suffix": "ol",
+          "count": 3
+        },
+        {
+          "suffix": "os",
+          "count": 3
+        },
+        {
+          "suffix": "al",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[yte]-ey",
+          "count": 24
+        },
+        {
+          "pattern": "[yte]-dy",
+          "count": 10
+        },
+        {
+          "pattern": "[yte]-ol",
+          "count": 3
+        },
+        {
+          "pattern": "[yte]-os",
+          "count": 3
+        },
+        {
+          "pattern": "[yte]-al",
+          "count": 1
+        },
+        {
+          "pattern": "[yte]-or",
+          "count": 1
+        },
+        {
+          "pattern": "[yte]-oy",
+          "count": 1
+        },
+        {
+          "pattern": "[yte]-ar",
+          "count": 1
+        },
+        {
+          "pattern": "ch-[yte]-ey",
+          "count": 1
+        },
+        {
+          "pattern": "[yte]-e",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with -ey (state_marker, 54.3%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "dai",
+      "total_occurrences": 46,
+      "sections": {
+        "Herbal": 18,
+        "Recipes": 28
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 26
+        },
+        {
+          "prefix": "ch",
+          "count": 10
+        },
+        {
+          "prefix": "ol",
+          "count": 3
+        },
+        {
+          "prefix": "sh",
+          "count": 3
+        },
+        {
+          "prefix": "op",
+          "count": 2
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 46
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[dai]-in",
+          "count": 26
+        },
+        {
+          "pattern": "ch-[dai]-in",
+          "count": 10
+        },
+        {
+          "pattern": "ol-[dai]-in",
+          "count": 3
+        },
+        {
+          "pattern": "sh-[dai]-in",
+          "count": 3
+        },
+        {
+          "pattern": "op-[dai]-in",
+          "count": 2
+        },
+        {
+          "pattern": "ok-[dai]-in",
+          "count": 1
+        },
+        {
+          "pattern": "do-[dai]-in",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Enriched in Recipes (60.9%)",
+        "Often with qo- (unknown, 56.5%)",
+        "Often with -in (nominal, 100.0%)"
+      ],
+      "confidence": 0.25
+    },
+    {
+      "root": "lkai",
+      "total_occurrences": 46,
+      "sections": {
+        "Biological": 5,
+        "Recipes": 41
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 2
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 46
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[lkai]-in",
+          "count": 44
+        },
+        {
+          "pattern": "qo-[lkai]-in",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Enriched in Recipes (89.1%)",
+        "Often with -in (nominal, 100.0%)"
+      ],
+      "confidence": 0.25
+    },
+    {
+      "root": "lol",
+      "total_occurrences": 45,
+      "sections": {
+        "Herbal": 2,
+        "Biological": 31,
+        "Recipes": 12
+      },
+      "top_prefixes": [],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 6
+        },
+        {
+          "suffix": "dy",
+          "count": 2
+        },
+        {
+          "suffix": "om",
+          "count": 1
+        },
+        {
+          "suffix": "or",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[lol]",
+          "count": 35
+        },
+        {
+          "pattern": "[lol]-y",
+          "count": 6
+        },
+        {
+          "pattern": "[lol]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "[lol]-om",
+          "count": 1
+        },
+        {
+          "pattern": "[lol]-or",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Biological (68.9%)"
+      ],
+      "confidence": 0.25
+    },
+    {
+      "root": "lsh",
+      "total_occurrences": 45,
+      "sections": {
+        "Herbal": 3,
+        "Biological": 25,
+        "Recipes": 17
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 4
+        },
+        {
+          "prefix": "da",
+          "count": 3
+        },
+        {
+          "prefix": "do",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 28
+        },
+        {
+          "suffix": "y",
+          "count": 5
+        },
+        {
+          "suffix": "dy",
+          "count": 5
+        },
+        {
+          "suffix": "ed",
+          "count": 3
+        },
+        {
+          "suffix": "or",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[lsh]-ey",
+          "count": 27
+        },
+        {
+          "pattern": "[lsh]-y",
+          "count": 3
+        },
+        {
+          "pattern": "[lsh]-ed",
+          "count": 2
+        },
+        {
+          "pattern": "da-[lsh]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "[lsh]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[lsh]-y",
+          "count": 2
+        },
+        {
+          "pattern": "[lsh]-or",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[lsh]-dy",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[lsh]-ey",
+          "count": 1
+        },
+        {
+          "pattern": "do-[lsh]-ed",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Biological (55.6%)",
+        "Often with -ey (state_marker, 62.2%)"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "root": "ych",
+      "total_occurrences": 45,
+      "sections": {
+        "Herbal": 27,
+        "Zodiac": 3,
+        "Biological": 4,
+        "Recipes": 11
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ot",
+          "count": 3
+        },
+        {
+          "prefix": "yk",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "or",
+          "count": 10
+        },
+        {
+          "suffix": "ey",
+          "count": 10
+        },
+        {
+          "suffix": "ol",
+          "count": 8
+        },
+        {
+          "suffix": "y",
+          "count": 6
+        },
+        {
+          "suffix": "dy",
+          "count": 3
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[ych]-or",
+          "count": 10
+        },
+        {
+          "pattern": "[ych]-ey",
+          "count": 9
+        },
+        {
+          "pattern": "[ych]-ol",
+          "count": 8
+        },
+        {
+          "pattern": "[ych]-y",
+          "count": 4
+        },
+        {
+          "pattern": "[ych]-ed",
+          "count": 2
+        },
+        {
+          "pattern": "[ych]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "[ych]-ar",
+          "count": 1
+        },
+        {
+          "pattern": "[ych]-os",
+          "count": 1
+        },
+        {
+          "pattern": "yk-[ych]-y",
+          "count": 1
+        },
+        {
+          "pattern": "ot-[ych]-y",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often in transition contexts; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (60.0%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "dche",
+      "total_occurrences": 45,
+      "sections": {
+        "Herbal": 8,
+        "Zodiac": 4,
+        "Biological": 13,
+        "Recipes": 20
+      },
+      "top_prefixes": [],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 19
+        },
+        {
+          "suffix": "ey",
+          "count": 13
+        },
+        {
+          "suffix": "ol",
+          "count": 6
+        },
+        {
+          "suffix": "os",
+          "count": 2
+        },
+        {
+          "suffix": "or",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[dche]-dy",
+          "count": 19
+        },
+        {
+          "pattern": "[dche]-ey",
+          "count": 13
+        },
+        {
+          "pattern": "[dche]-ol",
+          "count": 6
+        },
+        {
+          "pattern": "[dche]-os",
+          "count": 2
+        },
+        {
+          "pattern": "[dche]-or",
+          "count": 1
+        },
+        {
+          "pattern": "[dche]-al",
+          "count": 1
+        },
+        {
+          "pattern": "[dche]-e",
+          "count": 1
+        },
+        {
+          "pattern": "[dche]-es",
+          "count": 1
+        },
+        {
+          "pattern": "[dche]-ar",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with -dy (process_marker, 42.2%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "aii",
+      "total_occurrences": 45,
+      "sections": {
+        "Herbal": 9,
+        "Zodiac": 1,
+        "Biological": 8,
+        "Recipes": 27
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ok",
+          "count": 7
+        },
+        {
+          "prefix": "yk",
+          "count": 1
+        },
+        {
+          "prefix": "ot",
+          "count": 1
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        },
+        {
+          "prefix": "ch",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 43
+        },
+        {
+          "suffix": "or",
+          "count": 1
+        },
+        {
+          "suffix": "dy",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[aii]-in",
+          "count": 31
+        },
+        {
+          "pattern": "ok-[aii]-in",
+          "count": 7
+        },
+        {
+          "pattern": "[aii]-or",
+          "count": 1
+        },
+        {
+          "pattern": "yk-[aii]-in",
+          "count": 1
+        },
+        {
+          "pattern": "ot-[aii]-in",
+          "count": 1
+        },
+        {
+          "pattern": "[aii]-dy",
+          "count": 1
+        },
+        {
+          "pattern": "ol-[aii]-in",
+          "count": 1
+        },
+        {
+          "pattern": "ch-[aii]-in",
+          "count": 1
+        },
+        {
+          "pattern": "sh-[aii]-in",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often in constituent/unit contexts, typically as nominal; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (60.0%)",
+        "Often with -in (nominal, 95.6%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "ockh",
+      "total_occurrences": 44,
+      "sections": {
+        "Herbal": 20,
+        "Zodiac": 8,
+        "Biological": 1,
+        "Recipes": 15
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 23
+        },
+        {
+          "prefix": "sh",
+          "count": 5
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 29
+        },
+        {
+          "suffix": "ey",
+          "count": 6
+        },
+        {
+          "suffix": "ol",
+          "count": 4
+        },
+        {
+          "suffix": "e",
+          "count": 2
+        },
+        {
+          "suffix": "ar",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[ockh]-y",
+          "count": 16
+        },
+        {
+          "pattern": "[ockh]-y",
+          "count": 9
+        },
+        {
+          "pattern": "sh-[ockh]-y",
+          "count": 4
+        },
+        {
+          "pattern": "ch-[ockh]-ey",
+          "count": 3
+        },
+        {
+          "pattern": "[ockh]-ey",
+          "count": 3
+        },
+        {
+          "pattern": "[ockh]-ol",
+          "count": 2
+        },
+        {
+          "pattern": "ch-[ockh]-ol",
+          "count": 1
+        },
+        {
+          "pattern": "[ockh]",
+          "count": 1
+        },
+        {
+          "pattern": "ch-[ockh]-e",
+          "count": 1
+        },
+        {
+          "pattern": "ch-[ockh]-ar",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Often with ch- (intensifier, 52.3%)",
+        "Often with -y (unknown, 65.9%)"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "root": "tsh",
+      "total_occurrences": 43,
+      "sections": {
+        "Herbal": 27,
+        "Biological": 7,
+        "Recipes": 9
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 14
+        },
+        {
+          "prefix": "ch",
+          "count": 2
+        },
+        {
+          "prefix": "ol",
+          "count": 2
+        },
+        {
+          "prefix": "sh",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 12
+        },
+        {
+          "suffix": "y",
+          "count": 10
+        },
+        {
+          "suffix": "ol",
+          "count": 6
+        },
+        {
+          "suffix": "dy",
+          "count": 6
+        },
+        {
+          "suffix": "ed",
+          "count": 4
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[tsh]-ey",
+          "count": 5
+        },
+        {
+          "pattern": "[tsh]-ol",
+          "count": 5
+        },
+        {
+          "pattern": "[tsh]-ey",
+          "count": 5
+        },
+        {
+          "pattern": "[tsh]-y",
+          "count": 4
+        },
+        {
+          "pattern": "qo-[tsh]-y",
+          "count": 4
+        },
+        {
+          "pattern": "[tsh]-dy",
+          "count": 3
+        },
+        {
+          "pattern": "[tsh]-ed",
+          "count": 3
+        },
+        {
+          "pattern": "qo-[tsh]-dy",
+          "count": 3
+        },
+        {
+          "pattern": "ol-[tsh]-ey",
+          "count": 2
+        },
+        {
+          "pattern": "[tsh]-or",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Herbal (62.8%)",
+        "Often with qo- (unknown, 32.6%)"
+      ],
+      "confidence": 0.25
+    },
+    {
+      "root": "eod",
+      "total_occurrences": 42,
+      "sections": {
+        "Herbal": 13,
+        "Zodiac": 15,
+        "Recipes": 14
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ot",
+          "count": 12
+        },
+        {
+          "prefix": "sh",
+          "count": 11
+        },
+        {
+          "prefix": "ch",
+          "count": 10
+        },
+        {
+          "prefix": "ok",
+          "count": 6
+        },
+        {
+          "prefix": "yk",
+          "count": 3
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ar",
+          "count": 13
+        },
+        {
+          "suffix": "al",
+          "count": 7
+        },
+        {
+          "suffix": "or",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "sh-[eod]",
+          "count": 9
+        },
+        {
+          "pattern": "ot-[eod]-ar",
+          "count": 7
+        },
+        {
+          "pattern": "ch-[eod]",
+          "count": 4
+        },
+        {
+          "pattern": "ok-[eod]",
+          "count": 4
+        },
+        {
+          "pattern": "ch-[eod]-al",
+          "count": 3
+        },
+        {
+          "pattern": "ot-[eod]",
+          "count": 3
+        },
+        {
+          "pattern": "ch-[eod]-ar",
+          "count": 2
+        },
+        {
+          "pattern": "yk-[eod]-ar",
+          "count": 2
+        },
+        {
+          "pattern": "sh-[eod]-al",
+          "count": 2
+        },
+        {
+          "pattern": "ot-[eod]-al",
+          "count": 2
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often in transition contexts, typically as agent. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Often with -ar (agent, 31.0%)"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "root": "keeo",
+      "total_occurrences": 42,
+      "sections": {
+        "Herbal": 9,
+        "Zodiac": 3,
+        "Biological": 1,
+        "Recipes": 29
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 23
+        },
+        {
+          "prefix": "ol",
+          "count": 8
+        },
+        {
+          "prefix": "sh",
+          "count": 1
+        },
+        {
+          "prefix": "ch",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 20
+        },
+        {
+          "suffix": "al",
+          "count": 1
+        },
+        {
+          "suffix": "ar",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[keeo]",
+          "count": 12
+        },
+        {
+          "pattern": "qo-[keeo]-dy",
+          "count": 10
+        },
+        {
+          "pattern": "ol-[keeo]-dy",
+          "count": 5
+        },
+        {
+          "pattern": "[keeo]",
+          "count": 4
+        },
+        {
+          "pattern": "[keeo]-dy",
+          "count": 4
+        },
+        {
+          "pattern": "ol-[keeo]",
+          "count": 3
+        },
+        {
+          "pattern": "sh-[keeo]",
+          "count": 1
+        },
+        {
+          "pattern": "ch-[keeo]-dy",
+          "count": 1
+        },
+        {
+          "pattern": "[keeo]-al",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[keeo]-ar",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (69.0%)",
+        "Often with qo- (unknown, 54.8%)",
+        "Often with -dy (process_marker, 47.6%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "kol",
+      "total_occurrences": 40,
+      "sections": {
+        "Herbal": 27,
+        "Zodiac": 3,
+        "Biological": 8,
+        "Recipes": 2
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 3
+        },
+        {
+          "prefix": "ch",
+          "count": 1
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 9
+        },
+        {
+          "suffix": "y",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[kol]",
+          "count": 29
+        },
+        {
+          "pattern": "[kol]-dy",
+          "count": 4
+        },
+        {
+          "pattern": "qo-[kol]-dy",
+          "count": 3
+        },
+        {
+          "pattern": "[kol]-y",
+          "count": 2
+        },
+        {
+          "pattern": "ch-[kol]-dy",
+          "count": 1
+        },
+        {
+          "pattern": "ol-[kol]-dy",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (67.5%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "tar",
+      "total_occurrences": 40,
+      "sections": {
+        "Herbal": 12,
+        "Zodiac": 1,
+        "Biological": 10,
+        "Recipes": 17
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 3
+        },
+        {
+          "suffix": "ar",
+          "count": 2
+        },
+        {
+          "suffix": "ol",
+          "count": 2
+        },
+        {
+          "suffix": "al",
+          "count": 1
+        },
+        {
+          "suffix": "or",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[tar]",
+          "count": 31
+        },
+        {
+          "pattern": "[tar]-ar",
+          "count": 2
+        },
+        {
+          "pattern": "[tar]-y",
+          "count": 2
+        },
+        {
+          "pattern": "[tar]-ol",
+          "count": 2
+        },
+        {
+          "pattern": "[tar]-al",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[tar]-y",
+          "count": 1
+        },
+        {
+          "pattern": "[tar]-or",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "root": "aiir",
+      "total_occurrences": 39,
+      "sections": {
+        "Herbal": 12,
+        "Zodiac": 9,
+        "Recipes": 18
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ok",
+          "count": 6
+        },
+        {
+          "prefix": "ot",
+          "count": 2
+        },
+        {
+          "prefix": "op",
+          "count": 2
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        },
+        {
+          "prefix": "yk",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ol",
+          "count": 1
+        },
+        {
+          "suffix": "y",
+          "count": 1
+        },
+        {
+          "suffix": "al",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[aiir]",
+          "count": 24
+        },
+        {
+          "pattern": "ok-[aiir]",
+          "count": 6
+        },
+        {
+          "pattern": "ot-[aiir]",
+          "count": 2
+        },
+        {
+          "pattern": "ol-[aiir]",
+          "count": 1
+        },
+        {
+          "pattern": "yk-[aiir]",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[aiir]",
+          "count": 1
+        },
+        {
+          "pattern": "op-[aiir]",
+          "count": 1
+        },
+        {
+          "pattern": "[aiir]-ol",
+          "count": 1
+        },
+        {
+          "pattern": "[aiir]-y",
+          "count": 1
+        },
+        {
+          "pattern": "op-[aiir]-al",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often in constituent/unit contexts; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections"
+      ],
+      "confidence": 0.15
+    },
+    {
+      "root": "qo",
+      "total_occurrences": 39,
+      "sections": {
+        "Herbal": 16,
+        "Biological": 10,
+        "Recipes": 13
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ol",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [],
+      "top_patterns": [
+        {
+          "pattern": "[qo]",
+          "count": 38
+        },
+        {
+          "pattern": "ol-[qo]",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections"
+      ],
+      "confidence": 0.15
+    },
+    {
+      "root": "kair",
+      "total_occurrences": 38,
+      "sections": {
+        "Herbal": 10,
+        "Biological": 4,
+        "Recipes": 24
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 18
+        },
+        {
+          "prefix": "ol",
+          "count": 3
+        },
+        {
+          "prefix": "sh",
+          "count": 1
+        },
+        {
+          "prefix": "ch",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "ol",
+          "count": 1
+        },
+        {
+          "suffix": "y",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[kair]",
+          "count": 18
+        },
+        {
+          "pattern": "[kair]",
+          "count": 13
+        },
+        {
+          "pattern": "ol-[kair]",
+          "count": 3
+        },
+        {
+          "pattern": "sh-[kair]",
+          "count": 1
+        },
+        {
+          "pattern": "[kair]-ol",
+          "count": 1
+        },
+        {
+          "pattern": "[kair]-y",
+          "count": 1
+        },
+        {
+          "pattern": "ch-[kair]",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Recipes (63.2%)",
+        "Often with qo- (unknown, 47.4%)"
+      ],
+      "confidence": 0.25
+    },
+    {
+      "root": "tol",
+      "total_occurrences": 38,
+      "sections": {
+        "Herbal": 20,
+        "Zodiac": 5,
+        "Biological": 9,
+        "Recipes": 4
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 3
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 3
+        },
+        {
+          "suffix": "ol",
+          "count": 2
+        },
+        {
+          "suffix": "y",
+          "count": 2
+        },
+        {
+          "suffix": "or",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[tol]",
+          "count": 30
+        },
+        {
+          "pattern": "[tol]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "[tol]-ol",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[tol]-dy",
+          "count": 1
+        },
+        {
+          "pattern": "[tol]-or",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[tol]-y",
+          "count": 1
+        },
+        {
+          "pattern": "[tol]-y",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[tol]-ol",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as process; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (52.6%)"
+      ],
+      "confidence": 0.30000000000000004
+    },
+    {
+      "root": "om",
+      "total_occurrences": 38,
+      "sections": {
+        "Herbal": 27,
+        "Zodiac": 1,
+        "Biological": 3,
+        "Recipes": 7
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 12
+        },
+        {
+          "prefix": "ok",
+          "count": 5
+        },
+        {
+          "prefix": "sh",
+          "count": 4
+        },
+        {
+          "prefix": "ol",
+          "count": 3
+        },
+        {
+          "prefix": "op",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ch-[om]",
+          "count": 12
+        },
+        {
+          "pattern": "[om]",
+          "count": 12
+        },
+        {
+          "pattern": "sh-[om]",
+          "count": 4
+        },
+        {
+          "pattern": "ok-[om]",
+          "count": 4
+        },
+        {
+          "pattern": "ol-[om]",
+          "count": 3
+        },
+        {
+          "pattern": "op-[om]",
+          "count": 1
+        },
+        {
+          "pattern": "ok-[om]-y",
+          "count": 1
+        },
+        {
+          "pattern": "ot-[om]",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (71.1%)",
+        "Often with ch- (intensifier, 31.6%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "dsh",
+      "total_occurrences": 38,
+      "sections": {
+        "Herbal": 24,
+        "Zodiac": 1,
+        "Biological": 9,
+        "Recipes": 4
+      },
+      "top_prefixes": [],
+      "top_suffixes": [
+        {
+          "suffix": "ey",
+          "count": 12
+        },
+        {
+          "suffix": "y",
+          "count": 8
+        },
+        {
+          "suffix": "or",
+          "count": 8
+        },
+        {
+          "suffix": "ol",
+          "count": 4
+        },
+        {
+          "suffix": "dy",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[dsh]-ey",
+          "count": 12
+        },
+        {
+          "pattern": "[dsh]-y",
+          "count": 8
+        },
+        {
+          "pattern": "[dsh]-or",
+          "count": 8
+        },
+        {
+          "pattern": "[dsh]-ol",
+          "count": 4
+        },
+        {
+          "pattern": "[dsh]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "[dsh]-oy",
+          "count": 1
+        },
+        {
+          "pattern": "[dsh]-e",
+          "count": 1
+        },
+        {
+          "pattern": "[dsh]-ar",
+          "count": 1
+        },
+        {
+          "pattern": "[dsh]-es",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Herbal (63.2%)",
+        "Often with -ey (state_marker, 31.6%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "lor",
+      "total_occurrences": 38,
+      "sections": {
+        "Herbal": 3,
+        "Biological": 13,
+        "Recipes": 22
+      },
+      "top_prefixes": [
+        {
+          "prefix": "da",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 2
+        },
+        {
+          "suffix": "al",
+          "count": 1
+        },
+        {
+          "suffix": "or",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "[lor]",
+          "count": 34
+        },
+        {
+          "pattern": "da-[lor]-y",
+          "count": 1
+        },
+        {
+          "pattern": "[lor]-al",
+          "count": 1
+        },
+        {
+          "pattern": "[lor]-or",
+          "count": 1
+        },
+        {
+          "pattern": "[lor]-y",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Recipes (57.9%)"
+      ],
+      "confidence": 0.25
+    },
+    {
+      "root": "ech",
+      "total_occurrences": 38,
+      "sections": {
+        "Herbal": 5,
+        "Zodiac": 10,
+        "Biological": 3,
+        "Recipes": 20
+      },
+      "top_prefixes": [
+        {
+          "prefix": "ok",
+          "count": 14
+        },
+        {
+          "prefix": "ot",
+          "count": 13
+        },
+        {
+          "prefix": "sh",
+          "count": 4
+        },
+        {
+          "prefix": "ch",
+          "count": 3
+        },
+        {
+          "prefix": "yk",
+          "count": 3
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 14
+        },
+        {
+          "suffix": "ey",
+          "count": 11
+        },
+        {
+          "suffix": "dy",
+          "count": 5
+        },
+        {
+          "suffix": "ol",
+          "count": 3
+        },
+        {
+          "suffix": "ar",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "ok-[ech]-y",
+          "count": 5
+        },
+        {
+          "pattern": "ot-[ech]-y",
+          "count": 5
+        },
+        {
+          "pattern": "ok-[ech]-ey",
+          "count": 4
+        },
+        {
+          "pattern": "sh-[ech]-y",
+          "count": 3
+        },
+        {
+          "pattern": "ot-[ech]-dy",
+          "count": 3
+        },
+        {
+          "pattern": "ch-[ech]-ey",
+          "count": 2
+        },
+        {
+          "pattern": "ok-[ech]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "yk-[ech]-ey",
+          "count": 2
+        },
+        {
+          "pattern": "ot-[ech]-ey",
+          "count": 2
+        },
+        {
+          "pattern": "yk-[ech]-e",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, often in constituent/unit contexts, typically as state; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Universal across all sections",
+        "Enriched in Recipes (52.6%)",
+        "Often with ok- (constituent, 36.8%)",
+        "Often with -y (unknown, 36.8%)"
+      ],
+      "confidence": 0.45000000000000007
+    },
+    {
+      "root": "ksh",
+      "total_occurrences": 37,
+      "sections": {
+        "Herbal": 23,
+        "Biological": 4,
+        "Recipes": 10
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 14
+        },
+        {
+          "prefix": "sh",
+          "count": 1
+        },
+        {
+          "prefix": "ol",
+          "count": 1
+        },
+        {
+          "prefix": "ch",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 13
+        },
+        {
+          "suffix": "ey",
+          "count": 10
+        },
+        {
+          "suffix": "dy",
+          "count": 4
+        },
+        {
+          "suffix": "ol",
+          "count": 3
+        },
+        {
+          "suffix": "or",
+          "count": 2
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[ksh]-y",
+          "count": 6
+        },
+        {
+          "pattern": "[ksh]-y",
+          "count": 5
+        },
+        {
+          "pattern": "[ksh]-ey",
+          "count": 5
+        },
+        {
+          "pattern": "qo-[ksh]-ey",
+          "count": 4
+        },
+        {
+          "pattern": "[ksh]-or",
+          "count": 2
+        },
+        {
+          "pattern": "[ksh]-ol",
+          "count": 2
+        },
+        {
+          "pattern": "[ksh]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "qo-[ksh]-dy",
+          "count": 2
+        },
+        {
+          "pattern": "[ksh]-oy",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[ksh]-ol",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Enriched in Herbal (62.2%)",
+        "Often with qo- (unknown, 37.8%)",
+        "Often with -y (unknown, 35.1%)"
+      ],
+      "confidence": 0.25
+    },
+    {
+      "root": "kam",
+      "total_occurrences": 37,
+      "sections": {
+        "Herbal": 13,
+        "Biological": 8,
+        "Recipes": 16
+      },
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 23
+        },
+        {
+          "prefix": "ol",
+          "count": 8
+        },
+        {
+          "prefix": "ch",
+          "count": 1
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 1
+        }
+      ],
+      "top_patterns": [
+        {
+          "pattern": "qo-[kam]",
+          "count": 22
+        },
+        {
+          "pattern": "ol-[kam]",
+          "count": 8
+        },
+        {
+          "pattern": "[kam]",
+          "count": 5
+        },
+        {
+          "pattern": "ch-[kam]",
+          "count": 1
+        },
+        {
+          "pattern": "qo-[kam]-y",
+          "count": 1
+        }
+      ],
+      "hypothesis": "Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence",
+      "evidence": [
+        "Present in 3/4 sections",
+        "Often with qo- (unknown, 62.2%)"
+      ],
+      "confidence": 0.15
+    }
+  ]
+}
