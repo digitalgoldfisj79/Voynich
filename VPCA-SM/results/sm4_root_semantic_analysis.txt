@@ -1,0 +1,1314 @@
+SM4: ROOT SEMANTIC TRIANGULATION
+======================================================================
+
+Using cross-section contexts to constrain root meanings
+Analyzed: 268 unique roots
+
+TOP 50 ROOTS WITH SEMANTIC ANALYSIS
+======================================================================
+
+1. ROOT: 'e' (3159× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          613× ( 19.4%)
+    Zodiac          307× (  9.7%)
+    Biological     1012× ( 32.0%)
+    Recipes        1227× ( 38.8%) ⬆️
+
+  VPCA field: Modifier/Relation (confidence: 85%)
+
+  Top morpheme patterns:
+    ch-[]-y                 475×
+    ch-[]-dy                339×
+    sh-[]-y                 290×
+
+  Common prefixes: ch (1350×), sh (841×), ok (428×)
+  Common suffixes: y (978×), dy (722×), ey (642×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Modifier/Relation
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with ch- (intensifier): 52%
+      • Often with -y (state): 42%
+
+  Example tokens: ykeoy, oke, cheed, okeey, oteal, sheal, okein, okear
+
+2. ROOT: 'ol' (1044× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          473× ( 45.3%) ⬆️
+    Zodiac           80× (  7.7%)
+    Biological      287× ( 27.5%)
+    Recipes         204× ( 19.5%)
+
+  VPCA field: Quality/State (confidence: 85%)
+
+  Top morpheme patterns:
+    []                      398×
+    ch-[]                   287×
+    sh-[]                   144×
+
+  Common prefixes: ch (319×), sh (155×), ot (78×)
+  Common suffixes: y (30×), dy (24×), or (8×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Quality/State
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with ch- (intensifier): 58%
+      • Often with -y (state): 48%
+
+  Example tokens: opol, qooldy, cholol, sholdy, otol, ololal, okoly, otoly
+
+3. ROOT: 'ai' (887× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          291× ( 32.8%)
+    Zodiac           74× (  8.3%)
+    Biological      104× ( 11.7%)
+    Recipes         418× ( 47.1%) ⬆️
+
+  Top morpheme patterns:
+    []-in                   420×
+    ok-[]-in                181×
+    ot-[]-in                130×
+
+  Common prefixes: ok (183×), ot (131×), ch (42×)
+  Common suffixes: in (882×), y (2×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -in (nominal): 100%
+    Confidence: 63%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with ok- (constituent): 51%
+
+  Example tokens: ykaiin, opaiin, okaiin, olaiin, otaiin, qoaiin, otai, shaiin
+
+4. ROOT: 'ke' (835× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          138× ( 16.5%)
+    Zodiac           23× (  2.8%)
+    Biological      321× ( 38.4%) ⬆️
+    Recipes         353× ( 42.3%) ⬆️
+
+  Top morpheme patterns:
+    qo-[]-ey                335×
+    qo-[]-dy                166×
+    []-ey                    59×
+
+  Common prefixes: qo (596×), ol (73×), ch (10×)
+  Common suffixes: ey (451×), dy (203×), ol (42×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -ey (state_marker): 65%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Biological: likely anatomical/process
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with qo- (biological_process?): 88%
+
+  Example tokens: keoy, olkeed, keol, qokeey, qokeed, qokeal, chkear, kear
+
+5. ROOT: 'k' (823× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          189× ( 23.0%)
+    Zodiac           19× (  2.3%)
+    Biological      381× ( 46.3%) ⬆️
+    Recipes         234× ( 28.4%)
+
+  VPCA field: Modifier/Relation (confidence: 75%)
+
+  Top morpheme patterns:
+    qo-[]-ey                168×
+    qo-[]-al                165×
+    qo-[]-y                 117×
+
+  Common prefixes: qo (694×), ol (58×), ch (51×)
+  Common suffixes: ey (197×), al (190×), y (163×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Modifier/Relation
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Biological: likely anatomical/process
+      • Often with qo- (biological_process?): 86%
+      • Single letter: likely grammatical/relational
+
+  Example tokens: chkor, chkol, doky, olky, qok, qokes, shky, qokdy
+
+6. ROOT: 'ar' (799× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          237× ( 29.7%)
+    Zodiac          128× ( 16.0%)
+    Biological      100× ( 12.5%)
+    Recipes         334× ( 41.8%) ⬆️
+
+  VPCA field: Quality/State (confidence: 70%)
+
+  Top morpheme patterns:
+    []                      328×
+    ot-[]                   111×
+    ok-[]                    98×
+
+  Common prefixes: ot (125×), ok (112×), ch (82×)
+  Common suffixes: y (45×), al (26×), ar (12×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Quality/State
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with -y (state): 54%
+
+  Example tokens: okardy, opary, aros, okary, okaror, ykaros, okarol, qoar
+
+7. ROOT: 'al' (735× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          194× ( 26.4%)
+    Zodiac          121× ( 16.5%)
+    Biological      114× ( 15.5%)
+    Recipes         306× ( 41.6%) ⬆️
+
+  VPCA field: Quality/State (confidence: 85%)
+
+  Top morpheme patterns:
+    []                      233×
+    ok-[]                   125×
+    ot-[]                   100×
+
+  Common prefixes: ok (165×), ot (134×), ch (62×)
+  Common suffixes: y (93×), or (18×), al (17×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Quality/State
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with ok- (constituent): 46%
+      • Often with -y (state): 73%
+
+  Example tokens: alal, opaldy, otalal, okalar, al, qoal, okaldy, aldy
+
+8. ROOT: 'i' (684× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          401× ( 58.6%) ⬆️
+    Zodiac           32× (  4.7%)
+    Biological      101× ( 14.8%)
+    Recipes         150× ( 21.9%)
+
+  VPCA field: Process/Active (confidence: 75%)
+
+  Top morpheme patterns:
+    da-[]-in                554×
+    sa-[]-in                103×
+    do-[]-in                 12×
+
+  Common prefixes: da (555×), sa (103×), do (12×)
+  Common suffixes: in (681×), dy (1×), ol (1×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Process/Active
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with da- (root/base?): 83%
+      • Often with -in (nominal): 100%
+
+  Example tokens: shiin, chiy, daidy, chiin, okiin, oliin, saiin, qoiol
+
+9. ROOT: 'or' (606× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          362× ( 59.7%) ⬆️
+    Zodiac           26× (  4.3%)
+    Biological      101× ( 16.7%)
+    Recipes         117× ( 19.3%)
+
+  Top morpheme patterns:
+    []                      227×
+    ch-[]                   163×
+    sh-[]                    67×
+
+  Common prefixes: ch (179×), sh (72×), ot (27×)
+  Common suffixes: y (30×), ol (15×), al (8×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ch- (intensifier): 64%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with -y (state): 57%
+
+  Example tokens: okoral, ory, oror, shor, choror, opor, okory, shordy
+
+10. ROOT: 'l' (532× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          140× ( 26.3%)
+    Zodiac           53× ( 10.0%)
+    Biological      242× ( 45.5%) ⬆️
+    Recipes          97× ( 18.2%)
+
+  VPCA field: Quality/State (confidence: 80%)
+
+  Top morpheme patterns:
+    da-[]                   143×
+    qo-[]                   131×
+    do-[]                    68×
+
+  Common prefixes: da (200×), qo (143×), do (77×)
+  Common suffixes: y (46×), dy (16×), ar (13×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Quality/State
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Biological: likely anatomical/process
+      • Often with da- (root/base?): 48%
+      • Often with -y (state): 61%
+
+  Example tokens: dalor, chlol, otl, otldy, sal, saly, shldy, saldy
+
+11. ROOT: 'ee' (483× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           55× ( 11.4%)
+    Zodiac           70× ( 14.5%)
+    Biological      119× ( 24.6%)
+    Recipes         239× ( 49.5%) ⬆️
+
+  VPCA field: Modifier/Relation (confidence: 80%)
+
+  Top morpheme patterns:
+    ot-[]-dy                 77×
+    ok-[]-dy                 58×
+    ch-[]-dy                 53×
+
+  Common prefixes: ot (118×), ok (117×), ch (87×)
+  Common suffixes: dy (266×), ey (68×), ol (37×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Modifier/Relation
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with -dy (process_marker): 72%
+
+  Example tokens: eees, sheeey, oleedy, cheeal, sheeor, okeeor, cheee, okeees
+
+12. ROOT: 'y' (470× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          263× ( 56.0%) ⬆️
+    Zodiac           48× ( 10.2%)
+    Biological       89× ( 18.9%)
+    Recipes          70× ( 14.9%)
+
+  Top morpheme patterns:
+    ch-[]                   148×
+    ot-[]                    93×
+    sh-[]                    72×
+
+  Common prefixes: ch (151×), ot (99×), sh (72×)
+  Common suffixes: dy (11×), y (2×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ch- (intensifier): 47%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with -dy (process_marker): 85%
+      • Single letter: likely grammatical/relational
+
+  Example tokens: say, yky, shy, opy, otydy, qoy, oly, otyy
+
+13. ROOT: 'ch' (446× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          203× ( 45.5%) ⬆️
+    Zodiac           45× ( 10.1%)
+    Biological       74× ( 16.6%)
+    Recipes         124× ( 27.8%)
+
+  VPCA field: Entity/Object (confidence: 75%)
+
+  Top morpheme patterns:
+    ot-[]-y                  42×
+    ol-[]-ey                 36×
+    op-[]-ey                 34×
+
+  Common prefixes: ot (138×), ok (106×), op (75×)
+  Common suffixes: ey (148×), y (122×), dy (43×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Entity/Object
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with ot- (transition): 43%
+      • Often with -ey (state_marker): 47%
+
+  Example tokens: okchdy, okchom, qochey, qochdy, okchol, chchy, opches, ykchol
+
+14. ROOT: 'r' (407× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          169× ( 41.5%) ⬆️
+    Zodiac           47× ( 11.5%)
+    Biological      102× ( 25.1%)
+    Recipes          89× ( 21.9%)
+
+  Top morpheme patterns:
+    da-[]                   204×
+    sa-[]                    61×
+    do-[]                    47×
+
+  Common prefixes: da (231×), sa (73×), do (49×)
+  Common suffixes: y (23×), al (6×), ol (4×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Enriched in Herbal: likely plant-related
+    Confidence: 60%
+    Supporting evidence:
+      • Often with da- (root/base?): 65%
+      • Often with -y (state): 70%
+      • Single letter: likely grammatical/relational
+
+  Example tokens: chry, darom, shr, olr, dardy, sardy, sarar, sary
+
+15. ROOT: 'cth' (374× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          257× ( 68.7%) ⬆️
+    Zodiac            9× (  2.4%)
+    Biological       54× ( 14.4%)
+    Recipes          54× ( 14.4%)
+
+  Top morpheme patterns:
+    []-y                     89×
+    ch-[]-y                  75×
+    []-ol                    44×
+
+  Common prefixes: ch (91×), sh (35×), qo (12×)
+  Common suffixes: y (198×), ol (46×), or (41×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ch- (intensifier): 66%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with -y (state): 69%
+      • Multi-letter: likely content word
+
+  Example tokens: cthar, dacthy, qocthy, chcthal, chcthar, qocth, cthal, chcthey
+
+16. ROOT: 'kee' (362× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           28× (  7.7%)
+    Zodiac            3× (  0.8%)
+    Biological      153× ( 42.3%) ⬆️
+    Recipes         178× ( 49.2%) ⬆️
+
+  Top morpheme patterns:
+    qo-[]-dy                215×
+    []-dy                    29×
+    ol-[]-dy                 24×
+
+  Common prefixes: qo (265×), ol (41×), ch (5×)
+  Common suffixes: dy (270×), ey (41×), ol (14×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -dy (process_marker): 83%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Biological: likely anatomical/process
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with qo- (biological_process?): 85%
+
+  Example tokens: qokeeos, chkeeey, qokeear, olkeedy, olkeeos, chkeedy, olkeeey, olkeeor
+
+17. ROOT: 'ka' (350× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           12× (  3.4%)
+    Zodiac            0× (  0.0%)
+    Biological      205× ( 58.6%) ⬆️
+    Recipes         133× ( 38.0%) ⬆️
+
+  Top morpheme patterns:
+    qo-[]-in                262×
+    []-in                    42×
+    ol-[]-in                 29×
+
+  Common prefixes: qo (264×), ol (29×), ch (12×)
+  Common suffixes: in (347×), y (1×), dy (1×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -in (nominal): 99%
+    Confidence: 63%
+    Supporting evidence:
+      • Enriched in Biological: likely anatomical/process
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with qo- (biological_process?): 87%
+
+  Example tokens: shkain, olkain, chkain, qokay, kain, qokain, ka, qokady
+
+18. ROOT: 'ckh' (346× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          142× ( 41.0%) ⬆️
+    Zodiac            5× (  1.4%)
+    Biological      105× ( 30.3%)
+    Recipes          94× ( 27.2%)
+
+  Top morpheme patterns:
+    ch-[]-y                 125×
+    sh-[]-y                  49×
+    ch-[]-ey                 29×
+
+  Common prefixes: ch (177×), sh (65×), qo (28×)
+  Common suffixes: y (213×), ey (64×), ol (19×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ch- (intensifier): 66%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with -y (state): 72%
+      • Multi-letter: likely content word
+
+  Example tokens: shckhy, shckhoy, ckhal, qockhy, qockhal, ckhor, ckhey, qockhom
+
+19. ROOT: 't' (340× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          111× ( 32.6%)
+    Zodiac            4× (  1.2%)
+    Biological      107× ( 31.5%)
+    Recipes         118× ( 34.7%)
+
+  Top morpheme patterns:
+    qo-[]-y                  69×
+    qo-[]-al                 54×
+    qo-[]-ar                 49×
+
+  Common prefixes: qo (299×), ch (26×), sh (7×)
+  Common suffixes: y (84×), al (62×), ar (56×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -y (state): 42%
+    Confidence: 52%
+    Supporting evidence:
+      • Often with qo- (biological_process?): 90%
+      • Single letter: likely grammatical/relational
+
+  Example tokens: oltar, qotol, shtar, doty, chtos, shtal, qotar, chtar
+
+20. ROOT: 'kai' (335× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           63× ( 18.8%)
+    Zodiac            1× (  0.3%)
+    Biological       98× ( 29.3%)
+    Recipes         173× ( 51.6%) ⬆️
+
+  Top morpheme patterns:
+    qo-[]-in                231×
+    []-in                    61×
+    ol-[]-in                 21×
+
+  Common prefixes: qo (232×), ol (21×), ch (15×)
+  Common suffixes: in (334×), y (1×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -in (nominal): 100%
+    Confidence: 63%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with qo- (biological_process?): 87%
+      • Multi-letter: likely content word
+
+  Example tokens: chkaiin, sakaiin, kaiin, olkaiin, qokaiy, qokaiin, shkaiin
+
+21. ROOT: 'o' (314× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          199× ( 63.4%) ⬆️
+    Zodiac           48× ( 15.3%)
+    Biological        4× (  1.3%)
+    Recipes          63× ( 20.1%)
+
+  VPCA field: Quality/State (confidence: 70%)
+
+  Top morpheme patterns:
+    sh-[]                    93×
+    ch-[]-dy                 54×
+    ch-[]                    53×
+
+  Common prefixes: ch (132×), sh (128×), ot (26×)
+  Common suffixes: dy (98×), y (30×), ar (10×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Quality/State
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with ch- (intensifier): 46%
+      • Often with -dy (process_marker): 71%
+
+  Example tokens: shody, otody, cho, otoar, oko, choar, otoes, choor
+
+22. ROOT: 'kch' (297× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          184× ( 62.0%) ⬆️
+    Zodiac            4× (  1.3%)
+    Biological       35× ( 11.8%)
+    Recipes          74× ( 24.9%)
+
+  Top morpheme patterns:
+    qo-[]-y                  74×
+    qo-[]-ey                 34×
+    []-y                     31×
+
+  Common prefixes: qo (163×), ol (8×), ch (7×)
+  Common suffixes: y (116×), ey (62×), dy (40×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Enriched in Herbal: likely plant-related
+    Confidence: 60%
+    Supporting evidence:
+      • Often with qo- (biological_process?): 92%
+      • Often with -y (state): 53%
+      • Multi-letter: likely content word
+
+  Example tokens: qokchos, kchoy, kched, kchor, qokchdy, chkchol, olkchey, kchal
+
+23. ROOT: 'a' (273× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           53× ( 19.4%)
+    Zodiac            5× (  1.8%)
+    Biological       83× ( 30.4%)
+    Recipes         132× ( 48.4%) ⬆️
+
+  Top morpheme patterns:
+    ok-[]-in                117×
+    ot-[]-in                 83×
+    ch-[]-in                 22×
+
+  Common prefixes: ok (121×), ot (87×), ch (23×)
+  Common suffixes: in (260×), os (2×), dy (2×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -in (nominal): 98%
+    Confidence: 63%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with ok- (constituent): 52%
+      • Single letter: likely grammatical/relational
+
+  Example tokens: olain, ykady, opain, otain, otaar, otae, qoain, chain
+
+24. ROOT: 'te' (254× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           38× ( 15.0%)
+    Zodiac           16× (  6.3%)
+    Biological       96× ( 37.8%) ⬆️
+    Recipes         104× ( 40.9%) ⬆️
+
+  Top morpheme patterns:
+    qo-[]-dy                 61×
+    qo-[]-ey                 59×
+    []-ey                    27×
+
+  Common prefixes: qo (144×), ch (7×), ol (4×)
+  Common suffixes: ey (91×), dy (87×), y (23×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -ey (state_marker): 45%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Biological: likely anatomical/process
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with qo- (biological_process?): 93%
+
+  Example tokens: tee, qoteal, doteey, qoteey, dotedy, dateey, tedy, oltedy
+
+25. ROOT: 'eo' (250× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           67× ( 26.8%)
+    Zodiac           73× ( 29.2%)
+    Biological        1× (  0.4%)
+    Recipes         109× ( 43.6%) ⬆️
+
+  VPCA field: Quality/State (confidence: 75%)
+
+  Top morpheme patterns:
+    ch-[]-dy                 52×
+    ch-[]                    48×
+    sh-[]                    30×
+
+  Common prefixes: ch (109×), sh (60×), ot (39×)
+  Common suffixes: dy (129×), ar (8×), al (8×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Quality/State
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with ch- (intensifier): 52%
+      • Often with -dy (process_marker): 89%
+
+  Example tokens: cheody, ykeody, okeo, sheoal, cheoal, sheoe, oteoar, oteody
+
+26. ROOT: 'tch' (233× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal          154× ( 66.1%) ⬆️
+    Zodiac            3× (  1.3%)
+    Biological       22× (  9.4%)
+    Recipes          54× ( 23.2%)
+
+  Top morpheme patterns:
+    qo-[]-y                  58×
+    []-ey                    27×
+    []-y                     21×
+
+  Common prefixes: qo (127×), ch (5×), sh (4×)
+  Common suffixes: y (86×), ey (51×), or (27×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Enriched in Herbal: likely plant-related
+    Confidence: 60%
+    Supporting evidence:
+      • Often with qo- (biological_process?): 93%
+      • Often with -y (state): 52%
+      • Multi-letter: likely content word
+
+  Example tokens: tchey, shtchy, tch, qotchey, oltchey, qotchy, tchol, qotchdy
+
+27. ROOT: 'd' (217× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           79× ( 36.4%)
+    Zodiac           11× (  5.1%)
+    Biological       37× ( 17.1%)
+    Recipes          90× ( 41.5%) ⬆️
+
+  Top morpheme patterns:
+    ch-[]-y                  83×
+    sh-[]-y                  22×
+    ol-[]-y                  15×
+
+  Common prefixes: ch (124×), sh (34×), qo (31×)
+  Common suffixes: y (135×), ar (24×), al (21×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ch- (intensifier): 66%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with -y (state): 75%
+      • Single letter: likely grammatical/relational
+
+  Example tokens: chdal, chdy, old, dod, qodom, qodor, qodol, oldar
+
+28. ROOT: 'in' (205× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           60× ( 29.3%)
+    Zodiac            4× (  2.0%)
+    Biological       73× ( 35.6%)
+    Recipes          68× ( 33.2%)
+
+  Top morpheme patterns:
+    da-[]                   136×
+    sa-[]                    61×
+    []                        2×
+
+  Common prefixes: da (138×), sa (61×), qo (2×)
+  Common suffixes: ey (1×), y (1×), ol (1×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with da- (root/base?): 69%
+    Confidence: 28%
+
+  Example tokens: dainol, in, otin, dainy, dain, sain, qoin, iney
+
+29. ROOT: 'am' (173× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           72× ( 41.6%) ⬆️
+    Zodiac           24× ( 13.9%)
+    Biological       13× (  7.5%)
+    Recipes          64× ( 37.0%)
+
+  Top morpheme patterns:
+    []                       75×
+    ot-[]                    33×
+    ch-[]                    23×
+
+  Common prefixes: ot (34×), ch (23×), ok (20×)
+  Common suffixes: y (2×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ot- (transition): 44%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with -y (state): 100%
+
+  Example tokens: sham, amy, qoam, olam, otamy, am, otam, okam
+
+30. ROOT: 'lch' (156× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           12× (  7.7%)
+    Zodiac            3× (  1.9%)
+    Biological       87× ( 55.8%) ⬆️
+    Recipes          54× ( 34.6%)
+
+  Top morpheme patterns:
+    []-ey                    71×
+    qo-[]-ey                 16×
+    []-y                     11×
+
+  Common prefixes: qo (19×), da (10×), ol (2×)
+  Common suffixes: ey (90×), y (18×), dy (13×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -ey (state_marker): 74%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Biological: likely anatomical/process
+      • Often with qo- (biological_process?): 61%
+      • Multi-letter: likely content word
+
+  Example tokens: shlches, dalched, ollchy, lchar, lchey, qolche, lchy, dalchdy
+
+31. ROOT: 'che' (154× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           20× ( 13.0%)
+    Zodiac            4× (  2.6%)
+    Biological       48× ( 31.2%)
+    Recipes          82× ( 53.2%) ⬆️
+
+  Top morpheme patterns:
+    op-[]-dy                 36×
+    ol-[]-dy                 26×
+    ot-[]-dy                 19×
+
+  Common prefixes: op (48×), ol (45×), ot (27×)
+  Common suffixes: dy (101×), ey (24×), ol (12×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -dy (process_marker): 74%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Multi-letter: likely content word
+
+  Example tokens: qocheor, ykchedy, opchear, olcheol, olchedy, qocheol, olcheey, otchedy
+
+32. ROOT: 'air' (152× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           37× ( 24.3%)
+    Zodiac           28× ( 18.4%)
+    Biological        7× (  4.6%)
+    Recipes          80× ( 52.6%) ⬆️
+
+  Top morpheme patterns:
+    []                       75×
+    ot-[]                    21×
+    ok-[]                    18×
+
+  Common prefixes: ot (26×), ok (20×), yk (7×)
+  Common suffixes: al (4×), y (4×), or (2×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ot- (transition): 49%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Multi-letter: likely content word
+
+  Example tokens: chair, chairal, airoy, shair, otair, opair, airol, okairy
+
+33. ROOT: 'ek' (145× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           63× ( 43.4%) ⬆️
+    Zodiac           18× ( 12.4%)
+    Biological       33× ( 22.8%)
+    Recipes          31× ( 21.4%)
+
+  Top morpheme patterns:
+    ch-[]-y                  59×
+    sh-[]-y                  27×
+    ch-[]-al                 10×
+
+  Common prefixes: ch (92×), sh (48×), qo (4×)
+  Common suffixes: y (87×), al (15×), ey (12×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ch- (intensifier): 64%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with -y (state): 76%
+
+  Example tokens: shekar, shekoy, shek, qoeky, chekoy, olekar, chekey, shekal
+
+34. ROOT: 'ed' (144× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           15× ( 10.4%)
+    Zodiac           11× (  7.6%)
+    Biological       44× ( 30.6%)
+    Recipes          74× ( 51.4%) ⬆️
+
+  Top morpheme patterns:
+    ch-[]                    23×
+    sh-[]                    22×
+    ch-[]-ar                 20×
+
+  Common prefixes: ch (69×), sh (38×), ot (17×)
+  Common suffixes: ar (37×), al (33×), or (8×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ch- (intensifier): 56%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with -ar (agent/doer): 47%
+
+  Example tokens: shedol, okedar, oked, okedal, shedar, chedol, otedol, ched
+
+35. ROOT: 'dy' (130× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           67× ( 51.5%) ⬆️
+    Zodiac           18× ( 13.8%)
+    Biological       37× ( 28.5%)
+    Recipes           8× (  6.2%)
+
+  Top morpheme patterns:
+    []                      127×
+    []-dy                     2×
+    sh-[]-y                   1×
+
+  Common prefixes: sh (1×)
+  Common suffixes: dy (2×), y (1×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -dy (process_marker): 67%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with sh- (unknown): 100%
+
+  Example tokens: dy, dydy, shdyy
+
+36. ROOT: 'lche' (129× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal            5× (  3.9%)
+    Zodiac            1× (  0.8%)
+    Biological       61× ( 47.3%) ⬆️
+    Recipes          62× ( 48.1%) ⬆️
+
+  Top morpheme patterns:
+    []-dy                    81×
+    []-ey                    12×
+    qo-[]-dy                  7×
+
+  Common prefixes: qo (12×), da (5×), do (2×)
+  Common suffixes: dy (94×), ey (16×), ol (8×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -dy (process_marker): 80%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Biological: likely anatomical/process
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with qo- (biological_process?): 63%
+
+  Example tokens: lchees, qolcheey, lchear, salcheal, lchee, lchedy, lcheol, qolcheol
+
+37. ROOT: 'ain' (114× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           18× ( 15.8%)
+    Zodiac            7× (  6.1%)
+    Biological       28× ( 24.6%)
+    Recipes          61× ( 53.5%) ⬆️
+
+  Top morpheme patterns:
+    []                      109×
+    []-y                      1×
+    ot-[]-y                   1×
+
+  Common prefixes: ot (2×), ok (1×), ol (1×)
+  Common suffixes: y (4×), os (1×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ot- (transition): 50%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with -y (state): 80%
+      • Multi-letter: likely content word
+
+  Example tokens: otainos, otainy, olainy, okainy, ain, ainy
+
+38. ROOT: 'tai' (112× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           30× ( 26.8%)
+    Zodiac            0× (  0.0%)
+    Biological       18× ( 16.1%)
+    Recipes          64× ( 57.1%) ⬆️
+
+  Top morpheme patterns:
+    qo-[]-in                 66×
+    []-in                    38×
+    ch-[]-in                  4×
+
+  Common prefixes: qo (66×), ch (4×), ol (2×)
+  Common suffixes: in (111×), dy (1×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -in (nominal): 99%
+    Confidence: 63%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with qo- (biological_process?): 92%
+      • Multi-letter: likely content word
+
+  Example tokens: shtaiin, oltaiin, qotaiin, taiin, chtaiin, taidy
+
+39. ROOT: 'ir' (112× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           44× ( 39.3%) ⬆️
+    Zodiac           18× ( 16.1%)
+    Biological        7× (  6.2%)
+    Recipes          43× ( 38.4%) ⬆️
+
+  VPCA field: Process/Active (confidence: 75%)
+
+  Top morpheme patterns:
+    da-[]                    68×
+    sa-[]                    23×
+    sa-[]-y                   5×
+
+  Common prefixes: da (79×), sa (32×), do (1×)
+  Common suffixes: y (7×), al (4×), ol (3×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Process/Active
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with da- (root/base?): 71%
+
+  Example tokens: sairor, doir, sairol, dairol, dairar, dairin, dairos, dair
+
+40. ROOT: 'od' (105× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           51× ( 48.6%) ⬆️
+    Zodiac           11× ( 10.5%)
+    Biological        5× (  4.8%)
+    Recipes          38× ( 36.2%)
+
+  Top morpheme patterns:
+    []-y                     23×
+    []-ar                    16×
+    []-al                    12×
+
+  Common prefixes: ch (24×), sh (13×), ot (5×)
+  Common suffixes: ar (27×), y (23×), al (21×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ch- (intensifier): 57%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+
+  Example tokens: shodar, shodol, odol, odar, shod, chodar, odal, chodol
+
+41. ROOT: 'eckh' (101× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           11× ( 10.9%)
+    Zodiac            1× (  1.0%)
+    Biological       50× ( 49.5%) ⬆️
+    Recipes          39× ( 38.6%) ⬆️
+
+  Top morpheme patterns:
+    ch-[]-y                  49×
+    sh-[]-y                  25×
+    ch-[]-ey                  8×
+
+  Common prefixes: ch (66×), sh (34×), yk (1×)
+  Common suffixes: y (75×), ey (13×), dy (3×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ch- (intensifier): 65%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Biological: likely anatomical/process
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with -y (state): 82%
+
+  Example tokens: ykeckhy, sheckhy, sheckhey, sheckh, checkh, checkhey, checkhol, sheckhal
+
+42. ROOT: 'dch' (98× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           68× ( 69.4%) ⬆️
+    Zodiac            9× (  9.2%)
+    Biological       13× ( 13.3%)
+    Recipes           8× (  8.2%)
+
+  Top morpheme patterns:
+    []-or                    24×
+    []-y                     23×
+    []-ey                    18×
+
+  Common prefixes: qo (3×), ch (2×), sh (1×)
+  Common suffixes: y (26×), or (24×), ey (18×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Enriched in Herbal: likely plant-related
+    Confidence: 60%
+    Supporting evidence:
+      • Often with qo- (biological_process?): 50%
+      • Multi-letter: likely content word
+
+  Example tokens: dchor, dchol, dchal, dchos, dchdy, dched, chdchy, dchar
+
+43. ROOT: 'pch' (98× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           35× ( 35.7%)
+    Zodiac            2× (  2.0%)
+    Biological       17× ( 17.3%)
+    Recipes          44× ( 44.9%) ⬆️
+
+  Top morpheme patterns:
+    []-ey                    13×
+    qo-[]-y                  11×
+    qo-[]-ey                 11×
+
+  Common prefixes: qo (47×), ch (7×), ol (1×)
+  Common suffixes: ey (26×), y (19×), dy (18×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -ey (state_marker): 41%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with qo- (biological_process?): 85%
+      • Multi-letter: likely content word
+
+  Example tokens: chpchey, chpchy, qopchor, chpchol, pched, qopchey, pchoy, pchol
+
+44. ROOT: 'eeo' (98× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           15× ( 15.3%)
+    Zodiac           26× ( 26.5%)
+    Biological        1× (  1.0%)
+    Recipes          56× ( 57.1%) ⬆️
+
+  Top morpheme patterns:
+    ch-[]                    15×
+    ok-[]                    13×
+    ok-[]-dy                 12×
+
+  Common prefixes: ok (25×), ch (23×), ot (21×)
+  Common suffixes: dy (40×), ar (2×), al (1×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -dy (process_marker): 93%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Multi-letter: likely content word
+
+  Example tokens: cheeody, cheeo, oteeo, qoeeody, sheeoar, sheeo, eeo, qoeeo
+
+45. ROOT: 'ot' (97× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           49× ( 50.5%) ⬆️
+    Zodiac           23× ( 23.7%)
+    Biological        3× (  3.1%)
+    Recipes          22× ( 22.7%)
+
+  VPCA field: Process/Active (confidence: 70%)
+
+  Top morpheme patterns:
+    ch-[]-y                  36×
+    []                       13×
+    ch-[]-ar                 10×
+
+  Common prefixes: ch (73×), sh (9×), op (1×)
+  Common suffixes: y (41×), ar (11×), ey (8×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: VPCA: Process/Active
+    Confidence: 80%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with ch- (intensifier): 88%
+      • Often with -y (state): 68%
+
+  Example tokens: shotol, chot, chotar, chotor, shoty, ototar, chotom, chotol
+
+46. ROOT: 'tee' (95× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           14× ( 14.7%)
+    Zodiac            6× (  6.3%)
+    Biological       39× ( 41.1%) ⬆️
+    Recipes          36× ( 37.9%) ⬆️
+
+  Top morpheme patterns:
+    qo-[]-dy                 55×
+    []-dy                     9×
+    qo-[]-ol                  4×
+
+  Common prefixes: qo (70×), ol (3×), ch (1×)
+  Common suffixes: dy (66×), ey (7×), ol (7×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -dy (process_marker): 82%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Biological: likely anatomical/process
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with qo- (biological_process?): 95%
+
+  Example tokens: qoteedy, teedy, qoteeol, teeey, qoteear, teeol, qoteeoy, teear
+
+47. ROOT: 'yt' (93× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           64× ( 68.8%) ⬆️
+    Zodiac           13× ( 14.0%)
+    Biological        9× (  9.7%)
+    Recipes           7× (  7.5%)
+
+  Top morpheme patterns:
+    []-y                     17×
+    []-ar                    17×
+    []-ey                    14×
+
+  Common prefixes: ch (6×), ol (1×), da (1×)
+  Common suffixes: y (23×), ar (17×), ey (14×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ch- (intensifier): 75%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with -y (state): 43%
+
+  Example tokens: chyty, yty, ytey, ytdy, ytol, yt, ytoy, dayty
+
+48. ROOT: 'lke' (89× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal            6× (  6.7%)
+    Zodiac            0× (  0.0%)
+    Biological       20× ( 22.5%)
+    Recipes          63× ( 70.8%) ⬆️
+
+  Top morpheme patterns:
+    []-ey                    50×
+    []-dy                    15×
+    qo-[]-ey                  8×
+
+  Common prefixes: qo (9×), da (2×), do (1×)
+  Common suffixes: ey (58×), dy (20×), ol (4×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with -ey (state_marker): 71%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Recipes: likely procedural/ingredient
+      • Often with qo- (biological_process?): 75%
+      • Multi-letter: likely content word
+
+  Example tokens: dalkedy, lkees, lkeey, lkeol, salkedy, dolkedy, lkear, lkeal
+
+49. ROOT: 'odai' (88× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           54× ( 61.4%) ⬆️
+    Zodiac            3× (  3.4%)
+    Biological        2× (  2.3%)
+    Recipes          29× ( 33.0%)
+
+  Top morpheme patterns:
+    []-in                    40×
+    ch-[]-in                 31×
+    sh-[]-in                 13×
+
+  Common prefixes: ch (31×), sh (13×), ot (2×)
+  Common suffixes: in (88×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ch- (intensifier): 67%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with -in (nominal): 100%
+      • Multi-letter: likely content word
+
+  Example tokens: okodaiin, odaiin, qoodaiin, shodaiin, chodaiin, otodaiin
+
+50. ROOT: 'ok' (88× manuscript-wide)
+----------------------------------------------------------------------
+  Section distribution:
+    Herbal           46× ( 52.3%) ⬆️
+    Zodiac           17× ( 19.3%)
+    Biological        7× (  8.0%)
+    Recipes          18× ( 20.5%)
+
+  Top morpheme patterns:
+    ch-[]-y                  30×
+    ch-[]-ey                  7×
+    sh-[]-y                   6×
+
+  Common prefixes: ch (61×), sh (19×), ol (3×)
+  Common suffixes: y (39×), al (11×), ey (10×)
+
+  SEMANTIC HYPOTHESIS:
+    Primary: Often with ch- (intensifier): 73%
+    Confidence: 66%
+    Supporting evidence:
+      • Enriched in Herbal: likely plant-related
+      • Often with -y (state): 65%
+
+  Example tokens: shok, chok, shokey, shoky, chokol, olokar, chokal, ok
+
