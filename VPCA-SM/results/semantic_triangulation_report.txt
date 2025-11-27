@@ -1,0 +1,2795 @@
+SEMANTIC TRIANGULATION REPORT
+======================================================================
+
+Cross-section root analysis with probabilistic semantic hypotheses
+
+Analyzing top 100 roots by frequency
+Coverage: ~21204 tokens
+
+======================================================================
+
+1. ROOT: 'e'
+----------------------------------------------------------------------
+Total occurrences: 3159
+Confidence: 0.75
+
+Section distribution:
+  Herbal          613 ( 19.4%)
+  Zodiac          307 (  9.7%)
+  Biological     1012 ( 32.0%)
+  Recipes        1227 ( 38.8%)
+
+Top patterns:
+  ch-[e]-y                         475×
+  ch-[e]-dy                        339×
+  sh-[e]-y                         290×
+  sh-[e]-dy                        235×
+  ch-[e]-ey                        171×
+
+SEMANTIC HYPOTHESIS:
+Likely relational/connective element, often intensified, typically as state. Similar to 'of', 'with', 'and', 'to'
+
+Supporting evidence:
+  • VPCA: Modifier/Relation
+  • Universal across all sections
+  • Often with ch- (intensifier, 42.7%)
+  • Often with -y (unknown, 31.0%)
+  • Medieval: Latin: et (and) / Romance: e/y (and)
+
+======================================================================
+
+2. ROOT: 'ol'
+----------------------------------------------------------------------
+Total occurrences: 1044
+Confidence: 0.75
+
+Section distribution:
+  Herbal          473 ( 45.3%)
+  Zodiac           80 (  7.7%)
+  Biological      287 ( 27.5%)
+  Recipes         204 ( 19.5%)
+
+Top patterns:
+  [ol]                             398×
+  ch-[ol]                          287×
+  sh-[ol]                          144×
+  ot-[ol]                           61×
+  ok-[ol]                           41×
+
+SEMANTIC HYPOTHESIS:
+Likely quality or state descriptor, often intensified, typically as state; common in plant descriptions. Similar to adjectives or state markers
+
+Supporting evidence:
+  • VPCA: Quality/State
+  • Universal across all sections
+  • Often with ch- (intensifier, 30.6%)
+  • Medieval: Latin: -ol- (oil, liquid) / Romance: calor (heat)
+
+======================================================================
+
+3. ROOT: 'ai'
+----------------------------------------------------------------------
+Total occurrences: 887
+Confidence: 0.65
+
+Section distribution:
+  Herbal          291 ( 32.8%)
+  Zodiac           74 (  8.3%)
+  Biological      104 ( 11.7%)
+  Recipes         418 ( 47.1%)
+
+Top patterns:
+  [ai]-in                          420×
+  ok-[ai]-in                       181×
+  ot-[ai]-in                       130×
+  ch-[ai]-in                        42×
+  ol-[ai]-in                        38×
+
+SEMANTIC HYPOTHESIS:
+Likely quality or state descriptor, often in constituent/unit contexts, typically as nominal; common in recipe instructions. Similar to adjectives or state markers
+
+Supporting evidence:
+  • VPCA: Quality/State
+  • Universal across all sections
+  • Often with -in (nominal, 99.4%)
+
+======================================================================
+
+4. ROOT: 'ke'
+----------------------------------------------------------------------
+Total occurrences: 835
+Confidence: 0.35
+
+Section distribution:
+  Herbal          138 ( 16.5%)
+  Zodiac           23 (  2.8%)
+  Biological      321 ( 38.4%)
+  Recipes         353 ( 42.3%)
+
+Top patterns:
+  qo-[ke]-ey                       335×
+  qo-[ke]-dy                       166×
+  [ke]-ey                           59×
+  ol-[ke]-ey                        45×
+  [ke]-y                            32×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with qo- (unknown, 71.4%)
+  • Often with -ey (state_marker, 54.0%)
+
+======================================================================
+
+5. ROOT: 'k'
+----------------------------------------------------------------------
+Total occurrences: 823
+Confidence: 0.50
+
+Section distribution:
+  Herbal          189 ( 23.0%)
+  Zodiac           19 (  2.3%)
+  Biological      381 ( 46.3%)
+  Recipes         234 ( 28.4%)
+
+Top patterns:
+  qo-[k]-ey                        168×
+  qo-[k]-al                        165×
+  qo-[k]-y                         117×
+  qo-[k]-ar                        117×
+  qo-[k]-ol                         67×
+
+SEMANTIC HYPOTHESIS:
+Likely relational/connective element, typically as state; common in biological/anatomical contexts. Similar to 'of', 'with', 'and', 'to'
+
+Supporting evidence:
+  • VPCA: Modifier/Relation
+  • Universal across all sections
+  • Often with qo- (unknown, 84.3%)
+
+======================================================================
+
+6. ROOT: 'ar'
+----------------------------------------------------------------------
+Total occurrences: 799
+Confidence: 0.60
+
+Section distribution:
+  Herbal          237 ( 29.7%)
+  Zodiac          128 ( 16.0%)
+  Biological      100 ( 12.5%)
+  Recipes         334 ( 41.8%)
+
+Top patterns:
+  [ar]                             328×
+  ot-[ar]                          111×
+  ok-[ar]                           98×
+  ch-[ar]                           74×
+  sh-[ar]                           27×
+
+SEMANTIC HYPOTHESIS:
+Likely quality or state descriptor, often in transition contexts, typically as state; common in recipe instructions. Similar to adjectives or state markers
+
+Supporting evidence:
+  • VPCA: Quality/State
+  • Universal across all sections
+  • Medieval: Latin: -ar- (agent) / Romance: -ar suffix
+
+======================================================================
+
+7. ROOT: 'al'
+----------------------------------------------------------------------
+Total occurrences: 735
+Confidence: 0.60
+
+Section distribution:
+  Herbal          194 ( 26.4%)
+  Zodiac          121 ( 16.5%)
+  Biological      114 ( 15.5%)
+  Recipes         306 ( 41.6%)
+
+Top patterns:
+  [al]                             233×
+  ok-[al]                          125×
+  ot-[al]                          100×
+  ch-[al]                           53×
+  [al]-y                            35×
+
+SEMANTIC HYPOTHESIS:
+Likely quality or state descriptor, often in constituent/unit contexts, typically as state; common in recipe instructions. Similar to adjectives or state markers
+
+Supporting evidence:
+  • VPCA: Quality/State
+  • Universal across all sections
+  • Medieval: Latin: -al- (quality) / Romance: -al suffix
+
+======================================================================
+
+8. ROOT: 'i'
+----------------------------------------------------------------------
+Total occurrences: 684
+Confidence: 0.75
+
+Section distribution:
+  Herbal          401 ( 58.6%)
+  Zodiac           32 (  4.7%)
+  Biological      101 ( 14.8%)
+  Recipes         150 ( 21.9%)
+
+Top patterns:
+  da-[i]-in                        554×
+  sa-[i]-in                        103×
+  do-[i]-in                         12×
+  ok-[i]-in                          3×
+  qo-[i]-in                          3×
+
+SEMANTIC HYPOTHESIS:
+Likely process or action marker, typically as nominal; common in plant descriptions. Similar to verbs or process terms
+
+Supporting evidence:
+  • VPCA: Process/Active
+  • Universal across all sections
+  • Enriched in Herbal (58.6%)
+  • Often with da- (unknown, 81.1%)
+  • Often with -in (nominal, 99.6%)
+
+======================================================================
+
+9. ROOT: 'or'
+----------------------------------------------------------------------
+Total occurrences: 606
+Confidence: 0.40
+
+Section distribution:
+  Herbal          362 ( 59.7%)
+  Zodiac           26 (  4.3%)
+  Biological      101 ( 16.7%)
+  Recipes         117 ( 19.3%)
+
+Top patterns:
+  [or]                             227×
+  ch-[or]                          163×
+  sh-[or]                           67×
+  ot-[or]                           25×
+  ol-[or]                           20×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (59.7%)
+  • Medieval: Latin: -or (agent) / Romance: or/oro (gold/border)
+
+======================================================================
+
+10. ROOT: 'l'
+----------------------------------------------------------------------
+Total occurrences: 532
+Confidence: 0.50
+
+Section distribution:
+  Herbal          140 ( 26.3%)
+  Zodiac           53 ( 10.0%)
+  Biological      242 ( 45.5%)
+  Recipes          97 ( 18.2%)
+
+Top patterns:
+  da-[l]                           143×
+  qo-[l]                           131×
+  do-[l]                            68×
+  sa-[l]                            37×
+  ch-[l]                            29×
+
+SEMANTIC HYPOTHESIS:
+Likely quality or state descriptor, typically as state; common in biological/anatomical contexts. Similar to adjectives or state markers
+
+Supporting evidence:
+  • VPCA: Quality/State
+  • Universal across all sections
+  • Often with da- (unknown, 37.6%)
+
+======================================================================
+
+11. ROOT: 'ee'
+----------------------------------------------------------------------
+Total occurrences: 483
+Confidence: 0.65
+
+Section distribution:
+  Herbal           55 ( 11.4%)
+  Zodiac           70 ( 14.5%)
+  Biological      119 ( 24.6%)
+  Recipes         239 ( 49.5%)
+
+Top patterns:
+  ot-[ee]-dy                        77×
+  ok-[ee]-dy                        58×
+  ch-[ee]-dy                        53×
+  sh-[ee]-dy                        41×
+  ok-[ee]-ey                        26×
+
+SEMANTIC HYPOTHESIS:
+Likely relational/connective element, often in transition contexts, typically as process; common in recipe instructions. Similar to 'of', 'with', 'and', 'to'
+
+Supporting evidence:
+  • VPCA: Modifier/Relation
+  • Universal across all sections
+  • Often with -dy (process_marker, 55.1%)
+
+======================================================================
+
+12. ROOT: 'y'
+----------------------------------------------------------------------
+Total occurrences: 470
+Confidence: 0.45
+
+Section distribution:
+  Herbal          263 ( 56.0%)
+  Zodiac           48 ( 10.2%)
+  Biological       89 ( 18.9%)
+  Recipes          70 ( 14.9%)
+
+Top patterns:
+  ch-[y]                           148×
+  ot-[y]                            93×
+  sh-[y]                            72×
+  ok-[y]                            68×
+  ol-[y]                            47×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as process; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (56.0%)
+  • Often with ch- (intensifier, 32.1%)
+
+======================================================================
+
+13. ROOT: 'ch'
+----------------------------------------------------------------------
+Total occurrences: 446
+Confidence: 0.90
+
+Section distribution:
+  Herbal          203 ( 45.5%)
+  Zodiac           45 ( 10.1%)
+  Biological       74 ( 16.6%)
+  Recipes         124 ( 27.8%)
+
+Top patterns:
+  ot-[ch]-y                         42×
+  ol-[ch]-ey                        36×
+  op-[ch]-ey                        34×
+  ot-[ch]-ey                        34×
+  ok-[ch]-ey                        32×
+
+SEMANTIC HYPOTHESIS:
+Likely entity or object reference, often in transition contexts, typically as state; common in plant descriptions. Similar to nouns or object terms
+
+Supporting evidence:
+  • VPCA: Entity/Object
+  • Universal across all sections
+  • Often with ot- (transition, 30.9%)
+  • Often with -ey (state_marker, 33.2%)
+  • Medieval: Latin: cum (with) / Romance: ch- digraph
+
+======================================================================
+
+14. ROOT: 'r'
+----------------------------------------------------------------------
+Total occurrences: 407
+Confidence: 0.20
+
+Section distribution:
+  Herbal          169 ( 41.5%)
+  Zodiac           47 ( 11.5%)
+  Biological      102 ( 25.1%)
+  Recipes          89 ( 21.9%)
+
+Top patterns:
+  da-[r]                           204×
+  sa-[r]                            61×
+  do-[r]                            47×
+  qo-[r]                            20×
+  da-[r]-y                          15×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with da- (unknown, 56.8%)
+
+======================================================================
+
+15. ROOT: 'cth'
+----------------------------------------------------------------------
+Total occurrences: 374
+Confidence: 0.30
+
+Section distribution:
+  Herbal          257 ( 68.7%)
+  Zodiac            9 (  2.4%)
+  Biological       54 ( 14.4%)
+  Recipes          54 ( 14.4%)
+
+Top patterns:
+  [cth]-y                           89×
+  ch-[cth]-y                        75×
+  [cth]-ol                          44×
+  [cth]-or                          40×
+  sh-[cth]-y                        28×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (68.7%)
+  • Often with -y (unknown, 52.9%)
+
+======================================================================
+
+16. ROOT: 'kee'
+----------------------------------------------------------------------
+Total occurrences: 362
+Confidence: 0.35
+
+Section distribution:
+  Herbal           28 (  7.7%)
+  Zodiac            3 (  0.8%)
+  Biological      153 ( 42.3%)
+  Recipes         178 ( 49.2%)
+
+Top patterns:
+  qo-[kee]-dy                      215×
+  [kee]-dy                          29×
+  ol-[kee]-dy                       24×
+  qo-[kee]-ey                       22×
+  [kee]-ey                           9×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with qo- (unknown, 73.2%)
+  • Often with -dy (process_marker, 74.6%)
+
+======================================================================
+
+17. ROOT: 'ka'
+----------------------------------------------------------------------
+Total occurrences: 350
+Confidence: 0.40
+
+Section distribution:
+  Herbal           12 (  3.4%)
+  Zodiac            0 (  0.0%)
+  Biological      205 ( 58.6%)
+  Recipes         133 ( 38.0%)
+
+Top patterns:
+  qo-[ka]-in                       262×
+  [ka]-in                           42×
+  ol-[ka]-in                        29×
+  ch-[ka]-in                        12×
+  sh-[ka]-in                         2×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as nominal; common in biological/anatomical contexts. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Biological (58.6%)
+  • Often with qo- (unknown, 75.4%)
+  • Often with -in (nominal, 99.1%)
+
+======================================================================
+
+18. ROOT: 'ckh'
+----------------------------------------------------------------------
+Total occurrences: 346
+Confidence: 0.35
+
+Section distribution:
+  Herbal          142 ( 41.0%)
+  Zodiac            5 (  1.4%)
+  Biological      105 ( 30.3%)
+  Recipes          94 ( 27.2%)
+
+Top patterns:
+  ch-[ckh]-y                       125×
+  sh-[ckh]-y                        49×
+  ch-[ckh]-ey                       29×
+  [ckh]-y                           28×
+  [ckh]-ol                          14×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with ch- (intensifier, 51.2%)
+  • Often with -y (unknown, 61.6%)
+
+======================================================================
+
+19. ROOT: 't'
+----------------------------------------------------------------------
+Total occurrences: 340
+Confidence: 0.20
+
+Section distribution:
+  Herbal          111 ( 32.6%)
+  Zodiac            4 (  1.2%)
+  Biological      107 ( 31.5%)
+  Recipes         118 ( 34.7%)
+
+Top patterns:
+  qo-[t]-y                          69×
+  qo-[t]-al                         54×
+  qo-[t]-ar                         49×
+  qo-[t]-ey                         45×
+  qo-[t]-ol                         35×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with qo- (unknown, 87.9%)
+
+======================================================================
+
+20. ROOT: 'kai'
+----------------------------------------------------------------------
+Total occurrences: 335
+Confidence: 0.45
+
+Section distribution:
+  Herbal           63 ( 18.8%)
+  Zodiac            1 (  0.3%)
+  Biological       98 ( 29.3%)
+  Recipes         173 ( 51.6%)
+
+Top patterns:
+  qo-[kai]-in                      231×
+  [kai]-in                          61×
+  ol-[kai]-in                       21×
+  ch-[kai]-in                       15×
+  sh-[kai]-in                        5×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (51.6%)
+  • Often with qo- (unknown, 69.3%)
+  • Often with -in (nominal, 99.7%)
+
+======================================================================
+
+21. ROOT: 'o'
+----------------------------------------------------------------------
+Total occurrences: 314
+Confidence: 1.00
+
+Section distribution:
+  Herbal          199 ( 63.4%)
+  Zodiac           48 ( 15.3%)
+  Biological        4 (  1.3%)
+  Recipes          63 ( 20.1%)
+
+Top patterns:
+  sh-[o]                            93×
+  ch-[o]-dy                         54×
+  ch-[o]                            53×
+  sh-[o]-dy                         30×
+  ch-[o]-y                          16×
+
+SEMANTIC HYPOTHESIS:
+Likely quality or state descriptor, often intensified, typically as process; common in plant descriptions. Similar to adjectives or state markers
+
+Supporting evidence:
+  • VPCA: Quality/State
+  • Universal across all sections
+  • Enriched in Herbal (63.4%)
+  • Often with ch- (intensifier, 42.0%)
+  • Often with -dy (process_marker, 31.2%)
+  • Medieval: Latin: -o (noun ending) / Romance: o/ou
+
+======================================================================
+
+22. ROOT: 'kch'
+----------------------------------------------------------------------
+Total occurrences: 297
+Confidence: 0.30
+
+Section distribution:
+  Herbal          184 ( 62.0%)
+  Zodiac            4 (  1.3%)
+  Biological       35 ( 11.8%)
+  Recipes          74 ( 24.9%)
+
+Top patterns:
+  qo-[kch]-y                        74×
+  qo-[kch]-ey                       34×
+  [kch]-y                           31×
+  qo-[kch]-dy                       26×
+  [kch]-ey                          25×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (62.0%)
+  • Often with qo- (unknown, 54.9%)
+  • Often with -y (unknown, 39.1%)
+
+======================================================================
+
+23. ROOT: 'a'
+----------------------------------------------------------------------
+Total occurrences: 273
+Confidence: 0.50
+
+Section distribution:
+  Herbal           53 ( 19.4%)
+  Zodiac            5 (  1.8%)
+  Biological       83 ( 30.4%)
+  Recipes         132 ( 48.4%)
+
+Top patterns:
+  ok-[a]-in                        117×
+  ot-[a]-in                         83×
+  ch-[a]-in                         22×
+  ol-[a]-in                         14×
+  yk-[a]-in                          9×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often in constituent/unit contexts, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with ok- (constituent, 44.3%)
+  • Often with -in (nominal, 95.2%)
+
+======================================================================
+
+24. ROOT: 'te'
+----------------------------------------------------------------------
+Total occurrences: 254
+Confidence: 0.35
+
+Section distribution:
+  Herbal           38 ( 15.0%)
+  Zodiac           16 (  6.3%)
+  Biological       96 ( 37.8%)
+  Recipes         104 ( 40.9%)
+
+Top patterns:
+  qo-[te]-dy                        61×
+  qo-[te]-ey                        59×
+  [te]-ey                           27×
+  [te]-y                            23×
+  [te]-dy                           20×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with qo- (unknown, 56.7%)
+  • Often with -ey (state_marker, 35.8%)
+
+======================================================================
+
+25. ROOT: 'eo'
+----------------------------------------------------------------------
+Total occurrences: 250
+Confidence: 0.90
+
+Section distribution:
+  Herbal           67 ( 26.8%)
+  Zodiac           73 ( 29.2%)
+  Biological        1 (  0.4%)
+  Recipes         109 ( 43.6%)
+
+Top patterns:
+  ch-[eo]-dy                        52×
+  ch-[eo]                           48×
+  sh-[eo]                           30×
+  sh-[eo]-dy                        27×
+  ot-[eo]-dy                        24×
+
+SEMANTIC HYPOTHESIS:
+Likely quality or state descriptor, often intensified, typically as process; common in recipe instructions. Similar to adjectives or state markers
+
+Supporting evidence:
+  • VPCA: Quality/State
+  • Universal across all sections
+  • Often with ch- (intensifier, 43.6%)
+  • Often with -dy (process_marker, 51.6%)
+  • Medieval: Latin: -eo (verb) / Greek: -eo
+
+======================================================================
+
+26. ROOT: 'tch'
+----------------------------------------------------------------------
+Total occurrences: 233
+Confidence: 0.30
+
+Section distribution:
+  Herbal          154 ( 66.1%)
+  Zodiac            3 (  1.3%)
+  Biological       22 (  9.4%)
+  Recipes          54 ( 23.2%)
+
+Top patterns:
+  qo-[tch]-y                        58×
+  [tch]-ey                          27×
+  [tch]-y                           21×
+  qo-[tch]-ey                       21×
+  [tch]-or                          15×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (66.1%)
+  • Often with qo- (unknown, 54.5%)
+  • Often with -y (unknown, 36.9%)
+
+======================================================================
+
+27. ROOT: 'd'
+----------------------------------------------------------------------
+Total occurrences: 217
+Confidence: 0.45
+
+Section distribution:
+  Herbal           79 ( 36.4%)
+  Zodiac           11 (  5.1%)
+  Biological       37 ( 17.1%)
+  Recipes          90 ( 41.5%)
+
+Top patterns:
+  ch-[d]-y                          83×
+  sh-[d]-y                          22×
+  ol-[d]-y                          15×
+  ch-[d]-ar                         13×
+  qo-[d]-y                          11×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with ch- (intensifier, 57.1%)
+  • Often with -y (unknown, 62.2%)
+  • Medieval: Latin: de (from/of) / Romance: d-
+
+======================================================================
+
+28. ROOT: 'in'
+----------------------------------------------------------------------
+Total occurrences: 205
+Confidence: 0.30
+
+Section distribution:
+  Herbal           60 ( 29.3%)
+  Zodiac            4 (  2.0%)
+  Biological       73 ( 35.6%)
+  Recipes          68 ( 33.2%)
+
+Top patterns:
+  da-[in]                          136×
+  sa-[in]                           61×
+  [in]                               2×
+  qo-[in]                            2×
+  [in]-ey                            1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with da- (unknown, 67.3%)
+  • Medieval: Latin: in (in/into) / Romance: -in suffix
+
+======================================================================
+
+29. ROOT: 'am'
+----------------------------------------------------------------------
+Total occurrences: 173
+Confidence: 0.20
+
+Section distribution:
+  Herbal           72 ( 41.6%)
+  Zodiac           24 ( 13.9%)
+  Biological       13 (  7.5%)
+  Recipes          64 ( 37.0%)
+
+Top patterns:
+  [am]                              75×
+  ot-[am]                           33×
+  ch-[am]                           23×
+  ok-[am]                           20×
+  sh-[am]                            6×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often in transition contexts, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+
+======================================================================
+
+30. ROOT: 'lch'
+----------------------------------------------------------------------
+Total occurrences: 156
+Confidence: 0.45
+
+Section distribution:
+  Herbal           12 (  7.7%)
+  Zodiac            3 (  1.9%)
+  Biological       87 ( 55.8%)
+  Recipes          54 ( 34.6%)
+
+Top patterns:
+  [lch]-ey                          71×
+  qo-[lch]-ey                       16×
+  [lch]-y                           11×
+  [lch]-dy                          10×
+  [lch]-ed                           8×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Biological (55.8%)
+  • Often with -ey (state_marker, 57.7%)
+
+======================================================================
+
+31. ROOT: 'che'
+----------------------------------------------------------------------
+Total occurrences: 154
+Confidence: 0.45
+
+Section distribution:
+  Herbal           20 ( 13.0%)
+  Zodiac            4 (  2.6%)
+  Biological       48 ( 31.2%)
+  Recipes          82 ( 53.2%)
+
+Top patterns:
+  op-[che]-dy                       36×
+  ol-[che]-dy                       26×
+  ot-[che]-dy                       19×
+  ok-[che]-dy                       13×
+  ol-[che]-ey                       10×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (53.2%)
+  • Often with op- (unknown, 31.2%)
+  • Often with -dy (process_marker, 65.6%)
+
+======================================================================
+
+32. ROOT: 'air'
+----------------------------------------------------------------------
+Total occurrences: 152
+Confidence: 0.30
+
+Section distribution:
+  Herbal           37 ( 24.3%)
+  Zodiac           28 ( 18.4%)
+  Biological        7 (  4.6%)
+  Recipes          80 ( 52.6%)
+
+Top patterns:
+  [air]                             75×
+  ot-[air]                          21×
+  ok-[air]                          18×
+  yk-[air]                           7×
+  qo-[air]                           4×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often in transition contexts; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (52.6%)
+
+======================================================================
+
+33. ROOT: 'ek'
+----------------------------------------------------------------------
+Total occurrences: 145
+Confidence: 0.35
+
+Section distribution:
+  Herbal           63 ( 43.4%)
+  Zodiac           18 ( 12.4%)
+  Biological       33 ( 22.8%)
+  Recipes          31 ( 21.4%)
+
+Top patterns:
+  ch-[ek]-y                         59×
+  sh-[ek]-y                         27×
+  ch-[ek]-al                        10×
+  ch-[ek]-ey                         7×
+  sh-[ek]                            7×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with ch- (intensifier, 63.4%)
+  • Often with -y (unknown, 60.0%)
+
+======================================================================
+
+34. ROOT: 'ed'
+----------------------------------------------------------------------
+Total occurrences: 144
+Confidence: 0.45
+
+Section distribution:
+  Herbal           15 ( 10.4%)
+  Zodiac           11 (  7.6%)
+  Biological       44 ( 30.6%)
+  Recipes          74 ( 51.4%)
+
+Top patterns:
+  ch-[ed]                           23×
+  sh-[ed]                           22×
+  ch-[ed]-ar                        20×
+  ch-[ed]-al                        19×
+  sh-[ed]-ar                         7×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as agent; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (51.4%)
+  • Often with ch- (intensifier, 47.9%)
+
+======================================================================
+
+35. ROOT: 'dy'
+----------------------------------------------------------------------
+Total occurrences: 130
+Confidence: 0.30
+
+Section distribution:
+  Herbal           67 ( 51.5%)
+  Zodiac           18 ( 13.8%)
+  Biological       37 ( 28.5%)
+  Recipes           8 (  6.2%)
+
+Top patterns:
+  [dy]                             127×
+  [dy]-dy                            2×
+  sh-[dy]-y                          1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (51.5%)
+
+======================================================================
+
+36. ROOT: 'lche'
+----------------------------------------------------------------------
+Total occurrences: 129
+Confidence: 0.35
+
+Section distribution:
+  Herbal            5 (  3.9%)
+  Zodiac            1 (  0.8%)
+  Biological       61 ( 47.3%)
+  Recipes          62 ( 48.1%)
+
+Top patterns:
+  [lche]-dy                         81×
+  [lche]-ey                         12×
+  qo-[lche]-dy                       7×
+  [lche]-ol                          7×
+  da-[lche]-dy                       5×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with -dy (process_marker, 72.9%)
+
+======================================================================
+
+37. ROOT: 'ain'
+----------------------------------------------------------------------
+Total occurrences: 114
+Confidence: 0.30
+
+Section distribution:
+  Herbal           18 ( 15.8%)
+  Zodiac            7 (  6.1%)
+  Biological       28 ( 24.6%)
+  Recipes          61 ( 53.5%)
+
+Top patterns:
+  [ain]                            109×
+  [ain]-y                            1×
+  ot-[ain]-y                         1×
+  ok-[ain]-y                         1×
+  ol-[ain]-y                         1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often in transition contexts, typically as state; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (53.5%)
+
+======================================================================
+
+38. ROOT: 'tai'
+----------------------------------------------------------------------
+Total occurrences: 112
+Confidence: 0.40
+
+Section distribution:
+  Herbal           30 ( 26.8%)
+  Zodiac            0 (  0.0%)
+  Biological       18 ( 16.1%)
+  Recipes          64 ( 57.1%)
+
+Top patterns:
+  qo-[tai]-in                       66×
+  [tai]-in                          38×
+  ch-[tai]-in                        4×
+  ol-[tai]-in                        2×
+  sh-[tai]-in                        1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Recipes (57.1%)
+  • Often with qo- (unknown, 58.9%)
+  • Often with -in (nominal, 99.1%)
+
+======================================================================
+
+39. ROOT: 'ir'
+----------------------------------------------------------------------
+Total occurrences: 112
+Confidence: 0.50
+
+Section distribution:
+  Herbal           44 ( 39.3%)
+  Zodiac           18 ( 16.1%)
+  Biological        7 (  6.2%)
+  Recipes          43 ( 38.4%)
+
+Top patterns:
+  da-[ir]                           68×
+  sa-[ir]                           23×
+  sa-[ir]-y                          5×
+  da-[ir]-al                         3×
+  da-[ir]-in                         2×
+
+SEMANTIC HYPOTHESIS:
+Likely process or action marker, typically as state. Similar to verbs or process terms
+
+Supporting evidence:
+  • VPCA: Process/Active
+  • Universal across all sections
+  • Often with da- (unknown, 70.5%)
+
+======================================================================
+
+40. ROOT: 'od'
+----------------------------------------------------------------------
+Total occurrences: 105
+Confidence: 0.20
+
+Section distribution:
+  Herbal           51 ( 48.6%)
+  Zodiac           11 ( 10.5%)
+  Biological        5 (  4.8%)
+  Recipes          38 ( 36.2%)
+
+Top patterns:
+  [od]-y                            23×
+  [od]-ar                           16×
+  [od]-al                           12×
+  sh-[od]                            9×
+  ch-[od]-ar                         8×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as agent; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+
+======================================================================
+
+41. ROOT: 'eckh'
+----------------------------------------------------------------------
+Total occurrences: 101
+Confidence: 0.35
+
+Section distribution:
+  Herbal           11 ( 10.9%)
+  Zodiac            1 (  1.0%)
+  Biological       50 ( 49.5%)
+  Recipes          39 ( 38.6%)
+
+Top patterns:
+  ch-[eckh]-y                       49×
+  sh-[eckh]-y                       25×
+  ch-[eckh]-ey                       8×
+  sh-[eckh]-ey                       5×
+  ch-[eckh]-dy                       3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with ch- (intensifier, 65.3%)
+  • Often with -y (unknown, 74.3%)
+
+======================================================================
+
+42. ROOT: 'dch'
+----------------------------------------------------------------------
+Total occurrences: 98
+Confidence: 0.30
+
+Section distribution:
+  Herbal           68 ( 69.4%)
+  Zodiac            9 (  9.2%)
+  Biological       13 ( 13.3%)
+  Recipes           8 (  8.2%)
+
+Top patterns:
+  [dch]-or                          24×
+  [dch]-y                           23×
+  [dch]-ey                          18×
+  [dch]-ol                          14×
+  [dch]-ed                           6×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (69.4%)
+
+======================================================================
+
+43. ROOT: 'pch'
+----------------------------------------------------------------------
+Total occurrences: 98
+Confidence: 0.20
+
+Section distribution:
+  Herbal           35 ( 35.7%)
+  Zodiac            2 (  2.0%)
+  Biological       17 ( 17.3%)
+  Recipes          44 ( 44.9%)
+
+Top patterns:
+  [pch]-ey                          13×
+  qo-[pch]-y                        11×
+  qo-[pch]-ey                       11×
+  qo-[pch]-dy                       11×
+  [pch]-or                           9×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with qo- (unknown, 48.0%)
+
+======================================================================
+
+44. ROOT: 'eeo'
+----------------------------------------------------------------------
+Total occurrences: 98
+Confidence: 0.45
+
+Section distribution:
+  Herbal           15 ( 15.3%)
+  Zodiac           26 ( 26.5%)
+  Biological        1 (  1.0%)
+  Recipes          56 ( 57.1%)
+
+Top patterns:
+  ch-[eeo]                          15×
+  ok-[eeo]                          13×
+  ok-[eeo]-dy                       12×
+  ot-[eeo]                          11×
+  yk-[eeo]-dy                       10×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often in constituent/unit contexts, typically as process; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (57.1%)
+  • Often with -dy (process_marker, 40.8%)
+
+======================================================================
+
+45. ROOT: 'ot'
+----------------------------------------------------------------------
+Total occurrences: 97
+Confidence: 0.75
+
+Section distribution:
+  Herbal           49 ( 50.5%)
+  Zodiac           23 ( 23.7%)
+  Biological        3 (  3.1%)
+  Recipes          22 ( 22.7%)
+
+Top patterns:
+  ch-[ot]-y                         36×
+  [ot]                              13×
+  ch-[ot]-ar                        10×
+  ch-[ot]-ey                         7×
+  ch-[ot]-al                         7×
+
+SEMANTIC HYPOTHESIS:
+Likely process or action marker, often intensified, typically as state; common in plant descriptions. Similar to verbs or process terms
+
+Supporting evidence:
+  • VPCA: Process/Active
+  • Universal across all sections
+  • Enriched in Herbal (50.5%)
+  • Often with ch- (intensifier, 75.3%)
+  • Often with -y (unknown, 42.3%)
+
+======================================================================
+
+46. ROOT: 'tee'
+----------------------------------------------------------------------
+Total occurrences: 95
+Confidence: 0.35
+
+Section distribution:
+  Herbal           14 ( 14.7%)
+  Zodiac            6 (  6.3%)
+  Biological       39 ( 41.1%)
+  Recipes          36 ( 37.9%)
+
+Top patterns:
+  qo-[tee]-dy                       55×
+  [tee]-dy                           9×
+  qo-[tee]-ol                        4×
+  qo-[tee]-ey                        3×
+  [tee]-or                           3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in biological/anatomical contexts. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with qo- (unknown, 73.7%)
+  • Often with -dy (process_marker, 69.5%)
+
+======================================================================
+
+47. ROOT: 'yt'
+----------------------------------------------------------------------
+Total occurrences: 93
+Confidence: 0.30
+
+Section distribution:
+  Herbal           64 ( 68.8%)
+  Zodiac           13 ( 14.0%)
+  Biological        9 (  9.7%)
+  Recipes           7 (  7.5%)
+
+Top patterns:
+  [yt]-y                            17×
+  [yt]-ar                           17×
+  [yt]-ey                           14×
+  [yt]-al                           14×
+  [yt]-or                           10×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (68.8%)
+
+======================================================================
+
+48. ROOT: 'lke'
+----------------------------------------------------------------------
+Total occurrences: 89
+Confidence: 0.40
+
+Section distribution:
+  Herbal            6 (  6.7%)
+  Zodiac            0 (  0.0%)
+  Biological       20 ( 22.5%)
+  Recipes          63 ( 70.8%)
+
+Top patterns:
+  [lke]-ey                          50×
+  [lke]-dy                          15×
+  qo-[lke]-ey                        8×
+  [lke]-ol                           4×
+  [lke]-ed                           4×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Recipes (70.8%)
+  • Often with -ey (state_marker, 65.2%)
+
+======================================================================
+
+49. ROOT: 'odai'
+----------------------------------------------------------------------
+Total occurrences: 88
+Confidence: 0.60
+
+Section distribution:
+  Herbal           54 ( 61.4%)
+  Zodiac            3 (  3.4%)
+  Biological        2 (  2.3%)
+  Recipes          29 ( 33.0%)
+
+Top patterns:
+  [odai]-in                         40×
+  ch-[odai]-in                      31×
+  sh-[odai]-in                      13×
+  ot-[odai]-in                       2×
+  ok-[odai]-in                       1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as nominal; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (61.4%)
+  • Often with ch- (intensifier, 35.2%)
+  • Often with -in (nominal, 100.0%)
+
+======================================================================
+
+50. ROOT: 'ok'
+----------------------------------------------------------------------
+Total occurrences: 88
+Confidence: 0.45
+
+Section distribution:
+  Herbal           46 ( 52.3%)
+  Zodiac           17 ( 19.3%)
+  Biological        7 (  8.0%)
+  Recipes          18 ( 20.5%)
+
+Top patterns:
+  ch-[ok]-y                         30×
+  ch-[ok]-ey                         7×
+  sh-[ok]-y                          6×
+  ch-[ok]-ar                         6×
+  ch-[ok]-al                         6×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (52.3%)
+  • Often with ch- (intensifier, 69.3%)
+  • Often with -y (unknown, 44.3%)
+
+======================================================================
+
+51. ROOT: 'pche'
+----------------------------------------------------------------------
+Total occurrences: 88
+Confidence: 0.40
+
+Section distribution:
+  Herbal            9 ( 10.2%)
+  Zodiac            0 (  0.0%)
+  Biological       27 ( 30.7%)
+  Recipes          52 ( 59.1%)
+
+Top patterns:
+  [pche]-dy                         26×
+  qo-[pche]-dy                      24×
+  [pche]-ol                         10×
+  [pche]-ar                          5×
+  [pche]-or                          4×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Recipes (59.1%)
+  • Often with qo- (unknown, 31.8%)
+  • Often with -dy (process_marker, 60.2%)
+
+======================================================================
+
+52. ROOT: 'sh'
+----------------------------------------------------------------------
+Total occurrences: 87
+Confidence: 0.35
+
+Section distribution:
+  Herbal           38 ( 43.7%)
+  Zodiac            6 (  6.9%)
+  Biological       26 ( 29.9%)
+  Recipes          17 ( 19.5%)
+
+Top patterns:
+  [sh]                              19×
+  ol-[sh]-ey                        14×
+  ok-[sh]-y                          7×
+  ot-[sh]-ey                         6×
+  ok-[sh]-ey                         5×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with -ey (state_marker, 31.0%)
+
+======================================================================
+
+53. ROOT: 'lk'
+----------------------------------------------------------------------
+Total occurrences: 85
+Confidence: 0.40
+
+Section distribution:
+  Herbal            6 (  7.1%)
+  Zodiac            0 (  0.0%)
+  Biological       21 ( 24.7%)
+  Recipes          58 ( 68.2%)
+
+Top patterns:
+  [lk]-ar                           27×
+  [lk]-y                            20×
+  [lk]-ey                           16×
+  qo-[lk]-y                          4×
+  [lk]-al                            4×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as agent; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Recipes (68.2%)
+  • Often with -ar (agent, 35.3%)
+
+======================================================================
+
+54. ROOT: 'ta'
+----------------------------------------------------------------------
+Total occurrences: 79
+Confidence: 0.45
+
+Section distribution:
+  Herbal            4 (  5.1%)
+  Zodiac            1 (  1.3%)
+  Biological       29 ( 36.7%)
+  Recipes          45 ( 57.0%)
+
+Top patterns:
+  qo-[ta]-in                        59×
+  [ta]-in                           11×
+  ch-[ta]-in                         4×
+  ol-[ta]-in                         2×
+  qo-[ta]-y                          1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (57.0%)
+  • Often with qo- (unknown, 77.2%)
+  • Often with -in (nominal, 96.2%)
+
+======================================================================
+
+55. ROOT: 'os'
+----------------------------------------------------------------------
+Total occurrences: 69
+Confidence: 0.35
+
+Section distribution:
+  Herbal           34 ( 49.3%)
+  Zodiac           14 ( 20.3%)
+  Biological        2 (  2.9%)
+  Recipes          19 ( 27.5%)
+
+Top patterns:
+  ch-[os]                           23×
+  [os]                              18×
+  sh-[os]                            7×
+  ok-[os]                            6×
+  ot-[os]                            3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with ch- (intensifier, 36.2%)
+
+======================================================================
+
+56. ROOT: 'cph'
+----------------------------------------------------------------------
+Total occurrences: 66
+Confidence: 0.30
+
+Section distribution:
+  Herbal           45 ( 68.2%)
+  Zodiac            1 (  1.5%)
+  Biological        9 ( 13.6%)
+  Recipes          11 ( 16.7%)
+
+Top patterns:
+  [cph]-ol                          11×
+  [cph]-y                           10×
+  ch-[cph]-y                        10×
+  [cph]-ey                           6×
+  [cph]-ar                           5×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (68.2%)
+  • Often with -y (unknown, 36.4%)
+
+======================================================================
+
+57. ROOT: 'kal'
+----------------------------------------------------------------------
+Total occurrences: 66
+Confidence: 0.20
+
+Section distribution:
+  Herbal           33 ( 50.0%)
+  Zodiac            3 (  4.5%)
+  Biological       13 ( 19.7%)
+  Recipes          17 ( 25.8%)
+
+Top patterns:
+  [kal]                             22×
+  qo-[kal]-y                        18×
+  qo-[kal]-dy                        5×
+  [kal]-y                            5×
+  [kal]-dy                           3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with qo- (unknown, 47.0%)
+  • Often with -y (unknown, 39.4%)
+
+======================================================================
+
+58. ROOT: 'rai'
+----------------------------------------------------------------------
+Total occurrences: 65
+Confidence: 0.45
+
+Section distribution:
+  Herbal            8 ( 12.3%)
+  Zodiac            1 (  1.5%)
+  Biological       14 ( 21.5%)
+  Recipes          42 ( 64.6%)
+
+Top patterns:
+  [rai]-in                          56×
+  sa-[rai]-in                        4×
+  da-[rai]-in                        1×
+  [rai]                              1×
+  qo-[rai]-in                        1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (64.6%)
+  • Often with -in (nominal, 98.5%)
+
+======================================================================
+
+59. ROOT: 'es'
+----------------------------------------------------------------------
+Total occurrences: 64
+Confidence: 0.35
+
+Section distribution:
+  Herbal           15 ( 23.4%)
+  Zodiac           18 ( 28.1%)
+  Biological       18 ( 28.1%)
+  Recipes          13 ( 20.3%)
+
+Top patterns:
+  ch-[es]                           37×
+  sh-[es]                           11×
+  ch-[es]-y                          2×
+  ok-[es]                            2×
+  ot-[es]                            2×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with ch- (intensifier, 64.1%)
+
+======================================================================
+
+60. ROOT: 'kche'
+----------------------------------------------------------------------
+Total occurrences: 64
+Confidence: 0.45
+
+Section distribution:
+  Herbal           15 ( 23.4%)
+  Zodiac            2 (  3.1%)
+  Biological        7 ( 10.9%)
+  Recipes          40 ( 62.5%)
+
+Top patterns:
+  qo-[kche]-dy                      29×
+  [kche]-dy                          8×
+  [kche]-ol                          5×
+  [kche]-or                          4×
+  qo-[kche]-ey                       3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (62.5%)
+  • Often with qo- (unknown, 54.7%)
+  • Often with -dy (process_marker, 67.2%)
+
+======================================================================
+
+61. ROOT: 'tche'
+----------------------------------------------------------------------
+Total occurrences: 61
+Confidence: 0.35
+
+Section distribution:
+  Herbal           16 ( 26.2%)
+  Zodiac            2 (  3.3%)
+  Biological       14 ( 23.0%)
+  Recipes          29 ( 47.5%)
+
+Top patterns:
+  [tche]-dy                         21×
+  qo-[tche]-dy                      19×
+  [tche]-ey                          5×
+  [tche]-ol                          5×
+  [tche]-or                          4×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with qo- (unknown, 37.7%)
+  • Often with -dy (process_marker, 65.6%)
+
+======================================================================
+
+62. ROOT: 'ecth'
+----------------------------------------------------------------------
+Total occurrences: 59
+Confidence: 0.45
+
+Section distribution:
+  Herbal            7 ( 11.9%)
+  Zodiac            1 (  1.7%)
+  Biological       34 ( 57.6%)
+  Recipes          17 ( 28.8%)
+
+Top patterns:
+  ch-[ecth]-y                       31×
+  sh-[ecth]-y                       20×
+  ch-[ecth]-ey                       4×
+  sh-[ecth]                          1×
+  ch-[ecth]-al                       1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Biological (57.6%)
+  • Often with ch- (intensifier, 62.7%)
+  • Often with -y (unknown, 86.4%)
+
+======================================================================
+
+63. ROOT: 'et'
+----------------------------------------------------------------------
+Total occurrences: 57
+Confidence: 0.35
+
+Section distribution:
+  Herbal           21 ( 36.8%)
+  Zodiac           11 ( 19.3%)
+  Biological       13 ( 22.8%)
+  Recipes          12 ( 21.1%)
+
+Top patterns:
+  ch-[et]-y                         20×
+  ch-[et]-ey                         8×
+  sh-[et]-y                          8×
+  ch-[et]-ar                         7×
+  [et]-y                             5×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with ch- (intensifier, 64.9%)
+  • Often with -y (unknown, 57.9%)
+
+======================================================================
+
+64. ROOT: 'lkee'
+----------------------------------------------------------------------
+Total occurrences: 57
+Confidence: 0.40
+
+Section distribution:
+  Herbal            2 (  3.5%)
+  Zodiac            0 (  0.0%)
+  Biological       10 ( 17.5%)
+  Recipes          45 ( 78.9%)
+
+Top patterns:
+  [lkee]-dy                         28×
+  [lkee]-ey                         10×
+  qo-[lkee]-dy                       7×
+  [lkee]-ol                          4×
+  qo-[lkee]-ey                       1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Recipes (78.9%)
+  • Often with -dy (process_marker, 64.9%)
+
+======================================================================
+
+65. ROOT: 'm'
+----------------------------------------------------------------------
+Total occurrences: 56
+Confidence: 0.30
+
+Section distribution:
+  Herbal           31 ( 55.4%)
+  Zodiac            8 ( 14.3%)
+  Biological        6 ( 10.7%)
+  Recipes          11 ( 19.6%)
+
+Top patterns:
+  da-[m]                            40×
+  sa-[m]                             8×
+  do-[m]                             6×
+  ch-[m]                             1×
+  op-[m]-dy                          1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (55.4%)
+  • Often with da- (unknown, 71.4%)
+
+======================================================================
+
+66. ROOT: 'eek'
+----------------------------------------------------------------------
+Total occurrences: 55
+Confidence: 0.35
+
+Section distribution:
+  Herbal           18 ( 32.7%)
+  Zodiac            2 (  3.6%)
+  Biological       20 ( 36.4%)
+  Recipes          15 ( 27.3%)
+
+Top patterns:
+  ch-[eek]-y                        29×
+  sh-[eek]-y                        10×
+  ch-[eek]-ey                        5×
+  sh-[eek]                           4×
+  sh-[eek]-ar                        2×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with ch- (intensifier, 65.5%)
+  • Often with -y (unknown, 70.9%)
+
+======================================================================
+
+67. ROOT: 'yche'
+----------------------------------------------------------------------
+Total occurrences: 54
+Confidence: 0.45
+
+Section distribution:
+  Herbal           16 ( 29.6%)
+  Zodiac            1 (  1.9%)
+  Biological        8 ( 14.8%)
+  Recipes          29 ( 53.7%)
+
+Top patterns:
+  [yche]-ey                         22×
+  [yche]-ol                         10×
+  [yche]-dy                          7×
+  [yche]-or                          6×
+  [yche]-ar                          3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often in transition contexts, typically as state; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (53.7%)
+  • Often with -ey (state_marker, 42.6%)
+
+======================================================================
+
+68. ROOT: 'sol'
+----------------------------------------------------------------------
+Total occurrences: 54
+Confidence: 0.30
+
+Section distribution:
+  Herbal            4 (  7.4%)
+  Zodiac            6 ( 11.1%)
+  Biological       38 ( 70.4%)
+  Recipes           6 ( 11.1%)
+
+Top patterns:
+  [sol]                             46×
+  [sol]-y                            3×
+  [sol]-al                           1×
+  [sol]-ar                           1×
+  [sol]-or                           1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Biological (70.4%)
+
+======================================================================
+
+69. ROOT: 'lshe'
+----------------------------------------------------------------------
+Total occurrences: 52
+Confidence: 0.40
+
+Section distribution:
+  Herbal            3 (  5.8%)
+  Zodiac            0 (  0.0%)
+  Biological       34 ( 65.4%)
+  Recipes          15 ( 28.8%)
+
+Top patterns:
+  [lshe]-dy                         28×
+  [lshe]-ey                          8×
+  da-[lshe]-dy                       4×
+  qo-[lshe]-dy                       2×
+  [lshe]-ol                          2×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in biological/anatomical contexts. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Biological (65.4%)
+  • Often with -dy (process_marker, 69.2%)
+
+======================================================================
+
+70. ROOT: 'kar'
+----------------------------------------------------------------------
+Total occurrences: 51
+Confidence: 0.25
+
+Section distribution:
+  Herbal           30 ( 58.8%)
+  Zodiac            0 (  0.0%)
+  Biological        5 (  9.8%)
+  Recipes          16 ( 31.4%)
+
+Top patterns:
+  [kar]                             46×
+  [kar]-y                            3×
+  [kar]-ar                           1×
+  [kar]-al                           1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Herbal (58.8%)
+
+======================================================================
+
+71. ROOT: 'och'
+----------------------------------------------------------------------
+Total occurrences: 50
+Confidence: 0.25
+
+Section distribution:
+  Herbal           31 ( 62.0%)
+  Zodiac           12 ( 24.0%)
+  Biological        0 (  0.0%)
+  Recipes           7 ( 14.0%)
+
+Top patterns:
+  [och]-ey                          10×
+  [och]-or                           6×
+  ch-[och]-y                         6×
+  [och]-ol                           5×
+  [och]-y                            5×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Herbal (62.0%)
+
+======================================================================
+
+72. ROOT: 'ytch'
+----------------------------------------------------------------------
+Total occurrences: 49
+Confidence: 0.30
+
+Section distribution:
+  Herbal           41 ( 83.7%)
+  Zodiac            2 (  4.1%)
+  Biological        1 (  2.0%)
+  Recipes           5 ( 10.2%)
+
+Top patterns:
+  [ytch]-y                          16×
+  [ytch]-or                          9×
+  [ytch]-ey                          6×
+  [ytch]-oy                          3×
+  sh-[ytch]-y                        2×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (83.7%)
+  • Often with -y (unknown, 40.8%)
+
+======================================================================
+
+73. ROOT: 's'
+----------------------------------------------------------------------
+Total occurrences: 48
+Confidence: 0.35
+
+Section distribution:
+  Herbal           16 ( 33.3%)
+  Zodiac            9 ( 18.8%)
+  Biological       10 ( 20.8%)
+  Recipes          13 ( 27.1%)
+
+Top patterns:
+  ol-[s]                            13×
+  ch-[s]                            10×
+  sh-[s]                             5×
+  qo-[s]                             4×
+  ch-[s]-dy                          3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with ch- (intensifier, 35.4%)
+
+======================================================================
+
+74. ROOT: 'octh'
+----------------------------------------------------------------------
+Total occurrences: 48
+Confidence: 0.45
+
+Section distribution:
+  Herbal           28 ( 58.3%)
+  Zodiac            6 ( 12.5%)
+  Biological        2 (  4.2%)
+  Recipes          12 ( 25.0%)
+
+Top patterns:
+  ch-[octh]-y                       15×
+  sh-[octh]-y                       11×
+  [octh]-y                           8×
+  ch-[octh]-ey                       3×
+  [octh]-ey                          3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (58.3%)
+  • Often with ch- (intensifier, 41.7%)
+  • Often with -y (unknown, 70.8%)
+
+======================================================================
+
+75. ROOT: 'oai'
+----------------------------------------------------------------------
+Total occurrences: 48
+Confidence: 0.35
+
+Section distribution:
+  Herbal           22 ( 45.8%)
+  Zodiac            8 ( 16.7%)
+  Biological        1 (  2.1%)
+  Recipes          17 ( 35.4%)
+
+Top patterns:
+  [oai]-in                          28×
+  ch-[oai]-in                        8×
+  sh-[oai]-in                        5×
+  ot-[oai]-in                        3×
+  yk-[oai]-in                        2×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as nominal; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with -in (nominal, 100.0%)
+
+======================================================================
+
+76. ROOT: 'oi'
+----------------------------------------------------------------------
+Total occurrences: 47
+Confidence: 0.45
+
+Section distribution:
+  Herbal           30 ( 63.8%)
+  Zodiac            3 (  6.4%)
+  Biological        6 ( 12.8%)
+  Recipes           8 ( 17.0%)
+
+Top patterns:
+  [oi]-in                           20×
+  ch-[oi]-in                        10×
+  ok-[oi]-in                         5×
+  sh-[oi]-in                         5×
+  yk-[oi]-in                         3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as nominal; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (63.8%)
+  • Often with -in (nominal, 100.0%)
+
+======================================================================
+
+77. ROOT: 'yte'
+----------------------------------------------------------------------
+Total occurrences: 46
+Confidence: 0.35
+
+Section distribution:
+  Herbal           16 ( 34.8%)
+  Zodiac           10 ( 21.7%)
+  Biological        9 ( 19.6%)
+  Recipes          11 ( 23.9%)
+
+Top patterns:
+  [yte]-ey                          24×
+  [yte]-dy                          10×
+  [yte]-ol                           3×
+  [yte]-os                           3×
+  [yte]-al                           1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with -ey (state_marker, 54.3%)
+
+======================================================================
+
+78. ROOT: 'dai'
+----------------------------------------------------------------------
+Total occurrences: 46
+Confidence: 0.25
+
+Section distribution:
+  Herbal           18 ( 39.1%)
+  Zodiac            0 (  0.0%)
+  Biological        0 (  0.0%)
+  Recipes          28 ( 60.9%)
+
+Top patterns:
+  qo-[dai]-in                       26×
+  ch-[dai]-in                       10×
+  ol-[dai]-in                        3×
+  sh-[dai]-in                        3×
+  op-[dai]-in                        2×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Enriched in Recipes (60.9%)
+  • Often with qo- (unknown, 56.5%)
+  • Often with -in (nominal, 100.0%)
+
+======================================================================
+
+79. ROOT: 'lkai'
+----------------------------------------------------------------------
+Total occurrences: 46
+Confidence: 0.25
+
+Section distribution:
+  Herbal            0 (  0.0%)
+  Zodiac            0 (  0.0%)
+  Biological        5 ( 10.9%)
+  Recipes          41 ( 89.1%)
+
+Top patterns:
+  [lkai]-in                         44×
+  qo-[lkai]-in                       2×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Enriched in Recipes (89.1%)
+  • Often with -in (nominal, 100.0%)
+
+======================================================================
+
+80. ROOT: 'lol'
+----------------------------------------------------------------------
+Total occurrences: 45
+Confidence: 0.25
+
+Section distribution:
+  Herbal            2 (  4.4%)
+  Zodiac            0 (  0.0%)
+  Biological       31 ( 68.9%)
+  Recipes          12 ( 26.7%)
+
+Top patterns:
+  [lol]                             35×
+  [lol]-y                            6×
+  [lol]-dy                           2×
+  [lol]-om                           1×
+  [lol]-or                           1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Biological (68.9%)
+
+======================================================================
+
+81. ROOT: 'lsh'
+----------------------------------------------------------------------
+Total occurrences: 45
+Confidence: 0.40
+
+Section distribution:
+  Herbal            3 (  6.7%)
+  Zodiac            0 (  0.0%)
+  Biological       25 ( 55.6%)
+  Recipes          17 ( 37.8%)
+
+Top patterns:
+  [lsh]-ey                          27×
+  [lsh]-y                            3×
+  [lsh]-ed                           2×
+  da-[lsh]-dy                        2×
+  [lsh]-dy                           2×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Biological (55.6%)
+  • Often with -ey (state_marker, 62.2%)
+
+======================================================================
+
+82. ROOT: 'ych'
+----------------------------------------------------------------------
+Total occurrences: 45
+Confidence: 0.30
+
+Section distribution:
+  Herbal           27 ( 60.0%)
+  Zodiac            3 (  6.7%)
+  Biological        4 (  8.9%)
+  Recipes          11 ( 24.4%)
+
+Top patterns:
+  [ych]-or                          10×
+  [ych]-ey                           9×
+  [ych]-ol                           8×
+  [ych]-y                            4×
+  [ych]-ed                           2×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often in transition contexts; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (60.0%)
+
+======================================================================
+
+83. ROOT: 'dche'
+----------------------------------------------------------------------
+Total occurrences: 45
+Confidence: 0.35
+
+Section distribution:
+  Herbal            8 ( 17.8%)
+  Zodiac            4 (  8.9%)
+  Biological       13 ( 28.9%)
+  Recipes          20 ( 44.4%)
+
+Top patterns:
+  [dche]-dy                         19×
+  [dche]-ey                         13×
+  [dche]-ol                          6×
+  [dche]-os                          2×
+  [dche]-or                          1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with -dy (process_marker, 42.2%)
+
+======================================================================
+
+84. ROOT: 'aii'
+----------------------------------------------------------------------
+Total occurrences: 45
+Confidence: 0.45
+
+Section distribution:
+  Herbal            9 ( 20.0%)
+  Zodiac            1 (  2.2%)
+  Biological        8 ( 17.8%)
+  Recipes          27 ( 60.0%)
+
+Top patterns:
+  [aii]-in                          31×
+  ok-[aii]-in                        7×
+  [aii]-or                           1×
+  yk-[aii]-in                        1×
+  ot-[aii]-in                        1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often in constituent/unit contexts, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (60.0%)
+  • Often with -in (nominal, 95.6%)
+
+======================================================================
+
+85. ROOT: 'ockh'
+----------------------------------------------------------------------
+Total occurrences: 44
+Confidence: 0.35
+
+Section distribution:
+  Herbal           20 ( 45.5%)
+  Zodiac            8 ( 18.2%)
+  Biological        1 (  2.3%)
+  Recipes          15 ( 34.1%)
+
+Top patterns:
+  ch-[ockh]-y                       16×
+  [ockh]-y                           9×
+  sh-[ockh]-y                        4×
+  ch-[ockh]-ey                       3×
+  [ockh]-ey                          3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Often with ch- (intensifier, 52.3%)
+  • Often with -y (unknown, 65.9%)
+
+======================================================================
+
+86. ROOT: 'tsh'
+----------------------------------------------------------------------
+Total occurrences: 43
+Confidence: 0.25
+
+Section distribution:
+  Herbal           27 ( 62.8%)
+  Zodiac            0 (  0.0%)
+  Biological        7 ( 16.3%)
+  Recipes           9 ( 20.9%)
+
+Top patterns:
+  qo-[tsh]-ey                        5×
+  [tsh]-ol                           5×
+  [tsh]-ey                           5×
+  [tsh]-y                            4×
+  qo-[tsh]-y                         4×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Herbal (62.8%)
+  • Often with qo- (unknown, 32.6%)
+
+======================================================================
+
+87. ROOT: 'eod'
+----------------------------------------------------------------------
+Total occurrences: 42
+Confidence: 0.30
+
+Section distribution:
+  Herbal           13 ( 31.0%)
+  Zodiac           15 ( 35.7%)
+  Biological        0 (  0.0%)
+  Recipes          14 ( 33.3%)
+
+Top patterns:
+  sh-[eod]                           9×
+  ot-[eod]-ar                        7×
+  ch-[eod]                           4×
+  ok-[eod]                           4×
+  ch-[eod]-al                        3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often in transition contexts, typically as agent. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Often with -ar (agent, 31.0%)
+
+======================================================================
+
+88. ROOT: 'keeo'
+----------------------------------------------------------------------
+Total occurrences: 42
+Confidence: 0.45
+
+Section distribution:
+  Herbal            9 ( 21.4%)
+  Zodiac            3 (  7.1%)
+  Biological        1 (  2.4%)
+  Recipes          29 ( 69.0%)
+
+Top patterns:
+  qo-[keeo]                         12×
+  qo-[keeo]-dy                      10×
+  ol-[keeo]-dy                       5×
+  [keeo]                             4×
+  [keeo]-dy                          4×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (69.0%)
+  • Often with qo- (unknown, 54.8%)
+  • Often with -dy (process_marker, 47.6%)
+
+======================================================================
+
+89. ROOT: 'kol'
+----------------------------------------------------------------------
+Total occurrences: 40
+Confidence: 0.30
+
+Section distribution:
+  Herbal           27 ( 67.5%)
+  Zodiac            3 (  7.5%)
+  Biological        8 ( 20.0%)
+  Recipes           2 (  5.0%)
+
+Top patterns:
+  [kol]                             29×
+  [kol]-dy                           4×
+  qo-[kol]-dy                        3×
+  [kol]-y                            2×
+  ch-[kol]-dy                        1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (67.5%)
+
+======================================================================
+
+90. ROOT: 'tar'
+----------------------------------------------------------------------
+Total occurrences: 40
+Confidence: 0.20
+
+Section distribution:
+  Herbal           12 ( 30.0%)
+  Zodiac            1 (  2.5%)
+  Biological       10 ( 25.0%)
+  Recipes          17 ( 42.5%)
+
+Top patterns:
+  [tar]                             31×
+  [tar]-ar                           2×
+  [tar]-y                            2×
+  [tar]-ol                           2×
+  [tar]-al                           1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+
+======================================================================
+
+91. ROOT: 'aiir'
+----------------------------------------------------------------------
+Total occurrences: 39
+Confidence: 0.15
+
+Section distribution:
+  Herbal           12 ( 30.8%)
+  Zodiac            9 ( 23.1%)
+  Biological        0 (  0.0%)
+  Recipes          18 ( 46.2%)
+
+Top patterns:
+  [aiir]                            24×
+  ok-[aiir]                          6×
+  ot-[aiir]                          2×
+  ol-[aiir]                          1×
+  yk-[aiir]                          1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often in constituent/unit contexts; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+
+======================================================================
+
+92. ROOT: 'qo'
+----------------------------------------------------------------------
+Total occurrences: 39
+Confidence: 0.15
+
+Section distribution:
+  Herbal           16 ( 41.0%)
+  Zodiac            0 (  0.0%)
+  Biological       10 ( 25.6%)
+  Recipes          13 ( 33.3%)
+
+Top patterns:
+  [qo]                              38×
+  ol-[qo]                            1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+
+======================================================================
+
+93. ROOT: 'kair'
+----------------------------------------------------------------------
+Total occurrences: 38
+Confidence: 0.25
+
+Section distribution:
+  Herbal           10 ( 26.3%)
+  Zodiac            0 (  0.0%)
+  Biological        4 ( 10.5%)
+  Recipes          24 ( 63.2%)
+
+Top patterns:
+  qo-[kair]                         18×
+  [kair]                            13×
+  ol-[kair]                          3×
+  sh-[kair]                          1×
+  [kair]-ol                          1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Recipes (63.2%)
+  • Often with qo- (unknown, 47.4%)
+
+======================================================================
+
+94. ROOT: 'tol'
+----------------------------------------------------------------------
+Total occurrences: 38
+Confidence: 0.30
+
+Section distribution:
+  Herbal           20 ( 52.6%)
+  Zodiac            5 ( 13.2%)
+  Biological        9 ( 23.7%)
+  Recipes           4 ( 10.5%)
+
+Top patterns:
+  [tol]                             30×
+  [tol]-dy                           2×
+  [tol]-ol                           1×
+  qo-[tol]-dy                        1×
+  [tol]-or                           1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as process; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (52.6%)
+
+======================================================================
+
+95. ROOT: 'om'
+----------------------------------------------------------------------
+Total occurrences: 38
+Confidence: 0.45
+
+Section distribution:
+  Herbal           27 ( 71.1%)
+  Zodiac            1 (  2.6%)
+  Biological        3 (  7.9%)
+  Recipes           7 ( 18.4%)
+
+Top patterns:
+  ch-[om]                           12×
+  [om]                              12×
+  sh-[om]                            4×
+  ok-[om]                            4×
+  ol-[om]                            3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (71.1%)
+  • Often with ch- (intensifier, 31.6%)
+
+======================================================================
+
+96. ROOT: 'dsh'
+----------------------------------------------------------------------
+Total occurrences: 38
+Confidence: 0.45
+
+Section distribution:
+  Herbal           24 ( 63.2%)
+  Zodiac            1 (  2.6%)
+  Biological        9 ( 23.7%)
+  Recipes           4 ( 10.5%)
+
+Top patterns:
+  [dsh]-ey                          12×
+  [dsh]-y                            8×
+  [dsh]-or                           8×
+  [dsh]-ol                           4×
+  [dsh]-dy                           2×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Herbal (63.2%)
+  • Often with -ey (state_marker, 31.6%)
+
+======================================================================
+
+97. ROOT: 'lor'
+----------------------------------------------------------------------
+Total occurrences: 38
+Confidence: 0.25
+
+Section distribution:
+  Herbal            3 (  7.9%)
+  Zodiac            0 (  0.0%)
+  Biological       13 ( 34.2%)
+  Recipes          22 ( 57.9%)
+
+Top patterns:
+  [lor]                             34×
+  da-[lor]-y                         1×
+  [lor]-al                           1×
+  [lor]-or                           1×
+  [lor]-y                            1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Recipes (57.9%)
+
+======================================================================
+
+98. ROOT: 'ech'
+----------------------------------------------------------------------
+Total occurrences: 38
+Confidence: 0.45
+
+Section distribution:
+  Herbal            5 ( 13.2%)
+  Zodiac           10 ( 26.3%)
+  Biological        3 (  7.9%)
+  Recipes          20 ( 52.6%)
+
+Top patterns:
+  ok-[ech]-y                         5×
+  ot-[ech]-y                         5×
+  ok-[ech]-ey                        4×
+  sh-[ech]-y                         3×
+  ot-[ech]-dy                        3×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, often in constituent/unit contexts, typically as state; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Universal across all sections
+  • Enriched in Recipes (52.6%)
+  • Often with ok- (constituent, 36.8%)
+  • Often with -y (unknown, 36.8%)
+
+======================================================================
+
+99. ROOT: 'ksh'
+----------------------------------------------------------------------
+Total occurrences: 37
+Confidence: 0.25
+
+Section distribution:
+  Herbal           23 ( 62.2%)
+  Zodiac            0 (  0.0%)
+  Biological        4 ( 10.8%)
+  Recipes          10 ( 27.0%)
+
+Top patterns:
+  qo-[ksh]-y                         6×
+  [ksh]-y                            5×
+  [ksh]-ey                           5×
+  qo-[ksh]-ey                        4×
+  [ksh]-or                           2×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Enriched in Herbal (62.2%)
+  • Often with qo- (unknown, 37.8%)
+  • Often with -y (unknown, 35.1%)
+
+======================================================================
+
+100. ROOT: 'kam'
+----------------------------------------------------------------------
+Total occurrences: 37
+Confidence: 0.15
+
+Section distribution:
+  Herbal           13 ( 35.1%)
+  Zodiac            0 (  0.0%)
+  Biological        8 ( 21.6%)
+  Recipes          16 ( 43.2%)
+
+Top patterns:
+  qo-[kam]                          22×
+  ol-[kam]                           8×
+  [kam]                              5×
+  ch-[kam]                           1×
+  qo-[kam]-y                         1×
+
+SEMANTIC HYPOTHESIS:
+Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+
+Supporting evidence:
+  • Present in 3/4 sections
+  • Often with qo- (unknown, 62.2%)
+
+======================================================================
+
