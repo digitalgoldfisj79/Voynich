@@ -1,0 +1,176 @@
+================================================================================
+SM2: SEMANTIC MAPPING USING VPCA STEM AXES
+================================================================================
+
+📁 Loaded 900 stem-section mappings
+📁 Found 150 astronomical stem embeddings
+📁 57 non-zero astronomical stems
+
+Top 20 stems by axis values:
+     stem     axis1     axis2
+3    otsh -0.015283  0.211814
+9     ots -0.073576 -0.422239
+39   ytch -0.007941  0.418868
+51   shee -0.067576 -0.700584
+57   dche -0.156652 -0.064978
+69    sho  0.015878 -0.138716
+93   chol  0.032840 -0.146681
+105  chot  0.030185 -0.084218
+129    op  0.160028  0.007962
+153  sheo  0.008377 -0.282349
+159  chek  0.014528 -0.180818
+165  otch -0.005623  0.427214
+171  ykch  0.000353  0.300336
+177   ykc  0.000353  0.300336
+189   oto  0.008636  0.008709
+213   ckh  0.000875 -0.035416
+237   olc -0.009145  0.339753
+249    al  0.167597 -0.081394
+273  chok  0.030546 -0.194830
+279  okal  0.168098 -0.004482
+
+================================================================================
+LOADING ZODIAC DATA
+================================================================================
+Loaded 2582 zodiac labels
+
+================================================================================
+MATCHING ZODIAC LABELS TO VPCA STEMS
+================================================================================
+
+Direct matches: 920
+Unmatched: 495
+Coverage: 62.8% of zodiac tokens
+
+================================================================================
+VISUALIZING SEMANTIC SPACE
+================================================================================
+
+Semantic space statistics:
+  Axis1 range: [-0.169, 0.168]
+  Axis2 range: [-0.754, 0.611]
+
+================================================================================
+CLUSTERING STEMS BY SEMANTIC SIMILARITY
+================================================================================
+
+Clustered 57 stems into 8 semantic fields
+
+--- Cluster 1 (center: [0.004, 0.213]) ---
+  Size: 7 stems
+  Zodiac labels: 86
+  Sample stems: otsh, ykch, ykc, dai, oko, qot, oi
+  Top zodiac: daiin(20), dair(14), okol(8), daiir(6), dain(6)
+
+--- Cluster 2 (center: [-0.071, -0.682]) ---
+  Size: 8 stems
+  Zodiac labels: 158
+  Sample stems: shee, okee, chee, cth, qok, otee, qoke, cthe
+  Top zodiac: oteey(34), okeey(22), cheey(17), qokain(15), qokedy(10)
+
+--- Cluster 3 (center: [0.008, -0.210]) ---
+  Size: 11 stems
+  Zodiac labels: 228
+  Sample stems: sho, chol, sheo, chek, chok, shek, qote, yke, qotee, chock
+  Top zodiac: otey(23), otar(19), oteos(15), chol(14), oteody(14)
+
+--- Cluster 4 (center: [-0.004, 0.454]) ---
+  Size: 10 stems
+  Zodiac labels: 54
+  Sample stems: ytch, otch, olc, opch, qopch, chcth, chct, ytc, qopc, okch
+  Top zodiac: okchy(8), otchy(4), olchey(3), otchdy(2), otcheody(2)
+
+--- Cluster 5 (center: [0.164, -0.010]) ---
+  Size: 5 stems
+  Zodiac labels: 234
+  Sample stems: op, al, okal, cht, yta
+  Top zodiac: dal(22), qokal(11), aly(10), okal(9), sal(8)
+
+--- Cluster 6 (center: [0.006, 0.007]) ---
+  Size: 7 stems
+  Zodiac labels: 104
+  Sample stems: chot, oto, ckh, dch, dc, tch, yt
+  Top zodiac: otol(9), choteey(6), chckhy(6), oto(5), otoy(5)
+
+--- Cluster 7 (center: [-0.154, -0.120]) ---
+  Size: 3 stems
+  Zodiac labels: 27
+  Sample stems: dche, olk, choke
+  Top zodiac: olkey(4), dchedy(2), che(2), olkedy(2), dcheeor(1)
+
+--- Cluster 8 (center: [-0.009, -0.431]) ---
+  Size: 6 stems
+  Zodiac labels: 29
+  Sample stems: ots, oted, oks, ykee, qokee, yte
+  Top zodiac: qokeey(13), yteey(5), yteody(4), otedy(4), qokeedy(4)
+
+================================================================================
+CHARACTERIZING SEMANTIC FIELDS
+================================================================================
+
+Cluster    Axis1        Axis2        Distance     Size     Semantic Field (hypothesis)
+------------------------------------------------------------------------------------------
+2          negative     negative     0.686        8        Modifier/Relation
+4          negative     positive     0.454        10       Entity/Object
+8          negative     negative     0.431        6        Modifier/Relation
+1          positive     positive     0.213        7        Process/Active
+3          positive     negative     0.210        11       Quality/State
+7          negative     negative     0.195        3        Modifier/Relation
+5          positive     negative     0.165        5        Quality/State
+6          positive     positive     0.009        7        Process/Active
+
+================================================================================
+MAPPING ZODIAC ROOTS TO SEMANTIC FIELDS
+================================================================================
+
+Mapped 550 unique roots to semantic fields
+
+Top 20 roots by frequency:
+  'e' (165×): Cluster 2 → Modifier/Relation
+  'ee' (66×): Cluster 2 → Modifier/Relation
+  'ol' (48×): Cluster 3 → Quality/State
+  'k' (48×): Cluster 2 → Modifier/Relation
+  'al' (47×): Cluster 5 → Quality/State
+  'l' (45×): Cluster 5 → Quality/State
+  'eo' (42×): Cluster 3 → Quality/State
+  'o' (36×): Cluster 3 → Quality/State
+  'ke' (33×): Cluster 8 → Modifier/Relation
+  'ar' (26×): Cluster 3 → Quality/State
+  'ey' (26×): Cluster 3 → Quality/State
+  'ch' (25×): Cluster 4 → Entity/Object
+  'eeo' (23×): Cluster 2 → Modifier/Relation
+  'i' (21×): Cluster 1 → Process/Active
+  'aly' (21×): Cluster 5 → Quality/State
+  'ir' (15×): Cluster 1 → Process/Active
+  'y' (15×): Cluster 3 → Quality/State
+  'ot' (15×): Cluster 6 → Process/Active
+  'ai' (15×): Cluster 3 → Quality/State
+  'ka' (15×): Cluster 2 → Modifier/Relation
+
+================================================================================
+GENERATING VISUAL SUMMARY
+================================================================================
+Visual saved!
+
+================================================================================
+SM2 SEMANTIC MAPPING COMPLETE
+================================================================================
+
+📊 Coverage:
+  • VPCA stems mapped: 57
+  • Zodiac labels matched: 920
+  • Coverage: 62.8%
+
+🎯 Semantic Fields Identified:
+  • Total clusters: 8
+  • Roots mapped: 550
+
+💡 Semantic Hypotheses:
+  • ('+', '+'): Process/Active
+  • ('+', '-'): Quality/State
+  • ('-', '+'): Entity/Object
+  • ('-', '-'): Modifier/Relation
+
+✓ SM2 framework built on VPCA stem axes
+
+================================================================================
