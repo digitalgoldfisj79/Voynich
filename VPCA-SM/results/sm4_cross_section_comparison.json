@@ -1,0 +1,1923 @@
+{
+  "metadata": {
+    "version": "SM4-CrossSection-v1",
+    "sections_analyzed": [
+      "Herbal",
+      "Zodiac",
+      "Biological",
+      "Recipes"
+    ]
+  },
+  "section_results": {
+    "Herbal": {
+      "total_tokens": 9718,
+      "unique_patterns": 146,
+      "unique_roots": 1685,
+      "structure_distribution": {
+        "PREFIX+ROOT+SUFFIX": 3928,
+        "PREFIX+ROOT": 2276,
+        "ROOT+SUFFIX": 2402,
+        "ROOT": 1112
+      },
+      "top_patterns": [
+        {
+          "pattern": "[ROOT]",
+          "count": 1112
+        },
+        {
+          "pattern": "ch-[ROOT]",
+          "count": 741
+        },
+        {
+          "pattern": "[ROOT]-y",
+          "count": 582
+        },
+        {
+          "pattern": "ch-[ROOT]-y",
+          "count": 533
+        },
+        {
+          "pattern": "[ROOT]-in",
+          "count": 502
+        },
+        {
+          "pattern": "sh-[ROOT]",
+          "count": 411
+        },
+        {
+          "pattern": "da-[ROOT]-in",
+          "count": 374
+        },
+        {
+          "pattern": "da-[ROOT]",
+          "count": 306
+        },
+        {
+          "pattern": "[ROOT]-ey",
+          "count": 272
+        },
+        {
+          "pattern": "[ROOT]-dy",
+          "count": 251
+        },
+        {
+          "pattern": "ok-[ROOT]",
+          "count": 226
+        },
+        {
+          "pattern": "qo-[ROOT]-y",
+          "count": 224
+        },
+        {
+          "pattern": "[ROOT]-or",
+          "count": 223
+        },
+        {
+          "pattern": "[ROOT]-ol",
+          "count": 221
+        },
+        {
+          "pattern": "sh-[ROOT]-y",
+          "count": 184
+        },
+        {
+          "pattern": "ot-[ROOT]",
+          "count": 174
+        },
+        {
+          "pattern": "ch-[ROOT]-in",
+          "count": 170
+        },
+        {
+          "pattern": "[ROOT]-ar",
+          "count": 142
+        },
+        {
+          "pattern": "qo-[ROOT]",
+          "count": 141
+        },
+        {
+          "pattern": "ch-[ROOT]-dy",
+          "count": 134
+        },
+        {
+          "pattern": "qo-[ROOT]-ey",
+          "count": 111
+        },
+        {
+          "pattern": "qo-[ROOT]-in",
+          "count": 108
+        },
+        {
+          "pattern": "ch-[ROOT]-ey",
+          "count": 104
+        },
+        {
+          "pattern": "qo-[ROOT]-ol",
+          "count": 97
+        },
+        {
+          "pattern": "do-[ROOT]",
+          "count": 94
+        },
+        {
+          "pattern": "qo-[ROOT]-dy",
+          "count": 84
+        },
+        {
+          "pattern": "ok-[ROOT]-in",
+          "count": 81
+        },
+        {
+          "pattern": "ot-[ROOT]-y",
+          "count": 80
+        },
+        {
+          "pattern": "yk-[ROOT]",
+          "count": 74
+        },
+        {
+          "pattern": "[ROOT]-al",
+          "count": 72
+        },
+        {
+          "pattern": "sh-[ROOT]-dy",
+          "count": 70
+        },
+        {
+          "pattern": "ch-[ROOT]-ol",
+          "count": 70
+        },
+        {
+          "pattern": "ok-[ROOT]-y",
+          "count": 70
+        },
+        {
+          "pattern": "sh-[ROOT]-in",
+          "count": 68
+        },
+        {
+          "pattern": "ch-[ROOT]-or",
+          "count": 67
+        },
+        {
+          "pattern": "qo-[ROOT]-or",
+          "count": 65
+        },
+        {
+          "pattern": "qo-[ROOT]-ar",
+          "count": 64
+        },
+        {
+          "pattern": "ol-[ROOT]",
+          "count": 60
+        },
+        {
+          "pattern": "ch-[ROOT]-ar",
+          "count": 52
+        },
+        {
+          "pattern": "sh-[ROOT]-ey",
+          "count": 51
+        },
+        {
+          "pattern": "ot-[ROOT]-in",
+          "count": 50
+        },
+        {
+          "pattern": "[ROOT]-es",
+          "count": 44
+        },
+        {
+          "pattern": "ok-[ROOT]-ey",
+          "count": 44
+        },
+        {
+          "pattern": "qo-[ROOT]-al",
+          "count": 40
+        },
+        {
+          "pattern": "ok-[ROOT]-dy",
+          "count": 40
+        },
+        {
+          "pattern": "ch-[ROOT]-al",
+          "count": 39
+        },
+        {
+          "pattern": "ot-[ROOT]-ol",
+          "count": 37
+        },
+        {
+          "pattern": "sa-[ROOT]",
+          "count": 37
+        },
+        {
+          "pattern": "sh-[ROOT]-ol",
+          "count": 34
+        },
+        {
+          "pattern": "sa-[ROOT]-in",
+          "count": 32
+        }
+      ],
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 1960
+        },
+        {
+          "prefix": "qo",
+          "count": 968
+        },
+        {
+          "prefix": "sh",
+          "count": 885
+        },
+        {
+          "prefix": "da",
+          "count": 758
+        },
+        {
+          "prefix": "ok",
+          "count": 543
+        },
+        {
+          "prefix": "ot",
+          "count": 444
+        },
+        {
+          "prefix": "yk",
+          "count": 201
+        },
+        {
+          "prefix": "ol",
+          "count": 163
+        },
+        {
+          "prefix": "do",
+          "count": 131
+        },
+        {
+          "prefix": "sa",
+          "count": 81
+        },
+        {
+          "prefix": "op",
+          "count": 70
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 1793
+        },
+        {
+          "suffix": "in",
+          "count": 1463
+        },
+        {
+          "suffix": "dy",
+          "count": 680
+        },
+        {
+          "suffix": "ey",
+          "count": 652
+        },
+        {
+          "suffix": "ol",
+          "count": 509
+        },
+        {
+          "suffix": "or",
+          "count": 444
+        },
+        {
+          "suffix": "ar",
+          "count": 307
+        },
+        {
+          "suffix": "al",
+          "count": 201
+        },
+        {
+          "suffix": "es",
+          "count": 82
+        },
+        {
+          "suffix": "os",
+          "count": 62
+        },
+        {
+          "suffix": "oy",
+          "count": 56
+        },
+        {
+          "suffix": "om",
+          "count": 43
+        },
+        {
+          "suffix": "e",
+          "count": 29
+        },
+        {
+          "suffix": "ed",
+          "count": 9
+        }
+      ]
+    },
+    "Zodiac": {
+      "total_tokens": 2848,
+      "unique_patterns": 131,
+      "unique_roots": 871,
+      "structure_distribution": {
+        "PREFIX+ROOT+SUFFIX": 1386,
+        "PREFIX+ROOT": 569,
+        "ROOT+SUFFIX": 548,
+        "ROOT": 345
+      },
+      "top_patterns": [
+        {
+          "pattern": "[ROOT]",
+          "count": 345
+        },
+        {
+          "pattern": "[ROOT]-y",
+          "count": 147
+        },
+        {
+          "pattern": "ch-[ROOT]-y",
+          "count": 129
+        },
+        {
+          "pattern": "ch-[ROOT]",
+          "count": 123
+        },
+        {
+          "pattern": "ot-[ROOT]",
+          "count": 119
+        },
+        {
+          "pattern": "ok-[ROOT]",
+          "count": 104
+        },
+        {
+          "pattern": "[ROOT]-in",
+          "count": 95
+        },
+        {
+          "pattern": "[ROOT]-ey",
+          "count": 78
+        },
+        {
+          "pattern": "da-[ROOT]",
+          "count": 75
+        },
+        {
+          "pattern": "ot-[ROOT]-y",
+          "count": 74
+        },
+        {
+          "pattern": "ch-[ROOT]-ey",
+          "count": 73
+        },
+        {
+          "pattern": "ok-[ROOT]-y",
+          "count": 65
+        },
+        {
+          "pattern": "[ROOT]-dy",
+          "count": 61
+        },
+        {
+          "pattern": "ot-[ROOT]-ey",
+          "count": 60
+        },
+        {
+          "pattern": "sh-[ROOT]",
+          "count": 48
+        },
+        {
+          "pattern": "sh-[ROOT]-y",
+          "count": 46
+        },
+        {
+          "pattern": "ot-[ROOT]-dy",
+          "count": 46
+        },
+        {
+          "pattern": "[ROOT]-ar",
+          "count": 41
+        },
+        {
+          "pattern": "ok-[ROOT]-ey",
+          "count": 39
+        },
+        {
+          "pattern": "ot-[ROOT]-in",
+          "count": 36
+        },
+        {
+          "pattern": "ot-[ROOT]-ar",
+          "count": 36
+        },
+        {
+          "pattern": "ch-[ROOT]-dy",
+          "count": 34
+        },
+        {
+          "pattern": "ok-[ROOT]-dy",
+          "count": 33
+        },
+        {
+          "pattern": "sa-[ROOT]",
+          "count": 33
+        },
+        {
+          "pattern": "ot-[ROOT]-os",
+          "count": 30
+        },
+        {
+          "pattern": "da-[ROOT]-in",
+          "count": 29
+        },
+        {
+          "pattern": "[ROOT]-al",
+          "count": 28
+        },
+        {
+          "pattern": "[ROOT]-ol",
+          "count": 26
+        },
+        {
+          "pattern": "sh-[ROOT]-ey",
+          "count": 26
+        },
+        {
+          "pattern": "yk-[ROOT]",
+          "count": 26
+        },
+        {
+          "pattern": "ch-[ROOT]-al",
+          "count": 26
+        },
+        {
+          "pattern": "ok-[ROOT]-ar",
+          "count": 24
+        },
+        {
+          "pattern": "ot-[ROOT]-al",
+          "count": 24
+        },
+        {
+          "pattern": "ch-[ROOT]-in",
+          "count": 23
+        },
+        {
+          "pattern": "ch-[ROOT]-ar",
+          "count": 23
+        },
+        {
+          "pattern": "ok-[ROOT]-ol",
+          "count": 21
+        },
+        {
+          "pattern": "[ROOT]-es",
+          "count": 20
+        },
+        {
+          "pattern": "ch-[ROOT]-ol",
+          "count": 20
+        },
+        {
+          "pattern": "ok-[ROOT]-in",
+          "count": 20
+        },
+        {
+          "pattern": "ch-[ROOT]-or",
+          "count": 18
+        },
+        {
+          "pattern": "[ROOT]-os",
+          "count": 18
+        },
+        {
+          "pattern": "da-[ROOT]-y",
+          "count": 16
+        },
+        {
+          "pattern": "[ROOT]-or",
+          "count": 15
+        },
+        {
+          "pattern": "qo-[ROOT]-ey",
+          "count": 14
+        },
+        {
+          "pattern": "ok-[ROOT]-al",
+          "count": 14
+        },
+        {
+          "pattern": "ot-[ROOT]-ol",
+          "count": 14
+        },
+        {
+          "pattern": "yk-[ROOT]-dy",
+          "count": 13
+        },
+        {
+          "pattern": "yk-[ROOT]-y",
+          "count": 13
+        },
+        {
+          "pattern": "op-[ROOT]",
+          "count": 13
+        },
+        {
+          "pattern": "ol-[ROOT]",
+          "count": 13
+        }
+      ],
+      "top_prefixes": [
+        {
+          "prefix": "ch",
+          "count": 493
+        },
+        {
+          "prefix": "ot",
+          "count": 469
+        },
+        {
+          "prefix": "ok",
+          "count": 364
+        },
+        {
+          "prefix": "sh",
+          "count": 170
+        },
+        {
+          "prefix": "da",
+          "count": 136
+        },
+        {
+          "prefix": "yk",
+          "count": 94
+        },
+        {
+          "prefix": "qo",
+          "count": 72
+        },
+        {
+          "prefix": "sa",
+          "count": 53
+        },
+        {
+          "prefix": "ol",
+          "count": 43
+        },
+        {
+          "prefix": "op",
+          "count": 43
+        },
+        {
+          "prefix": "do",
+          "count": 18
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "y",
+          "count": 522
+        },
+        {
+          "suffix": "ey",
+          "count": 319
+        },
+        {
+          "suffix": "in",
+          "count": 242
+        },
+        {
+          "suffix": "dy",
+          "count": 223
+        },
+        {
+          "suffix": "ar",
+          "count": 137
+        },
+        {
+          "suffix": "al",
+          "count": 132
+        },
+        {
+          "suffix": "ol",
+          "count": 104
+        },
+        {
+          "suffix": "os",
+          "count": 75
+        },
+        {
+          "suffix": "or",
+          "count": 59
+        },
+        {
+          "suffix": "es",
+          "count": 53
+        },
+        {
+          "suffix": "oy",
+          "count": 34
+        },
+        {
+          "suffix": "e",
+          "count": 24
+        },
+        {
+          "suffix": "ed",
+          "count": 6
+        },
+        {
+          "suffix": "om",
+          "count": 4
+        }
+      ]
+    },
+    "Biological": {
+      "total_tokens": 6572,
+      "unique_patterns": 131,
+      "unique_roots": 779,
+      "structure_distribution": {
+        "PREFIX+ROOT+SUFFIX": 3818,
+        "PREFIX+ROOT": 882,
+        "ROOT+SUFFIX": 1129,
+        "ROOT": 743
+      },
+      "top_patterns": [
+        {
+          "pattern": "[ROOT]",
+          "count": 743
+        },
+        {
+          "pattern": "qo-[ROOT]-dy",
+          "count": 395
+        },
+        {
+          "pattern": "ch-[ROOT]-y",
+          "count": 357
+        },
+        {
+          "pattern": "[ROOT]-dy",
+          "count": 310
+        },
+        {
+          "pattern": "qo-[ROOT]-in",
+          "count": 302
+        },
+        {
+          "pattern": "qo-[ROOT]-ey",
+          "count": 289
+        },
+        {
+          "pattern": "[ROOT]-ey",
+          "count": 237
+        },
+        {
+          "pattern": "ch-[ROOT]-dy",
+          "count": 235
+        },
+        {
+          "pattern": "sh-[ROOT]-y",
+          "count": 230
+        },
+        {
+          "pattern": "[ROOT]-in",
+          "count": 195
+        },
+        {
+          "pattern": "sh-[ROOT]-dy",
+          "count": 178
+        },
+        {
+          "pattern": "[ROOT]-y",
+          "count": 176
+        },
+        {
+          "pattern": "qo-[ROOT]",
+          "count": 170
+        },
+        {
+          "pattern": "da-[ROOT]",
+          "count": 161
+        },
+        {
+          "pattern": "qo-[ROOT]-al",
+          "count": 134
+        },
+        {
+          "pattern": "qo-[ROOT]-y",
+          "count": 130
+        },
+        {
+          "pattern": "ch-[ROOT]",
+          "count": 105
+        },
+        {
+          "pattern": "ot-[ROOT]",
+          "count": 95
+        },
+        {
+          "pattern": "ol-[ROOT]-ey",
+          "count": 91
+        },
+        {
+          "pattern": "ok-[ROOT]",
+          "count": 88
+        },
+        {
+          "pattern": "ch-[ROOT]-ey",
+          "count": 86
+        },
+        {
+          "pattern": "ok-[ROOT]-in",
+          "count": 79
+        },
+        {
+          "pattern": "sh-[ROOT]",
+          "count": 77
+        },
+        {
+          "pattern": "ot-[ROOT]-dy",
+          "count": 76
+        },
+        {
+          "pattern": "[ROOT]-ol",
+          "count": 74
+        },
+        {
+          "pattern": "ol-[ROOT]",
+          "count": 72
+        },
+        {
+          "pattern": "sa-[ROOT]",
+          "count": 71
+        },
+        {
+          "pattern": "da-[ROOT]-in",
+          "count": 70
+        },
+        {
+          "pattern": "ol-[ROOT]-dy",
+          "count": 69
+        },
+        {
+          "pattern": "qo-[ROOT]-ar",
+          "count": 67
+        },
+        {
+          "pattern": "ok-[ROOT]-dy",
+          "count": 56
+        },
+        {
+          "pattern": "ol-[ROOT]-in",
+          "count": 55
+        },
+        {
+          "pattern": "sh-[ROOT]-ey",
+          "count": 52
+        },
+        {
+          "pattern": "ol-[ROOT]-y",
+          "count": 51
+        },
+        {
+          "pattern": "ok-[ROOT]-y",
+          "count": 50
+        },
+        {
+          "pattern": "ot-[ROOT]-y",
+          "count": 44
+        },
+        {
+          "pattern": "qo-[ROOT]-ol",
+          "count": 44
+        },
+        {
+          "pattern": "ot-[ROOT]-in",
+          "count": 39
+        },
+        {
+          "pattern": "ok-[ROOT]-ey",
+          "count": 36
+        },
+        {
+          "pattern": "ch-[ROOT]-ol",
+          "count": 35
+        },
+        {
+          "pattern": "[ROOT]-ar",
+          "count": 34
+        },
+        {
+          "pattern": "sa-[ROOT]-in",
+          "count": 33
+        },
+        {
+          "pattern": "sh-[ROOT]-ol",
+          "count": 32
+        },
+        {
+          "pattern": "qo-[ROOT]-ed",
+          "count": 31
+        },
+        {
+          "pattern": "[ROOT]-or",
+          "count": 31
+        },
+        {
+          "pattern": "ch-[ROOT]-in",
+          "count": 31
+        },
+        {
+          "pattern": "[ROOT]-al",
+          "count": 30
+        },
+        {
+          "pattern": "do-[ROOT]",
+          "count": 30
+        },
+        {
+          "pattern": "da-[ROOT]-y",
+          "count": 27
+        },
+        {
+          "pattern": "ot-[ROOT]-ey",
+          "count": 27
+        }
+      ],
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 1596
+        },
+        {
+          "prefix": "ch",
+          "count": 926
+        },
+        {
+          "prefix": "sh",
+          "count": 625
+        },
+        {
+          "prefix": "ol",
+          "count": 374
+        },
+        {
+          "prefix": "ok",
+          "count": 337
+        },
+        {
+          "prefix": "ot",
+          "count": 298
+        },
+        {
+          "prefix": "da",
+          "count": 292
+        },
+        {
+          "prefix": "sa",
+          "count": 116
+        },
+        {
+          "prefix": "do",
+          "count": 49
+        },
+        {
+          "prefix": "yk",
+          "count": 45
+        },
+        {
+          "prefix": "op",
+          "count": 42
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "dy",
+          "count": 1372
+        },
+        {
+          "suffix": "y",
+          "count": 1078
+        },
+        {
+          "suffix": "ey",
+          "count": 846
+        },
+        {
+          "suffix": "in",
+          "count": 824
+        },
+        {
+          "suffix": "al",
+          "count": 224
+        },
+        {
+          "suffix": "ol",
+          "count": 212
+        },
+        {
+          "suffix": "ar",
+          "count": 151
+        },
+        {
+          "suffix": "or",
+          "count": 88
+        },
+        {
+          "suffix": "ed",
+          "count": 78
+        },
+        {
+          "suffix": "e",
+          "count": 38
+        },
+        {
+          "suffix": "es",
+          "count": 30
+        },
+        {
+          "suffix": "om",
+          "count": 4
+        },
+        {
+          "suffix": "os",
+          "count": 1
+        },
+        {
+          "suffix": "oy",
+          "count": 1
+        }
+      ]
+    },
+    "Recipes": {
+      "total_tokens": 10431,
+      "unique_patterns": 149,
+      "unique_roots": 1672,
+      "structure_distribution": {
+        "PREFIX+ROOT+SUFFIX": 5299,
+        "PREFIX+ROOT": 1473,
+        "ROOT+SUFFIX": 2416,
+        "ROOT": 1243
+      },
+      "top_patterns": [
+        {
+          "pattern": "[ROOT]",
+          "count": 1243
+        },
+        {
+          "pattern": "[ROOT]-in",
+          "count": 747
+        },
+        {
+          "pattern": "[ROOT]-dy",
+          "count": 437
+        },
+        {
+          "pattern": "ch-[ROOT]-y",
+          "count": 435
+        },
+        {
+          "pattern": "qo-[ROOT]-ey",
+          "count": 422
+        },
+        {
+          "pattern": "qo-[ROOT]-in",
+          "count": 402
+        },
+        {
+          "pattern": "[ROOT]-ey",
+          "count": 394
+        },
+        {
+          "pattern": "ch-[ROOT]",
+          "count": 380
+        },
+        {
+          "pattern": "qo-[ROOT]-dy",
+          "count": 325
+        },
+        {
+          "pattern": "ch-[ROOT]-dy",
+          "count": 258
+        },
+        {
+          "pattern": "ot-[ROOT]",
+          "count": 245
+        },
+        {
+          "pattern": "[ROOT]-y",
+          "count": 240
+        },
+        {
+          "pattern": "sh-[ROOT]-y",
+          "count": 208
+        },
+        {
+          "pattern": "qo-[ROOT]",
+          "count": 204
+        },
+        {
+          "pattern": "ch-[ROOT]-in",
+          "count": 200
+        },
+        {
+          "pattern": "ok-[ROOT]-in",
+          "count": 176
+        },
+        {
+          "pattern": "ch-[ROOT]-ey",
+          "count": 174
+        },
+        {
+          "pattern": "[ROOT]-ar",
+          "count": 171
+        },
+        {
+          "pattern": "ok-[ROOT]",
+          "count": 162
+        },
+        {
+          "pattern": "ot-[ROOT]-in",
+          "count": 156
+        },
+        {
+          "pattern": "sh-[ROOT]",
+          "count": 152
+        },
+        {
+          "pattern": "da-[ROOT]",
+          "count": 149
+        },
+        {
+          "pattern": "ok-[ROOT]-ey",
+          "count": 144
+        },
+        {
+          "pattern": "qo-[ROOT]-y",
+          "count": 134
+        },
+        {
+          "pattern": "ot-[ROOT]-dy",
+          "count": 131
+        },
+        {
+          "pattern": "sh-[ROOT]-dy",
+          "count": 128
+        },
+        {
+          "pattern": "da-[ROOT]-in",
+          "count": 114
+        },
+        {
+          "pattern": "[ROOT]-al",
+          "count": 113
+        },
+        {
+          "pattern": "ot-[ROOT]-ey",
+          "count": 109
+        },
+        {
+          "pattern": "ch-[ROOT]-ar",
+          "count": 105
+        },
+        {
+          "pattern": "[ROOT]-ol",
+          "count": 100
+        },
+        {
+          "pattern": "qo-[ROOT]-ar",
+          "count": 100
+        },
+        {
+          "pattern": "ok-[ROOT]-dy",
+          "count": 96
+        },
+        {
+          "pattern": "ch-[ROOT]-al",
+          "count": 83
+        },
+        {
+          "pattern": "ch-[ROOT]-ol",
+          "count": 78
+        },
+        {
+          "pattern": "[ROOT]-or",
+          "count": 77
+        },
+        {
+          "pattern": "qo-[ROOT]-al",
+          "count": 73
+        },
+        {
+          "pattern": "ot-[ROOT]-y",
+          "count": 70
+        },
+        {
+          "pattern": "sa-[ROOT]",
+          "count": 70
+        },
+        {
+          "pattern": "sh-[ROOT]-ey",
+          "count": 67
+        },
+        {
+          "pattern": "ol-[ROOT]-ey",
+          "count": 57
+        },
+        {
+          "pattern": "sh-[ROOT]-in",
+          "count": 56
+        },
+        {
+          "pattern": "ok-[ROOT]-y",
+          "count": 54
+        },
+        {
+          "pattern": "qo-[ROOT]-ol",
+          "count": 54
+        },
+        {
+          "pattern": "ol-[ROOT]",
+          "count": 54
+        },
+        {
+          "pattern": "ol-[ROOT]-dy",
+          "count": 46
+        },
+        {
+          "pattern": "ol-[ROOT]-in",
+          "count": 43
+        },
+        {
+          "pattern": "sa-[ROOT]-in",
+          "count": 41
+        },
+        {
+          "pattern": "ch-[ROOT]-or",
+          "count": 38
+        },
+        {
+          "pattern": "[ROOT]-ed",
+          "count": 36
+        }
+      ],
+      "top_prefixes": [
+        {
+          "prefix": "qo",
+          "count": 1817
+        },
+        {
+          "prefix": "ch",
+          "count": 1807
+        },
+        {
+          "prefix": "ot",
+          "count": 798
+        },
+        {
+          "prefix": "sh",
+          "count": 728
+        },
+        {
+          "prefix": "ok",
+          "count": 702
+        },
+        {
+          "prefix": "da",
+          "count": 302
+        },
+        {
+          "prefix": "ol",
+          "count": 255
+        },
+        {
+          "prefix": "op",
+          "count": 130
+        },
+        {
+          "prefix": "sa",
+          "count": 126
+        },
+        {
+          "prefix": "yk",
+          "count": 87
+        },
+        {
+          "prefix": "do",
+          "count": 20
+        }
+      ],
+      "top_suffixes": [
+        {
+          "suffix": "in",
+          "count": 1967
+        },
+        {
+          "suffix": "dy",
+          "count": 1485
+        },
+        {
+          "suffix": "ey",
+          "count": 1405
+        },
+        {
+          "suffix": "y",
+          "count": 1189
+        },
+        {
+          "suffix": "ar",
+          "count": 466
+        },
+        {
+          "suffix": "al",
+          "count": 347
+        },
+        {
+          "suffix": "ol",
+          "count": 310
+        },
+        {
+          "suffix": "or",
+          "count": 174
+        },
+        {
+          "suffix": "ed",
+          "count": 108
+        },
+        {
+          "suffix": "e",
+          "count": 80
+        },
+        {
+          "suffix": "os",
+          "count": 70
+        },
+        {
+          "suffix": "es",
+          "count": 65
+        },
+        {
+          "suffix": "oy",
+          "count": 34
+        },
+        {
+          "suffix": "om",
+          "count": 15
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "total_patterns": 167,
+    "universal_patterns": 105,
+    "common_pattern_details": {
+      "da-[ROOT]": {
+        "Herbal": 306,
+        "Zodiac": 75,
+        "Biological": 161,
+        "Recipes": 149
+      },
+      "op-[ROOT]-in": {
+        "Herbal": 11,
+        "Zodiac": 8,
+        "Biological": 1,
+        "Recipes": 15
+      },
+      "da-[ROOT]-in": {
+        "Herbal": 374,
+        "Zodiac": 29,
+        "Biological": 70,
+        "Recipes": 114
+      },
+      "yk-[ROOT]-ol": {
+        "Herbal": 12,
+        "Zodiac": 4,
+        "Biological": 1,
+        "Recipes": 6
+      },
+      "sh-[ROOT]-al": {
+        "Herbal": 14,
+        "Zodiac": 9,
+        "Biological": 15,
+        "Recipes": 22
+      },
+      "da-[ROOT]-ol": {
+        "Herbal": 8,
+        "Zodiac": 1,
+        "Biological": 5,
+        "Recipes": 2
+      },
+      "ot-[ROOT]-y": {
+        "Herbal": 80,
+        "Zodiac": 74,
+        "Biological": 44,
+        "Recipes": 70
+      },
+      "qo-[ROOT]-dy": {
+        "Herbal": 84,
+        "Zodiac": 9,
+        "Biological": 395,
+        "Recipes": 325
+      },
+      "sh-[ROOT]-e": {
+        "Herbal": 5,
+        "Zodiac": 1,
+        "Biological": 4,
+        "Recipes": 9
+      },
+      "[ROOT]-ar": {
+        "Herbal": 142,
+        "Zodiac": 41,
+        "Biological": 34,
+        "Recipes": 171
+      },
+      "op-[ROOT]-or": {
+        "Herbal": 3,
+        "Zodiac": 2,
+        "Biological": 2,
+        "Recipes": 2
+      },
+      "yk-[ROOT]-y": {
+        "Herbal": 29,
+        "Zodiac": 13,
+        "Biological": 7,
+        "Recipes": 4
+      },
+      "sa-[ROOT]-ar": {
+        "Herbal": 1,
+        "Zodiac": 1,
+        "Biological": 2,
+        "Recipes": 2
+      },
+      "ot-[ROOT]-e": {
+        "Herbal": 1,
+        "Zodiac": 1,
+        "Biological": 3,
+        "Recipes": 7
+      },
+      "yk-[ROOT]-in": {
+        "Herbal": 28,
+        "Zodiac": 3,
+        "Biological": 5,
+        "Recipes": 14
+      },
+      "yk-[ROOT]-ar": {
+        "Herbal": 3,
+        "Zodiac": 3,
+        "Biological": 1,
+        "Recipes": 2
+      },
+      "do-[ROOT]": {
+        "Herbal": 94,
+        "Zodiac": 8,
+        "Biological": 30,
+        "Recipes": 11
+      },
+      "qo-[ROOT]-ar": {
+        "Herbal": 64,
+        "Zodiac": 2,
+        "Biological": 67,
+        "Recipes": 100
+      },
+      "sa-[ROOT]": {
+        "Herbal": 37,
+        "Zodiac": 33,
+        "Biological": 71,
+        "Recipes": 70
+      },
+      "qo-[ROOT]-in": {
+        "Herbal": 108,
+        "Zodiac": 4,
+        "Biological": 302,
+        "Recipes": 402
+      },
+      "sh-[ROOT]-ol": {
+        "Herbal": 34,
+        "Zodiac": 8,
+        "Biological": 32,
+        "Recipes": 27
+      },
+      "[ROOT]-e": {
+        "Herbal": 15,
+        "Zodiac": 6,
+        "Biological": 7,
+        "Recipes": 27
+      },
+      "ol-[ROOT]-ey": {
+        "Herbal": 21,
+        "Zodiac": 3,
+        "Biological": 91,
+        "Recipes": 57
+      },
+      "[ROOT]-ey": {
+        "Herbal": 272,
+        "Zodiac": 78,
+        "Biological": 237,
+        "Recipes": 394
+      },
+      "ol-[ROOT]-ar": {
+        "Herbal": 6,
+        "Zodiac": 2,
+        "Biological": 9,
+        "Recipes": 9
+      },
+      "ch-[ROOT]-e": {
+        "Herbal": 2,
+        "Zodiac": 6,
+        "Biological": 4,
+        "Recipes": 5
+      },
+      "[ROOT]-es": {
+        "Herbal": 44,
+        "Zodiac": 20,
+        "Biological": 10,
+        "Recipes": 26
+      },
+      "ot-[ROOT]-in": {
+        "Herbal": 50,
+        "Zodiac": 36,
+        "Biological": 39,
+        "Recipes": 156
+      },
+      "[ROOT]-ol": {
+        "Herbal": 221,
+        "Zodiac": 26,
+        "Biological": 74,
+        "Recipes": 100
+      },
+      "op-[ROOT]-dy": {
+        "Herbal": 11,
+        "Zodiac": 2,
+        "Biological": 17,
+        "Recipes": 33
+      },
+      "sh-[ROOT]-in": {
+        "Herbal": 68,
+        "Zodiac": 5,
+        "Biological": 12,
+        "Recipes": 56
+      },
+      "do-[ROOT]-in": {
+        "Herbal": 17,
+        "Zodiac": 2,
+        "Biological": 2,
+        "Recipes": 3
+      },
+      "ot-[ROOT]-ar": {
+        "Herbal": 7,
+        "Zodiac": 36,
+        "Biological": 2,
+        "Recipes": 22
+      },
+      "[ROOT]": {
+        "Herbal": 1112,
+        "Zodiac": 345,
+        "Biological": 743,
+        "Recipes": 1243
+      },
+      "sh-[ROOT]-y": {
+        "Herbal": 184,
+        "Zodiac": 46,
+        "Biological": 230,
+        "Recipes": 208
+      },
+      "ok-[ROOT]-dy": {
+        "Herbal": 40,
+        "Zodiac": 33,
+        "Biological": 56,
+        "Recipes": 96
+      },
+      "[ROOT]-dy": {
+        "Herbal": 251,
+        "Zodiac": 61,
+        "Biological": 310,
+        "Recipes": 437
+      },
+      "ok-[ROOT]-in": {
+        "Herbal": 81,
+        "Zodiac": 20,
+        "Biological": 79,
+        "Recipes": 176
+      },
+      "sh-[ROOT]-dy": {
+        "Herbal": 70,
+        "Zodiac": 13,
+        "Biological": 178,
+        "Recipes": 128
+      },
+      "ch-[ROOT]": {
+        "Herbal": 741,
+        "Zodiac": 123,
+        "Biological": 105,
+        "Recipes": 380
+      },
+      "ok-[ROOT]-y": {
+        "Herbal": 70,
+        "Zodiac": 65,
+        "Biological": 50,
+        "Recipes": 54
+      },
+      "[ROOT]-al": {
+        "Herbal": 72,
+        "Zodiac": 28,
+        "Biological": 30,
+        "Recipes": 113
+      },
+      "[ROOT]-om": {
+        "Herbal": 23,
+        "Zodiac": 2,
+        "Biological": 1,
+        "Recipes": 8
+      },
+      "da-[ROOT]-al": {
+        "Herbal": 6,
+        "Zodiac": 6,
+        "Biological": 4,
+        "Recipes": 5
+      },
+      "sa-[ROOT]-in": {
+        "Herbal": 32,
+        "Zodiac": 7,
+        "Biological": 33,
+        "Recipes": 41
+      },
+      "op-[ROOT]-y": {
+        "Herbal": 11,
+        "Zodiac": 5,
+        "Biological": 4,
+        "Recipes": 13
+      },
+      "sa-[ROOT]-y": {
+        "Herbal": 6,
+        "Zodiac": 5,
+        "Biological": 1,
+        "Recipes": 6
+      },
+      "ol-[ROOT]": {
+        "Herbal": 60,
+        "Zodiac": 13,
+        "Biological": 72,
+        "Recipes": 54
+      },
+      "da-[ROOT]-y": {
+        "Herbal": 32,
+        "Zodiac": 16,
+        "Biological": 27,
+        "Recipes": 11
+      },
+      "ch-[ROOT]-y": {
+        "Herbal": 533,
+        "Zodiac": 129,
+        "Biological": 357,
+        "Recipes": 435
+      },
+      "ok-[ROOT]": {
+        "Herbal": 226,
+        "Zodiac": 104,
+        "Biological": 88,
+        "Recipes": 162
+      },
+      "ot-[ROOT]-ey": {
+        "Herbal": 26,
+        "Zodiac": 60,
+        "Biological": 27,
+        "Recipes": 109
+      },
+      "ok-[ROOT]-ar": {
+        "Herbal": 10,
+        "Zodiac": 24,
+        "Biological": 3,
+        "Recipes": 15
+      },
+      "sa-[ROOT]-dy": {
+        "Herbal": 2,
+        "Zodiac": 2,
+        "Biological": 3,
+        "Recipes": 2
+      },
+      "op-[ROOT]-al": {
+        "Herbal": 4,
+        "Zodiac": 2,
+        "Biological": 1,
+        "Recipes": 6
+      },
+      "sh-[ROOT]-es": {
+        "Herbal": 5,
+        "Zodiac": 4,
+        "Biological": 2,
+        "Recipes": 2
+      },
+      "qo-[ROOT]-e": {
+        "Herbal": 2,
+        "Zodiac": 2,
+        "Biological": 16,
+        "Recipes": 22
+      },
+      "ch-[ROOT]-in": {
+        "Herbal": 170,
+        "Zodiac": 23,
+        "Biological": 31,
+        "Recipes": 200
+      },
+      "[ROOT]-or": {
+        "Herbal": 223,
+        "Zodiac": 15,
+        "Biological": 31,
+        "Recipes": 77
+      },
+      "ok-[ROOT]-ey": {
+        "Herbal": 44,
+        "Zodiac": 39,
+        "Biological": 36,
+        "Recipes": 144
+      },
+      "sh-[ROOT]": {
+        "Herbal": 411,
+        "Zodiac": 48,
+        "Biological": 77,
+        "Recipes": 152
+      },
+      "yk-[ROOT]-dy": {
+        "Herbal": 26,
+        "Zodiac": 13,
+        "Biological": 12,
+        "Recipes": 14
+      },
+      "sh-[ROOT]-ar": {
+        "Herbal": 14,
+        "Zodiac": 4,
+        "Biological": 10,
+        "Recipes": 32
+      },
+      "ot-[ROOT]-dy": {
+        "Herbal": 29,
+        "Zodiac": 46,
+        "Biological": 76,
+        "Recipes": 131
+      },
+      "ch-[ROOT]-al": {
+        "Herbal": 39,
+        "Zodiac": 26,
+        "Biological": 21,
+        "Recipes": 83
+      },
+      "ch-[ROOT]-dy": {
+        "Herbal": 134,
+        "Zodiac": 34,
+        "Biological": 235,
+        "Recipes": 258
+      },
+      "ch-[ROOT]-or": {
+        "Herbal": 67,
+        "Zodiac": 18,
+        "Biological": 19,
+        "Recipes": 38
+      },
+      "ot-[ROOT]-or": {
+        "Herbal": 22,
+        "Zodiac": 9,
+        "Biological": 5,
+        "Recipes": 7
+      },
+      "qo-[ROOT]-or": {
+        "Herbal": 65,
+        "Zodiac": 2,
+        "Biological": 12,
+        "Recipes": 29
+      },
+      "qo-[ROOT]-al": {
+        "Herbal": 40,
+        "Zodiac": 12,
+        "Biological": 134,
+        "Recipes": 73
+      },
+      "sa-[ROOT]-al": {
+        "Herbal": 1,
+        "Zodiac": 5,
+        "Biological": 2,
+        "Recipes": 1
+      },
+      "[ROOT]-y": {
+        "Herbal": 582,
+        "Zodiac": 147,
+        "Biological": 176,
+        "Recipes": 240
+      },
+      "do-[ROOT]-y": {
+        "Herbal": 12,
+        "Zodiac": 4,
+        "Biological": 1,
+        "Recipes": 2
+      },
+      "ol-[ROOT]-y": {
+        "Herbal": 30,
+        "Zodiac": 8,
+        "Biological": 51,
+        "Recipes": 12
+      },
+      "ch-[ROOT]-ey": {
+        "Herbal": 104,
+        "Zodiac": 73,
+        "Biological": 86,
+        "Recipes": 174
+      },
+      "ol-[ROOT]-al": {
+        "Herbal": 3,
+        "Zodiac": 2,
+        "Biological": 10,
+        "Recipes": 10
+      },
+      "ot-[ROOT]-al": {
+        "Herbal": 8,
+        "Zodiac": 24,
+        "Biological": 2,
+        "Recipes": 19
+      },
+      "sh-[ROOT]-ey": {
+        "Herbal": 51,
+        "Zodiac": 26,
+        "Biological": 52,
+        "Recipes": 67
+      },
+      "qo-[ROOT]-ey": {
+        "Herbal": 111,
+        "Zodiac": 14,
+        "Biological": 289,
+        "Recipes": 422
+      },
+      "ch-[ROOT]-ar": {
+        "Herbal": 52,
+        "Zodiac": 23,
+        "Biological": 20,
+        "Recipes": 105
+      },
+      "do-[ROOT]-dy": {
+        "Herbal": 3,
+        "Zodiac": 1,
+        "Biological": 7,
+        "Recipes": 2
+      },
+      "ok-[ROOT]-os": {
+        "Herbal": 3,
+        "Zodiac": 13,
+        "Biological": 1,
+        "Recipes": 1
+      },
+      "ok-[ROOT]-ol": {
+        "Herbal": 18,
+        "Zodiac": 21,
+        "Biological": 6,
+        "Recipes": 18
+      },
+      "da-[ROOT]-dy": {
+        "Herbal": 19,
+        "Zodiac": 6,
+        "Biological": 14,
+        "Recipes": 13
+      },
+      "qo-[ROOT]-ol": {
+        "Herbal": 97,
+        "Zodiac": 8,
+        "Biological": 44,
+        "Recipes": 54
+      },
+      "ol-[ROOT]-dy": {
+        "Herbal": 11,
+        "Zodiac": 3,
+        "Biological": 69,
+        "Recipes": 46
+      },
+      "ch-[ROOT]-es": {
+        "Herbal": 16,
+        "Zodiac": 5,
+        "Biological": 9,
+        "Recipes": 13
+      },
+      "ot-[ROOT]-ol": {
+        "Herbal": 37,
+        "Zodiac": 14,
+        "Biological": 3,
+        "Recipes": 13
+      },
+      "qo-[ROOT]-y": {
+        "Herbal": 224,
+        "Zodiac": 10,
+        "Biological": 130,
+        "Recipes": 134
+      },
+      "ok-[ROOT]-or": {
+        "Herbal": 27,
+        "Zodiac": 9,
+        "Biological": 7,
+        "Recipes": 6
+      },
+      "yk-[ROOT]-ey": {
+        "Herbal": 14,
+        "Zodiac": 13,
+        "Biological": 10,
+        "Recipes": 20
+      },
+      "op-[ROOT]": {
+        "Herbal": 12,
+        "Zodiac": 13,
+        "Biological": 5,
+        "Recipes": 28
+      },
+      "[ROOT]-in": {
+        "Herbal": 502,
+        "Zodiac": 95,
+        "Biological": 195,
+        "Recipes": 747
+      },
+      "sh-[ROOT]-or": {
+        "Herbal": 18,
+        "Zodiac": 3,
+        "Biological": 10,
+        "Recipes": 8
+      },
+      "[ROOT]-ed": {
+        "Herbal": 3,
+        "Zodiac": 3,
+        "Biological": 23,
+        "Recipes": 36
+      },
+      "ol-[ROOT]-in": {
+        "Herbal": 22,
+        "Zodiac": 10,
+        "Biological": 55,
+        "Recipes": 43
+      },
+      "yk-[ROOT]": {
+        "Herbal": 74,
+        "Zodiac": 26,
+        "Biological": 8,
+        "Recipes": 18
+      },
+      "ok-[ROOT]-es": {
+        "Herbal": 3,
+        "Zodiac": 8,
+        "Biological": 2,
+        "Recipes": 3
+      },
+      "ot-[ROOT]": {
+        "Herbal": 174,
+        "Zodiac": 119,
+        "Biological": 95,
+        "Recipes": 245
+      },
+      "ok-[ROOT]-al": {
+        "Herbal": 11,
+        "Zodiac": 14,
+        "Biological": 4,
+        "Recipes": 14
+      },
+      "qo-[ROOT]": {
+        "Herbal": 141,
+        "Zodiac": 7,
+        "Biological": 170,
+        "Recipes": 204
+      },
+      "op-[ROOT]-ey": {
+        "Herbal": 8,
+        "Zodiac": 8,
+        "Biological": 10,
+        "Recipes": 18
+      },
+      "ch-[ROOT]-ol": {
+        "Herbal": 70,
+        "Zodiac": 20,
+        "Biological": 35,
+        "Recipes": 78
+      },
+      "[ROOT]-oy": {
+        "Herbal": 25,
+        "Zodiac": 8,
+        "Biological": 1,
+        "Recipes": 14
+      },
+      "ch-[ROOT]-ed": {
+        "Herbal": 1,
+        "Zodiac": 1,
+        "Biological": 4,
+        "Recipes": 12
+      }
+    },
+    "section_specific": {
+      "Biological": 26,
+      "Herbal": 41,
+      "Zodiac": 26,
+      "Recipes": 44
+    }
+  }
+}
