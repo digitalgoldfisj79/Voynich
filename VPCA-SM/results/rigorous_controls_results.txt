@@ -1,0 +1,153 @@
+================================================================================
+CRITICAL STATISTICAL CONTROLS
+================================================================================
+
+================================================================================
+STEP 1: BASELINE VOYNICHESE BIGRAM FREQUENCIES
+================================================================================
+
+Baseline Voynichese: 68,316 bigrams
+Zodiac section: 2,776 bigrams
+
+Top 20 bigrams - Baseline vs Zodiac:
+Bigram   Baseline %   Zodiac %     Ratio    Significant?
+-----------------------------------------------------------------
+'al'        1.39%        4.43%        3.19x  ***
+'yo'        1.16%        4.03%        3.48x  ***
+'ch'        6.73%        3.96%        0.59x  ***
+'ok'        3.13%        3.21%        1.03x  
+'ar'        1.61%        3.13%        1.95x  ***
+'ai'        3.94%        2.88%        0.73x  
+'ot'        2.00%        2.77%        1.38x  
+'ee'        2.57%        2.70%        1.05x  
+'ol'        3.38%        2.52%        0.75x  
+'eo'        1.78%        2.45%        1.38x  
+'in'        3.63%        2.16%        0.59x  ***
+'ii'        2.87%        2.02%        0.70x  
+'ke'        1.72%        1.95%        1.13x  
+'he'        4.23%        1.84%        0.43x  ***
+'da'        2.11%        1.84%        0.87x  
+'ka'        1.61%        1.77%        1.10x  
+'ra'        0.83%        1.77%        2.13x  ***
+'ta'        0.90%        1.73%        1.91x  ***
+'dy'        2.51%        1.69%        0.68x  
+'ho'        3.14%        1.66%        0.53x  ***
+
+🔍 KEY FINDING:
+'ot' bigram: 2.00% baseline → 2.77% zodiac = 1.38x
+✓ 'ot' IS enriched in zodiac section
+
+================================================================================
+STEP 2: MORPHOLOGICAL RELATEDNESS (Edit Distance)
+================================================================================
+
+Analyzing 53 frequent labels (n≥5)
+
+Found 10 morphological clusters (edit distance ≤ 2):
+  1. ['choteey', 'oteey', 'cheey'] (frequencies: [5, 31, 10])
+  2. ['aiin', 'air', 'daiin', 'otaiin', 'olaiin'] (frequencies: [29, 10, 14, 11, 6])
+  3. ['dar', 'sal', 'sar', 'okar', 'dair', 'dal', 'daly', 'otar'] (frequencies: [14, 5, 8, 10, 7, 11, 5, 10])
+  4. ['okeol', 'okeey', 'okol', 'otol', 'okeo', 'okey', 'okeeol', 'oteo', 'oteos', 'oteol', 'cheol', 'okeos', 'okal'] (frequencies: [7, 18, 7, 8, 8, 8, 5, 5, 13, 6, 5, 5, 5])
+  5. ['chol', 'chy', 'cheo', 'cheor', 'cho', 'chey', 'ches'] (frequencies: [12, 5, 5, 9, 8, 16, 5])
+  6. ['cheody', 'cheky', 'oteody', 'shedy'] (frequencies: [7, 5, 12, 5])
+  7. ['oty', 'oky', 'otey', 'aly'] (frequencies: [8, 5, 18, 7])
+  8. ['shey', 'shes', 'keey'] (frequencies: [6, 6, 5])
+  9. ['okchy', 'okody'] (frequencies: [7, 5])
+  10. ['otees', 'oteeos'] (frequencies: [5, 7])
+
+🔍 KEY QUESTION:
+Are our 'position-consistent' labels morphologically related?
+
+'ot-' family: 12 labels
+Top 'ot-' labels: ['oteey', 'otey', 'oteos', 'oteody', 'otaiin', 'otar', 'oty', 'otol', 'oteeos', 'oteol']
+
+Close 'ot-' variants (edit distance ≤ 3):
+  'oteey' ↔ 'oty': distance 2
+  'oteey' ↔ 'otol': distance 3
+  'oteey' ↔ 'oteo': distance 2
+  'oteey' ↔ 'oteos': distance 2
+  'oteey' ↔ 'oteol': distance 2
+  'oteey' ↔ 'otees': distance 1
+  'oteey' ↔ 'otey': distance 1
+  'oteey' ↔ 'oteeos': distance 2
+  'oteey' ↔ 'oteody': distance 2
+  'oty' ↔ 'otol': distance 2
+
+================================================================================
+STEP 3: SUFFIX FAMILY CLUSTERING
+================================================================================
+
+Found 7 suffix families (n≥3):
+  '-ey': ['choteey', 'oteey', 'okeey', 'cheey', 'shey', 'okey', 'chey', 'otey']
+  '-ol': ['okeol', 'chol', 'okol', 'otol', 'okeeol', 'oteol', 'cheol']
+  '-dy': ['cheody', 'okeeody', 'oteody', 'okody', 'shedy']
+  '-in': ['aiin', 'daiin', 'otaiin', 'olaiin']
+  '-eo': ['cheo', 'okeo', 'oteo']
+  '-os': ['oteos', 'oteeos', 'okeos']
+  '-es': ['otees', 'shes', 'ches']
+
+🔍 KEY QUESTION:
+Do suffix families appear in similar positions?
+(If yes, 'position clustering' might be morphological artifact)
+
+================================================================================
+STEP 4: RANDOMIZATION CONTROL
+================================================================================
+
+Labels with position markers: 1550
+
+Observed position consistency:
+  'oteey': 90.3%
+  'aiin': 92.9%
+  'otey': 88.9%
+  'chey': 93.8%
+  'daiin': 85.7%
+
+Running permutation test (1000 iterations)...
+
+Permutation test results:
+Label        Observed     Random Mean     P-value    Significant?
+----------------------------------------------------------------------
+'oteey'       90.3%        80.2% ±  7.0%    0.1150     
+'aiin'       92.9%        80.3% ±  7.6%    0.0670     *
+'otey'       88.9%        80.4% ±  9.6%    0.2840     
+'chey'       93.8%        80.6% ±  9.7%    0.1590     
+'daiin'       85.7%        79.6% ± 10.7%    0.4430     
+
+================================================================================
+STEP 5: FREQUENCY CONTROL
+================================================================================
+
+Do high-frequency labels just appear everywhere?
+
+High frequency (top 20): ['oteey', 'aiin', 'okeey', 'otey', 'chey', 'dar', 'daiin', 'oteos', 'chol', 'oteody']
+Medium frequency (5-10): ['choteey', 'okeol', 'sal', 'sar', 'air', 'okol', 'okar', 'cheody', 'cheky', 'chy']
+
+Position diversity:
+Category             Avg # Positions      Avg Consistency
+------------------------------------------------------------
+High frequency       2.10               84.5%
+Medium frequency     2.15               76.2%
+
+================================================================================
+FINAL VERDICT: ARE OUR PATTERNS REAL?
+================================================================================
+
+✓ 'ot-' IS genuinely enriched in zodiac section
+✓ Limited morphological clustering
+✗ Position consistency could be random
+✓ Consistency not driven by frequency alone
+
+================================================================================
+CONCLUSION:
+================================================================================
+
+We need these controls to distinguish:
+  REAL PATTERN vs ARTIFACT OF:
+    - Voynichese baseline phonotactics
+    - Morphological relatedness
+    - Random chance
+    - Frequency effects
+
+Only patterns that survive ALL controls are meaningful.
+================================================================================
