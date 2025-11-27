@@ -1,0 +1,269 @@
+root	total	herbal	zodiac	biological	recipes	vpca_field	confidence	hypothesis	enriched_sections
+e	3159	613	307	1012	1227	Modifier/Relation	0.800	VPCA: Modifier/Relation	Recipes
+ol	1044	473	80	287	204	Quality/State	0.800	VPCA: Quality/State	Herbal
+ai	887	291	74	104	418	unknown	0.630	Often with -in (nominal): 100%	Recipes
+ke	835	138	23	321	353	unknown	0.665	Often with -ey (state_marker): 65%	Biological,Recipes
+k	823	189	19	381	234	Modifier/Relation	0.800	VPCA: Modifier/Relation	Biological
+ar	799	237	128	100	334	Quality/State	0.800	VPCA: Quality/State	Recipes
+al	735	194	121	114	306	Quality/State	0.800	VPCA: Quality/State	Recipes
+i	684	401	32	101	150	Process/Active	0.800	VPCA: Process/Active	Herbal
+or	606	362	26	101	117	unknown	0.665	Often with ch- (intensifier): 64%	Herbal
+l	532	140	53	242	97	Quality/State	0.800	VPCA: Quality/State	Biological
+ee	483	55	70	119	239	Modifier/Relation	0.800	VPCA: Modifier/Relation	Recipes
+y	470	263	48	89	70	unknown	0.665	Often with ch- (intensifier): 47%	Herbal
+ch	446	203	45	74	124	Entity/Object	0.800	VPCA: Entity/Object	Herbal
+r	407	169	47	102	89	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+cth	374	257	9	54	54	unknown	0.665	Often with ch- (intensifier): 66%	Herbal
+kee	362	28	3	153	178	unknown	0.665	Often with -dy (process_marker): 83%	Biological,Recipes
+ka	350	12	0	205	133	unknown	0.630	Often with -in (nominal): 99%	Biological,Recipes
+ckh	346	142	5	105	94	unknown	0.665	Often with ch- (intensifier): 66%	Herbal
+t	340	111	4	107	118	unknown	0.525	Often with -y (state): 42%	
+kai	335	63	1	98	173	unknown	0.630	Often with -in (nominal): 100%	Recipes
+o	314	199	48	4	63	Quality/State	0.800	VPCA: Quality/State	Herbal
+kch	297	184	4	35	74	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+a	273	53	5	83	132	unknown	0.630	Often with -in (nominal): 98%	Recipes
+te	254	38	16	96	104	unknown	0.665	Often with -ey (state_marker): 45%	Biological,Recipes
+eo	250	67	73	1	109	Quality/State	0.800	VPCA: Quality/State	Recipes
+tch	233	154	3	22	54	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+d	217	79	11	37	90	unknown	0.665	Often with ch- (intensifier): 66%	Recipes
+in	205	60	4	73	68	unknown	0.280	Often with da- (root/base?): 69%	
+am	173	72	24	13	64	unknown	0.665	Often with ot- (transition): 44%	Herbal
+lch	156	12	3	87	54	unknown	0.665	Often with -ey (state_marker): 74%	Biological
+che	154	20	4	48	82	unknown	0.665	Often with -dy (process_marker): 74%	Recipes
+air	152	37	28	7	80	unknown	0.665	Often with ot- (transition): 49%	Recipes
+ek	145	63	18	33	31	unknown	0.665	Often with ch- (intensifier): 64%	Herbal
+ed	144	15	11	44	74	unknown	0.665	Often with ch- (intensifier): 56%	Recipes
+dy	130	67	18	37	8	unknown	0.665	Often with -dy (process_marker): 67%	Herbal
+lche	129	5	1	61	62	unknown	0.665	Often with -dy (process_marker): 80%	Biological,Recipes
+ain	114	18	7	28	61	unknown	0.665	Often with ot- (transition): 50%	Recipes
+tai	112	30	0	18	64	unknown	0.630	Often with -in (nominal): 99%	Recipes
+ir	112	44	18	7	43	Process/Active	0.800	VPCA: Process/Active	Herbal,Recipes
+od	105	51	11	5	38	unknown	0.665	Often with ch- (intensifier): 57%	Herbal
+eckh	101	11	1	50	39	unknown	0.665	Often with ch- (intensifier): 65%	Biological,Recipes
+dch	98	68	9	13	8	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+pch	98	35	2	17	44	unknown	0.665	Often with -ey (state_marker): 41%	Recipes
+eeo	98	15	26	1	56	unknown	0.665	Often with -dy (process_marker): 93%	Recipes
+ot	97	49	23	3	22	Process/Active	0.800	VPCA: Process/Active	Herbal
+tee	95	14	6	39	36	unknown	0.665	Often with -dy (process_marker): 82%	Biological,Recipes
+yt	93	64	13	9	7	unknown	0.665	Often with ch- (intensifier): 75%	Herbal
+lke	89	6	0	20	63	unknown	0.665	Often with -ey (state_marker): 71%	Recipes
+odai	88	54	3	2	29	unknown	0.665	Often with ch- (intensifier): 67%	Herbal
+ok	88	46	17	7	18	unknown	0.665	Often with ch- (intensifier): 73%	Herbal
+pche	88	9	0	27	52	unknown	0.665	Often with -dy (process_marker): 76%	Recipes
+sh	87	38	6	26	17	unknown	0.665	Often with -ey (state_marker): 53%	Herbal
+lk	85	6	0	21	58	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+ta	79	4	1	29	45	unknown	0.630	Often with -in (nominal): 96%	Recipes
+os	69	34	14	2	19	unknown	0.665	Often with ch- (intensifier): 64%	Herbal
+cph	66	45	1	9	11	unknown	0.665	Often with ch- (intensifier): 80%	Herbal
+kal	66	33	3	13	17	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+rai	65	8	1	14	42	unknown	0.630	Often with -in (nominal): 100%	Recipes
+es	64	15	18	18	13	unknown	0.665	Often with ch- (intensifier): 72%	
+kche	64	15	2	7	40	unknown	0.665	Often with -dy (process_marker): 78%	Recipes
+tche	61	16	2	14	29	unknown	0.665	Often with -dy (process_marker): 73%	Recipes
+ecth	59	7	1	34	17	unknown	0.665	Often with ch- (intensifier): 63%	Biological
+et	57	21	11	13	12	unknown	0.665	Often with ch- (intensifier): 74%	
+lkee	57	2	0	10	45	unknown	0.665	Often with -dy (process_marker): 71%	Recipes
+m	56	31	8	6	11	unknown	0.665	Often with -dy (process_marker): 100%	Herbal
+eek	55	18	2	20	15	unknown	0.665	Often with ch- (intensifier): 65%	
+yche	54	16	1	8	29	unknown	0.665	Often with ot- (transition): 100%	Recipes
+sol	54	4	6	38	6	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+lshe	52	3	0	34	15	unknown	0.665	Often with -dy (process_marker): 72%	Biological
+kar	51	30	0	5	16	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+och	50	31	12	0	7	unknown	0.665	Often with ch- (intensifier): 64%	Herbal
+ytch	49	41	2	1	5	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+s	48	16	9	10	13	unknown	0.665	Often with ch- (intensifier): 42%	
+octh	48	28	6	2	12	unknown	0.665	Often with ch- (intensifier): 62%	Herbal
+oai	48	22	8	1	17	unknown	0.665	Often with ch- (intensifier): 50%	Herbal
+oi	47	30	3	6	8	unknown	0.665	Often with ch- (intensifier): 50%	Herbal
+yte	46	16	10	9	11	unknown	0.665	Often with ch- (intensifier): 100%	
+dai	46	18	0	0	28	unknown	0.630	Often with -in (nominal): 100%	Herbal,Recipes
+lkai	46	0	0	5	41	unknown	0.630	Often with -in (nominal): 100%	Recipes
+lol	45	2	0	31	12	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+lsh	45	3	0	25	17	unknown	0.665	Often with -ey (state_marker): 74%	Biological,Recipes
+ych	45	27	3	4	11	unknown	0.665	Often with ot- (transition): 75%	Herbal
+dche	45	8	4	13	20	unknown	0.665	Often with -dy (process_marker): 50%	Recipes
+aii	45	9	1	8	27	unknown	0.630	Often with -in (nominal): 96%	Recipes
+ockh	44	20	8	1	15	unknown	0.665	Often with ch- (intensifier): 82%	Herbal
+tsh	43	27	0	7	9	unknown	0.665	Often with -ey (state_marker): 43%	Herbal
+eod	42	13	15	0	14	unknown	0.560	Often with -ar (agent/doer): 62%	
+keeo	42	9	3	1	29	unknown	0.665	Often with -dy (process_marker): 91%	Recipes
+kol	40	27	3	8	2	unknown	0.665	Often with -dy (process_marker): 82%	Herbal
+tar	40	12	1	10	17	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+aiir	39	12	9	0	18	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+qo	39	16	0	10	13	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+kair	38	10	0	4	24	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+tol	38	20	5	9	4	unknown	0.665	Often with -dy (process_marker): 43%	Herbal
+om	38	27	1	3	7	unknown	0.665	Often with ch- (intensifier): 57%	Herbal
+dsh	38	24	1	9	4	unknown	0.665	Often with -ey (state_marker): 43%	Herbal
+lor	38	3	0	13	22	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+ech	38	5	10	3	20	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+ksh	37	23	0	4	10	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+kam	37	13	0	8	16	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+sor	36	11	2	17	6	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+lka	36	1	0	10	25	unknown	0.630	Often with -in (nominal): 100%	Recipes
+iir	35	18	9	1	7	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+dshe	35	8	0	17	10	unknown	0.665	Often with -dy (process_marker): 61%	Biological
+ii	34	18	3	4	9	unknown	0.630	Often with -in (nominal): 81%	Herbal
+okch	34	24	2	1	7	unknown	0.665	Often with ch- (intensifier): 68%	Herbal
+tal	34	8	5	14	7	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+eol	33	9	13	7	4	unknown	0.665	Often with ch- (intensifier): 50%	Zodiac
+cthe	33	18	1	6	8	unknown	0.665	Often with ch- (intensifier): 60%	Herbal
+keo	32	16	6	0	10	unknown	0.665	Often with -dy (process_marker): 96%	Herbal
+edai	32	3	2	5	22	unknown	0.665	Often with ch- (intensifier): 76%	Recipes
+she	31	7	1	16	7	unknown	0.665	Often with -dy (process_marker): 68%	Biological
+ckhe	31	6	1	12	12	unknown	0.665	Often with ch- (intensifier): 48%	Biological,Recipes
+fch	30	12	1	4	13	unknown	0.665	Often with -ey (state_marker): 65%	Herbal,Recipes
+oe	29	7	11	0	11	unknown	0.665	Often with ch- (intensifier): 50%	Zodiac,Recipes
+alch	29	10	7	5	7	unknown	0.665	Often with -ey (state_marker): 45%	
+an	28	18	1	1	8	unknown	0.665	Often with ch- (intensifier): 56%	Herbal
+cho	28	19	5	0	4	unknown	0.665	Often with -dy (process_marker): 90%	Herbal
+eai	28	9	1	6	12	unknown	0.665	Often with ch- (intensifier): 48%	Recipes
+oee	28	8	7	2	11	unknown	0.665	Often with -dy (process_marker): 47%	Recipes
+lo	27	7	0	7	13	unknown	0.665	Often with -dy (process_marker): 71%	Recipes
+p	27	13	2	4	8	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+ytai	27	14	0	2	11	unknown	0.630	Often with -in (nominal): 100%	Herbal,Recipes
+ld	27	6	1	10	10	unknown	0.525	Often with -y (state): 75%	
+kech	26	5	2	6	13	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+ra	26	2	1	5	18	unknown	0.630	Often with -in (nominal): 100%	Recipes
+eda	26	0	2	2	22	unknown	0.665	Often with ch- (intensifier): 68%	Recipes
+oke	25	9	7	0	9	unknown	0.665	Often with ch- (intensifier): 84%	
+ytee	25	6	2	3	14	unknown	0.665	Often with -dy (process_marker): 82%	Recipes
+to	24	15	2	0	7	unknown	0.665	Often with -dy (process_marker): 67%	Herbal
+yshe	24	6	0	11	7	unknown	0.665	Often with -dy (process_marker): 44%	Biological
+orai	24	7	2	2	13	unknown	0.665	Often with ch- (intensifier): 50%	Recipes
+aram	24	4	7	0	13	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+rar	24	2	2	5	15	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+ysh	23	6	1	6	10	unknown	0.665	Often with -ey (state_marker): 78%	Recipes
+oda	23	6	2	1	14	unknown	0.665	Often with ch- (intensifier): 60%	Recipes
+otch	23	17	0	0	6	unknown	0.665	Often with ch- (intensifier): 78%	Herbal
+ral	23	0	3	12	8	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+lkch	23	0	1	1	21	unknown	0.665	Often with -ey (state_marker): 67%	Recipes
+rch	22	4	1	13	4	unknown	0.665	Often with -ey (state_marker): 71%	Biological
+dl	22	5	1	11	5	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+teo	22	3	5	1	13	unknown	0.665	Often with -dy (process_marker): 73%	Recipes
+eee	22	1	4	4	13	unknown	0.665	Often with -dy (process_marker): 78%	Recipes
+pol	21	3	0	6	12	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+tcho	21	17	0	0	4	unknown	0.665	Often with -dy (process_marker): 89%	Herbal
+rol	21	2	0	12	7	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+ctho	21	19	2	0	0	unknown	0.665	Often with ch- (intensifier): 67%	Herbal
+ckhh	21	10	5	0	6	unknown	0.665	Often with ch- (intensifier): 73%	Herbal
+sy	20	12	1	5	2	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+sch	20	13	2	4	1	unknown	0.665	Often with -ey (state_marker): 60%	Herbal
+eodai	20	7	6	0	7	unknown	0.630	Often with -in (nominal): 100%	
+eke	20	9	7	4	0	unknown	0.665	Often with ch- (intensifier): 67%	Herbal
+eok	20	5	5	3	7	unknown	0.665	Often with ch- (intensifier): 68%	
+eet	20	2	2	11	5	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+cfh	19	14	1	1	3	unknown	0.665	Often with ch- (intensifier): 100%	Herbal
+kl	19	3	0	9	7	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+ote	19	4	10	0	5	unknown	0.665	Often with ch- (intensifier): 79%	Zodiac
+ea	19	8	2	0	9	unknown	0.665	Often with ch- (intensifier): 47%	Herbal,Recipes
+eot	19	6	7	0	6	unknown	0.665	Often with ch- (intensifier): 53%	
+ofch	19	15	0	1	3	unknown	0.665	Often with ch- (intensifier): 75%	Herbal
+fche	19	4	0	4	11	unknown	0.665	Often with -dy (process_marker): 71%	Recipes
+ls	19	8	2	3	6	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+lai	19	3	2	5	9	unknown	0.630	Often with -in (nominal): 100%	Recipes
+rche	19	1	0	11	7	unknown	0.665	Often with -dy (process_marker): 56%	Biological
+kor	18	14	0	3	1	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+ro	18	7	0	2	9	unknown	0.665	Often with -dy (process_marker): 71%	Herbal,Recipes
+ypch	18	17	0	0	1	unknown	0.665	Often with ch- (intensifier): 50%	Herbal
+ko	18	11	2	1	4	unknown	0.665	Often with -dy (process_marker): 85%	Herbal
+ram	18	5	3	3	7	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+tair	18	4	2	2	10	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+osh	17	8	2	2	5	unknown	0.665	Often with -ey (state_marker): 53%	Herbal
+cthh	17	7	2	5	3	unknown	0.665	Often with ch- (intensifier): 55%	Herbal
+kcho	17	14	1	0	2	unknown	0.665	Often with -dy (process_marker): 100%	Herbal
+oar	17	3	6	0	8	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+okai	17	8	1	1	7	unknown	0.665	Often with ch- (intensifier): 82%	Herbal,Recipes
+da	17	5	0	2	10	unknown	0.630	Often with -in (nominal): 92%	Recipes
+chd	17	3	1	4	9	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+epch	17	4	5	3	5	unknown	0.665	Often with ch- (intensifier): 56%	
+alai	17	4	8	0	5	unknown	0.665	Often with ot- (transition): 57%	Zodiac
+ror	17	0	0	7	10	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological,Recipes
+do	16	12	1	0	3	unknown	0.665	Often with ch- (intensifier): 50%	Herbal
+de	16	9	0	5	2	unknown	0.665	Often with -ey (state_marker): 64%	Herbal
+ky	16	9	0	3	4	unknown	0.665	Often with -dy (process_marker): 100%	Herbal
+ty	16	10	0	4	2	unknown	0.665	Often with -dy (process_marker): 80%	Herbal
+ydai	16	11	2	0	3	unknown	0.630	Often with -in (nominal): 100%	Herbal
+olch	16	5	4	3	4	unknown	0.665	Often with -ey (state_marker): 46%	
+iin	16	7	1	2	6	unknown	0.665	Often with -dy (process_marker): 50%	Herbal
+ora	16	5	1	4	6	unknown	0.665	Often with ch- (intensifier): 100%	
+keech	16	2	2	0	12	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+alam	16	6	1	1	8	unknown	0.665	Often with ot- (transition): 50%	Recipes
+yk	15	10	2	0	3	unknown	0.665	Often with ch- (intensifier): 90%	Herbal
+er	15	7	1	2	5	unknown	0.665	Often with ch- (intensifier): 67%	Herbal
+tcheo	15	7	0	0	8	unknown	0.665	Often with -dy (process_marker): 83%	Herbal,Recipes
+eed	15	1	1	2	11	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+cheo	15	2	6	0	7	unknown	0.665	Often with ot- (transition): 45%	Zodiac,Recipes
+el	15	2	2	2	9	unknown	0.665	Often with ch- (intensifier): 62%	Recipes
+yd	14	10	1	2	1	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+lar	14	4	1	5	4	unknown	0.525	Often with -y (state): 67%	
+lr	14	2	0	5	7	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+eoke	14	3	4	0	7	unknown	0.665	Often with ch- (intensifier): 62%	Recipes
+as	14	2	4	4	4	unknown	0.525	Often with -y (state): 75%	
+arai	14	2	2	0	10	unknown	0.630	Often with -in (nominal): 100%	Recipes
+alsh	14	4	5	2	3	unknown	0.665	Often with ot- (transition): 67%	
+tam	14	2	2	1	9	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+alk	14	2	0	0	12	unknown	0.665	Often with ch- (intensifier): 50%	Recipes
+lchee	14	0	0	6	8	unknown	0.665	Often with -dy (process_marker): 86%	Biological,Recipes
+ald	13	6	6	0	1	unknown	0.665	Often with ot- (transition): 67%	Herbal,Zodiac
+eal	13	1	7	3	2	unknown	0.665	Often with ch- (intensifier): 54%	Zodiac
+pai	13	5	0	0	8	unknown	0.630	Often with -in (nominal): 100%	Herbal,Recipes
+tor	13	9	0	3	1	unknown	0.665	Often with ch- (intensifier): 100%	Herbal
+ep	13	4	1	3	5	unknown	0.665	Often with ch- (intensifier): 85%	Recipes
+ked	13	3	0	6	4	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+eedai	13	1	0	0	12	unknown	0.630	Often with -in (nominal): 100%	Recipes
+lkche	13	0	0	2	11	unknown	0.665	Often with -dy (process_marker): 77%	Recipes
+soi	12	6	0	4	2	unknown	0.630	Often with -in (nominal): 100%	Herbal
+tshe	12	2	0	6	4	unknown	0.665	Often with -dy (process_marker): 82%	Biological
+of	12	6	3	1	2	unknown	0.665	Often with ch- (intensifier): 50%	Herbal
+orch	12	7	1	2	2	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+so	12	6	2	1	3	unknown	0.665	Often with -dy (process_marker): 50%	Herbal
+oek	12	5	5	0	2	unknown	0.665	Often with ch- (intensifier): 71%	Herbal,Zodiac
+ocph	12	5	3	0	4	unknown	0.665	Often with ch- (intensifier): 75%	Herbal
+pched	12	2	0	4	6	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+keed	12	4	0	1	7	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+olk	12	6	1	1	4	unknown	0.665	Often with ch- (intensifier): 83%	Herbal
+polch	12	1	0	5	6	unknown	0.665	Often with -ey (state_marker): 56%	Biological,Recipes
+eam	12	1	0	1	10	unknown	0.665	Often with ch- (intensifier): 67%	Recipes
+chee	12	1	1	2	8	unknown	0.665	Often with -dy (process_marker): 60%	Recipes
+tl	12	0	0	7	5	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological,Recipes
+ail	12	0	0	2	10	unknown	0.665	Often with -dy (process_marker): 75%	Recipes
+cthai	11	11	0	0	0	unknown	0.630	Often with -in (nominal): 100%	Herbal
+eka	11	1	0	2	8	unknown	0.665	Often with ch- (intensifier): 73%	Recipes
+ag	11	8	0	1	2	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+yteo	11	2	6	0	3	unknown	0.665	Often with ch- (intensifier): 100%	Zodiac
+opch	11	4	2	0	5	unknown	0.665	Often with ch- (intensifier): 82%	Recipes
+ekch	11	4	5	0	2	unknown	0.665	Often with ch- (intensifier): 55%	Zodiac
+ry	11	4	1	3	3	unknown	0.525	Often with -y (state): 100%	
+oy	11	4	2	0	5	unknown	0.665	Often with ot- (transition): 100%	Recipes
+osai	11	4	2	0	5	unknown	0.630	Often with -in (nominal): 100%	Recipes
+teeo	11	1	2	0	8	unknown	0.665	Often with -dy (process_marker): 88%	Recipes
+pcheo	11	2	0	0	9	unknown	0.665	Often with -dy (process_marker): 86%	Recipes
+als	11	5	2	0	4	unknown	0.665	Often with ot- (transition): 50%	Herbal
+eeod	11	3	4	0	4	unknown	0.500	Multi-letter: likely content word	
+ycheo	11	1	1	0	9	unknown	0.665	Often with -dy (process_marker): 50%	Recipes
+kchd	11	4	2	1	4	unknown	0.560	Often with -al (quality): 50%	
+eockh	11	3	3	0	5	unknown	0.665	Often with ch- (intensifier): 73%	Recipes
+ees	11	1	8	0	2	unknown	0.665	Often with ot- (transition): 43%	Zodiac
+lal	11	1	4	4	2	unknown	0.525	Often with -y (state): 67%	
+oche	11	0	2	4	5	unknown	0.665	Often with ot- (transition): 100%	Recipes
+n	10	9	0	1	0	unknown	0.600	Enriched in Herbal: likely plant-related	Herbal
+otai	10	7	1	0	2	unknown	0.665	Often with ch- (intensifier): 90%	Herbal
+kr	10	3	0	4	3	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+ypche	10	6	0	0	4	unknown	0.665	Often with -dy (process_marker): 90%	Herbal,Recipes
+kan	10	1	1	5	3	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+kcheo	10	3	0	0	7	unknown	0.665	Often with -dy (process_marker): 100%	Recipes
+cphe	10	2	1	2	5	unknown	0.665	Often with ch- (intensifier): 100%	Recipes
+ete	10	1	5	2	2	unknown	0.665	Often with ch- (intensifier): 75%	Zodiac
+esh	10	3	1	4	2	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+oii	10	2	1	4	3	unknown	0.630	Often with -in (nominal): 100%	Biological
+ytche	10	4	1	0	5	unknown	0.665	Often with -dy (process_marker): 90%	Herbal,Recipes
+oa	10	2	0	0	8	unknown	0.630	Often with -in (nominal): 100%	Recipes
+aim	10	4	2	0	4	unknown	0.665	Often with ot- (transition): 50%	Herbal,Recipes
+alo	10	0	4	1	5	unknown	0.665	Often with -dy (process_marker): 80%	Zodiac,Recipes
+aiin	10	0	1	3	6	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+lt	10	0	1	3	6	unknown	0.600	Enriched in Recipes: likely procedural/ingredient	Recipes
+ly	10	0	0	9	1	unknown	0.600	Enriched in Biological: likely anatomical/process	Biological
+ara	10	0	0	1	9	unknown	0.665	Often with ot- (transition): 50%	Recipes
+ychee	10	0	0	1	9	unknown	0.665	Often with -dy (process_marker): 67%	Recipes
+lkl	10	0	0	2	8	unknown	0.665	Often with -dy (process_marker): 50%	Recipes
