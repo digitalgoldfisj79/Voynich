@@ -84,15 +84,40 @@ cat results/sm2_classification_report.txt
 
 ---
 
-### SM3: Section-Specific Role Frames 🔜 PLANNED
-**File:** `vpca_sm3_role_frames.py`
+### SM3: Section-Specific Role Frames ✅ COMPLETE
+**File:** `vpca_sm3_frame_templates.py`
 
-Build semantic frame templates per section.
+Build semantic frame templates per section through sequence analysis.
 
-**Goal:** Identify structural patterns:
-- Herbal: `[BASE] + [PROCESS] + [PEAK]`
-- Recipe: `[INGREDIENTS] + [C-SEQUENCE] + [RESULT]`
-- Zodiac: `[V] → [C] → [A]` cycle
+**Input:**
+- `data/vpca2_all_tokens.tsv` - Complete VPCA with sequences
+- `results/sm1_vpca_role_map.json` - VPCA role mappings
+- `results/sm2_role_lexicon.json` - Morpheme classifications
+
+**Output:**
+- `results/sm3_frame_patterns.json` - Frame templates per section
+- `results/sm3_sequence_analysis.txt` - Sequence pattern analysis
+- `results/sm3_bigram_transitions.tsv` - VPCA state transitions (32,679 total)
+
+**Key Findings:**
+- **V→C progression:** Ingredient→process pattern in Recipes/Pharma
+- **P→P dominance:** 10,331 transitions (neutral state persists)
+- **Section templates:** Each section shows distinct structural patterns
+  - Zodiac: 53.7% single tokens (labels)
+  - Biological: 33.7% descriptive (V-heavy)
+  - Recipes: Higher C-state concentration
+
+**Pattern Example:**
+```
+Recipe V→C: [ingredient tokens] → [OT-family suffix] → [result]
+Herbal Descriptive: [V-heavy sequence] (ingredient lists)
+```
+
+**Run:**
+```bash
+python3 vpca_sm3_frame_templates.py
+cat results/sm3_sequence_analysis.txt
+```
 
 ---
 
@@ -148,11 +173,13 @@ Compare role frames to medieval texts (structural patterns, not vocabulary).
 
 ## 📈 Current Status
 
-**Phase:** SM1-SM2 Complete, SM3 In Development  
+**Phase:** SM1-SM3 Complete (3/8), SM4 Ready  
 **Data:** 37,886 tokens with complete VPCA classifications  
 **Sections:** 7 (Zodiac, Herbal, Pharma, Recipes, Bio, Cosmo, Unknown)  
 **Morphemes Classified:** 2,734 roots + 52 affixes  
+**Transitions Analyzed:** 32,679 VPCA state transitions  
 **Key Discovery:** OT-family suffixes = 100% C-state (transformation markers)  
+**Pattern Discovery:** V→C progression in Recipes/Pharma (ingredient→process)  
 **Confidence:** Tier 2-3 for Zodiac, Tier 1-2 for others  
 
 ---
