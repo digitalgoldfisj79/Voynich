@@ -1,0 +1,101 @@
+root	total	herbal	zodiac	biological	recipes	vpca_field	confidence	hypothesis
+e	3159	613	307	1012	1227	Modifier/Relation	0.750	Likely relational/connective element, often intensified, typically as state. Similar to 'of', 'with', 'and', 'to'
+ol	1044	473	80	287	204	Quality/State	0.750	Likely quality or state descriptor, often intensified, typically as state; common in plant descriptions. Similar to adjectives or state markers
+ai	887	291	74	104	418	Quality/State	0.650	Likely quality or state descriptor, often in constituent/unit contexts, typically as nominal; common in recipe instructions. Similar to adjectives or state markers
+ke	835	138	23	321	353	Unknown	0.350	Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+k	823	189	19	381	234	Modifier/Relation	0.500	Likely relational/connective element, typically as state; common in biological/anatomical contexts. Similar to 'of', 'with', 'and', 'to'
+ar	799	237	128	100	334	Quality/State	0.600	Likely quality or state descriptor, often in transition contexts, typically as state; common in recipe instructions. Similar to adjectives or state markers
+al	735	194	121	114	306	Quality/State	0.600	Likely quality or state descriptor, often in constituent/unit contexts, typically as state; common in recipe instructions. Similar to adjectives or state markers
+i	684	401	32	101	150	Process/Active	0.750	Likely process or action marker, typically as nominal; common in plant descriptions. Similar to verbs or process terms
+or	606	362	26	101	117	Unknown	0.400	Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+l	532	140	53	242	97	Quality/State	0.500	Likely quality or state descriptor, typically as state; common in biological/anatomical contexts. Similar to adjectives or state markers
+ee	483	55	70	119	239	Modifier/Relation	0.650	Likely relational/connective element, often in transition contexts, typically as process; common in recipe instructions. Similar to 'of', 'with', 'and', 'to'
+y	470	263	48	89	70	Unknown	0.450	Semantic role unclear, often intensified, typically as process; common in plant descriptions. Insufficient contextual evidence
+ch	446	203	45	74	124	Entity/Object	0.900	Likely entity or object reference, often in transition contexts, typically as state; common in plant descriptions. Similar to nouns or object terms
+r	407	169	47	102	89	Unknown	0.200	Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+cth	374	257	9	54	54	Unknown	0.300	Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+kee	362	28	3	153	178	Unknown	0.350	Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+ka	350	12	0	205	133	Unknown	0.400	Semantic role unclear, typically as nominal; common in biological/anatomical contexts. Insufficient contextual evidence
+ckh	346	142	5	105	94	Unknown	0.350	Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+t	340	111	4	107	118	Unknown	0.200	Semantic role unclear, typically as state. Insufficient contextual evidence
+kai	335	63	1	98	173	Unknown	0.450	Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+o	314	199	48	4	63	Quality/State	1.000	Likely quality or state descriptor, often intensified, typically as process; common in plant descriptions. Similar to adjectives or state markers
+kch	297	184	4	35	74	Unknown	0.300	Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+a	273	53	5	83	132	Unknown	0.500	Semantic role unclear, often in constituent/unit contexts, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+te	254	38	16	96	104	Unknown	0.350	Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+eo	250	67	73	1	109	Quality/State	0.900	Likely quality or state descriptor, often intensified, typically as process; common in recipe instructions. Similar to adjectives or state markers
+tch	233	154	3	22	54	Unknown	0.300	Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+d	217	79	11	37	90	Unknown	0.450	Semantic role unclear, often intensified, typically as state; common in recipe instructions. Insufficient contextual evidence
+in	205	60	4	73	68	Unknown	0.300	Semantic role unclear, typically as state. Insufficient contextual evidence
+am	173	72	24	13	64	Unknown	0.200	Semantic role unclear, often in transition contexts, typically as state; common in plant descriptions. Insufficient contextual evidence
+lch	156	12	3	87	54	Unknown	0.450	Semantic role unclear, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence
+che	154	20	4	48	82	Unknown	0.450	Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+air	152	37	28	7	80	Unknown	0.300	Semantic role unclear, often in transition contexts; common in recipe instructions. Insufficient contextual evidence
+ek	145	63	18	33	31	Unknown	0.350	Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+ed	144	15	11	44	74	Unknown	0.450	Semantic role unclear, often intensified, typically as agent; common in recipe instructions. Insufficient contextual evidence
+dy	130	67	18	37	8	Unknown	0.300	Semantic role unclear, typically as process; common in plant descriptions. Insufficient contextual evidence
+lche	129	5	1	61	62	Unknown	0.350	Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+ain	114	18	7	28	61	Unknown	0.300	Semantic role unclear, often in transition contexts, typically as state; common in recipe instructions. Insufficient contextual evidence
+tai	112	30	0	18	64	Unknown	0.400	Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+ir	112	44	18	7	43	Process/Active	0.500	Likely process or action marker, typically as state. Similar to verbs or process terms
+od	105	51	11	5	38	Unknown	0.200	Semantic role unclear, often intensified, typically as agent; common in plant descriptions. Insufficient contextual evidence
+eckh	101	11	1	50	39	Unknown	0.350	Semantic role unclear, often intensified, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence
+dch	98	68	9	13	8	Unknown	0.300	Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+pch	98	35	2	17	44	Unknown	0.200	Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+eeo	98	15	26	1	56	Unknown	0.450	Semantic role unclear, often in constituent/unit contexts, typically as process; common in recipe instructions. Insufficient contextual evidence
+ot	97	49	23	3	22	Process/Active	0.750	Likely process or action marker, often intensified, typically as state; common in plant descriptions. Similar to verbs or process terms
+tee	95	14	6	39	36	Unknown	0.350	Semantic role unclear, typically as process; common in biological/anatomical contexts. Insufficient contextual evidence
+yt	93	64	13	9	7	Unknown	0.300	Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+lke	89	6	0	20	63	Unknown	0.400	Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+odai	88	54	3	2	29	Unknown	0.600	Semantic role unclear, often intensified, typically as nominal; common in plant descriptions. Insufficient contextual evidence
+ok	88	46	17	7	18	Unknown	0.450	Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+pche	88	9	0	27	52	Unknown	0.400	Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+sh	87	38	6	26	17	Unknown	0.350	Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+lk	85	6	0	21	58	Unknown	0.400	Semantic role unclear, typically as agent; common in recipe instructions. Insufficient contextual evidence
+ta	79	4	1	29	45	Unknown	0.450	Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+os	69	34	14	2	19	Unknown	0.350	Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+cph	66	45	1	9	11	Unknown	0.300	Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+kal	66	33	3	13	17	Unknown	0.200	Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+rai	65	8	1	14	42	Unknown	0.450	Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+es	64	15	18	18	13	Unknown	0.350	Semantic role unclear, often intensified. Insufficient contextual evidence
+kche	64	15	2	7	40	Unknown	0.450	Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+tche	61	16	2	14	29	Unknown	0.350	Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+ecth	59	7	1	34	17	Unknown	0.450	Semantic role unclear, often intensified, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence
+et	57	21	11	13	12	Unknown	0.350	Semantic role unclear, often intensified, typically as state. Insufficient contextual evidence
+lkee	57	2	0	10	45	Unknown	0.400	Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+m	56	31	8	6	11	Unknown	0.300	Semantic role unclear, typically as process; common in plant descriptions. Insufficient contextual evidence
+eek	55	18	2	20	15	Unknown	0.350	Semantic role unclear, often intensified, typically as state. Insufficient contextual evidence
+yche	54	16	1	8	29	Unknown	0.450	Semantic role unclear, often in transition contexts, typically as state; common in recipe instructions. Insufficient contextual evidence
+sol	54	4	6	38	6	Unknown	0.300	Semantic role unclear, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence
+lshe	52	3	0	34	15	Unknown	0.400	Semantic role unclear, typically as process; common in biological/anatomical contexts. Insufficient contextual evidence
+kar	51	30	0	5	16	Unknown	0.250	Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+och	50	31	12	0	7	Unknown	0.250	Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+ytch	49	41	2	1	5	Unknown	0.300	Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+s	48	16	9	10	13	Unknown	0.350	Semantic role unclear, often intensified, typically as state. Insufficient contextual evidence
+octh	48	28	6	2	12	Unknown	0.450	Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+oai	48	22	8	1	17	Unknown	0.350	Semantic role unclear, often intensified, typically as nominal; common in plant descriptions. Insufficient contextual evidence
+oi	47	30	3	6	8	Unknown	0.450	Semantic role unclear, often intensified, typically as nominal; common in plant descriptions. Insufficient contextual evidence
+yte	46	16	10	9	11	Unknown	0.350	Semantic role unclear, often intensified, typically as state. Insufficient contextual evidence
+dai	46	18	0	0	28	Unknown	0.250	Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+lkai	46	0	0	5	41	Unknown	0.250	Semantic role unclear, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+lol	45	2	0	31	12	Unknown	0.250	Semantic role unclear, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence
+lsh	45	3	0	25	17	Unknown	0.400	Semantic role unclear, typically as state; common in biological/anatomical contexts. Insufficient contextual evidence
+ych	45	27	3	4	11	Unknown	0.300	Semantic role unclear, often in transition contexts; common in plant descriptions. Insufficient contextual evidence
+dche	45	8	4	13	20	Unknown	0.350	Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+aii	45	9	1	8	27	Unknown	0.450	Semantic role unclear, often in constituent/unit contexts, typically as nominal; common in recipe instructions. Insufficient contextual evidence
+ockh	44	20	8	1	15	Unknown	0.350	Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+tsh	43	27	0	7	9	Unknown	0.250	Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+eod	42	13	15	0	14	Unknown	0.300	Semantic role unclear, often in transition contexts, typically as agent. Insufficient contextual evidence
+keeo	42	9	3	1	29	Unknown	0.450	Semantic role unclear, typically as process; common in recipe instructions. Insufficient contextual evidence
+kol	40	27	3	8	2	Unknown	0.300	Semantic role unclear, typically as process; common in plant descriptions. Insufficient contextual evidence
+tar	40	12	1	10	17	Unknown	0.200	Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+aiir	39	12	9	0	18	Unknown	0.150	Semantic role unclear, often in constituent/unit contexts; common in recipe instructions. Insufficient contextual evidence
+qo	39	16	0	10	13	Unknown	0.150	Semantic role unclear; common in plant descriptions. Insufficient contextual evidence
+kair	38	10	0	4	24	Unknown	0.250	Semantic role unclear; common in recipe instructions. Insufficient contextual evidence
+tol	38	20	5	9	4	Unknown	0.300	Semantic role unclear, typically as process; common in plant descriptions. Insufficient contextual evidence
+om	38	27	1	3	7	Unknown	0.450	Semantic role unclear, often intensified, typically as state; common in plant descriptions. Insufficient contextual evidence
+dsh	38	24	1	9	4	Unknown	0.450	Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+lor	38	3	0	13	22	Unknown	0.250	Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
+ech	38	5	10	3	20	Unknown	0.450	Semantic role unclear, often in constituent/unit contexts, typically as state; common in recipe instructions. Insufficient contextual evidence
+ksh	37	23	0	4	10	Unknown	0.250	Semantic role unclear, typically as state; common in plant descriptions. Insufficient contextual evidence
+kam	37	13	0	8	16	Unknown	0.150	Semantic role unclear, typically as state; common in recipe instructions. Insufficient contextual evidence
