@@ -1,0 +1,139 @@
+pattern	count	type	prefix	suffix	top_root	root_field	interpretation	confidence
+[ROOT]	423	ROOT_ONLY			ar	Quality/State	unclear	0.300
+[ROOT]-y	170	ROOT+SUFFIX		y	al	Quality/State	unclear	0.400
+ch-[ROOT]-y	165	PREFIX+ROOT+SUFFIX	ch	y	e	Modifier/Relation	unclear	0.800
+ot-[ROOT]	133	PREFIX+ROOT	ot		ar	Quality/State	unclear	0.600
+ch-[ROOT]	132	PREFIX+ROOT	ch		ol	Quality/State	unclear	0.600
+ok-[ROOT]	113	PREFIX+ROOT	ok		ar	Quality/State	unclear	0.600
+[ROOT]-in	106	ROOT+SUFFIX		in	ai	Quality/State	unclear	0.600
+da-[ROOT]	104	PREFIX+ROOT	da		r	Unknown	unclear	0.150
+[ROOT]-dy	95	ROOT+SUFFIX		dy	yteo	Unknown	unclear	0.350
+[ROOT]-ey	94	ROOT+SUFFIX		ey	ke	Unknown	unclear	0.350
+ot-[ROOT]-y	83	PREFIX+ROOT+SUFFIX	ot	y	e	Modifier/Relation	transitional_state/process	0.800
+ch-[ROOT]-ey	76	PREFIX+ROOT+SUFFIX	ch	ey	e	Modifier/Relation	unclear	1.000
+sh-[ROOT]-y	71	PREFIX+ROOT+SUFFIX	sh	y	e	Modifier/Relation	unclear	0.600
+ok-[ROOT]-y	69	PREFIX+ROOT+SUFFIX	ok	y	e	Modifier/Relation	unclear	0.800
+ot-[ROOT]-ey	62	PREFIX+ROOT+SUFFIX	ot	ey	e	Modifier/Relation	unclear	1.000
+sh-[ROOT]	54	PREFIX+ROOT	sh		ol	Quality/State	unclear	0.400
+ot-[ROOT]-dy	52	PREFIX+ROOT+SUFFIX	ot	dy	eo	Quality/State	transitional_state/process	1.000
+ch-[ROOT]-dy	51	PREFIX+ROOT+SUFFIX	ch	dy	e	Modifier/Relation	unclear	1.000
+qo-[ROOT]-ey	48	PREFIX+ROOT+SUFFIX	qo	ey	ke	Unknown	unclear	0.550
+[ROOT]-ar	47	ROOT+SUFFIX		ar	al	Quality/State	quality_agent/doer	0.600
+qo-[ROOT]-dy	45	PREFIX+ROOT+SUFFIX	qo	dy	ke	Unknown	unclear	0.550
+sa-[ROOT]	43	PREFIX+ROOT	sa		r	Unknown	unclear	0.150
+ok-[ROOT]-ey	43	PREFIX+ROOT+SUFFIX	ok	ey	e	Modifier/Relation	unclear	1.000
+qo-[ROOT]-in	42	PREFIX+ROOT+SUFFIX	qo	in	ka	Unknown	unclear	0.550
+ok-[ROOT]-dy	39	PREFIX+ROOT+SUFFIX	ok	dy	eo	Quality/State	unclear	1.000
+ot-[ROOT]-in	37	PREFIX+ROOT+SUFFIX	ot	in	ai	Quality/State	unclear	1.000
+ot-[ROOT]-ar	36	PREFIX+ROOT+SUFFIX	ot	ar	eod	Unknown	unclear	0.750
+da-[ROOT]-in	32	PREFIX+ROOT+SUFFIX	da	in	i	Process/Active	unclear	0.800
+ot-[ROOT]-os	30	PREFIX+ROOT+SUFFIX	ot	os	e	Modifier/Relation	unclear	0.800
+sh-[ROOT]-ey	30	PREFIX+ROOT+SUFFIX	sh	ey	e	Modifier/Relation	unclear	0.800
+qo-[ROOT]	30	PREFIX+ROOT	qo		l	Quality/State	unclear	0.400
+[ROOT]-al	29	ROOT+SUFFIX		al	ar	Quality/State	quality_attribute	0.600
+[ROOT]-ol	29	ROOT+SUFFIX		ol	or	Unknown	unclear	0.150
+sh-[ROOT]-dy	29	PREFIX+ROOT+SUFFIX	sh	dy	e	Modifier/Relation	unclear	0.800
+ch-[ROOT]-al	28	PREFIX+ROOT+SUFFIX	ch	al	ot	Process/Active	quality_attribute	1.000
+ch-[ROOT]-ar	26	PREFIX+ROOT+SUFFIX	ch	ar	e	Modifier/Relation	unclear	1.000
+yk-[ROOT]	26	PREFIX+ROOT	yk		ar	Quality/State	unclear	0.400
+ok-[ROOT]-ar	24	PREFIX+ROOT+SUFFIX	ok	ar	ol	Quality/State	quality_agent/doer	1.000
+ot-[ROOT]-al	24	PREFIX+ROOT+SUFFIX	ot	al	eod	Unknown	quality_attribute	0.750
+ok-[ROOT]-in	24	PREFIX+ROOT+SUFFIX	ok	in	ai	Quality/State	constituent_nominal	1.000
+ch-[ROOT]-in	23	PREFIX+ROOT+SUFFIX	ch	in	oai	Unknown	unclear	0.750
+ok-[ROOT]-ol	23	PREFIX+ROOT+SUFFIX	ok	ol	e	Modifier/Relation	unclear	0.800
+qo-[ROOT]-y	22	PREFIX+ROOT+SUFFIX	qo	y	k	Modifier/Relation	unclear	0.600
+da-[ROOT]-y	21	PREFIX+ROOT+SUFFIX	da	y	l	Quality/State	unclear	0.600
+ol-[ROOT]	21	PREFIX+ROOT	ol		y	Unknown	unclear	0.150
+qo-[ROOT]-al	21	PREFIX+ROOT+SUFFIX	qo	al	k	Modifier/Relation	quality_attribute	0.800
+[ROOT]-es	20	ROOT+SUFFIX		es	oe	Unknown	unclear	0.150
+ch-[ROOT]-ol	20	PREFIX+ROOT+SUFFIX	ch	ol	e	Modifier/Relation	unclear	0.800
+ch-[ROOT]-or	19	PREFIX+ROOT+SUFFIX	ch	or	e	Modifier/Relation	unclear	0.800
+[ROOT]-or	19	ROOT+SUFFIX		or	ke	Unknown	unclear	0.150
+[ROOT]-os	18	ROOT+SUFFIX		os	yte	Unknown	unclear	0.150
+ol-[ROOT]-y	16	PREFIX+ROOT+SUFFIX	ol	y	d	Unknown	unclear	0.350
+qo-[ROOT]-ar	16	PREFIX+ROOT+SUFFIX	qo	ar	k	Modifier/Relation	unclear	0.800
+ol-[ROOT]-dy	15	PREFIX+ROOT+SUFFIX	ol	dy	che	Unknown	unclear	0.550
+yk-[ROOT]-y	15	PREFIX+ROOT+SUFFIX	yk	y	e	Modifier/Relation	unclear	0.600
+yk-[ROOT]-dy	14	PREFIX+ROOT+SUFFIX	yk	dy	eo	Quality/State	unclear	0.800
+op-[ROOT]	14	PREFIX+ROOT	op		al	Quality/State	unclear	0.400
+ok-[ROOT]-al	14	PREFIX+ROOT+SUFFIX	ok	al	eeod	Unknown	quality_attribute	0.750
+ol-[ROOT]-ey	14	PREFIX+ROOT+SUFFIX	ol	ey	ch	Entity/Object	unclear	0.800
+ot-[ROOT]-ol	14	PREFIX+ROOT+SUFFIX	ot	ol	e	Modifier/Relation	unclear	0.800
+yk-[ROOT]-ey	13	PREFIX+ROOT+SUFFIX	yk	ey	e	Modifier/Relation	unclear	0.800
+ok-[ROOT]-os	13	PREFIX+ROOT+SUFFIX	ok	os	e	Modifier/Relation	unclear	0.800
+ol-[ROOT]-in	13	PREFIX+ROOT+SUFFIX	ol	in	ai	Quality/State	unclear	0.800
+sh-[ROOT]-ol	11	PREFIX+ROOT+SUFFIX	sh	ol	e	Modifier/Relation	unclear	0.600
+qo-[ROOT]-ol	10	PREFIX+ROOT+SUFFIX	qo	ol	k	Modifier/Relation	unclear	0.600
+do-[ROOT]	9	PREFIX+ROOT	do		l	Quality/State	unclear	0.400
+ok-[ROOT]-or	9	PREFIX+ROOT+SUFFIX	ok	or	e	Modifier/Relation	unclear	0.800
+ot-[ROOT]-es	9	PREFIX+ROOT+SUFFIX	ot	es	e	Modifier/Relation	unclear	0.800
+ot-[ROOT]-or	9	PREFIX+ROOT+SUFFIX	ot	or	ol	Quality/State	unclear	0.800
+da-[ROOT]-dy	9	PREFIX+ROOT+SUFFIX	da	dy	l	Quality/State	unclear	0.800
+sh-[ROOT]-al	9	PREFIX+ROOT+SUFFIX	sh	al	ok	Unknown	quality_attribute	0.550
+ot-[ROOT]-oy	9	PREFIX+ROOT+SUFFIX	ot	oy	e	Modifier/Relation	unclear	0.800
+ch-[ROOT]-os	8	PREFIX+ROOT+SUFFIX	ch	os	e	Modifier/Relation	unclear	0.800
+ok-[ROOT]-es	8	PREFIX+ROOT+SUFFIX	ok	es	e	Modifier/Relation	unclear	0.800
+ch-[ROOT]-e	8	PREFIX+ROOT+SUFFIX	ch	e	e	Modifier/Relation	unclear	0.800
+[ROOT]-oy	8	ROOT+SUFFIX		oy	al	Quality/State	unclear	0.400
+op-[ROOT]-ey	8	PREFIX+ROOT+SUFFIX	op	ey	ch	Entity/Object	unclear	0.800
+op-[ROOT]-in	8	PREFIX+ROOT+SUFFIX	op	in	ai	Quality/State	unclear	0.800
+sa-[ROOT]-in	7	PREFIX+ROOT+SUFFIX	sa	in	i	Process/Active	unclear	0.800
+ok-[ROOT]-oy	7	PREFIX+ROOT+SUFFIX	ok	oy	e	Modifier/Relation	unclear	0.800
+da-[ROOT]-al	6	PREFIX+ROOT+SUFFIX	da	al	l	Quality/State	quality_attribute	0.800
+sa-[ROOT]-al	6	PREFIX+ROOT+SUFFIX	sa	al	r	Unknown	quality_attribute	0.550
+[ROOT]-e	6	ROOT+SUFFIX		e	octhol	Unknown	unclear	0.150
+qo-[ROOT]-ed	6	PREFIX+ROOT+SUFFIX	qo	ed	ke	Unknown	unclear	0.350
+ok-[ROOT]-e	5	PREFIX+ROOT+SUFFIX	ok	e	e	Modifier/Relation	unclear	0.800
+ch-[ROOT]-es	5	PREFIX+ROOT+SUFFIX	ch	es	e	Modifier/Relation	unclear	0.800
+yk-[ROOT]-es	5	PREFIX+ROOT+SUFFIX	yk	es	e	Modifier/Relation	unclear	0.600
+op-[ROOT]-y	5	PREFIX+ROOT+SUFFIX	op	y	chol	Unknown	unclear	0.350
+sa-[ROOT]-y	5	PREFIX+ROOT+SUFFIX	sa	y	r	Unknown	unclear	0.350
+sh-[ROOT]-ar	5	PREFIX+ROOT+SUFFIX	sh	ar	eald	Unknown	unclear	0.550
+sh-[ROOT]-in	5	PREFIX+ROOT+SUFFIX	sh	in	odai	Unknown	unclear	0.550
+qo-[ROOT]-e	4	PREFIX+ROOT+SUFFIX	qo	e	ke	Unknown	unclear	0.350
+sh-[ROOT]-es	4	PREFIX+ROOT+SUFFIX	sh	es	e	Modifier/Relation	unclear	0.600
+yk-[ROOT]-al	4	PREFIX+ROOT+SUFFIX	yk	al	eed	Unknown	quality_attribute	0.550
+yk-[ROOT]-os	4	PREFIX+ROOT+SUFFIX	yk	os	ar	Quality/State	unclear	0.600
+yk-[ROOT]-in	4	PREFIX+ROOT+SUFFIX	yk	in	oai	Unknown	unclear	0.550
+do-[ROOT]-y	4	PREFIX+ROOT+SUFFIX	do	y	kech	Unknown	unclear	0.350
+op-[ROOT]-dy	4	PREFIX+ROOT+SUFFIX	op	dy	cheo	Unknown	unclear	0.550
+yk-[ROOT]-ol	4	PREFIX+ROOT+SUFFIX	yk	ol	e	Modifier/Relation	unclear	0.600
+ch-[ROOT]-oy	4	PREFIX+ROOT+SUFFIX	ch	oy	e	Modifier/Relation	unclear	0.800
+[ROOT]-ed	3	ROOT+SUFFIX		ed	soete	Unknown	unclear	0.150
+yk-[ROOT]-oy	3	PREFIX+ROOT+SUFFIX	yk	oy	e	Modifier/Relation	unclear	0.600
+yk-[ROOT]-ar	3	PREFIX+ROOT+SUFFIX	yk	ar	eod	Unknown	unclear	0.550
+qo-[ROOT]-or	3	PREFIX+ROOT+SUFFIX	qo	or	kche	Unknown	unclear	0.350
+do-[ROOT]-ey	3	PREFIX+ROOT+SUFFIX	do	ey	lch	Unknown	unclear	0.550
+sh-[ROOT]-or	3	PREFIX+ROOT+SUFFIX	sh	or	ee	Modifier/Relation	unclear	0.600
+sa-[ROOT]-dy	3	PREFIX+ROOT+SUFFIX	sa	dy	iro	Unknown	unclear	0.550
+ol-[ROOT]-ar	3	PREFIX+ROOT+SUFFIX	ol	ar	k	Modifier/Relation	unclear	0.800
+ch-[ROOT]-ed	2	PREFIX+ROOT+SUFFIX	ch	ed	oke	Unknown	unclear	0.550
+op-[ROOT]-ol	2	PREFIX+ROOT+SUFFIX	op	ol	odee	Unknown	unclear	0.350
+do-[ROOT]-in	2	PREFIX+ROOT+SUFFIX	do	in	i	Process/Active	unclear	0.800
+op-[ROOT]-or	2	PREFIX+ROOT+SUFFIX	op	or	ocph	Unknown	unclear	0.350
+ot-[ROOT]-ed	2	PREFIX+ROOT+SUFFIX	ot	ed	eodch	Unknown	unclear	0.550
+yk-[ROOT]-e	2	PREFIX+ROOT+SUFFIX	yk	e	eosh	Unknown	unclear	0.350
+ol-[ROOT]-es	2	PREFIX+ROOT+SUFFIX	ol	es	e	Modifier/Relation	unclear	0.600
+ok-[ROOT]-om	2	PREFIX+ROOT+SUFFIX	ok	om	ol	Quality/State	unclear	0.800
+qo-[ROOT]-oy	2	PREFIX+ROOT+SUFFIX	qo	oy	ke	Unknown	unclear	0.350
+da-[ROOT]-ey	2	PREFIX+ROOT+SUFFIX	da	ey	iik	Unknown	unclear	0.550
+da-[ROOT]-ol	2	PREFIX+ROOT+SUFFIX	da	ol	l	Quality/State	unclear	0.600
+[ROOT]-om	2	ROOT+SUFFIX		om	or	Unknown	unclear	0.150
+ol-[ROOT]-al	2	PREFIX+ROOT+SUFFIX	ol	al	fsheor	Unknown	quality_attribute	0.550
+op-[ROOT]-al	2	PREFIX+ROOT+SUFFIX	op	al	al	Quality/State	quality_attribute	0.800
+sh-[ROOT]-os	2	PREFIX+ROOT+SUFFIX	sh	os	ee	Modifier/Relation	unclear	0.600
+ol-[ROOT]-ed	2	PREFIX+ROOT+SUFFIX	ol	ed	ch	Entity/Object	unclear	0.600
+do-[ROOT]-dy	1	PREFIX+ROOT+SUFFIX	do	dy	lchso	Unknown	unclear	0.550
+ol-[ROOT]-e	1	PREFIX+ROOT+SUFFIX	ol	e	alad	Unknown	unclear	0.350
+sh-[ROOT]-oy	1	PREFIX+ROOT+SUFFIX	sh	oy	e	Modifier/Relation	unclear	0.600
+sa-[ROOT]-ar	1	PREFIX+ROOT+SUFFIX	sa	ar	l	Quality/State	quality_agent/doer	0.800
+da-[ROOT]-es	1	PREFIX+ROOT+SUFFIX	da	es	lch	Unknown	unclear	0.350
+ot-[ROOT]-e	1	PREFIX+ROOT+SUFFIX	ot	e	aik	Unknown	unclear	0.550
+op-[ROOT]-ar	1	PREFIX+ROOT+SUFFIX	op	ar	al	Quality/State	quality_agent/doer	0.800
+yk-[ROOT]-or	1	PREFIX+ROOT+SUFFIX	yk	or	ee	Modifier/Relation	unclear	0.600
+sh-[ROOT]-e	1	PREFIX+ROOT+SUFFIX	sh	e	ete	Unknown	unclear	0.350
+da-[ROOT]-om	1	PREFIX+ROOT+SUFFIX	da	om	r	Unknown	unclear	0.350
+qo-[ROOT]-om	1	PREFIX+ROOT+SUFFIX	qo	om	kal	Unknown	unclear	0.350
+do-[ROOT]-al	1	PREFIX+ROOT+SUFFIX	do	al	k	Modifier/Relation	quality_attribute	0.800
+da-[ROOT]-ar	1	PREFIX+ROOT+SUFFIX	da	ar	lk	Unknown	unclear	0.550
+ol-[ROOT]-ol	1	PREFIX+ROOT+SUFFIX	ol	ol	k	Modifier/Relation	unclear	0.600
