@@ -1,0 +1,230 @@
+================================================================================
+REPLICATION TEST: PATTERNS ACROSS INDIVIDUAL ZODIAC SIGNS
+================================================================================
+
+📊 LABELS BY ZODIAC SIGN
+--------------------------------------------------------------------------------
+Pisces           315 labels (257 unique)
+Aries/Taurus     493 labels (396 unique)
+Taurus           212 labels (164 unique)
+Gemini           405 labels (309 unique)
+Cancer           142 labels (123 unique)
+Leo              487 labels (363 unique)
+Virgo            134 labels (122 unique)
+
+================================================================================
+ANALYZING: PISCES
+================================================================================
+
+Labels: 315 total, 35 frequent (n≥2)
+
+--- Test 1: Clustering into k=12 ---
+Created 12 clusters: mean size 2.9 ± 1.6
+
+--- Test 2: Stem Family Reuse ---
+Stem families in 3+ clusters: 3
+  'sa': 3 clusters
+  'ot': 3 clusters
+  'ok': 3 clusters
+
+--- Test 3: Suffix Homogeneity ---
+Average suffix entropy: 0.484
+  (0=homogeneous, 1=diverse)
+
+--- Test 4: Spatial Coherence ---
+Spatial std dev: 16.9 (random: 18.5)
+
+✓ Analysis complete for Pisces
+
+================================================================================
+ANALYZING: ARIES/TAURUS
+================================================================================
+
+Labels: 493 total, 60 frequent (n≥2)
+
+--- Test 1: Clustering into k=12 ---
+Created 12 clusters: mean size 5.0 ± 2.5
+
+--- Test 2: Stem Family Reuse ---
+Stem families in 3+ clusters: 6
+  'ch': 4 clusters
+  'yk': 4 clusters
+  'ot': 5 clusters
+  'ok': 3 clusters
+  'qo': 3 clusters
+
+--- Test 3: Suffix Homogeneity ---
+Average suffix entropy: 0.737
+  (0=homogeneous, 1=diverse)
+
+--- Test 4: Spatial Coherence ---
+Spatial std dev: 6.6 (random: 8.0)
+
+✓ Analysis complete for Aries/Taurus
+
+================================================================================
+ANALYZING: TAURUS
+================================================================================
+
+Labels: 212 total, 26 frequent (n≥2)
+
+--- Test 1: Clustering into k=12 ---
+Created 12 clusters: mean size 2.2 ± 1.0
+
+--- Test 2: Stem Family Reuse ---
+Stem families in 3+ clusters: 3
+  'ch': 4 clusters
+  'ok': 5 clusters
+  'ot': 3 clusters
+
+--- Test 3: Suffix Homogeneity ---
+Average suffix entropy: 0.243
+  (0=homogeneous, 1=diverse)
+
+--- Test 4: Spatial Coherence ---
+Spatial std dev: 13.9 (random: 14.1)
+
+✓ Analysis complete for Taurus
+
+================================================================================
+ANALYZING: GEMINI
+================================================================================
+
+Labels: 405 total, 50 frequent (n≥2)
+
+--- Test 1: Clustering into k=12 ---
+Created 12 clusters: mean size 4.2 ± 1.6
+
+--- Test 2: Stem Family Reuse ---
+Stem families in 3+ clusters: 4
+  'ot': 4 clusters
+  'ok': 3 clusters
+  'ch': 4 clusters
+  'da': 3 clusters
+
+--- Test 3: Suffix Homogeneity ---
+Average suffix entropy: 0.837
+  (0=homogeneous, 1=diverse)
+
+--- Test 4: Spatial Coherence ---
+Spatial std dev: 7.6 (random: 8.2)
+
+✓ Analysis complete for Gemini
+
+================================================================================
+ANALYZING: CANCER
+================================================================================
+
+Labels: 142 total, 15 frequent (n≥2)
+
+--- Test 1: Clustering into k=12 ---
+Created 7 clusters: mean size 2.1 ± 0.6
+
+--- Test 2: Stem Family Reuse ---
+Stem families in 3+ clusters: 0
+
+--- Test 3: Suffix Homogeneity ---
+Average suffix entropy: 0.571
+  (0=homogeneous, 1=diverse)
+
+--- Test 4: Spatial Coherence ---
+Spatial std dev: 5.5 (random: 6.5)
+
+✓ Analysis complete for Cancer
+
+================================================================================
+ANALYZING: LEO
+================================================================================
+
+Labels: 487 total, 55 frequent (n≥2)
+
+--- Test 1: Clustering into k=12 ---
+Created 12 clusters: mean size 4.6 ± 1.4
+
+--- Test 2: Stem Family Reuse ---
+Stem families in 3+ clusters: 4
+  'ot': 5 clusters
+  'ok': 6 clusters
+  'ch': 4 clusters
+  'sh': 3 clusters
+
+--- Test 3: Suffix Homogeneity ---
+Average suffix entropy: 0.669
+  (0=homogeneous, 1=diverse)
+
+--- Test 4: Spatial Coherence ---
+Spatial std dev: 11.0 (random: 11.0)
+
+✓ Analysis complete for Leo
+
+================================================================================
+ANALYZING: VIRGO
+================================================================================
+
+Labels: 134 total, 11 frequent (n≥2)
+⚠ Too few frequent labels for clustering
+
+================================================================================
+CROSS-SIGN COMPARISON: DO PATTERNS REPLICATE?
+================================================================================
+
+Successfully analyzed 6 zodiac signs
+
+----------------------------------------------------------------------------------------------------
+Sign            N Labels   Clusters   Stem Reuse   Suffix Ent   Spatial   
+----------------------------------------------------------------------------------------------------
+Pisces          315        12         3            0.484        ✓         
+Aries/Taurus    493        12         6            0.737        ✓         
+Taurus          212        12         3            0.243        ✗         
+Gemini          405        12         4            0.837        ✓         
+Cancer          142        7          0            0.571        ✓         
+Leo             487        12         4            0.669        ✗         
+
+----------------------------------------------------------------------------------------------------
+STATISTICAL SUMMARY:
+----------------------------------------------------------------------------------------------------
+
+Stem family reuse (3+ clusters):
+  Mean: 3.3
+  Range: 0 to 6
+  Present in: 5/6 signs
+
+Suffix homogeneity (entropy):
+  Mean: 0.590
+  Range: 0.243 to 0.837
+  Homogeneous (<0.5) in: 2/6 signs
+
+Spatial coherence (vs random):
+  Mean ratio: 0.918
+  Range: 0.828 to 0.996
+  Coherent (<0.95) in: 4/6 signs
+
+================================================================================
+REPLICATION VERDICT
+================================================================================
+
+Pattern replication across signs:
+  Stem reuse: 83% of signs
+  Spatial coherence: 67% of signs
+
+✓✓ STRONG REPLICATION: Stem families appear in most signs
+○ MODERATE REPLICATION: Spatial clustering in some signs
+
+--- Common Stem Families ---
+
+Stems appearing in 60%+ of signs:
+  'ch': 4/6 signs
+  'ok': 5/6 signs
+  'ot': 5/6 signs
+
+✓✓ FOUND 3 UNIVERSAL STEM FAMILIES
+These stems appear consistently across zodiac signs!
+
+================================================================================
+TOTAL REPLICATION EVIDENCE: 5/6
+================================================================================
+
+✓✓✓ STRONG REPLICATION across zodiac signs
+Patterns are SYSTEMATIC, not artifacts of pooling data
+
+================================================================================
