@@ -1,0 +1,541 @@
+SM4: COMPOSITIONAL PATTERN ANALYSIS
+======================================================================
+
+TOP 50 MORPHEME PATTERNS
+----------------------------------------------------------------------
+
+1. [ROOT]
+   Count: 423
+   Type: ROOT_ONLY
+   Composition: quality/state
+   Interpretation: unclear
+   Confidence: 0.30
+   Top roots: ar(62), al(38), ol(36), dy(28), air(19)
+   Examples: keo, ycheo, iim, ar, am
+
+2. [ROOT]-y
+   Count: 170
+   Type: ROOT+SUFFIX
+   Composition: quality/state + state_marker
+   Interpretation: unclear
+   Confidence: 0.40
+   Top roots: al(10), ar(7), te(5), ke(4), ockh(3)
+   Examples: epchy, octhchy, ychsy, ary, aly
+
+3. ch-[ROOT]-y
+   Count: 165
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: intensifier/modifier + modifier/relation + state_marker
+   Interpretation: unclear
+   Confidence: 0.80
+   Top roots: e(38), ek(8), ckh(8), d(6), ot(4)
+   Examples: chdy, choteoky, chockhy, cheeky, chekchy
+
+4. ot-[ROOT]
+   Count: 133
+   Type: PREFIX+ROOT
+   Composition: transition/change + quality/state
+   Interpretation: unclear
+   Confidence: 0.60
+   Top roots: ar(23), y(16), ol(11), al(10), o(6)
+   Examples: otor, otar, oteo, oto, otoas
+
+5. ch-[ROOT]
+   Count: 132
+   Type: PREFIX+ROOT
+   Composition: intensifier/modifier + quality/state
+   Interpretation: unclear
+   Confidence: 0.60
+   Top roots: ol(17), y(14), o(9), ar(6), eo(6)
+   Examples: char, chy, chol, cho, chparam
+
+6. ok-[ROOT]
+   Count: 113
+   Type: PREFIX+ROOT
+   Composition: constituent/unit + quality/state
+   Interpretation: unclear
+   Confidence: 0.60
+   Top roots: ar(17), al(14), eo(9), ol(8), y(8)
+   Examples: okeokeds, okar, okar, okal, okol
+
+7. [ROOT]-in
+   Count: 106
+   Type: ROOT+SUFFIX
+   Composition: quality/state + nominal/substantive
+   Interpretation: unclear
+   Confidence: 0.60
+   Top roots: ai(38), oi(4), ka(3), osai(2), oekai(2)
+   Examples: teeodaiin, osaiin, epaiin, aiin, aiin
+
+8. da-[ROOT]
+   Count: 104
+   Type: PREFIX+ROOT
+   Composition: unknown + unknown_root
+   Interpretation: unclear
+   Confidence: 0.15
+   Top roots: r(31), l(25), ir(13), in(11), iir(6)
+   Examples: daiir, daram, dar, dair, dal
+
+9. [ROOT]-dy
+   Count: 95
+   Type: ROOT+SUFFIX
+   Composition: unknown_root + process_marker
+   Interpretation: unclear
+   Confidence: 0.35
+   Top roots: yteo(5), al(3), pche(3), kee(3), dshe(3)
+   Examples: epairody, oeteody, eedy, eeschdy, aldy
+
+10. [ROOT]-ey
+   Count: 94
+   Type: ROOT+SUFFIX
+   Composition: unknown_root + state_marker
+   Interpretation: unclear
+   Confidence: 0.35
+   Top roots: ke(6), yte(5), ych(4), te(4), och(3)
+   Examples: yteeoey, keey, cthey, oshey, sotey
+
+11. ot-[ROOT]-y
+   Count: 83
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: transition/change + modifier/relation + state_marker
+   Interpretation: transitional_state/process
+   Confidence: 0.80
+   Top roots: e(28), al(9), o(5), ol(4), ch(4)
+   Examples: oteesy, otoky, otey, otoly, otechy
+
+12. ch-[ROOT]-ey
+   Count: 76
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: intensifier/modifier + modifier/relation + state_marker
+   Interpretation: unclear
+   Confidence: 1.00
+   Top roots: e(17), ote(6), ot(5), et(4), ete(3)
+   Examples: chekeey, cheey, choteey, chetey, cheteey
+
+13. sh-[ROOT]-y
+   Count: 71
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: unknown + modifier/relation + state_marker
+   Interpretation: unclear
+   Confidence: 0.60
+   Top roots: e(26), ckh(5), et(3), eet(3), ekch(2)
+   Examples: shey, shey, shekchy, shey, shokchy
+
+14. ok-[ROOT]-y
+   Count: 69
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: constituent/unit + modifier/relation + state_marker
+   Interpretation: unclear
+   Confidence: 0.80
+   Top roots: e(15), ch(8), al(7), eol(3), olch(2)
+   Examples: okchy, okolaly, okoaly, okchy, okomy
+
+15. ot-[ROOT]-ey
+   Count: 62
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: transition/change + modifier/relation + state_marker
+   Interpretation: unclear
+   Confidence: 1.00
+   Top roots: e(37), eot(4), ch(3), sh(2), ee(2)
+   Examples: oteey, oteey, otchey, otshey, otochey
+
+16. sh-[ROOT]
+   Count: 54
+   Type: PREFIX+ROOT
+   Composition: unknown + quality/state
+   Interpretation: unclear
+   Confidence: 0.40
+   Top roots: ol(9), o(6), es(6), eo(5), e(5)
+   Examples: sheosam, shs, shol, shol, sho
+
+17. ot-[ROOT]-dy
+   Count: 52
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: transition/change + quality/state + process_marker
+   Interpretation: transitional_state/process
+   Confidence: 1.00
+   Top roots: eo(14), ee(8), e(5), eeo(4), cheo(3)
+   Examples: oteochedy, otaldy, otardy, otchdy, otcheody
+
+18. ch-[ROOT]-dy
+   Count: 51
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: intensifier/modifier + modifier/relation + process_marker
+   Interpretation: unclear
+   Confidence: 1.00
+   Top roots: e(15), eo(7), ee(4), o(3), s(2)
+   Examples: chokeody, chockhedy, chekody, cheody, cheody
+
+19. qo-[ROOT]-ey
+   Count: 48
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: unknown + unknown_root + state_marker
+   Interpretation: unclear
+   Confidence: 0.55
+   Top roots: ke(17), k(13), te(3), lch(3), che(2)
+   Examples: qoikeey, qocheey, qokeey, qokolchey, qoteey
+
+20. [ROOT]-ar
+   Count: 47
+   Type: ROOT+SUFFIX
+   Composition: quality/state + agent/doer
+   Interpretation: quality_agent/doer
+   Confidence: 0.60
+   Top roots: al(4), ar(3), od(2), yt(2), pched(2)
+   Examples: soar, sodar, drar, odar, oear
+
+21. qo-[ROOT]-dy
+   Count: 45
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: unknown + unknown_root + process_marker
+   Interpretation: unclear
+   Confidence: 0.55
+   Top roots: ke(13), kee(10), kch(4), tee(3), te(3)
+   Examples: qokeeody, qokeeeody, qokeeedy, qokchdy, qokchdy
+
+22. sa-[ROOT]
+   Count: 43
+   Type: PREFIX+ROOT
+   Composition: unknown + unknown_root
+   Interpretation: unclear
+   Confidence: 0.15
+   Top roots: r(11), l(11), in(5), ir(5), m(3)
+   Examples: sar, sar, sal, sar, sain
+
+23. ok-[ROOT]-ey
+   Count: 43
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: constituent/unit + modifier/relation + state_marker
+   Interpretation: unclear
+   Confidence: 1.00
+   Top roots: e(29), ee(3), ech(2), olch(1), eoee(1)
+   Examples: okeey, okeey, okeey, okeey, okechey
+
+24. qo-[ROOT]-in
+   Count: 42
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: unknown + unknown_root + nominal/substantive
+   Interpretation: unclear
+   Confidence: 0.55
+   Top roots: ka(36), toai(1), koai(1), eeokai(1), kalai(1)
+   Examples: qotoaiin, qokoaiin, qoeeokaiin, qokalaiin, qokain
+
+25. ok-[ROOT]-dy
+   Count: 39
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: constituent/unit + quality/state + process_marker
+   Interpretation: unclear
+   Confidence: 1.00
+   Top roots: eo(7), eeo(6), o(5), ee(4), e(3)
+   Examples: okeody, okeeody, oksheeody, okoldy, okardy
+
+26. ot-[ROOT]-in
+   Count: 37
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: transition/change + quality/state + nominal/substantive
+   Interpretation: unclear
+   Confidence: 1.00
+   Top roots: ai(14), eodai(4), alai(3), oai(2), eosai(2)
+   Examples: oteodaiin, otodaiin, oteodaiin, otararain, oteodaiin
+
+27. ot-[ROOT]-ar
+   Count: 36
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: transition/change + unknown_root + agent/doer
+   Interpretation: unclear
+   Confidence: 0.75
+   Top roots: eod(5), o(3), eor(2), ald(2), e(2)
+   Examples: otarar, otcheodar, oteeodar, otoar, oteorar
+
+28. da-[ROOT]-in
+   Count: 32
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: unknown + process/active + nominal/substantive
+   Interpretation: unclear
+   Confidence: 0.80
+   Top roots: i(28), lai(1), ai(1), ii(1), ldai(1)
+   Examples: dalaiin, daiin, daiin, daiin, daaiin
+
+29. ot-[ROOT]-os
+   Count: 30
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: transition/change + modifier/relation + unknown
+   Interpretation: unclear
+   Confidence: 0.80
+   Top roots: e(17), ee(9), old(1), ch(1), ec(1)
+   Examples: oteeos, oteos, otoldos, oteos, otchos
+
+30. sh-[ROOT]-ey
+   Count: 30
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: unknown + modifier/relation + state_marker
+   Interpretation: unclear
+   Confidence: 0.80
+   Top roots: e(8), eoke(2), eke(2), ek(2), ok(2)
+   Examples: sheokeey, sheey, sheey, shcthey, shekeey
+
+31. qo-[ROOT]
+   Count: 30
+   Type: PREFIX+ROOT
+   Composition: unknown + quality/state
+   Interpretation: unclear
+   Confidence: 0.40
+   Top roots: l(14), tam(2), r(2), fch(1), fair(1)
+   Examples: qofch, qofair, qoeeeecthim, qooto, qotam
+
+32. [ROOT]-al
+   Count: 29
+   Type: ROOT+SUFFIX
+   Composition: quality/state + quality/attribute
+   Interpretation: quality_attribute
+   Confidence: 0.60
+   Top roots: ar(3), al(3), od(2), yt(2), keeod(1)
+   Examples: keeodal, odal, ysaldal, ytodal, toal
+
+33. [ROOT]-ol
+   Count: 29
+   Type: ROOT+SUFFIX
+   Composition: unknown_root + unknown
+   Interpretation: unclear
+   Confidence: 0.15
+   Top roots: or(3), och(2), dch(2), ke(2), ar(2)
+   Examples: soairol, ochol, deeeoskol, cphol, dchol
+
+34. sh-[ROOT]-dy
+   Count: 29
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: unknown + modifier/relation + process_marker
+   Interpretation: unclear
+   Confidence: 0.80
+   Top roots: e(17), eo(4), ee(3), teo(1), oteeo(1)
+   Examples: sheody, sheody, sheody, shteody, shedy
+
+35. ch-[ROOT]-al
+   Count: 28
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: intensifier/modifier + process/active + quality/attribute
+   Interpretation: quality_attribute
+   Confidence: 1.00
+   Top roots: ot(4), ol(3), k(3), e(2), ok(2)
+   Examples: cheoal, cholal, chodal, cholal, cheal
+
+36. ch-[ROOT]-ar
+   Count: 26
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: intensifier/modifier + modifier/relation + agent/doer
+   Interpretation: unclear
+   Confidence: 1.00
+   Top roots: e(4), ed(2), ot(2), ek(2), p(1)
+   Examples: chpar, chedar, chkchdar, cholar, chodar
+
+37. yk-[ROOT]
+   Count: 26
+   Type: PREFIX+ROOT
+   Composition: unknown + quality/state
+   Interpretation: unclear
+   Confidence: 0.40
+   Top roots: ar(4), y(4), or(3), eeo(2), shys(1)
+   Examples: ykshys, ykecho, ykchys, ykar, ykor
+
+38. ok-[ROOT]-ar
+   Count: 24
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: constituent/unit + quality/state + agent/doer
+   Interpretation: quality_agent/doer
+   Confidence: 1.00
+   Top roots: ol(3), eos(2), l(2), eo(2), e(2)
+   Examples: okechar, okeosar, okoar, oklar, okeoar
+
+39. ot-[ROOT]-al
+   Count: 24
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: transition/change + unknown_root + quality/attribute
+   Interpretation: quality_attribute
+   Confidence: 0.75
+   Top roots: eod(2), ch(2), ald(2), eos(2), al(2)
+   Examples: oteodal, otchodal, otchal, otoal, otaldal
+
+40. ok-[ROOT]-in
+   Count: 24
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: constituent/unit + quality/state + nominal/substantive
+   Interpretation: constituent_nominal
+   Confidence: 1.00
+   Top roots: ai(11), a(3), eolai(2), eeodai(1), aii(1)
+   Examples: okain, okeeodaiin, okaiiin, okoaiin, okeeaiin
+
+41. ch-[ROOT]-in
+   Count: 23
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: intensifier/modifier + unknown_root + nominal/substantive
+   Interpretation: unclear
+   Confidence: 0.75
+   Top roots: oai(2), edai(2), ekai(2), eodai(1), teokai(1)
+   Examples: cheodaiin, chteokaiin, cheiin, choaiin, cheaiin
+
+42. ok-[ROOT]-ol
+   Count: 23
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: constituent/unit + modifier/relation + unknown
+   Interpretation: unclear
+   Confidence: 0.80
+   Top roots: e(8), ee(5), ch(3), eol(2), orke(1)
+   Examples: okeol, okeol, okorkeol, okchol, okeeol
+
+43. qo-[ROOT]-y
+   Count: 22
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: unknown + modifier/relation + state_marker
+   Interpretation: unclear
+   Confidence: 0.60
+   Top roots: k(10), t(2), keoch(1), ckh(1), eeckh(1)
+   Examples: qokeochy, qockhy, qoeeckhy, qokchy, qockhhy
+
+44. da-[ROOT]-y
+   Count: 21
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: unknown + quality/state + state_marker
+   Interpretation: unclear
+   Confidence: 0.60
+   Top roots: l(8), r(5), lar(1), irapeeet(1), s(1)
+   Examples: dalary, daly, dary, dary, daly
+
+45. ol-[ROOT]
+   Count: 21
+   Type: PREFIX+ROOT
+   Composition: unknown + unknown_root
+   Interpretation: unclear
+   Confidence: 0.15
+   Top roots: y(6), ol(4), ar(4), kao(1), cheeg(1)
+   Examples: olol, oly, olar, olkao, olcheeg
+
+46. qo-[ROOT]-al
+   Count: 21
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: unknown + modifier/relation + quality/attribute
+   Interpretation: quality_attribute
+   Confidence: 0.80
+   Top roots: k(16), t(2), tee(1), keo(1), keod(1)
+   Examples: qokal, qokal, qokal, qotal, qokal
+
+47. [ROOT]-es
+   Count: 20
+   Type: ROOT+SUFFIX
+   Composition: unknown_root + unknown
+   Interpretation: unclear
+   Confidence: 0.15
+   Top roots: oe(3), oee(2), sch(1), ycheoy(1), yeke(1)
+   Examples: sches, ycheoyes, yekees, oeolales, oeees
+
+48. ch-[ROOT]-ol
+   Count: 20
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: intensifier/modifier + modifier/relation + unknown
+   Interpretation: unclear
+   Confidence: 0.80
+   Top roots: e(8), ok(2), ot(2), eor(1), dch(1)
+   Examples: cheol, cheorol, chokol, chdchol, choteol
+
+49. ch-[ROOT]-or
+   Count: 19
+   Type: PREFIX+ROOT+SUFFIX
+   Composition: intensifier/modifier + modifier/relation + unknown
+   Interpretation: unclear
+   Confidence: 0.80
+   Top roots: e(12), p(1), oksh(1), eol(1), ee(1)
+   Examples: cheor, cheor, chpor, cheor, cheor
+
+50. [ROOT]-or
+   Count: 19
+   Type: ROOT+SUFFIX
+   Composition: unknown_root + unknown
+   Interpretation: unclear
+   Confidence: 0.15
+   Top roots: ke(2), of(1), yteo(1), yt(1), soe(1)
+   Examples: ofor, yteoor, ytor, soeor, dcheeor
+
+
+
+TOP 30 ROOTS (All Patterns)
+----------------------------------------------------------------------
+
+e             391×  Modifier/Relation
+ar            145×  Quality/State
+al            128×  Quality/State
+ol            108×  Quality/State
+l              87×  Quality/State
+ee             82×  Modifier/Relation
+ai             78×  Quality/State
+k              74×  Modifier/Relation
+eo             73×  Quality/State
+r              64×  Unknown
+ke             61×  Unknown
+y              56×  Unknown
+ch             51×  Entity/Object
+o              49×  Quality/State
+ka             40×  Unknown
+i              35×  Process/Active
+or             32×  Unknown
+air            28×  Unknown
+dy             28×  Unknown
+am             26×  Unknown
+eeo            26×  Unknown
+te             24×  Unknown
+ot             23×  Process/Active
+ek             22×  Unknown
+ir             19×  Process/Active
+es             19×  Unknown
+in             18×  Unknown
+ok             18×  Unknown
+ckh            17×  Unknown
+kee            17×  Unknown
+
+
+TOP 20 PREFIX+ROOT COMBINATIONS
+----------------------------------------------------------------------
+
+ch-e              111×  [intensifier/modifier + Modifier/Relation]
+ot-e              108×  [transition/change + Modifier/Relation]
+ok-e               78×  [constituent/unit + Modifier/Relation]
+sh-e               71×  [unknown + Modifier/Relation]
+qo-k               56×  [unknown + Modifier/Relation]
+da-l               40×  [unknown + Quality/State]
+qo-ke              40×  [unknown + Unknown]
+da-r               38×  [unknown + Unknown]
+qo-ka              36×  [unknown + Unknown]
+da-i               28×  [unknown + Process/Active]
+ok-al              28×  [constituent/unit + Quality/State]
+ot-ar              27×  [transition/change + Quality/State]
+ot-ee              26×  [transition/change + Modifier/Relation]
+ch-ol              25×  [intensifier/modifier + Quality/State]
+ok-ee              24×  [constituent/unit + Modifier/Relation]
+ot-eo              23×  [transition/change + Quality/State]
+ot-al              23×  [transition/change + Quality/State]
+yk-e               21×  [unknown + Modifier/Relation]
+ok-eo              20×  [constituent/unit + Quality/State]
+ok-ar              20×  [constituent/unit + Quality/State]
+
+
+TOP 20 ROOT+SUFFIX COMBINATIONS
+----------------------------------------------------------------------
+
+e-y              111×  [Modifier/Relation + state_marker]
+e-ey              99×  [Modifier/Relation + state_marker]
+ai-in              77×  [Quality/State + nominal/substantive]
+e-dy              40×  [Modifier/Relation + process_marker]
+ka-in              40×  [Unknown + nominal/substantive]
+eo-dy              38×  [Quality/State + process_marker]
+i-in              34×  [Process/Active + nominal/substantive]
+e-os              31×  [Modifier/Relation + unknown]
+e-ol              31×  [Modifier/Relation + unknown]
+al-y               29×  [Quality/State + state_marker]
+ke-ey              26×  [Unknown + state_marker]
+ee-dy              22×  [Modifier/Relation + process_marker]
+e-es              21×  [Modifier/Relation + unknown]
+k-al              21×  [Modifier/Relation + quality/attribute]
+k-ey              19×  [Modifier/Relation + state_marker]
+ch-y               17×  [Entity/Object + state_marker]
+e-or              16×  [Modifier/Relation + unknown]
+ee-os              16×  [Modifier/Relation + unknown]
+ch-ey              15×  [Entity/Object + state_marker]
+ckh-y               15×  [Unknown + state_marker]
